@@ -32,12 +32,12 @@ MEDIA_TYPES = {
 
 def fetch_chart(media_type, provider):
 
+    # Omitting genre means all genres
     params = {
         "apikey": API_KEY,
         "country": "US",
         "period": "daily",
         "provider": provider,
-        "genre": "all",
     }
 
     url = (
@@ -52,46 +52,77 @@ def fetch_chart(media_type, provider):
         }
     )
 
-    with urllib.request.urlopen(request, timeout=60) as response:
+    with urllib.request.urlopen(
+        request, timeout=60
+    ) as response:
         payload = json.loads(
             response.read().decode("utf-8")
         )
-    print("Response type:", type(payload).__name__, flush=True)
+
+    # Inspect the API response safely
+    print(
+        "Response type:",
+        type(payload).__name__,
+        flush=True
+    )
 
     if isinstance(payload, dict):
-        print("Response keys:", list(payload.keys()), flush=True)
-     if isinstance(payload, dict):
-        print("Response keys:", list(payload.keys()), flush=True)
-        print("Chart count:", payload.get("count"), flush=True)
-        print("Results:", payload.get("results"), flush=True)
-        print("Filters:", payload.get("filters"), flush=True)
 
-    # Handle either supported response structure   # Handle either supported response structure
-    if isinstance(payload, list):
-        items = payload
+        print(
+            "Response keys:",
+            list(payload.keys()),
+            flush=True
+        )
 
-    elif isinstance(payload, dict):
+        print(
+            "Chart count:",
+            payload.get("count"),
+            flush=True
+        )
+
+        print(
+            "Filters:",
+            payload.get("filters"),
+            flush=True
+        )
+
         items = payload.get(
             "results",
             payload.get("items", [])
         )
 
+    elif isinstance(payload, list):
+        items = payload
+
     else:
         raise ValueError(
-            "Unexpected MDBList API response."
+            "Unexpected MDBList API response type."
         )
+
+    print(
+        "Results type:",
+        type(items).__name__,
+        flush=True
+    )
 
     if not isinstance(items, list) or not items:
         raise ValueError(
             f"No chart entries returned for "
-            f"{media_type}/{provider}"
+            f"{media_type}/{provider}. "
+            f"Check the count and filters above."
         )
 
     output = []
 
     for position, item in enumerate(items, start=1):
 
+        if not isinstance(item, dict):
+            continue
+
         ids = item.get("ids") or {}
+
+        if not isinstance(ids, dict):
+            ids = {}
 
         # Find the TMDb ID
         tmdb_id = (
@@ -104,9 +135,14 @@ def fetch_chart(media_type, provider):
         if not tmdb_id:
             continue
 
-        # TMDb Helper-compatible entry
+        try:
+            tmdb_id = int(tmdb_id)
+        except (TypeError, ValueError):
+            continue
+
+        # Entry intended for TMDb Helper
         entry = {
-            "id": int(tmdb_id),
+            "id": tmdb_id,
             "rank": item.get("rank") or position,
             "adult": item.get("adult", 0),
             "title": item.get("title", ""),
@@ -154,7 +190,10 @@ def main():
             filename = f"{name}_{folder}.json"
             filepath = output_dir / filename
 
-            print(f"Fetching {filename}...")
+            print(
+                f"Fetching {filename}...",
+                flush=True
+            )
 
             entries = fetch_chart(
                 media_type,
@@ -175,7 +214,8 @@ def main():
 
             print(
                 f"Saved {filename}: "
-                f"{len(entries)} titles"
+                f"{len(entries)} titles",
+                flush=True
             )
 
             total_charts += 1
