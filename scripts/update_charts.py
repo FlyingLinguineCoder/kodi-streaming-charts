@@ -29,10 +29,15 @@ MEDIA_TYPES = {
     "shows": "show",
 }
 
+# Movie IDs to exclude from specific providers
+# Avengers Endgame: Encore does not resolve in TMDb Helper
+EXCLUDED_MOVIES = {
+    "dnp": {1786842},
+}
+
 
 def fetch_chart(media_type, provider):
 
-    # Omitting genre means all genres
     params = {
         "apikey": API_KEY,
         "country": "US",
@@ -59,7 +64,7 @@ def fetch_chart(media_type, provider):
             response.read().decode("utf-8")
         )
 
-    # Inspect the API response safely
+    # Inspect API response without revealing the API key
     print(
         "Response type:",
         type(payload).__name__,
@@ -99,17 +104,10 @@ def fetch_chart(media_type, provider):
             "Unexpected MDBList API response type."
         )
 
-    print(
-        "Results type:",
-        type(items).__name__,
-        flush=True
-    )
-
     if not isinstance(items, list) or not items:
         raise ValueError(
             f"No chart entries returned for "
-            f"{media_type}/{provider}. "
-            f"Check the count and filters above."
+            f"{media_type}/{provider}"
         )
 
     output = []
@@ -140,7 +138,22 @@ def fetch_chart(media_type, provider):
         except (TypeError, ValueError):
             continue
 
-        # Entry intended for TMDb Helper
+        # Exclude known incompatible movie entries
+        if (
+            media_type == "movie"
+            and tmdb_id in EXCLUDED_MOVIES.get(
+                provider, set()
+            )
+        ):
+            print(
+                f"Skipping unsupported movie: "
+                f"{item.get('title', 'Unknown')} "
+                f"(TMDb ID {tmdb_id})",
+                flush=True
+            )
+            continue
+
+        # Build TMDb Helper-compatible entry
         entry = {
             "id": tmdb_id,
             "rank": item.get("rank") or position,
