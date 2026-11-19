@@ -27,22 +27,22 @@
     "release_year": 2024
   },
   {
-    "id": 259909,
-    "rank": 4,
-    "adult": 0,
-    "title": "Dexter: Resurrection",
-    "mediatype": "show",
-    "imdb_id": "tt33043892",
-    "release_year": 2025
-  },
-  {
     "id": 117488,
-    "rank": 5,
+    "rank": 4,
     "adult": 0,
     "title": "Yellowjackets",
     "mediatype": "show",
     "imdb_id": "tt11041332",
     "release_year": 2021
+  },
+  {
+    "id": 153312,
+    "rank": 5,
+    "adult": 0,
+    "title": "Tulsa King",
+    "mediatype": "show",
+    "imdb_id": "tt16358384",
+    "release_year": 2022
   },
   {
     "id": 339407,
@@ -54,17 +54,8 @@
     "release_year": 2026
   },
   {
-    "id": 153312,
-    "rank": 7,
-    "adult": 0,
-    "title": "Tulsa King",
-    "mediatype": "show",
-    "imdb_id": "tt16358384",
-    "release_year": 2022
-  },
-  {
     "id": 2190,
-    "rank": 8,
+    "rank": 7,
     "adult": 0,
     "title": "South Park",
     "mediatype": "show",
@@ -72,62 +63,17 @@
     "release_year": 1997
   },
   {
-    "id": 289560,
-    "rank": 9,
+    "id": 259909,
+    "rank": 8,
     "adult": 0,
-    "title": "CIA",
+    "title": "Dexter: Resurrection",
     "mediatype": "show",
-    "imdb_id": "tt35515227",
-    "release_year": 2026
-  },
-  {
-    "id": 80748,
-    "rank": 10,
-    "adult": 0,
-    "title": "FBI",
-    "mediatype": "show",
-    "imdb_id": "tt7491982",
-    "release_year": 2018
-  },
-  {
-    "id": 243875,
-    "rank": 11,
-    "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
-    "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
-  },
-  {
-    "id": 290856,
-    "rank": 12,
-    "adult": 0,
-    "title": "Marshals",
-    "mediatype": "show",
-    "imdb_id": "tt36849871",
-    "release_year": 2026
-  },
-  {
-    "id": 313630,
-    "rank": 13,
-    "adult": 0,
-    "title": "Eternally Yours",
-    "mediatype": "show",
-    "imdb_id": "tt33078239",
-    "release_year": 2026
-  },
-  {
-    "id": 1972,
-    "rank": 14,
-    "adult": 0,
-    "title": "Battlestar Galactica",
-    "mediatype": "show",
-    "imdb_id": "tt0407362",
-    "release_year": 2004
+    "imdb_id": "tt33043892",
+    "release_year": 2025
   },
   {
     "id": 4614,
-    "rank": 15,
+    "rank": 9,
     "adult": 0,
     "title": "NCIS",
     "mediatype": "show",
@@ -135,26 +81,35 @@
     "release_year": 2003
   },
   {
-    "id": 319800,
-    "rank": 16,
+    "id": 289560,
+    "rank": 10,
     "adult": 0,
-    "title": "NCIS: New York",
+    "title": "CIA",
     "mediatype": "show",
-    "imdb_id": "tt41814550",
+    "imdb_id": "tt35515227",
     "release_year": 2026
   },
   {
-    "id": 58957,
-    "rank": 17,
+    "id": 313630,
+    "rank": 11,
     "adult": 0,
-    "title": "Nathan for You",
+    "title": "Eternally Yours",
     "mediatype": "show",
-    "imdb_id": "tt2297757",
-    "release_year": 2013
+    "imdb_id": "tt33078239",
+    "release_year": 2026
+  },
+  {
+    "id": 243875,
+    "rank": 12,
+    "adult": 0,
+    "title": "Georgie & Mandy's First Marriage",
+    "mediatype": "show",
+    "imdb_id": "tt31589662",
+    "release_year": 2024
   },
   {
     "id": 113962,
-    "rank": 18,
+    "rank": 13,
     "adult": 0,
     "title": "Lioness",
     "mediatype": "show",
@@ -162,21 +117,66 @@
     "release_year": 2023
   },
   {
-    "id": 6357,
-    "rank": 19,
+    "id": 319800,
+    "rank": 14,
     "adult": 0,
-    "title": "The Twilight Zone",
+    "title": "NCIS: New York",
     "mediatype": "show",
-    "imdb_id": "tt0052520",
-    "release_year": 1959
+    "imdb_id": "tt41814550",
+    "release_year": 2026
+  },
+  {
+    "id": 14658,
+    "rank": 15,
+    "adult": 0,
+    "title": "Survivor",
+    "mediatype": "show",
+    "imdb_id": "tt0239195",
+    "release_year": 2000
+  },
+  {
+    "id": 80748,
+    "rank": 16,
+    "adult": 0,
+    "title": "FBI",
+    "mediatype": "show",
+    "imdb_id": "tt7491982",
+    "release_year": 2018
   },
   {
     "id": 1405,
-    "rank": 20,
+    "rank": 17,
     "adult": 0,
     "title": "Dexter",
     "mediatype": "show",
     "imdb_id": "tt0773262",
     "release_year": 2006
+  },
+  {
+    "id": 58957,
+    "rank": 18,
+    "adult": 0,
+    "title": "Nathan for You",
+    "mediatype": "show",
+    "imdb_id": "tt2297757",
+    "release_year": 2013
+  },
+  {
+    "id": 1920,
+    "rank": 19,
+    "adult": 0,
+    "title": "Twin Peaks",
+    "mediatype": "show",
+    "imdb_id": "tt0098936",
+    "release_year": 1990
+  },
+  {
+    "id": 290856,
+    "rank": 20,
+    "adult": 0,
+    "title": "Marshals",
+    "mediatype": "show",
+    "imdb_id": "tt36849871",
+    "release_year": 2026
   }
 ]
