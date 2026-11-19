@@ -1,0 +1,182 @@
+[
+  {
+    "id": 2609,
+    "rank": 1,
+    "adult": 0,
+    "title": "Planes, Trains and Automobiles",
+    "mediatype": "movie",
+    "imdb_id": "tt0093748",
+    "release_year": 1987
+  },
+  {
+    "id": 1366,
+    "rank": 2,
+    "adult": 0,
+    "title": "Rocky",
+    "mediatype": "movie",
+    "imdb_id": "tt0075148",
+    "release_year": 1976
+  },
+  {
+    "id": 329865,
+    "rank": 3,
+    "adult": 0,
+    "title": "Arrival",
+    "mediatype": "movie",
+    "imdb_id": "tt2543164",
+    "release_year": 2016
+  },
+  {
+    "id": 157336,
+    "rank": 4,
+    "adult": 0,
+    "title": "Interstellar",
+    "mediatype": "movie",
+    "imdb_id": "tt0816692",
+    "release_year": 2014
+  },
+  {
+    "id": 1340206,
+    "rank": 5,
+    "adult": 0,
+    "title": "Tuner",
+    "mediatype": "movie",
+    "imdb_id": "tt33296751",
+    "release_year": 2026
+  },
+  {
+    "id": 489,
+    "rank": 6,
+    "adult": 0,
+    "title": "Good Will Hunting",
+    "mediatype": "movie",
+    "imdb_id": "tt0119217",
+    "release_year": 1997
+  },
+  {
+    "id": 807,
+    "rank": 7,
+    "adult": 0,
+    "title": "Se7en",
+    "mediatype": "movie",
+    "imdb_id": "tt0114369",
+    "release_year": 1995
+  },
+  {
+    "id": 813,
+    "rank": 8,
+    "adult": 0,
+    "title": "Airplane!",
+    "mediatype": "movie",
+    "imdb_id": "tt0080339",
+    "release_year": 1980
+  },
+  {
+    "id": 1246049,
+    "rank": 9,
+    "adult": 0,
+    "title": "Dracula",
+    "mediatype": "movie",
+    "imdb_id": "tt31434030",
+    "release_year": 2025
+  },
+  {
+    "id": 1368314,
+    "rank": 10,
+    "adult": 0,
+    "title": "Passenger",
+    "mediatype": "movie",
+    "imdb_id": "tt33763941",
+    "release_year": 2026
+  },
+  {
+    "id": 318846,
+    "rank": 11,
+    "adult": 0,
+    "title": "The Big Short",
+    "mediatype": "movie",
+    "imdb_id": "tt1596363",
+    "release_year": 2015
+  },
+  {
+    "id": 752,
+    "rank": 12,
+    "adult": 0,
+    "title": "V for Vendetta",
+    "mediatype": "movie",
+    "imdb_id": "tt0434409",
+    "release_year": 2006
+  },
+  {
+    "id": 1542,
+    "rank": 13,
+    "adult": 0,
+    "title": "Office Space",
+    "mediatype": "movie",
+    "imdb_id": "tt0151804",
+    "release_year": 1999
+  },
+  {
+    "id": 238,
+    "rank": 14,
+    "adult": 0,
+    "title": "The Godfather",
+    "mediatype": "movie",
+    "imdb_id": "tt0068646",
+    "release_year": 1972
+  },
+  {
+    "id": 934672,
+    "rank": 15,
+    "adult": 0,
+    "title": "Omoiyari",
+    "mediatype": "movie",
+    "imdb_id": "tt17677714",
+    "release_year": 2022
+  },
+  {
+    "id": 11324,
+    "rank": 16,
+    "adult": 0,
+    "title": "Shutter Island",
+    "mediatype": "movie",
+    "imdb_id": "tt1130884",
+    "release_year": 2010
+  },
+  {
+    "id": 6977,
+    "rank": 17,
+    "adult": 0,
+    "title": "No Country for Old Men",
+    "mediatype": "movie",
+    "imdb_id": "tt0477348",
+    "release_year": 2007
+  },
+  {
+    "id": 1585,
+    "rank": 18,
+    "adult": 0,
+    "title": "It's a Wonderful Life",
+    "mediatype": "movie",
+    "imdb_id": "tt0038650",
+    "release_year": 1946
+  },
+  {
+    "id": 10764,
+    "rank": 19,
+    "adult": 0,
+    "title": "Quantum of Solace",
+    "mediatype": "movie",
+    "imdb_id": "tt0830515",
+    "release_year": 2008
+  },
+  {
+    "id": 280,
+    "rank": 20,
+    "adult": 0,
+    "title": "Terminator 2: Judgment Day",
+    "mediatype": "movie",
+    "imdb_id": "tt0103064",
+    "release_year": 1991
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1786842,
+    "rank": 1,
+    "adult": 0,
+    "title": "Avengers Endgame: Encore",
+    "mediatype": "movie"
+  },
+  {
+    "id": 19494,
+    "rank": 2,
+    "adult": 0,
+    "title": "Nine to Five",
+    "mediatype": "movie",
+    "imdb_id": "tt0080319",
+    "release_year": 1980
+  },
+  {
+    "id": 771,
+    "rank": 3,
+    "adult": 0,
+    "title": "Home Alone",
+    "mediatype": "movie",
+    "imdb_id": "tt0099785",
+    "release_year": 1990
+  },
+  {
+    "id": 1084244,
+    "rank": 4,
+    "adult": 0,
+    "title": "Toy Story 5",
+    "mediatype": "movie",
+    "imdb_id": "tt29355505",
+    "release_year": 2026
+  },
+  {
+    "id": 10437,
+    "rank": 5,
+    "adult": 0,
+    "title": "The Muppet Christmas Carol",
+    "mediatype": "movie",
+    "imdb_id": "tt0104940",
+    "release_year": 1992
+  },
+  {
+    "id": 1228710,
+    "rank": 6,
+    "adult": 0,
+    "title": "The Mandalorian and Grogu",
+    "mediatype": "movie",
+    "imdb_id": "tt30825738",
+    "release_year": 2026
+  },
+  {
+    "id": 9479,
+    "rank": 7,
+    "adult": 0,
+    "title": "The Nightmare Before Christmas",
+    "mediatype": "movie",
+    "imdb_id": "tt0107688",
+    "release_year": 1993
+  },
+  {
+    "id": 10315,
+    "rank": 8,
+    "adult": 0,
+    "title": "Fantastic Mr. Fox",
+    "mediatype": "movie",
+    "imdb_id": "tt0432283",
+    "release_year": 2009
+  },
+  {
+    "id": 856,
+    "rank": 9,
+    "adult": 0,
+    "title": "Who Framed Roger Rabbit",
+    "mediatype": "movie",
+    "imdb_id": "tt0096438",
+    "release_year": 1988
+  },
+  {
+    "id": 1266127,
+    "rank": 10,
+    "adult": 0,
+    "title": "Ready or Not: Here I Come",
+    "mediatype": "movie",
+    "imdb_id": "tt33978029",
+    "release_year": 2026
+  },
+  {
+    "id": 2493,
+    "rank": 11,
+    "adult": 0,
+    "title": "The Princess Bride",
+    "mediatype": "movie",
+    "imdb_id": "tt0093779",
+    "release_year": 1987
+  },
+  {
+    "id": 4951,
+    "rank": 12,
+    "adult": 0,
+    "title": "10 Things I Hate About You",
+    "mediatype": "movie",
+    "imdb_id": "tt0147800",
+    "release_year": 1999
+  },
+  {
+    "id": 83533,
+    "rank": 13,
+    "adult": 0,
+    "title": "Avatar: Fire and Ash",
+    "mediatype": "movie",
+    "imdb_id": "tt1757678",
+    "release_year": 2025
+  },
+  {
+    "id": 299534,
+    "rank": 14,
+    "adult": 0,
+    "title": "Avengers: Endgame",
+    "mediatype": "movie",
+    "imdb_id": "tt4154796",
+    "release_year": 2019
+  },
+  {
+    "id": 634649,
+    "rank": 15,
+    "adult": 0,
+    "title": "Spider-Man: No Way Home",
+    "mediatype": "movie",
+    "imdb_id": "tt10872600",
+    "release_year": 2021
+  },
+  {
+    "id": 315635,
+    "rank": 16,
+    "adult": 0,
+    "title": "Spider-Man: Homecoming",
+    "mediatype": "movie",
+    "imdb_id": "tt2250912",
+    "release_year": 2017
+  },
+  {
+    "id": 569094,
+    "rank": 17,
+    "adult": 0,
+    "title": "Spider-Man: Across the Spider-Verse",
+    "mediatype": "movie",
+    "imdb_id": "tt9362722",
+    "release_year": 2023
+  },
+  {
+    "id": 557,
+    "rank": 18,
+    "adult": 0,
+    "title": "Spider-Man",
+    "mediatype": "movie",
+    "imdb_id": "tt0145487",
+    "release_year": 2002
+  },
+  {
+    "id": 411,
+    "rank": 19,
+    "adult": 0,
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "mediatype": "movie",
+    "imdb_id": "tt0363771",
+    "release_year": 2005
+  },
+  {
+    "id": 2059,
+    "rank": 20,
+    "adult": 0,
+    "title": "National Treasure",
+    "mediatype": "movie",
+    "imdb_id": "tt0368891",
+    "release_year": 2004
+  }
+]

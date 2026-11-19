@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1101383,
+    "rank": 1,
+    "adult": 0,
+    "title": "The End of Oak Street",
+    "mediatype": "movie",
+    "imdb_id": "tt27165187",
+    "release_year": 2026
+  },
+  {
+    "id": 950028,
+    "rank": 2,
+    "adult": 0,
+    "title": "The Invite",
+    "mediatype": "movie",
+    "imdb_id": "tt14173636",
+    "release_year": 2026
+  },
+  {
+    "id": 1596270,
+    "rank": 3,
+    "adult": 0,
+    "title": "When a Witness Recants",
+    "mediatype": "movie",
+    "imdb_id": "tt39163238",
+    "release_year": 2026
+  },
+  {
+    "id": 1083381,
+    "rank": 4,
+    "adult": 0,
+    "title": "Backrooms",
+    "mediatype": "movie",
+    "imdb_id": "tt26657236",
+    "release_year": 2026
+  },
+  {
+    "id": 414906,
+    "rank": 5,
+    "adult": 0,
+    "title": "The Batman",
+    "mediatype": "movie",
+    "imdb_id": "tt1877830",
+    "release_year": 2022
+  },
+  {
+    "id": 10719,
+    "rank": 6,
+    "adult": 0,
+    "title": "Elf",
+    "mediatype": "movie",
+    "imdb_id": "tt0319343",
+    "release_year": 2003
+  },
+  {
+    "id": 1368166,
+    "rank": 7,
+    "adult": 0,
+    "title": "The Housemaid",
+    "mediatype": "movie",
+    "imdb_id": "tt27543632",
+    "release_year": 2025
+  },
+  {
+    "id": 438631,
+    "rank": 8,
+    "adult": 0,
+    "title": "Dune",
+    "mediatype": "movie",
+    "imdb_id": "tt1160419",
+    "release_year": 2021
+  },
+  {
+    "id": 1325734,
+    "rank": 9,
+    "adult": 0,
+    "title": "The Drama",
+    "mediatype": "movie",
+    "imdb_id": "tt33071426",
+    "release_year": 2026
+  },
+  {
+    "id": 5825,
+    "rank": 10,
+    "adult": 0,
+    "title": "National Lampoon's Christmas Vacation",
+    "mediatype": "movie",
+    "imdb_id": "tt0097958",
+    "release_year": 1989
+  },
+  {
+    "id": 503919,
+    "rank": 11,
+    "adult": 0,
+    "title": "The Lighthouse",
+    "mediatype": "movie",
+    "imdb_id": "tt7984734",
+    "release_year": 2019
+  },
+  {
+    "id": 693134,
+    "rank": 12,
+    "adult": 0,
+    "title": "Dune: Part Two",
+    "mediatype": "movie",
+    "imdb_id": "tt15239678",
+    "release_year": 2024
+  },
+  {
+    "id": 1284465,
+    "rank": 13,
+    "adult": 0,
+    "title": "The Death of Robin Hood",
+    "mediatype": "movie",
+    "imdb_id": "tt32273171",
+    "release_year": 2026
+  },
+  {
+    "id": 120,
+    "rank": 14,
+    "adult": 0,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "mediatype": "movie",
+    "imdb_id": "tt0120737",
+    "release_year": 2001
+  },
+  {
+    "id": 1078605,
+    "rank": 15,
+    "adult": 0,
+    "title": "Weapons",
+    "mediatype": "movie",
+    "imdb_id": "tt26581740",
+    "release_year": 2025
+  },
+  {
+    "id": 1054867,
+    "rank": 16,
+    "adult": 0,
+    "title": "One Battle After Another",
+    "mediatype": "movie",
+    "imdb_id": "tt30144839",
+    "release_year": 2025
+  },
+  {
+    "id": 315011,
+    "rank": 17,
+    "adult": 0,
+    "title": "Shin Godzilla",
+    "mediatype": "movie",
+    "imdb_id": "tt4262980",
+    "release_year": 2016
+  },
+  {
+    "id": 5255,
+    "rank": 18,
+    "adult": 0,
+    "title": "The Polar Express",
+    "mediatype": "movie",
+    "imdb_id": "tt0338348",
+    "release_year": 2004
+  },
+  {
+    "id": 671,
+    "rank": 19,
+    "adult": 0,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "mediatype": "movie",
+    "imdb_id": "tt0241527",
+    "release_year": 2001
+  },
+  {
+    "id": 337170,
+    "rank": 20,
+    "adult": 0,
+    "title": "American Made",
+    "mediatype": "movie",
+    "imdb_id": "tt3532216",
+    "release_year": 2017
+  }
+]
