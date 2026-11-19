@@ -35,7 +35,7 @@ def fetch_chart(media_type, provider):
     params = {
         "apikey": API_KEY,
         "country": "US",
-        "period": "1",
+        "period": "daily",
         "provider": provider,
         "genre": "all",
     }
