@@ -56,7 +56,10 @@ def fetch_chart(media_type, provider):
         payload = json.loads(
             response.read().decode("utf-8")
         )
+    print("Response type:", type(payload).__name__, flush=True)
 
+    if isinstance(payload, dict):
+        print("Response keys:", list(payload.keys()), flush=True)
     # Handle either supported response structure
     if isinstance(payload, list):
         items = payload
