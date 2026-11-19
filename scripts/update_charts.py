@@ -60,7 +60,13 @@ def fetch_chart(media_type, provider):
 
     if isinstance(payload, dict):
         print("Response keys:", list(payload.keys()), flush=True)
-    # Handle either supported response structure
+     if isinstance(payload, dict):
+        print("Response keys:", list(payload.keys()), flush=True)
+        print("Chart count:", payload.get("count"), flush=True)
+        print("Results:", payload.get("results"), flush=True)
+        print("Filters:", payload.get("filters"), flush=True)
+
+    # Handle either supported response structure   # Handle either supported response structure
     if isinstance(payload, list):
         items = payload
 
