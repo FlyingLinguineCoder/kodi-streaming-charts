@@ -1,12 +1,19 @@
 
-"""Audit upcoming US subscription-streaming movie arrivals.
+"""Audit upcoming US movie premieres.
 
-Galaxy Movies lists platform arrivals, not verified first-time
-streaming premieres. This script produces an audit report only.
+Uses Galaxy Movies for upcoming arrivals and optional
+MDBList metadata for release-date checks.
+
+This script creates an audit, not a verified Kodi widget.
 """
 
 import json
+import os
+import time
+import urllib.error
+import urllib.parse
 import urllib.request
+from collections import Counter
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -15,7 +22,8 @@ FEED_URL = (
     "streaming-changes?provider=all"
 )
 
-# Services to include in our upcoming-premieres widget
+API_KEY = os.environ.get("MDBLIST_API_KEY", "")
+
 TARGET_SERVICES = {
     "netflix",
     "amazon-prime-video",
@@ -27,7 +35,6 @@ TARGET_SERVICES = {
     "paramount-plus",
 }
 
-# Other subscription services checked for possible transfers
 SUBSCRIPTION_SERVICES = TARGET_SERVICES | {
     "starz",
     "amc-plus",
@@ -38,18 +45,30 @@ SUBSCRIPTION_SERVICES = TARGET_SERVICES | {
     "criterion",
 }
 
-OUTPUT = Path("charts")
-HISTORY_PATH = OUTPUT / "premieres_seen_on_streaming.json"
-AUDIT_PATH = OUTPUT / "premieres_audit.json"
+# Known specials that should not appear as feature movies
+KNOWN_SPECIALS = {
+    1827764: "Family Guy TV special",
+    1818957: "Stand-up comedy special",
+}
+
+OUTPUT_DIR = Path("charts")
+
+HISTORY_PATH = (
+    OUTPUT_DIR / "premieres_seen_on_streaming.json"
+)
+
+AUDIT_PATH = (
+    OUTPUT_DIR / "premieres_audit.json"
+)
 
 LOOKAHEAD_DAYS = 120
 
 
-def get_feed():
+def fetch_json(url):
     request = urllib.request.Request(
-        FEED_URL,
+        url,
         headers={
-            "User-Agent": "KodiStreamingPremieres/1.0",
+            "User-Agent": "KodiPremieresAudit/2.0",
             "Accept": "application/json",
         },
     )
@@ -57,7 +76,136 @@ def get_feed():
     with urllib.request.urlopen(
         request, timeout=45
     ) as response:
-        payload = json.load(response)
+        return json.load(response)
+
+
+def valid_movie_id(item):
+    if not isinstance(item, dict):
+        return None
+
+    if item.get("tmdbType") != "movie":
+        return None
+
+    try:
+        movie_id = int(item.get("tmdbId"))
+        return movie_id if movie_id > 0 else None
+    except (TypeError, ValueError):
+        return None
+
+
+def parse_date(value):
+    try:
+        return date.fromisoformat(str(value)[:10])
+    except (ValueError, TypeError):
+        return None
+
+
+def movie_metadata(tmdb_id):
+    if not API_KEY:
+        return None
+
+    url = (
+        f"https://api.mdblist.com/tmdb/movie/{tmdb_id}?"
+        + urllib.parse.urlencode({"apikey": API_KEY})
+    )
+
+    try:
+        result = fetch_json(url)
+    except (
+        urllib.error.HTTPError,
+        urllib.error.URLError,
+        TimeoutError,
+        ValueError,
+        OSError,
+    ):
+        # Never log URLs containing the private API key
+        return None
+
+    if (
+        isinstance(result, dict)
+        and result.get("type") == "movie"
+    ):
+        return result
+
+    return None
+
+
+def classify(record, observed, metadata):
+    movie_id = record["tmdb_id"]
+
+    streaming_date = parse_date(
+        record["earliest_streaming_date"]
+    )
+
+    if movie_id in KNOWN_SPECIALS:
+        return (
+            "exclude_nonfeature_special",
+            KNOWN_SPECIALS[movie_id],
+        )
+
+    if observed:
+        return (
+            "possible_transfer",
+            "Previously observed in a provider change feed",
+        )
+
+    if not metadata:
+        return (
+            "needs_metadata",
+            "Metadata unavailable; no premiere verification",
+        )
+
+    runtime = metadata.get("runtime")
+
+    if (
+        isinstance(runtime, (int, float))
+        and 0 < runtime < 50
+    ):
+        return (
+            "short_or_special_review",
+            "Under 50 minutes; may be a special",
+        )
+
+    first_release = parse_date(
+        metadata.get("released")
+    )
+
+    first_digital = parse_date(
+        metadata.get("released_digital")
+    )
+
+    if (
+        first_release
+        and (streaming_date - first_release).days > 540
+    ):
+        return (
+            "older_release_unverified",
+            "First known release over 18 months ago",
+        )
+
+    if (
+        first_digital
+        and (streaming_date - first_digital).days > 365
+    ):
+        return (
+            "older_digital_unverified",
+            "Digital release over one year ago",
+        )
+
+    return (
+        "potential_premiere_unverified",
+        "Recent release with no observed transfer; "
+        "not proof of first streaming",
+    )
+
+
+def main():
+    OUTPUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    payload = fetch_json(FEED_URL)
 
     providers = (
         payload.get("providers")
@@ -67,105 +215,78 @@ def get_feed():
 
     if not isinstance(providers, dict) or not providers:
         raise ValueError(
-            "Unexpected Galaxy Movies response: "
-            "no providers object"
+            "Galaxy Movies feed did not contain providers"
         )
 
-    return providers
+    if HISTORY_PATH.exists():
+        history = json.loads(
+            HISTORY_PATH.read_text(
+                encoding="utf-8"
+            )
+        )
 
-
-def movie_id(item):
-    if not isinstance(item, dict):
-        return None
-
-    if item.get("tmdbType") != "movie":
-        return None
-
-    try:
-        number = int(item.get("tmdbId"))
-        return number if number > 0 else None
-    except (TypeError, ValueError):
-        return None
-
-
-def read_history():
-    if not HISTORY_PATH.exists():
-        return {}
-
-    data = json.loads(
-        HISTORY_PATH.read_text(encoding="utf-8")
-    )
-
-    if not isinstance(data, dict):
-        raise ValueError("Unexpected history format")
-
-    return data
-
-
-def main():
-    OUTPUT.mkdir(parents=True, exist_ok=True)
-
-    providers = get_feed()
-    history = read_history()
+        if not isinstance(history, dict):
+            raise ValueError(
+                "Unexpected previous-history format"
+            )
+    else:
+        history = {}
 
     today = datetime.now(timezone.utc).date()
-    latest = today + timedelta(days=LOOKAHEAD_DAYS)
 
-    # Track observed arrivals and departures.
-    # This history begins when the script first runs.
-    for provider, data in providers.items():
+    cutoff = today + timedelta(
+        days=LOOKAHEAD_DAYS
+    )
+
+    # Record observed arrivals and departures
+    for provider, groups in providers.items():
         if provider not in SUBSCRIPTION_SERVICES:
             continue
 
-        if not isinstance(data, dict):
+        if not isinstance(groups, dict):
             continue
 
-        for group in ("added", "left", "leavingSoon"):
-            for item in data.get(group) or []:
-                ident = movie_id(item)
+        for name in ("added", "left", "leavingSoon"):
+            for item in groups.get(name) or []:
+                movie_id = valid_movie_id(item)
 
-                if ident is None:
-                    continue
+                if movie_id is not None:
+                    services = history.setdefault(
+                        str(movie_id), []
+                    )
 
-                services = history.setdefault(
-                    str(ident), []
-                )
+                    if provider not in services:
+                        services.append(provider)
 
-                if provider not in services:
-                    services.append(provider)
-
+    # Collect upcoming movies
     candidates = {}
 
-    # Collect upcoming movies from our eight services
-    for provider, data in providers.items():
+    for provider, groups in providers.items():
         if provider not in TARGET_SERVICES:
             continue
 
-        if not isinstance(data, dict):
+        if not isinstance(groups, dict):
             continue
 
-        for item in data.get("coming") or []:
-            ident = movie_id(item)
+        for item in groups.get("coming") or []:
+            movie_id = valid_movie_id(item)
 
-            if ident is None:
+            arrival = (
+                parse_date(item.get("date"))
+                if isinstance(item, dict)
+                else None
+            )
+
+            if movie_id is None or arrival is None:
                 continue
 
-            try:
-                arrives = date.fromisoformat(
-                    str(item.get("date", ""))[:10]
-                )
-            except ValueError:
+            if not today <= arrival <= cutoff:
                 continue
-
-            if not today <= arrives <= latest:
-                continue
-
-            key = str(ident)
 
             record = candidates.setdefault(
-                key,
+                str(movie_id),
                 {
-                    "tmdb_id": ident,
+                    "tmdb_id": movie_id,
                     "title": str(
                         item.get("title") or "Unknown"
                     ),
@@ -175,37 +296,56 @@ def main():
 
             record["streaming_dates"][
                 provider
-            ] = arrives.isoformat()
+            ] = arrival.isoformat()
 
+    # Classify upcoming movie candidates
     results = []
 
-    for key, record in candidates.items():
-        observed = sorted(
-            history.get(key, [])
-        )
-
-        record["observed_previous_services"] = observed
-
-        if observed:
-            record["status"] = (
-                "exclude_possible_transfer"
-            )
-        else:
-            record["status"] = (
-                "needs_first_premiere_verification"
-            )
-
+    for movie_id, record in candidates.items():
         record["earliest_streaming_date"] = min(
             record["streaming_dates"].values()
         )
 
+        observed = sorted(
+            history.get(movie_id, [])
+        )
+
+        record[
+            "observed_previous_services"
+        ] = observed
+
+        metadata = movie_metadata(
+            int(movie_id)
+        )
+
+        if metadata:
+            record["metadata"] = {
+                "year": metadata.get("year"),
+                "released": metadata.get("released"),
+                "released_digital": metadata.get(
+                    "released_digital"
+                ),
+                "runtime": metadata.get("runtime"),
+            }
+
+        status, reason = classify(
+            record,
+            observed,
+            metadata,
+        )
+
+        record["status"] = status
+        record["reason"] = reason
+
         results.append(record)
 
-    # Earliest streaming dates appear first
+        if API_KEY:
+            time.sleep(0.25)
+
     results.sort(
-        key=lambda entry: (
-            entry["earliest_streaming_date"],
-            entry["title"],
+        key=lambda record: (
+            record["earliest_streaming_date"],
+            record["title"],
         )
     )
 
@@ -213,19 +353,28 @@ def main():
         "generated_at_utc": datetime.now(
             timezone.utc
         ).isoformat(),
-        "purpose": (
-            "Audit only; not a verified "
-            "first-time-streaming Kodi widget"
-        ),
         "source": (
             "Powered by Galaxy Movies - "
             "https://www.galaxymovies.app"
         ),
-        "disclaimer": (
-            "The feed lists upcoming arrivals. "
-            "It cannot prove first-ever streaming. "
-            "Recorded history starts with this script "
-            "and may miss earlier transfers."
+        "metadata_source": (
+            "MDBList when API key configured"
+        ),
+        "purpose": (
+            "Audit only; no confirmed first-time "
+            "premieres or Kodi widget"
+        ),
+        "limitation": (
+            "Release dates and observed platform "
+            "changes are not complete historical "
+            "subscription-streaming records."
+        ),
+        "metadata_configured": bool(API_KEY),
+        "counts": dict(
+            Counter(
+                record["status"]
+                for record in results
+            )
         ),
         "candidates": results,
     }
@@ -248,22 +397,21 @@ def main():
         encoding="utf-8",
     )
 
-    possible_transfers = sum(
-        record["status"] == "exclude_possible_transfer"
-        for record in results
-    )
-
     print(
         f"Audited {len(results)} movie candidates "
-        f"across {len(providers)} providers"
+        f"from {len(providers)} providers"
     )
 
     print(
-        f"Possible transfers: {possible_transfers}"
+        f"MDBList metadata enabled: {bool(API_KEY)}"
     )
 
     print(
-        "Audit complete. No Kodi widget generated yet."
+        f"Results by status: {audit['counts']}"
+    )
+
+    print(
+        "Audit only: no Kodi widget generated"
     )
 
 
