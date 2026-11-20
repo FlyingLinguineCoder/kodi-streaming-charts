@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Test Netflix dates and movie lineup
+      - name: Test Netflix premiere evidence
         run: |
           python3 - <<'PY'
           import json
@@ -29,15 +29,20 @@ jobs:
           from datetime import date
           from html.parser import HTMLParser
 
-          CALENDAR_URL = (
-              "https://www.netflix.com/tudum/"
-              "articles/new-on-netflix"
-          )
-
-          SLATE_URL = (
-              "https://www.netflix.com/tudum/"
-              "articles/new-movies-on-netflix-2026"
-          )
+          URLS = {
+              "calendar": (
+                  "https://www.netflix.com/tudum/"
+                  "articles/new-on-netflix"
+              ),
+              "lineup": (
+                  "https://www.netflix.com/tudum/"
+                  "articles/new-movies-on-netflix-2026"
+              ),
+              "fall": (
+                  "https://www.netflix.com/tudum/"
+                  "features/new-fall-movies-on-netflix-2026"
+              ),
+          }
 
           MONTHS = (
               "January February March April May June "
@@ -45,9 +50,19 @@ jobs:
               "November December"
           ).split()
 
-          DATE_PATTERN = re.compile(
-              rf"^({'|'.join(MONTHS)})\s+(\d{{1,2}})$"
-          )
+          MONTH_BY_NAME = {
+              month.upper(): number
+              for number, month in enumerate(
+                  MONTHS, 1
+              )
+          }
+
+          MONTH_BY_SHORT = {
+              month[:3].upper(): number
+              for number, month in enumerate(
+                  MONTHS, 1
+              )
+          }
 
           def normalize(value):
               return re.sub(
@@ -56,7 +71,7 @@ jobs:
                   value.casefold()
               ).strip()
 
-          def load_page(url):
+          def load_html(url):
               request = urllib.request.Request(
                   url,
                   headers={
@@ -66,101 +81,131 @@ jobs:
               )
 
               with urllib.request.urlopen(
-                  request, timeout=30
+                  request, timeout=40
               ) as response:
                   return response.read().decode(
                       "utf-8",
                       errors="replace"
                   )
 
-          class Headings(HTMLParser):
+          class PageText(HTMLParser):
               def __init__(self):
                   super().__init__()
-                  self.items = []
-                  self.active = None
-                  self.parts = []
+                  self.events = []
+                  self.heading = None
+                  self.heading_parts = []
                   self.skip = 0
 
               def handle_starttag(self, tag, attrs):
-                  if tag in ("script", "style"):
+                  if tag in (
+                      "script", "style",
+                      "noscript", "svg"
+                  ):
                       self.skip += 1
 
                   if (
                       not self.skip
-                      and self.active is None
+                      and not self.heading
                       and tag in ("h1", "h2", "h3")
                   ):
-                      self.active = tag
-                      self.parts = []
+                      self.heading = tag
+                      self.heading_parts = []
 
               def handle_data(self, value):
-                  if not self.skip and self.active:
-                      self.parts.append(value)
+                  if self.skip:
+                      return
+
+                  value = " ".join(
+                      value.split()
+                  )
+
+                  if not value:
+                      return
+
+                  if self.heading:
+                      self.heading_parts.append(
+                          value
+                      )
+                  else:
+                      self.events.append(
+                          ("text", value)
+                      )
 
               def handle_endtag(self, tag):
-                  if tag == self.active:
+                  if tag == self.heading:
                       title = " ".join(
-                          " ".join(self.parts).split()
+                          self.heading_parts
                       )
 
                       if title:
-                          self.items.append(
+                          self.events.append(
                               (tag, title)
                           )
 
-                      self.active = None
-                      self.parts = []
+                      self.heading = None
+                      self.heading_parts = []
 
-                  if tag in ("script", "style"):
+                  if tag in (
+                      "script", "style",
+                      "noscript", "svg"
+                  ):
                       self.skip = max(
                           0, self.skip - 1
                       )
 
-          def parse_calendar(html):
-              headings = Headings()
-              headings.feed(html)
+          def page_events(html):
+              page = PageText()
+              page.feed(html)
+              return page.events
 
-              heading_text = " ".join(
-                  text
-                  for tag, text in headings.items
+          def parse_calendar(events):
+              h1 = " ".join(
+                  value
+                  for tag, value in events
                   if tag == "h1"
               )
 
               year_match = re.search(
                   r"New on Netflix in\s+"
                   r"[A-Za-z]+\s+(20\d{2})",
-                  heading_text,
+                  h1,
                   re.IGNORECASE
               )
 
               if not year_match:
                   raise ValueError(
-                      "Could not determine "
-                      "Netflix calendar year"
+                      "Netflix calendar year "
+                      "could not be identified"
                   )
 
-              year = int(year_match.group(1))
+              year = int(
+                  year_match.group(1)
+              )
 
-              current_date = None
-              movies = {}
+              current_day = None
+              results = {}
 
-              for tag, title in headings.items:
+              date_re = re.compile(
+                  rf"^({'|'.join(MONTHS)})"
+                  r"\s+(\d{1,2})$",
+                  re.IGNORECASE
+              )
+
+              for tag, value in events:
                   if tag == "h2":
-                      match = DATE_PATTERN.fullmatch(
-                          title
+                      match = date_re.fullmatch(
+                          value
                       )
 
-                      current_date = None
+                      current_day = None
 
                       if match:
-                          month = (
-                              MONTHS.index(
-                                  match.group(1)
-                              ) + 1
-                          )
+                          month = MONTH_BY_NAME[
+                              match.group(1).upper()
+                          ]
 
                           try:
-                              current_date = date(
+                              current_day = date(
                                   year,
                                   month,
                                   int(match.group(2))
@@ -169,53 +214,132 @@ jobs:
                           except ValueError:
                               pass
 
-                  elif tag == "h3" and current_date:
-                      movies[
-                          normalize(title)
-                      ] = current_date
+                  elif (
+                      tag == "h3"
+                      and current_day
+                  ):
+                      results[
+                          normalize(value)
+                      ] = current_day
 
-              return movies
+              return results
 
-          def parse_slate(html):
-              headings = Headings()
-              headings.feed(html)
+          def parse_fall_guide(events):
+              section_month = None
+              pending_date = None
+              recent = []
+              results = {}
 
-              return {
+              for tag, value in events:
+                  upper = value.upper()
+
+                  if tag in ("h1", "h2", "h3"):
+                      if upper in MONTH_BY_NAME:
+                          section_month = (
+                              MONTH_BY_NAME[upper]
+                          )
+                          pending_date = None
+
+                      elif upper in (
+                          "COMING SOON",
+                          "RELATED STORIES",
+                          "LATEST NEWS"
+                      ):
+                          section_month = None
+                          pending_date = None
+
+                      elif (
+                          tag == "h3"
+                          and section_month
+                          and pending_date
+                      ):
+                          results[
+                              normalize(value)
+                          ] = pending_date
+
+                          pending_date = None
+
+                      recent = []
+
+                  elif (
+                      tag == "text"
+                      and section_month
+                  ):
+                      recent = (
+                          recent + [value]
+                      )[-3:]
+
+                      for index in range(
+                          len(recent)
+                      ):
+                          text = " ".join(
+                              recent[index:]
+                          )
+
+                          match = re.fullmatch(
+                              r"([A-Za-z]{3})"
+                              r"\.?\s*(\d{1,2})",
+                              text
+                          )
+
+                          if (
+                              match
+                              and MONTH_BY_SHORT.get(
+                                  match.group(1).upper()
+                              ) == section_month
+                          ):
+                              try:
+                                  pending_date = date(
+                                      2026,
+                                      section_month,
+                                      int(match.group(2))
+                                  ).isoformat()
+
+                              except ValueError:
+                                  pass
+
+                              break
+
+              return results
+
+          def main():
+              pages = {}
+
+              for label, url in URLS.items():
+                  print(
+                      f"Fetching Netflix {label}: "
+                      f"{url}",
+                      flush=True
+                  )
+
+                  html = load_html(url)
+
+                  pages[label] = (
+                      page_events(html)
+                  )
+
+                  print(
+                      f"Retrieved {len(html)} "
+                      f"HTML characters"
+                  )
+
+              monthly = parse_calendar(
+                  pages["calendar"]
+              )
+
+              slate = {
                   normalize(text)
-                  for tag, text in headings.items
+                  for tag, text in pages["lineup"]
                   if tag == "h3"
               }
 
-          def main():
-              print(
-                  "Fetching official Netflix calendar",
-                  flush=True
-              )
-
-              calendar_html = load_page(
-                  CALENDAR_URL
-              )
-
-              print(
-                  "Fetching official Netflix movie lineup",
-                  flush=True
-              )
-
-              slate_html = load_page(
-                  SLATE_URL
-              )
-
-              calendar = parse_calendar(
-                  calendar_html
-              )
-
-              slate = parse_slate(
-                  slate_html
+              fall = parse_fall_guide(
+                  pages["fall"]
               )
 
               print(
                   f"Calendar dated entries: "
-                  f"{len(calendar)}"
+                  f"{len(monthly)}"
               )
 
               print(
@@ -223,13 +347,35 @@ jobs:
                   f"{len(slate)}"
               )
 
+              print(
+                  f"Fall guide dated entries: "
+                  f"{len(fall)}"
+              )
+
+              if len(fall) < 3:
+                  raise RuntimeError(
+                      "Fall guide parser yielded "
+                      "too few dated titles"
+                  )
+
+              for title in (
+                  "In a Holidaze",
+                  "La bola negra",
+                  "14th"
+              ):
+                  print(
+                      f"Fall guide spot check: "
+                      f"{title} = "
+                      f"{fall.get(normalize(title), 'missing')}"
+                  )
+
               with open(
                   "charts/premieres_audit.json",
                   encoding="utf-8"
               ) as file:
                   audit = json.load(file)
 
-              netflix_movies = [
+              candidates = [
                   item
                   for item in audit.get(
                       "candidates", []
@@ -239,81 +385,107 @@ jobs:
                   )
               ]
 
-              summary = {}
+              counts = {}
 
               print(
-                  "\nNETFLIX MOVIE PREMIERE TEST"
+                  "\nNETFLIX PREMIERE EVIDENCE"
               )
 
-              for item in netflix_movies:
+              for item in candidates:
                   title = item["title"]
 
-                  official_day = calendar.get(
-                      normalize(title)
-                  )
-
-                  expected_day = item[
+                  expected = item[
                       "streaming_dates"
                   ]["netflix"]
 
-                  slate_match = (
+                  month_date = monthly.get(
+                      normalize(title)
+                  )
+
+                  fall_date = fall.get(
+                      normalize(title)
+                  )
+
+                  on_slate = (
                       normalize(title) in slate
                   )
 
-                  if (
-                      official_day
-                      and official_day != expected_day
-                  ):
-                      status = "DATE CONFLICT"
+                  official_dates = {
+                      day
+                      for day in (
+                          month_date, fall_date
+                      )
+                      if day
+                  }
 
-                  elif official_day and slate_match:
+                  if len(official_dates) > 1:
                       status = (
-                          "STRONG ORIGINAL CANDIDATE"
+                          "OFFICIAL DATE CONFLICT"
                       )
 
-                  elif official_day:
+                  elif (
+                      official_dates
+                      and expected not in official_dates
+                  ):
+                      status = (
+                          "GALAXY DATE CONFLICT"
+                      )
+
+                  elif fall_date:
+                      status = (
+                          "FALL MOVIE GUIDE DATE MATCH"
+                      )
+
+                  elif month_date and on_slate:
+                      status = (
+                          "CALENDAR + MOVIE LINEUP MATCH"
+                      )
+
+                  elif month_date:
                       status = (
                           "CALENDAR ARRIVAL ONLY"
                       )
 
-                  elif slate_match:
+                  elif on_slate:
                       status = (
-                          "SLATE ONLY - DATE UNCONFIRMED"
+                          "LINEUP ONLY - "
+                          "DATE UNCONFIRMED"
                       )
 
                   else:
-                      status = "NO OFFICIAL MATCH"
+                      status = (
+                          "NO OFFICIAL MATCH"
+                      )
 
-                  summary[status] = (
-                      summary.get(status, 0) + 1
+                  counts[status] = (
+                      counts.get(status, 0) + 1
                   )
 
                   print(
-                      f"\n{title}"
-                      f"\n  Galaxy date: {expected_day}"
-                      f"\n  Netflix date: "
-                      f"{official_day or 'Not found'}"
-                      f"\n  Movie lineup: {slate_match}"
-                      f"\n  Result: {status}"
+                      f"{title}"
+                      f" | Galaxy: {expected}"
+                      f" | Calendar: {month_date}"
+                      f" | Fall guide: {fall_date}"
+                      f" | Lineup: {on_slate}"
+                      f" | {status}"
                   )
 
-              print("\nFINAL SUMMARY")
-
               print(
-                  f"Netflix movies checked: "
-                  f"{len(netflix_movies)}"
+                  f"\nMovies checked: "
+                  f"{len(candidates)}"
               )
 
               for status, count in sorted(
-                  summary.items()
+                  counts.items()
               ):
-                  print(f"{status}: {count}")
+                  print(
+                      f"{status}: {count}"
+                  )
 
               print(
-                  "\nThis is a read-only evidence test."
-                  "\nEven matching both official pages "
-                  "does not prove a first-ever "
-                  "subscription-streaming premiere."
+                  "Read-only test. Matches are "
+                  "evidence, not proof of a "
+                  "first-ever streaming premiere."
               )
 
           if __name__ == "__main__":
