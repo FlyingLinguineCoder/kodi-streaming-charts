@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-11-20T04:40:59.588172+00:00",
+  "generated_at_utc": "2026-11-20T05:00:28.218721+00:00",
   "purpose": "Diagnostic audit only; no verified Kodi widget",
   "source": "Powered by Galaxy Movies - https://www.galaxymovies.app",
   "metadata_source": "MDBList",
   "metadata_configured": true,
-  "limitation": "The provider-change history starts when this job was installed; it cannot prove a movie has never streamed anywhere before. Older digital dates do not alone imply subscription transfers.",
+  "limitations": "MDBList watch_providers are not proof of past availability; announced dates may change; change-feed history begins when this workflow was installed. No complete historical subscription catalog is available, so no candidate is confirmed as a premiere.",
   "counts": {
     "potential_premiere_unverified": 20,
     "older_release_unverified": 1,
@@ -20,15 +20,18 @@
       },
       "earliest_streaming_date": "2026-11-20",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-11-05",
         "released_digital": "2026-11-20",
         "runtime": 148
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -39,15 +42,18 @@
       },
       "earliest_streaming_date": "2026-11-20",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-11-20",
         "released_digital": "2026-11-20",
         "runtime": null
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -58,15 +64,18 @@
       },
       "earliest_streaming_date": "2026-11-20",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-11-14",
         "released_digital": "2026-11-20",
         "runtime": null
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -77,15 +86,18 @@
       },
       "earliest_streaming_date": "2026-11-20",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-11-20",
         "released_digital": "2026-11-20",
         "runtime": 102
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -96,15 +108,18 @@
       },
       "earliest_streaming_date": "2026-11-23",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-11-23",
         "released_digital": "2026-11-23",
         "runtime": 107
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -115,15 +130,18 @@
       },
       "earliest_streaming_date": "2026-11-23",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-06-07",
         "released_digital": "2026-11-23",
         "runtime": 108
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -134,15 +152,18 @@
       },
       "earliest_streaming_date": "2026-11-24",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-11-24",
         "released_digital": "2026-11-24",
         "runtime": 91
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -153,15 +174,18 @@
       },
       "earliest_streaming_date": "2026-11-25",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-10-29",
         "released_digital": "2026-11-25",
         "runtime": 128
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -172,15 +196,18 @@
       },
       "earliest_streaming_date": "2026-11-25",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-02-28",
         "released_digital": "2026-11-25",
         "runtime": 102
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -191,12 +218,15 @@
       },
       "earliest_streaming_date": "2026-11-27",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2022,
         "released": "2022-02-10",
         "released_digital": null,
         "runtime": 109
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "older_release_unverified",
       "reasons": [
         "General release was more than 18 months earlier"
@@ -210,15 +240,18 @@
       },
       "earliest_streaming_date": "2026-11-27",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-11-27",
         "released_digital": "2026-11-27",
         "runtime": 90
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -229,6 +262,7 @@
       },
       "earliest_streaming_date": "2026-11-30",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-11-30",
@@ -248,15 +282,18 @@
       },
       "earliest_streaming_date": "2026-12-01",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-01-25",
         "released_digital": "2026-12-01",
         "runtime": 94
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -267,15 +304,18 @@
       },
       "earliest_streaming_date": "2026-12-02",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-12-02",
         "released_digital": "2026-12-02",
         "runtime": 107
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -286,15 +326,18 @@
       },
       "earliest_streaming_date": "2026-12-02",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-09-25",
         "released_digital": "2026-12-02",
         "runtime": 159
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -305,15 +348,18 @@
       },
       "earliest_streaming_date": "2026-12-02",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-12-02",
         "released_digital": "2026-12-02",
         "runtime": 90
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -324,6 +370,7 @@
       },
       "earliest_streaming_date": "2026-12-03",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-12-03",
@@ -343,15 +390,18 @@
       },
       "earliest_streaming_date": "2026-12-03",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-03-12",
         "released_digital": null,
         "runtime": 95
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -362,15 +412,18 @@
       },
       "earliest_streaming_date": "2026-12-03",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-12-03",
         "released_digital": "2026-12-03",
         "runtime": null
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -381,12 +434,15 @@
       },
       "earliest_streaming_date": "2026-12-03",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2027,
         "released": "2027-11-18",
         "released_digital": "2027-11-18",
         "runtime": 90
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "release_date_conflict",
       "reasons": [
         "Theatrical/general release is after streaming arrival",
@@ -401,15 +457,18 @@
       },
       "earliest_streaming_date": "2026-12-04",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-11-27",
         "released_digital": "2026-12-04",
         "runtime": 108
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -420,15 +479,18 @@
       },
       "earliest_streaming_date": "2026-12-04",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-12-04",
         "released_digital": "2026-12-04",
         "runtime": 90
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -439,15 +501,18 @@
       },
       "earliest_streaming_date": "2026-12-04",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2025,
         "released": "2025-08-30",
         "released_digital": null,
         "runtime": 82
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     },
     {
@@ -458,15 +523,18 @@
       },
       "earliest_streaming_date": "2026-12-04",
       "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
       "metadata": {
         "year": 2026,
         "released": "2026-12-04",
         "released_digital": "2026-12-04",
         "runtime": 99
       },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
       "status": "potential_premiere_unverified",
       "reasons": [
-        "Recent release; no transfer observed in incomplete history"
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     }
   ]
