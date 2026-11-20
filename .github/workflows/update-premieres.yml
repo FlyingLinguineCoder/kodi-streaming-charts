@@ -23,6 +23,8 @@ jobs:
           python-version: "3.12"
 
       - name: Collect and audit upcoming premieres
+        env:
+          MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY }}
         run: python scripts/update_premieres.py
 
       - name: Save premiere audit results
