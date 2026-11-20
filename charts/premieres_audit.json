@@ -1,8 +1,15 @@
 {
-  "generated_at_utc": "2026-11-20T04:03:22.347944+00:00",
-  "purpose": "Audit only; not a verified first-time-streaming Kodi widget",
+  "generated_at_utc": "2026-11-20T04:29:41.515278+00:00",
   "source": "Powered by Galaxy Movies - https://www.galaxymovies.app",
-  "disclaimer": "The feed lists upcoming arrivals. It cannot prove first-ever streaming. Recorded history starts with this script and may miss earlier transfers.",
+  "metadata_source": "MDBList when API key configured",
+  "purpose": "Audit only; no confirmed first-time premieres or Kodi widget",
+  "limitation": "Release dates and observed platform changes are not complete historical subscription-streaming records.",
+  "metadata_configured": true,
+  "counts": {
+    "potential_premiere_unverified": 21,
+    "older_release_unverified": 1,
+    "exclude_nonfeature_special": 2
+  },
   "candidates": [
     {
       "tmdb_id": 1307474,
@@ -10,9 +17,16 @@
       "streaming_dates": {
         "netflix": "2026-11-20"
       },
+      "earliest_streaming_date": "2026-11-20",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-20"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-11-05",
+        "released_digital": "2026-11-20",
+        "runtime": 148
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1568060,
@@ -20,9 +34,16 @@
       "streaming_dates": {
         "amazon-prime-video": "2026-11-20"
       },
+      "earliest_streaming_date": "2026-11-20",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-20"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-11-20",
+        "released_digital": "2026-11-20",
+        "runtime": null
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1791730,
@@ -30,9 +51,16 @@
       "streaming_dates": {
         "netflix": "2026-11-20"
       },
+      "earliest_streaming_date": "2026-11-20",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-20"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-11-14",
+        "released_digital": "2026-11-20",
+        "runtime": null
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1595124,
@@ -40,9 +68,16 @@
       "streaming_dates": {
         "netflix": "2026-11-20"
       },
+      "earliest_streaming_date": "2026-11-20",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-20"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-11-20",
+        "released_digital": "2026-11-20",
+        "runtime": 102
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1611767,
@@ -50,9 +85,16 @@
       "streaming_dates": {
         "amazon-prime-video": "2026-11-23"
       },
+      "earliest_streaming_date": "2026-11-23",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-23"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-11-23",
+        "released_digital": "2026-11-23",
+        "runtime": 107
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1674241,
@@ -60,9 +102,16 @@
       "streaming_dates": {
         "hulu": "2026-11-23"
       },
+      "earliest_streaming_date": "2026-11-23",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-23"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-06-07",
+        "released_digital": "2026-11-23",
+        "runtime": 108
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1802703,
@@ -70,9 +119,16 @@
       "streaming_dates": {
         "netflix": "2026-11-24"
       },
+      "earliest_streaming_date": "2026-11-24",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-24"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-11-24",
+        "released_digital": "2026-11-24",
+        "runtime": 91
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1458300,
@@ -80,9 +136,16 @@
       "streaming_dates": {
         "netflix": "2026-11-25"
       },
+      "earliest_streaming_date": "2026-11-25",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-25"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-10-29",
+        "released_digital": "2026-11-25",
+        "runtime": 128
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1632599,
@@ -90,9 +153,16 @@
       "streaming_dates": {
         "max": "2026-11-25"
       },
+      "earliest_streaming_date": "2026-11-25",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-25"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-02-28",
+        "released_digital": "2026-11-25",
+        "runtime": 102
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 832953,
@@ -100,9 +170,16 @@
       "streaming_dates": {
         "netflix": "2026-11-27"
       },
+      "earliest_streaming_date": "2026-11-27",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-27"
+      "metadata": {
+        "year": 2022,
+        "released": "2022-02-10",
+        "released_digital": null,
+        "runtime": 109
+      },
+      "status": "older_release_unverified",
+      "reason": "First known release over 18 months ago"
     },
     {
       "tmdb_id": 1480665,
@@ -110,9 +187,16 @@
       "streaming_dates": {
         "netflix": "2026-11-27"
       },
+      "earliest_streaming_date": "2026-11-27",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-27"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-11-27",
+        "released_digital": "2026-11-27",
+        "runtime": 90
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1827764,
@@ -120,9 +204,16 @@
       "streaming_dates": {
         "hulu": "2026-11-30"
       },
+      "earliest_streaming_date": "2026-11-30",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-11-30"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-11-30",
+        "released_digital": "2026-11-30",
+        "runtime": null
+      },
+      "status": "exclude_nonfeature_special",
+      "reason": "Family Guy TV special"
     },
     {
       "tmdb_id": 1596266,
@@ -130,9 +221,16 @@
       "streaming_dates": {
         "max": "2026-12-01"
       },
+      "earliest_streaming_date": "2026-12-01",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-01"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-01-25",
+        "released_digital": "2026-12-01",
+        "runtime": 94
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1588626,
@@ -140,9 +238,16 @@
       "streaming_dates": {
         "netflix": "2026-12-02"
       },
+      "earliest_streaming_date": "2026-12-02",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-02"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-12-02",
+        "released_digital": "2026-12-02",
+        "runtime": 107
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1422041,
@@ -150,9 +255,16 @@
       "streaming_dates": {
         "netflix": "2026-12-02"
       },
+      "earliest_streaming_date": "2026-12-02",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-02"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-09-25",
+        "released_digital": "2026-12-02",
+        "runtime": 159
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1137888,
@@ -160,9 +272,16 @@
       "streaming_dates": {
         "amazon-prime-video": "2026-12-02"
       },
+      "earliest_streaming_date": "2026-12-02",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-02"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-12-02",
+        "released_digital": "2026-12-02",
+        "runtime": 90
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1818957,
@@ -170,9 +289,16 @@
       "streaming_dates": {
         "netflix": "2026-12-03"
       },
+      "earliest_streaming_date": "2026-12-03",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-03"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-12-03",
+        "released_digital": "2026-12-03",
+        "runtime": null
+      },
+      "status": "exclude_nonfeature_special",
+      "reason": "Stand-up comedy special"
     },
     {
       "tmdb_id": 1620040,
@@ -180,9 +306,16 @@
       "streaming_dates": {
         "max": "2026-12-03"
       },
+      "earliest_streaming_date": "2026-12-03",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-03"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-03-12",
+        "released_digital": null,
+        "runtime": 95
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1591961,
@@ -190,9 +323,16 @@
       "streaming_dates": {
         "netflix": "2026-12-03"
       },
+      "earliest_streaming_date": "2026-12-03",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-03"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-12-03",
+        "released_digital": "2026-12-03",
+        "runtime": null
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1230440,
@@ -200,9 +340,16 @@
       "streaming_dates": {
         "netflix": "2026-12-03"
       },
+      "earliest_streaming_date": "2026-12-03",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-03"
+      "metadata": {
+        "year": 2027,
+        "released": "2027-11-18",
+        "released_digital": "2027-11-18",
+        "runtime": 90
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1732479,
@@ -210,9 +357,16 @@
       "streaming_dates": {
         "netflix": "2026-12-04"
       },
+      "earliest_streaming_date": "2026-12-04",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-04"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-11-27",
+        "released_digital": "2026-12-04",
+        "runtime": 108
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1519780,
@@ -220,9 +374,16 @@
       "streaming_dates": {
         "disney-plus": "2026-12-04"
       },
+      "earliest_streaming_date": "2026-12-04",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-04"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-12-04",
+        "released_digital": "2026-12-04",
+        "runtime": 90
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1532787,
@@ -230,9 +391,16 @@
       "streaming_dates": {
         "netflix": "2026-12-04"
       },
+      "earliest_streaming_date": "2026-12-04",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-04"
+      "metadata": {
+        "year": 2025,
+        "released": "2025-08-30",
+        "released_digital": null,
+        "runtime": 82
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     },
     {
       "tmdb_id": 1824685,
@@ -240,9 +408,16 @@
       "streaming_dates": {
         "netflix": "2026-12-04"
       },
+      "earliest_streaming_date": "2026-12-04",
       "observed_previous_services": [],
-      "status": "needs_first_premiere_verification",
-      "earliest_streaming_date": "2026-12-04"
+      "metadata": {
+        "year": 2026,
+        "released": "2026-12-04",
+        "released_digital": "2026-12-04",
+        "runtime": 99
+      },
+      "status": "potential_premiere_unverified",
+      "reason": "Recent release with no observed transfer; not proof of first streaming"
     }
   ]
 }
