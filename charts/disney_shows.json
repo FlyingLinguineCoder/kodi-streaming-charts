@@ -9,35 +9,8 @@
     "release_year": 2026
   },
   {
-    "id": 1508,
-    "rank": 2,
-    "adult": 0,
-    "title": "Dancing with the Stars",
-    "mediatype": "show",
-    "imdb_id": "tt0463398",
-    "release_year": 2005
-  },
-  {
-    "id": 75219,
-    "rank": 3,
-    "adult": 0,
-    "title": "9-1-1",
-    "mediatype": "show",
-    "imdb_id": "tt7235466",
-    "release_year": 2018
-  },
-  {
-    "id": 456,
-    "rank": 4,
-    "adult": 0,
-    "title": "The Simpsons",
-    "mediatype": "show",
-    "imdb_id": "tt0096697",
-    "release_year": 1989
-  },
-  {
     "id": 1416,
-    "rank": 5,
+    "rank": 2,
     "adult": 0,
     "title": "Grey's Anatomy",
     "mediatype": "show",
@@ -45,17 +18,8 @@
     "release_year": 2005
   },
   {
-    "id": 107113,
-    "rank": 6,
-    "adult": 0,
-    "title": "Only Murders in the Building",
-    "mediatype": "show",
-    "imdb_id": "tt11691774",
-    "release_year": 2021
-  },
-  {
     "id": 61617,
-    "rank": 7,
+    "rank": 3,
     "adult": 0,
     "title": "Over the Garden Wall",
     "mediatype": "show",
@@ -63,8 +27,17 @@
     "release_year": 2014
   },
   {
+    "id": 75219,
+    "rank": 4,
+    "adult": 0,
+    "title": "9-1-1",
+    "mediatype": "show",
+    "imdb_id": "tt7235466",
+    "release_year": 2018
+  },
+  {
     "id": 1100,
-    "rank": 8,
+    "rank": 5,
     "adult": 0,
     "title": "How I Met Your Mother",
     "mediatype": "show",
@@ -72,8 +45,26 @@
     "release_year": 2005
   },
   {
+    "id": 1508,
+    "rank": 6,
+    "adult": 0,
+    "title": "Dancing with the Stars",
+    "mediatype": "show",
+    "imdb_id": "tt0463398",
+    "release_year": 2005
+  },
+  {
+    "id": 107113,
+    "rank": 7,
+    "adult": 0,
+    "title": "Only Murders in the Building",
+    "mediatype": "show",
+    "imdb_id": "tt11691774",
+    "release_year": 2021
+  },
+  {
     "id": 136315,
-    "rank": 9,
+    "rank": 8,
     "adult": 0,
     "title": "The Bear",
     "mediatype": "show",
@@ -81,13 +72,22 @@
     "release_year": 2022
   },
   {
-    "id": 334286,
+    "id": 456,
+    "rank": 9,
+    "adult": 0,
+    "title": "The Simpsons",
+    "mediatype": "show",
+    "imdb_id": "tt0096697",
+    "release_year": 1989
+  },
+  {
+    "id": 84958,
     "rank": 10,
     "adult": 0,
-    "title": "How the Tudors Lost Their Heads",
+    "title": "Loki",
     "mediatype": "show",
-    "imdb_id": "tt44870166",
-    "release_year": 2026
+    "imdb_id": "tt9140554",
+    "release_year": 2021
   },
   {
     "id": 60572,
@@ -99,26 +99,8 @@
     "release_year": 1997
   },
   {
-    "id": 61889,
-    "rank": 12,
-    "adult": 0,
-    "title": "Marvel's Daredevil",
-    "mediatype": "show",
-    "imdb_id": "tt3322312",
-    "release_year": 2015
-  },
-  {
-    "id": 202555,
-    "rank": 13,
-    "adult": 0,
-    "title": "Daredevil: Born Again",
-    "mediatype": "show",
-    "imdb_id": "tt18923754",
-    "release_year": 2025
-  },
-  {
     "id": 208569,
-    "rank": 14,
+    "rank": 12,
     "adult": 0,
     "title": "Will Trent",
     "mediatype": "show",
@@ -126,8 +108,35 @@
     "release_year": 2023
   },
   {
-    "id": 67178,
+    "id": 311883,
+    "rank": 13,
+    "adult": 0,
+    "title": "SABAN",
+    "mediatype": "show",
+    "imdb_id": "tt39380586",
+    "release_year": 2026
+  },
+  {
+    "id": 334286,
+    "rank": 14,
+    "adult": 0,
+    "title": "How the Tudors Lost Their Heads",
+    "mediatype": "show",
+    "imdb_id": "tt44870166",
+    "release_year": 2026
+  },
+  {
+    "id": 83867,
     "rank": 15,
+    "adult": 0,
+    "title": "Andor",
+    "mediatype": "show",
+    "imdb_id": "tt9253284",
+    "release_year": 2022
+  },
+  {
+    "id": 67178,
+    "rank": 16,
     "adult": 0,
     "title": "Marvel's The Punisher",
     "mediatype": "show",
@@ -135,26 +144,8 @@
     "release_year": 2017
   },
   {
-    "id": 1678,
-    "rank": 16,
-    "adult": 0,
-    "title": "The Golden Girls",
-    "mediatype": "show",
-    "imdb_id": "tt0088526",
-    "release_year": 1985
-  },
-  {
-    "id": 1417,
-    "rank": 17,
-    "adult": 0,
-    "title": "Glee",
-    "mediatype": "show",
-    "imdb_id": "tt1327801",
-    "release_year": 2009
-  },
-  {
     "id": 138501,
-    "rank": 18,
+    "rank": 17,
     "adult": 0,
     "title": "Agatha All Along",
     "mediatype": "show",
@@ -162,21 +153,30 @@
     "release_year": 2024
   },
   {
-    "id": 65334,
-    "rank": 19,
+    "id": 202555,
+    "rank": 18,
     "adult": 0,
-    "title": "Miraculous: Tales of Ladybug & Cat Noir",
+    "title": "Daredevil: Born Again",
     "mediatype": "show",
-    "imdb_id": "tt2580046",
-    "release_year": 2015
+    "imdb_id": "tt18923754",
+    "release_year": 2025
   },
   {
-    "id": 82728,
+    "id": 693,
+    "rank": 19,
+    "adult": 0,
+    "title": "Desperate Housewives",
+    "mediatype": "show",
+    "imdb_id": "tt0410975",
+    "release_year": 2004
+  },
+  {
+    "id": 1685,
     "rank": 20,
     "adult": 0,
-    "title": "Bluey",
+    "title": "Project Runway",
     "mediatype": "show",
-    "imdb_id": "tt7678620",
-    "release_year": 2018
+    "imdb_id": "tt0437741",
+    "release_year": 2004
   }
 ]
