@@ -9,11 +9,13 @@ import json
 import re
 import urllib.request
 from calendar import month_name
+from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
 OUTPUT = Path("charts/disney_hulu_diagnostic.json")
+MOVIE_AUDIT = Path("charts/premieres_audit.json")
 DAYS_AHEAD = 90
 
 MONTHS = {month_name[number]: number for number in range(1, 13)}
@@ -44,6 +46,9 @@ SPECIAL_RE = re.compile(
 PREMIERE_RE = re.compile(r"\b(?:premiere|debut)\b", re.I)
 TYPED_PREMIERE_RE = re.compile(
     r"\b(series|film|movie)\s+(?:premiere|debut)\b", re.I,
+)
+CALENDAR_LABEL_RE = re.compile(
+    r"\s+[-–—]\s+(?:(?:series|film|movie|season \d+)\s+)?(?:premiere|debut)$", re.I,
 )
 
 
@@ -201,6 +206,91 @@ def extract(lines, url, year, today, end_date):
     return results, dated_rows
 
 
+def title_key(title):
+    return " ".join(title.casefold().replace("’", "'").split())
+
+
+def movie_review(results, today, end_date):
+    """Cross-check dated U.S. arrivals against the saved movie audit."""
+    try:
+        audit = json.loads(MOVIE_AUDIT.read_text(encoding="utf-8"))
+        if not isinstance(audit, dict) or not isinstance(audit.get("candidates"), list):
+            raise ValueError("Movie audit has no candidate list")
+    except (OSError, ValueError) as error:
+        return {"audit_status": "unavailable", "error": str(error), "candidates": []}
+
+    calendar_by_title = defaultdict(list)
+    for row in results:
+        title = CALENDAR_LABEL_RE.sub("", row["title"])
+        title = re.sub(r"\s+\((?:19|20)\d{2}\)$", "", title)
+        calendar_by_title[title_key(title)].append(row)
+
+    audit_by_arrival = defaultdict(list)
+    for movie in audit["candidates"]:
+        if not isinstance(movie, dict):
+            continue
+        title = movie.get("title")
+        dates = movie.get("streaming_dates")
+        if not isinstance(title, str) or not title.strip() or not isinstance(dates, dict):
+            continue
+        for service, when in dates.items():
+            if service not in ("disney-plus", "hulu"):
+                continue
+            try:
+                day = date.fromisoformat(when)
+            except (TypeError, ValueError):
+                continue
+            if today <= day <= end_date:
+                audit_by_arrival[title_key(title), service, day.isoformat()].append(movie)
+
+    candidates = []
+    for (key, service, when), movies in audit_by_arrival.items():
+        if len(movies) != 1:
+            continue  # The title, date and service must identify one movie.
+        movie = movies[0]
+        tmdb_id = movie.get("tmdb_id")
+        if (
+            type(tmdb_id) is not int or tmdb_id <= 0
+            or movie.get("status") != "potential_premiere_unverified"
+            or movie.get("earliest_streaming_date") != when
+        ):
+            continue
+
+        rows = calendar_by_title.get(key, [])
+        matches = [
+            row for row in rows if row["date"] == when and service in row["services"]
+        ]
+        if rows and (not matches or any(row["date"] < when for row in rows)):
+            continue
+        metadata = movie.get("metadata")
+        year = metadata.get("year") if isinstance(metadata, dict) else None
+        if any(
+            row["classification"] not in ("dated_movie_candidate", "premiere_type_review")
+            or (row["release_year"] is not None and str(row["release_year"]) != str(year))
+            for row in matches
+        ):
+            continue
+
+        candidate = {
+            "title": movie["title"],
+            "tmdb_id": tmdb_id,
+            "service": service,
+            "date": when,
+            "evidence": "calendar_and_movie_audit" if matches else "movie_audit_only",
+        }
+        if matches:
+            candidate["calendar_source"] = matches[0]["source"]
+        candidates.append(candidate)
+
+    return {
+        "audit_status": "available",
+        "audit_generated_at_utc": audit.get("generated_at_utc"),
+        "candidates": sorted(
+            candidates, key=lambda row: (row["date"], row["title"], row["service"])
+        ),
+    }
+
+
 def main():
     today = datetime.now(timezone.utc).date()
     end_date = today + timedelta(days=DAYS_AHEAD)
@@ -263,10 +353,13 @@ def main():
             "Calendar labels nominate candidates, not confirmed premieres. "
             "Release years do not prove first-ever subscription availability. "
             "An untyped premiere, season bundle, or season arrival without "
-            "a premiere label requires review. Month-only listings are omitted."
+            "a premiere label requires review. Month-only listings are omitted. "
+            "Movie review records identify films to check for a first U.S. "
+            "subscription release. Audit-only dates lack a matching calendar entry."
         ),
         "sources": source_reports,
         "results": all_results,
+        "movie_review": movie_review(all_results, today, end_date),
     }
     OUTPUT.write_text(
         json.dumps(report, indent=2, ensure_ascii=False) + "\n",
