@@ -27,6 +27,17 @@ jobs:
           MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY }}
         run: python scripts/update_charts.py
 
+      - name: Test Disney Plus and Hulu calendars
+        id: disney_hulu
+        continue-on-error: true
+        run: python scripts/test_disney_hulu.py
+
+      - name: Report diagnostic outcome
+        if: steps.disney_hulu.outcome == 'failure'
+        run: |
+          echo "::warning::Disney Plus and Hulu diagnostic failed."
+          echo "Existing streaming charts will still be saved."
+
       - name: Save updated chart files
         run: |
           git config user.name "github-actions[bot]"
