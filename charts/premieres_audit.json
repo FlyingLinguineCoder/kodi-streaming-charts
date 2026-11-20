@@ -1,0 +1,248 @@
+{
+  "generated_at_utc": "2026-11-20T04:03:22.347944+00:00",
+  "purpose": "Audit only; not a verified first-time-streaming Kodi widget",
+  "source": "Powered by Galaxy Movies - https://www.galaxymovies.app",
+  "disclaimer": "The feed lists upcoming arrivals. It cannot prove first-ever streaming. Recorded history starts with this script and may miss earlier transfers.",
+  "candidates": [
+    {
+      "tmdb_id": 1307474,
+      "title": "On Behalf of My Son",
+      "streaming_dates": {
+        "netflix": "2026-11-20"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-20"
+    },
+    {
+      "tmdb_id": 1568060,
+      "title": "Perfect Liars",
+      "streaming_dates": {
+        "amazon-prime-video": "2026-11-20"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-20"
+    },
+    {
+      "tmdb_id": 1791730,
+      "title": "Primetime Preacher$",
+      "streaming_dates": {
+        "netflix": "2026-11-20"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-20"
+    },
+    {
+      "tmdb_id": 1595124,
+      "title": "Steps",
+      "streaming_dates": {
+        "netflix": "2026-11-20"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-20"
+    },
+    {
+      "tmdb_id": 1611767,
+      "title": "Clashing Through the Snow",
+      "streaming_dates": {
+        "amazon-prime-video": "2026-11-23"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-23"
+    },
+    {
+      "tmdb_id": 1674241,
+      "title": "The Symphony of Dance",
+      "streaming_dates": {
+        "hulu": "2026-11-23"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-23"
+    },
+    {
+      "tmdb_id": 1802703,
+      "title": "Rob Lowe: The Outsider",
+      "streaming_dates": {
+        "netflix": "2026-11-24"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-24"
+    },
+    {
+      "tmdb_id": 1458300,
+      "title": "The Mosquito Bowl",
+      "streaming_dates": {
+        "netflix": "2026-11-25"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-25"
+    },
+    {
+      "tmdb_id": 1632599,
+      "title": "The Slightest Touch",
+      "streaming_dates": {
+        "max": "2026-11-25"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-25"
+    },
+    {
+      "tmdb_id": 832953,
+      "title": "The Child",
+      "streaming_dates": {
+        "netflix": "2026-11-27"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-27"
+    },
+    {
+      "tmdb_id": 1480665,
+      "title": "The Hunchback, Soul of Paris",
+      "streaming_dates": {
+        "netflix": "2026-11-27"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-27"
+    },
+    {
+      "tmdb_id": 1827764,
+      "title": "Family Guy The Peter Clause",
+      "streaming_dates": {
+        "hulu": "2026-11-30"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-11-30"
+    },
+    {
+      "tmdb_id": 1596266,
+      "title": "Seized",
+      "streaming_dates": {
+        "max": "2026-12-01"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-01"
+    },
+    {
+      "tmdb_id": 1588626,
+      "title": "In a Holidaze",
+      "streaming_dates": {
+        "netflix": "2026-12-02"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-02"
+    },
+    {
+      "tmdb_id": 1422041,
+      "title": "La bola negra",
+      "streaming_dates": {
+        "netflix": "2026-12-02"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-02"
+    },
+    {
+      "tmdb_id": 1137888,
+      "title": "The Man with the Bag",
+      "streaming_dates": {
+        "amazon-prime-video": "2026-12-02"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-02"
+    },
+    {
+      "tmdb_id": 1818957,
+      "title": "Gianmarco Soresi: God Forbid",
+      "streaming_dates": {
+        "netflix": "2026-12-03"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-03"
+    },
+    {
+      "tmdb_id": 1620040,
+      "title": "My Brother's Killer",
+      "streaming_dates": {
+        "max": "2026-12-03"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-03"
+    },
+    {
+      "tmdb_id": 1591961,
+      "title": "My Crazy Feminist Girlfriend",
+      "streaming_dates": {
+        "netflix": "2026-12-03"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-03"
+    },
+    {
+      "tmdb_id": 1230440,
+      "title": "Secrets",
+      "streaming_dates": {
+        "netflix": "2026-12-03"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-03"
+    },
+    {
+      "tmdb_id": 1732479,
+      "title": "14th",
+      "streaming_dates": {
+        "netflix": "2026-12-04"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-04"
+    },
+    {
+      "tmdb_id": 1519780,
+      "title": "Diary of a Wimpy Kid Christmas: The Getaway",
+      "streaming_dates": {
+        "disney-plus": "2026-12-04"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-04"
+    },
+    {
+      "tmdb_id": 1532787,
+      "title": "The Bend in the River",
+      "streaming_dates": {
+        "netflix": "2026-12-04"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-04"
+    },
+    {
+      "tmdb_id": 1824685,
+      "title": "Who Killed the Banker's Widow?",
+      "streaming_dates": {
+        "netflix": "2026-12-04"
+      },
+      "observed_previous_services": [],
+      "status": "needs_first_premiere_verification",
+      "earliest_streaming_date": "2026-12-04"
+    }
+  ]
+}
