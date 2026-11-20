@@ -27,17 +27,8 @@
     "release_year": 2025
   },
   {
-    "id": 279246,
-    "rank": 4,
-    "adult": 0,
-    "title": "The Remarried Empress",
-    "mediatype": "show",
-    "imdb_id": "tt39325975",
-    "release_year": 2026
-  },
-  {
     "id": 14658,
-    "rank": 5,
+    "rank": 4,
     "adult": 0,
     "title": "Survivor",
     "mediatype": "show",
@@ -46,11 +37,20 @@
   },
   {
     "id": 275139,
-    "rank": 6,
+    "rank": 5,
     "adult": 0,
     "title": "Phony",
     "mediatype": "show",
     "imdb_id": "tt21952924",
+    "release_year": 2026
+  },
+  {
+    "id": 279246,
+    "rank": 6,
+    "adult": 0,
+    "title": "The Remarried Empress",
+    "mediatype": "show",
+    "imdb_id": "tt39325975",
     "release_year": 2026
   },
   {
@@ -63,26 +63,8 @@
     "release_year": 2021
   },
   {
-    "id": 211288,
-    "rank": 8,
-    "adult": 0,
-    "title": "Tracker",
-    "mediatype": "show",
-    "imdb_id": "tt13875494",
-    "release_year": 2024
-  },
-  {
-    "id": 255055,
-    "rank": 9,
-    "adult": 0,
-    "title": "Doc",
-    "mediatype": "show",
-    "imdb_id": "tt26748321",
-    "release_year": 2025
-  },
-  {
     "id": 122066,
-    "rank": 10,
+    "rank": 8,
     "adult": 0,
     "title": "The Dropout",
     "mediatype": "show",
@@ -90,17 +72,8 @@
     "release_year": 2022
   },
   {
-    "id": 208921,
-    "rank": 11,
-    "adult": 0,
-    "title": "Rivals",
-    "mediatype": "show",
-    "imdb_id": "tt21906238",
-    "release_year": 2024
-  },
-  {
     "id": 1416,
-    "rank": 12,
+    "rank": 9,
     "adult": 0,
     "title": "Grey's Anatomy",
     "mediatype": "show",
@@ -108,8 +81,44 @@
     "release_year": 2005
   },
   {
-    "id": 30957,
+    "id": 103540,
+    "rank": 10,
+    "adult": 0,
+    "title": "Percy Jackson and the Olympians",
+    "mediatype": "show",
+    "imdb_id": "tt12324366",
+    "release_year": 2023
+  },
+  {
+    "id": 211288,
+    "rank": 11,
+    "adult": 0,
+    "title": "Tracker",
+    "mediatype": "show",
+    "imdb_id": "tt13875494",
+    "release_year": 2024
+  },
+  {
+    "id": 208921,
+    "rank": 12,
+    "adult": 0,
+    "title": "Rivals",
+    "mediatype": "show",
+    "imdb_id": "tt21906238",
+    "release_year": 2024
+  },
+  {
+    "id": 255055,
     "rank": 13,
+    "adult": 0,
+    "title": "Doc",
+    "mediatype": "show",
+    "imdb_id": "tt26748321",
+    "release_year": 2025
+  },
+  {
+    "id": 30957,
+    "rank": 14,
     "adult": 0,
     "title": "The Amazing Race",
     "mediatype": "show",
@@ -117,53 +126,17 @@
     "release_year": 2001
   },
   {
-    "id": 5920,
-    "rank": 14,
-    "adult": 0,
-    "title": "The Mentalist",
-    "mediatype": "show",
-    "imdb_id": "tt1196946",
-    "release_year": 2008
-  },
-  {
-    "id": 295778,
+    "id": 301284,
     "rank": 15,
     "adult": 0,
-    "title": "Scrubs",
+    "title": "The Killings at Parrish Station",
     "mediatype": "show",
-    "imdb_id": "tt40197357",
+    "imdb_id": "tt38448408",
     "release_year": 2026
   },
   {
-    "id": 75219,
-    "rank": 16,
-    "adult": 0,
-    "title": "9-1-1",
-    "mediatype": "show",
-    "imdb_id": "tt7235466",
-    "release_year": 2018
-  },
-  {
-    "id": 2734,
-    "rank": 17,
-    "adult": 0,
-    "title": "Law & Order: Special Victims Unit",
-    "mediatype": "show",
-    "imdb_id": "tt0203259",
-    "release_year": 1999
-  },
-  {
-    "id": 4087,
-    "rank": 18,
-    "adult": 0,
-    "title": "The X-Files",
-    "mediatype": "show",
-    "imdb_id": "tt0106179",
-    "release_year": 1993
-  },
-  {
     "id": 46533,
-    "rank": 19,
+    "rank": 16,
     "adult": 0,
     "title": "The Americans",
     "mediatype": "show",
@@ -171,12 +144,39 @@
     "release_year": 2013
   },
   {
-    "id": 214162,
+    "id": 4087,
+    "rank": 17,
+    "adult": 0,
+    "title": "The X-Files",
+    "mediatype": "show",
+    "imdb_id": "tt0106179",
+    "release_year": 1993
+  },
+  {
+    "id": 295778,
+    "rank": 18,
+    "adult": 0,
+    "title": "Scrubs",
+    "mediatype": "show",
+    "imdb_id": "tt40197357",
+    "release_year": 2026
+  },
+  {
+    "id": 2734,
+    "rank": 19,
+    "adult": 0,
+    "title": "Law & Order: Special Victims Unit",
+    "mediatype": "show",
+    "imdb_id": "tt0203259",
+    "release_year": 1999
+  },
+  {
+    "id": 75219,
     "rank": 20,
     "adult": 0,
-    "title": "Animal Control",
+    "title": "9-1-1",
     "mediatype": "show",
-    "imdb_id": "tt21376524",
-    "release_year": 2023
+    "imdb_id": "tt7235466",
+    "release_year": 2018
   }
 ]

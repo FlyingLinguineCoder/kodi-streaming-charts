@@ -36,13 +36,13 @@
     "release_year": 2000
   },
   {
-    "id": 4614,
+    "id": 259909,
     "rank": 5,
     "adult": 0,
-    "title": "NCIS",
+    "title": "Dexter: Resurrection",
     "mediatype": "show",
-    "imdb_id": "tt0364845",
-    "release_year": 2003
+    "imdb_id": "tt33043892",
+    "release_year": 2025
   },
   {
     "id": 153312,
@@ -54,26 +54,17 @@
     "release_year": 2022
   },
   {
-    "id": 259909,
+    "id": 4614,
     "rank": 7,
     "adult": 0,
-    "title": "Dexter: Resurrection",
+    "title": "NCIS",
     "mediatype": "show",
-    "imdb_id": "tt33043892",
-    "release_year": 2025
-  },
-  {
-    "id": 211288,
-    "rank": 8,
-    "adult": 0,
-    "title": "Tracker",
-    "mediatype": "show",
-    "imdb_id": "tt13875494",
-    "release_year": 2024
+    "imdb_id": "tt0364845",
+    "release_year": 2003
   },
   {
     "id": 243875,
-    "rank": 9,
+    "rank": 8,
     "adult": 0,
     "title": "Georgie & Mandy's First Marriage",
     "mediatype": "show",
@@ -81,35 +72,8 @@
     "release_year": 2024
   },
   {
-    "id": 2190,
-    "rank": 10,
-    "adult": 0,
-    "title": "South Park",
-    "mediatype": "show",
-    "imdb_id": "tt0121955",
-    "release_year": 1997
-  },
-  {
-    "id": 30957,
-    "rank": 11,
-    "adult": 0,
-    "title": "The Amazing Race",
-    "mediatype": "show",
-    "imdb_id": "tt0285335",
-    "release_year": 2001
-  },
-  {
-    "id": 58957,
-    "rank": 12,
-    "adult": 0,
-    "title": "Nathan for You",
-    "mediatype": "show",
-    "imdb_id": "tt2297757",
-    "release_year": 2013
-  },
-  {
     "id": 313630,
-    "rank": 13,
+    "rank": 9,
     "adult": 0,
     "title": "Eternally Yours",
     "mediatype": "show",
@@ -117,26 +81,26 @@
     "release_year": 2026
   },
   {
-    "id": 290856,
-    "rank": 14,
+    "id": 211288,
+    "rank": 10,
     "adult": 0,
-    "title": "Marshals",
+    "title": "Tracker",
     "mediatype": "show",
-    "imdb_id": "tt36849871",
-    "release_year": 2026
-  },
-  {
-    "id": 243006,
-    "rank": 15,
-    "adult": 0,
-    "title": "NCIS: Origins",
-    "mediatype": "show",
-    "imdb_id": "tt30796986",
+    "imdb_id": "tt13875494",
     "release_year": 2024
   },
   {
+    "id": 2190,
+    "rank": 11,
+    "adult": 0,
+    "title": "South Park",
+    "mediatype": "show",
+    "imdb_id": "tt0121955",
+    "release_year": 1997
+  },
+  {
     "id": 4278,
-    "rank": 16,
+    "rank": 12,
     "adult": 0,
     "title": "Friday Night Lights",
     "mediatype": "show",
@@ -144,8 +108,17 @@
     "release_year": 2006
   },
   {
+    "id": 30957,
+    "rank": 13,
+    "adult": 0,
+    "title": "The Amazing Race",
+    "mediatype": "show",
+    "imdb_id": "tt0285335",
+    "release_year": 2001
+  },
+  {
     "id": 226285,
-    "rank": 17,
+    "rank": 14,
     "adult": 0,
     "title": "Elsbeth",
     "mediatype": "show",
@@ -153,22 +126,49 @@
     "release_year": 2024
   },
   {
-    "id": 1405,
-    "rank": 18,
+    "id": 58957,
+    "rank": 15,
     "adult": 0,
-    "title": "Dexter",
+    "title": "Nathan for You",
     "mediatype": "show",
-    "imdb_id": "tt0773262",
-    "release_year": 2006
+    "imdb_id": "tt2297757",
+    "release_year": 2013
   },
   {
     "id": 1920,
-    "rank": 19,
+    "rank": 16,
     "adult": 0,
     "title": "Twin Peaks",
     "mediatype": "show",
     "imdb_id": "tt0098936",
     "release_year": 1990
+  },
+  {
+    "id": 243006,
+    "rank": 17,
+    "adult": 0,
+    "title": "NCIS: Origins",
+    "mediatype": "show",
+    "imdb_id": "tt30796986",
+    "release_year": 2024
+  },
+  {
+    "id": 126027,
+    "rank": 18,
+    "adult": 0,
+    "title": "Ghosts",
+    "mediatype": "show",
+    "imdb_id": "tt11379026",
+    "release_year": 2021
+  },
+  {
+    "id": 290856,
+    "rank": 19,
+    "adult": 0,
+    "title": "Marshals",
+    "mediatype": "show",
+    "imdb_id": "tt36849871",
+    "release_year": 2026
   },
   {
     "id": 80748,

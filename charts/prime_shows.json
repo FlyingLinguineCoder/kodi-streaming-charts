@@ -9,22 +9,22 @@
     "release_year": 2022
   },
   {
-    "id": 248830,
-    "rank": 2,
-    "adult": 0,
-    "title": "Stick",
-    "mediatype": "show",
-    "imdb_id": "tt31710249",
-    "release_year": 2025
-  },
-  {
     "id": 117488,
-    "rank": 3,
+    "rank": 2,
     "adult": 0,
     "title": "Yellowjackets",
     "mediatype": "show",
     "imdb_id": "tt11041332",
     "release_year": 2021
+  },
+  {
+    "id": 248830,
+    "rank": 3,
+    "adult": 0,
+    "title": "Stick",
+    "mediatype": "show",
+    "imdb_id": "tt31710249",
+    "release_year": 2025
   },
   {
     "id": 303630,
@@ -63,22 +63,22 @@
     "release_year": 2022
   },
   {
-    "id": 85077,
-    "rank": 8,
-    "adult": 0,
-    "title": "The Chosen",
-    "mediatype": "show",
-    "imdb_id": "tt5622316",
-    "release_year": 2019
-  },
-  {
     "id": 314360,
-    "rank": 9,
+    "rank": 8,
     "adult": 0,
     "title": "YAGA",
     "mediatype": "show",
     "imdb_id": "tt39980704",
     "release_year": 2026
+  },
+  {
+    "id": 85077,
+    "rank": 9,
+    "adult": 0,
+    "title": "The Chosen",
+    "mediatype": "show",
+    "imdb_id": "tt5622316",
+    "release_year": 2019
   },
   {
     "id": 253372,
@@ -90,26 +90,8 @@
     "release_year": 2025
   },
   {
-    "id": 288673,
-    "rank": 11,
-    "adult": 0,
-    "title": "Carrie",
-    "mediatype": "show",
-    "imdb_id": "tt11540908",
-    "release_year": 2026
-  },
-  {
-    "id": 261317,
-    "rank": 12,
-    "adult": 0,
-    "title": "Mistletoe Murders",
-    "mediatype": "show",
-    "imdb_id": "tt32378211",
-    "release_year": 2024
-  },
-  {
     "id": 58841,
-    "rank": 13,
+    "rank": 11,
     "adult": 0,
     "title": "Chicago P.D.",
     "mediatype": "show",
@@ -118,12 +100,30 @@
   },
   {
     "id": 4278,
-    "rank": 14,
+    "rank": 12,
     "adult": 0,
     "title": "Friday Night Lights",
     "mediatype": "show",
     "imdb_id": "tt0758745",
     "release_year": 2006
+  },
+  {
+    "id": 288673,
+    "rank": 13,
+    "adult": 0,
+    "title": "Carrie",
+    "mediatype": "show",
+    "imdb_id": "tt11540908",
+    "release_year": 2026
+  },
+  {
+    "id": 261317,
+    "rank": 14,
+    "adult": 0,
+    "title": "Mistletoe Murders",
+    "mediatype": "show",
+    "imdb_id": "tt32378211",
+    "release_year": 2024
   },
   {
     "id": 108978,
@@ -153,17 +153,8 @@
     "release_year": 2005
   },
   {
-    "id": 72755,
-    "rank": 18,
-    "adult": 0,
-    "title": "Absentia",
-    "mediatype": "show",
-    "imdb_id": "tt6794990",
-    "release_year": 2017
-  },
-  {
     "id": 225,
-    "rank": 19,
+    "rank": 18,
     "adult": 0,
     "title": "Sharpe",
     "mediatype": "show",
@@ -172,11 +163,20 @@
   },
   {
     "id": 67070,
-    "rank": 20,
+    "rank": 19,
     "adult": 0,
     "title": "Fleabag",
     "mediatype": "show",
     "imdb_id": "tt5687612",
     "release_year": 2016
+  },
+  {
+    "id": 2370,
+    "rank": 20,
+    "adult": 0,
+    "title": "Hell's Kitchen",
+    "mediatype": "show",
+    "imdb_id": "tt0437005",
+    "release_year": 2005
   }
 ]

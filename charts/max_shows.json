@@ -18,17 +18,8 @@
     "release_year": 2022
   },
   {
-    "id": 1104,
-    "rank": 3,
-    "adult": 0,
-    "title": "Mad Men",
-    "mediatype": "show",
-    "imdb_id": "tt0804503",
-    "release_year": 2007
-  },
-  {
     "id": 125935,
-    "rank": 4,
+    "rank": 3,
     "adult": 0,
     "title": "Abbott Elementary",
     "mediatype": "show",
@@ -36,22 +27,31 @@
     "release_year": 2021
   },
   {
-    "id": 243875,
-    "rank": 5,
+    "id": 1104,
+    "rank": 4,
     "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
+    "title": "Mad Men",
     "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
+    "imdb_id": "tt0804503",
+    "release_year": 2007
   },
   {
     "id": 218344,
-    "rank": 6,
+    "rank": 5,
     "adult": 0,
     "title": "Blue Lights",
     "mediatype": "show",
     "imdb_id": "tt14466018",
     "release_year": 2023
+  },
+  {
+    "id": 243875,
+    "rank": 6,
+    "adult": 0,
+    "title": "Georgie & Mandy's First Marriage",
+    "mediatype": "show",
+    "imdb_id": "tt31589662",
+    "release_year": 2024
   },
   {
     "id": 58957,
@@ -63,22 +63,22 @@
     "release_year": 2013
   },
   {
-    "id": 1668,
+    "id": 305245,
     "rank": 8,
+    "adult": 0,
+    "title": "Silent Night",
+    "mediatype": "show",
+    "imdb_id": "tt38961437",
+    "release_year": 2026
+  },
+  {
+    "id": 1668,
+    "rank": 9,
     "adult": 0,
     "title": "Friends",
     "mediatype": "show",
     "imdb_id": "tt0108778",
     "release_year": 1994
-  },
-  {
-    "id": 1399,
-    "rank": 9,
-    "adult": 0,
-    "title": "Game of Thrones",
-    "mediatype": "show",
-    "imdb_id": "tt0944947",
-    "release_year": 2011
   },
   {
     "id": 250307,
@@ -90,21 +90,21 @@
     "release_year": 2025
   },
   {
-    "id": 342122,
-    "rank": 11,
-    "adult": 0,
-    "title": "Lanterns",
-    "mediatype": "show",
-    "imdb_id": "tt2654599"
-  },
-  {
     "id": 1398,
-    "rank": 12,
+    "rank": 11,
     "adult": 0,
     "title": "The Sopranos",
     "mediatype": "show",
     "imdb_id": "tt0141842",
     "release_year": 1999
+  },
+  {
+    "id": 342122,
+    "rank": 12,
+    "adult": 0,
+    "title": "Lanterns",
+    "mediatype": "show",
+    "imdb_id": "tt2654599"
   },
   {
     "id": 61662,
@@ -116,26 +116,8 @@
     "release_year": 2015
   },
   {
-    "id": 231751,
-    "rank": 14,
-    "adult": 0,
-    "title": "The Hardacres",
-    "mediatype": "show",
-    "imdb_id": "tt28489780",
-    "release_year": 2024
-  },
-  {
-    "id": 60694,
-    "rank": 15,
-    "adult": 0,
-    "title": "Last Week Tonight with John Oliver",
-    "mediatype": "show",
-    "imdb_id": "tt3530232",
-    "release_year": 2014
-  },
-  {
     "id": 688,
-    "rank": 16,
+    "rank": 14,
     "adult": 0,
     "title": "The West Wing",
     "mediatype": "show",
@@ -143,26 +125,8 @@
     "release_year": 1999
   },
   {
-    "id": 18165,
-    "rank": 17,
-    "adult": 0,
-    "title": "The Vampire Diaries",
-    "mediatype": "show",
-    "imdb_id": "tt1405406",
-    "release_year": 2009
-  },
-  {
-    "id": 261668,
-    "rank": 18,
-    "adult": 0,
-    "title": "Outrageous",
-    "mediatype": "show",
-    "imdb_id": "tt23856916",
-    "release_year": 2025
-  },
-  {
     "id": 46648,
-    "rank": 19,
+    "rank": 15,
     "adult": 0,
     "title": "True Detective",
     "mediatype": "show",
@@ -170,12 +134,48 @@
     "release_year": 2014
   },
   {
-    "id": 224372,
+    "id": 1399,
+    "rank": 16,
+    "adult": 0,
+    "title": "Game of Thrones",
+    "mediatype": "show",
+    "imdb_id": "tt0944947",
+    "release_year": 2011
+  },
+  {
+    "id": 60694,
+    "rank": 17,
+    "adult": 0,
+    "title": "Last Week Tonight with John Oliver",
+    "mediatype": "show",
+    "imdb_id": "tt3530232",
+    "release_year": 2014
+  },
+  {
+    "id": 124101,
+    "rank": 18,
+    "adult": 0,
+    "title": "Hacks",
+    "mediatype": "show",
+    "imdb_id": "tt11815682",
+    "release_year": 2021
+  },
+  {
+    "id": 18165,
+    "rank": 19,
+    "adult": 0,
+    "title": "The Vampire Diaries",
+    "mediatype": "show",
+    "imdb_id": "tt1405406",
+    "release_year": 2009
+  },
+  {
+    "id": 1438,
     "rank": 20,
     "adult": 0,
-    "title": "A Knight of the Seven Kingdoms",
+    "title": "The Wire",
     "mediatype": "show",
-    "imdb_id": "tt27497448",
-    "release_year": 2026
+    "imdb_id": "tt0306414",
+    "release_year": 2002
   }
 ]

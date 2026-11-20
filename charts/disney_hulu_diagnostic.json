@@ -1,0 +1,4416 @@
+{
+  "generated_at_utc": "2026-11-20T21:13:45.094260+00:00",
+  "purpose": "Diagnostic only",
+  "limitations": "Calendar entries are not proof of first-ever subscription premieres. Entries without release years require manual review. Parsing may miss entries.",
+  "sources": [
+    {
+      "url": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026",
+      "status": "parsed",
+      "text_blocks": 290,
+      "dated_entries": 221,
+      "movie_candidates": 14
+    },
+    {
+      "url": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026",
+      "status": "parsed",
+      "text_blocks": 287,
+      "dated_entries": 203,
+      "movie_candidates": 28
+    }
+  ],
+  "results": [
+    {
+      "date": "2026-11-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "A Bad Moms Christmas (2017)",
+      "release_year": 2017,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Banshees of Inisherin (2022)",
+      "release_year": 2022,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Meg 2: The Trench (2023)",
+      "release_year": 2023,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mess Around – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Mission: Yozakura Family (Season 2, Cour 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-01",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Why Him? (2016)",
+      "release_year": 2016,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-02",
+      "services": [
+        "hulu"
+      ],
+      "title": "America’s Funniest Home Videos (Season 37) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-02",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Between Steps (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-02",
+      "services": [
+        "hulu"
+      ],
+      "title": "Black Bag (2025)",
+      "release_year": 2025,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-02",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Dancing with the Stars (Season 35) – Streaming Live at 8pm ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-02",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-02",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Handsome – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-02",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mob (Hulu Original) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-02",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pod Meets World – New Podcast Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-02",
+      "services": [
+        "hulu"
+      ],
+      "title": "That Was Us – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Best Friends – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Between Steps (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Clues – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Dancing with the Stars (Season 35) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "hulu"
+      ],
+      "title": "High Country (Season 2)",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Perfect Person – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "hulu"
+      ],
+      "title": "Phony (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "hulu"
+      ],
+      "title": "Reasonable Doubt (Season 4) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to Football (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to United with Wayne Rooney (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "StraightioLab – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Thanks Dad with Ego Nwodim – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-04",
+      "services": [
+        "hulu"
+      ],
+      "title": "All’s Fair (Season 2) (Hulu Original) – Three-Episode Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-04",
+      "services": [
+        "hulu"
+      ],
+      "title": "All’s Fair Podcast (Season 2) – Two-Episode Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-04",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Dancing with the Stars Official Podcast (Season 35) – New Episode @ 9am PT",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-04",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Disney Jr. Ariel - The Little Mermaid: Dolphin Cove Tales: Shorts (Season 1) – Premiere – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-04",
+      "services": [
+        "hulu"
+      ],
+      "title": "FX’s The Lowdown (Season 2) – New Episode @ 9pm PT",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-04",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Merry Berry Love (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-04",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "The Remarried Empress (Season 1) (Hulu Original) – Four-Episode Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-04",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "VisionQuest – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-05",
+      "services": [
+        "hulu"
+      ],
+      "title": "Abbott Elementary (Season 6) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-05",
+      "services": [
+        "hulu"
+      ],
+      "title": "Fake Doctors, Real Friends with Zach and Donald – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-05",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-05",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Kardashians (Season 8) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-05",
+      "services": [
+        "hulu"
+      ],
+      "title": "Scrubs (Season 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-05",
+      "services": [
+        "hulu"
+      ],
+      "title": "Shark Tank (Season 18) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-06",
+      "services": [
+        "hulu"
+      ],
+      "title": "9-1-1 (Season 10) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-06",
+      "services": [
+        "hulu"
+      ],
+      "title": "9-1-1: Nashville (Season 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-06",
+      "services": [
+        "hulu"
+      ],
+      "title": "Grey’s Anatomy (Season 23) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-06",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "SuperKitties (Season 3) – Thanksgiving Special Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-06",
+      "services": [
+        "hulu"
+      ],
+      "title": "Tokyo Revengers: War of the Three Titans Arc (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-06",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Wolves Up Close with Bertie Gregory – Premiere",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-07",
+      "services": [
+        "hulu"
+      ],
+      "title": "Celebrity Wheel of Fortune (Season 7) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-07",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Chibi Tiny Tales: Shorts (Season 8) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-07",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Locker Diaries: Coven Academy: Shorts (Season 1) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-08",
+      "services": [
+        "hulu"
+      ],
+      "title": "Heart Eyes (2025)",
+      "release_year": 2025,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-08",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mess Around – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-08",
+      "services": [
+        "hulu"
+      ],
+      "title": "Mission: Yozakura Family (Season 2, Cour 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-08",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "services": [
+        "hulu"
+      ],
+      "title": "America’s Funniest Home Videos (Season 37) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Between Steps (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "services": [
+        "hulu"
+      ],
+      "title": "Fire Force (Season 3, Part 2) (Dubbed) – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Handsome – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "services": [
+        "hulu"
+      ],
+      "title": "Love Hurts (2025)",
+      "release_year": 2025,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mob (Hulu Original) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Mother Knows Murder – Podcast Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pod Meets World – New Podcast Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "services": [
+        "hulu"
+      ],
+      "title": "That Was Us – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Best Friends – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Between Steps (Season 1) (Hulu Original) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Clues – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Dancing with the Stars (Season 35) – Streaming Live @ 8pm ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Perfect Person – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "hulu"
+      ],
+      "title": "Phony (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "hulu"
+      ],
+      "title": "Reasonable Doubt (Season 4) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to United with Wayne Rooney (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "StraightioLab – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Thanks Dad with Ego Nwodim – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "hulu"
+      ],
+      "title": "All’s Fair (Season 2) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "hulu"
+      ],
+      "title": "All’s Fair Podcast (Season 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Dancing with the Stars (Season 35) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "hulu"
+      ],
+      "title": "FX’s The Lowdown (Season 2) – New Episode @ 9pm PT",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Merry Berry Love (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pokémon the Series: The Beginning (Season 2) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pupstruction (Season 3) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "The Remarried Empress (Season 1) (Hulu Original) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "hulu"
+      ],
+      "title": "Rivals (Season 2, Part 2) (Hulu Original) – Three-Episode Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Style Wars (Season 1) (Hulu Original) – Two-Episode Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "VisionQuest – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-12",
+      "services": [
+        "hulu"
+      ],
+      "title": "Abbott Elementary (Season 6) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-12",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Dancing with the Stars Official Podcast (Season 35) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-12",
+      "services": [
+        "hulu"
+      ],
+      "title": "Fake Doctors, Real Friends with Zach and Donald – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-12",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-12",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Kardashians (Season 8) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-12",
+      "services": [
+        "hulu"
+      ],
+      "title": "Scrubs (Season 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-12",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Secret Lives of Mormon Wives: Orange County (Season 1) (Hulu Original) – Premiere – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-12",
+      "services": [
+        "hulu"
+      ],
+      "title": "Shark Tank (Season 18) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-12",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to Football (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-13",
+      "services": [
+        "hulu"
+      ],
+      "title": "9-1-1 (Season 10) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-13",
+      "services": [
+        "hulu"
+      ],
+      "title": "9-1-1: Nashville (Season 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-13",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Gracie’s Corner (Season 2) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-13",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Gracie’s Corner: Shorts (Season 2) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-13",
+      "services": [
+        "hulu"
+      ],
+      "title": "Grey’s Anatomy (Season 23) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-13",
+      "services": [
+        "hulu"
+      ],
+      "title": "Tokyo Revengers: War of the Three Titans Arc (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-14",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "A Proud Family Wizmas – Holiday Special Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-14",
+      "services": [
+        "hulu"
+      ],
+      "title": "Celebrity Wheel of Fortune (Season 7) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-14",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Chibi Tiny Tales: Shorts (Season 8) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-14",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Expedition: Saving Our Seas – Premiere",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-15",
+      "services": [
+        "hulu"
+      ],
+      "title": "Call of the Night (Season 2) (Subbed & Dubbed) – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-15",
+      "services": [
+        "hulu"
+      ],
+      "title": "Hero Without a Class: Who Even Needs Skills?! (Season 1) (Subbed & Dubbed) – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-15",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mess Around – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-15",
+      "services": [
+        "hulu"
+      ],
+      "title": "Mission: Yozakura Family (Season 2, Cour 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-15",
+      "services": [
+        "hulu"
+      ],
+      "title": "My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dungeon (Season 1) (Subbed & Dubbed) – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-15",
+      "services": [
+        "hulu"
+      ],
+      "title": "Paddington in Peru (2024)",
+      "release_year": 2024,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-15",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-16",
+      "services": [
+        "hulu"
+      ],
+      "title": "America’s Funniest Home Videos (Season 37) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-16",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Bluey Fancy Restaurant (Season 1) – Premiere – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-16",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-16",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Handsome – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-16",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mob (Hulu Original) – Finale Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-16",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Mother Knows Murder – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-16",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pod Meets World – New Podcast Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-16",
+      "services": [
+        "hulu"
+      ],
+      "title": "That Was Us – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Best Friends – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Clues – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Dancing with the Stars (Season 35) – Streaming Live @ 8pm ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "How The Tudors Lost Their Heads (Season 1) – Premiere – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Perfect Person – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "hulu"
+      ],
+      "title": "Phony (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "hulu"
+      ],
+      "title": "Reasonable Doubt (Season 4) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to Football (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to United with Wayne Rooney (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "StraightioLab – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Thanks Dad with Ego Nwodim – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-17",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "The 60th Annual CMA Awards – Streaming Live @ 8pm ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "hulu"
+      ],
+      "title": "All’s Fair (Season 2) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "hulu"
+      ],
+      "title": "All’s Fair Podcast (Season 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Dancing with the Stars (Season 35) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Las Culturistas with Matt Rogers and Bowen Yang – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "hulu"
+      ],
+      "title": "FX’s The Lowdown (Season 2) – New Episode @ 9pm PT",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Merry Berry Love (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Mickey Mouse Clubhouse+ (Season 2) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "The Remarried Empress (Season 1) (Hulu Original) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "hulu"
+      ],
+      "title": "Rivals (Season 2, Part 2) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Style Wars (Season 1) (Hulu Original) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Vienna Game (Season 1) (Hulu Original) – Premiere – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-19",
+      "services": [
+        "hulu"
+      ],
+      "title": "The 60th Annual CMA Awards",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-19",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Dancing with the Stars Official Podcast (Season 35) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-19",
+      "services": [
+        "hulu"
+      ],
+      "title": "Fake Doctors, Real Friends with Zach and Donald – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-19",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-19",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Kardashians (Season 8) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "services": [
+        "hulu"
+      ],
+      "title": "9-1-1 (Season 10) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "services": [
+        "hulu"
+      ],
+      "title": "9-1-1: Nashville (Season 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "services": [
+        "hulu"
+      ],
+      "title": "A Christmas Story (1983)",
+      "release_year": 1983,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "services": [
+        "hulu"
+      ],
+      "title": "Four Christmases (2008)",
+      "release_year": 2008,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "services": [
+        "hulu"
+      ],
+      "title": "Grey’s Anatomy (Season 23) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "services": [
+        "hulu"
+      ],
+      "title": "National Lampoon’s Christmas Vacation (1989)",
+      "release_year": 1989,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Percy Jackson and the Olympians (Season 3) – Two-Episode Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Percy Jackson and the Olympians Official Podcast (Season 3) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Polar Express (2004)",
+      "release_year": 2004,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "services": [
+        "hulu"
+      ],
+      "title": "Tokyo Revengers: War of the Three Titans Arc (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-21",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "How Not to Draw: Shorts (Season 5) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-21",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Miraculous Tales of Ladybug & Cat Noir (Season 7) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-22",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mess Around – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-22",
+      "services": [
+        "hulu"
+      ],
+      "title": "Mission: Yozakura Family (Season 2, Cour 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-22",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-23",
+      "services": [
+        "hulu"
+      ],
+      "title": "America’s Funniest Home Videos (Season 37) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-23",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-23",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Handsome – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-23",
+      "services": [
+        "hulu"
+      ],
+      "title": "MAO (Season 1, Part 2) (Dubbed) – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-23",
+      "services": [
+        "hulu"
+      ],
+      "title": "Mickey 17 (2025)",
+      "release_year": 2025,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-23",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Mickey Mouse Clubhouse: Mickey's Adventures in Wonderland",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-23",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Mother Knows Murder – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-23",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pod Meets World – New Podcast Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-23",
+      "services": [
+        "hulu"
+      ],
+      "title": "That Was Us – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Best Friends – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Clues – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Dancing with the Stars (Season 35) – Streaming Live @ 8pm ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Perfect Person – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "hulu"
+      ],
+      "title": "Phony (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "hulu"
+      ],
+      "title": "Reasonable Doubt (Season 4) (Hulu Original) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to United with Wayne Rooney (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "StraightioLab – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Thanks Dad with Ego Nwodim – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-24",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-25",
+      "services": [
+        "hulu"
+      ],
+      "title": "All’s Fair (Season 2) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-25",
+      "services": [
+        "hulu"
+      ],
+      "title": "All’s Fair Podcast (Season 2) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-25",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Big City Greens (Season 5) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-25",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Dancing with the Stars (Season 35) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-25",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Las Culturistas with Matt Rogers and Bowen Yang – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-25",
+      "services": [
+        "hulu"
+      ],
+      "title": "FX’s The Lowdown (Season 2) – Finale Episode @ 9pm PT",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-25",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Merry Berry Love (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-25",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "The Remarried Empress (Season 1) (Hulu Original) – Finale Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-25",
+      "services": [
+        "hulu"
+      ],
+      "title": "Rivals (Season 2, Part 2) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-25",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Style Wars (Season 1) (Hulu Original) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-26",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Dancing with the Stars Official Podcast (Season 35) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-26",
+      "services": [
+        "hulu"
+      ],
+      "title": "Fake Doctors, Real Friends with Zach and Donald – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-26",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-26",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Kardashians (Season 8) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-26",
+      "services": [
+        "hulu"
+      ],
+      "title": "Mummies (2023)",
+      "release_year": 2023,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-26",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Sofia the First: Royal Magic (Season 1) – Holiday Special Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-26",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to Football (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-27",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Mickey’s Home Alone – Premiere",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-27",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Percy Jackson and the Olympians (Season 3) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-27",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Percy Jackson and the Olympians Official Podcast (Season 3) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-27",
+      "services": [
+        "hulu"
+      ],
+      "title": "Tokyo Revengers: War of the Three Titans Arc (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-28",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Dasher – Premiere",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-29",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mess Around – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-29",
+      "services": [
+        "hulu"
+      ],
+      "title": "Mission: Yozakura Family (Season 2, Cour 2) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-29",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-30",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-30",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Handsome – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-30",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Mother Knows Murder – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-30",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pod Meets World – New Podcast Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-30",
+      "services": [
+        "hulu"
+      ],
+      "title": "That Was Us – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-30",
+      "services": [
+        "hulu"
+      ],
+      "title": "Family Guy: The Peter Clause – Holiday Special Premiere",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-11-30",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Circle (Season 1)",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Best Friends – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Cast Away (2000)",
+      "release_year": 2000,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Clues – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Diary of a Wimpy Kid (2010)",
+      "release_year": 2010,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Diary of a Wimpy Kid: Dog Days (2012)",
+      "release_year": 2012,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Diary of a Wimpy Kid: Rodrick Rules (2011)",
+      "release_year": 2011,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Diary of a Wimpy Kid: The Long Haul (2017)",
+      "release_year": 2017,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Home Alone 2: Lost in New York (1992)",
+      "release_year": 1992,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Home Alone 3 (1997)",
+      "release_year": 1997,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Home Alone 4 (2002)",
+      "release_year": 2002,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Home Alone: The Holiday Heist (2012)",
+      "release_year": 2012,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Home Sweet Home Alone (2021)",
+      "release_year": 2021,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Kingsman: The Golden Circle (2017)",
+      "release_year": 2017,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Kingsman: The Secret Service (2014)",
+      "release_year": 2014,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Martian (2015)",
+      "release_year": 2015,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Marvel’s Iron Man and his Awesome Friends (Season 1) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "The Melon Patch (Season 1) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Miracle on 34th Street (1947)",
+      "release_year": 1947,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Perfect Person – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Phony (Season 1) (Hulu Original) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "Romy and Michele’s High School Reunion (1997)",
+      "release_year": 1997,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Santa Clause 2 (2002)",
+      "release_year": 2002,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Santa Clause 3: The Escape Clause (2006)",
+      "release_year": 2006,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to Football (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to United with Wayne Rooney (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "StraightioLab – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Thanks Dad with Ego Nwodim – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "hulu"
+      ],
+      "title": "While You Were Sleeping (1995)",
+      "release_year": 1995,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "The Wonderful World of Disney: Holiday Spectacular (ABC) – Holiday Special",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "hulu"
+      ],
+      "title": "All’s Fair (Season 2) (Hulu Original) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "hulu"
+      ],
+      "title": "All’s Fair: Official Podcast (Season 2) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "CMA Country Christmas (ABC) – Holiday Special",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Dancing with The Holidays (ABC) – Holiday Special",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Disney Storytime (Season 1) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Las Culturistas with Matt Rogers and Bowen Yang – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Merry Berry Love (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Phineas and Ferb – Holiday Special Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "hulu"
+      ],
+      "title": "Rivals (Season 2, Part 2) (Hulu Original) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "hulu"
+      ],
+      "title": "Rivals Official Podcast (Season 2) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Style Wars (Season 1) (Hulu Original) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-02",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Witch (2015)",
+      "release_year": 2015,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-03",
+      "services": [
+        "hulu"
+      ],
+      "title": "Abbott Elementary (Season 6) (ABC) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-03",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Countdown to Avengers: Doomsday Official Podcast – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-03",
+      "services": [
+        "hulu"
+      ],
+      "title": "Dance Moms: A New Era (Season 3) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-03",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-03",
+      "services": [
+        "hulu"
+      ],
+      "title": "Fake Doctors, Real Friends with Zach and Donald – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-03",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-03",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Kardashians (Season 8) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-03",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Marvel’s Spidey and his Amazing Friends (Season 5) – Holiday Special Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-03",
+      "services": [
+        "hulu"
+      ],
+      "title": "Scrubs (Season 2) (ABC) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-04",
+      "services": [
+        "hulu"
+      ],
+      "title": "‘Can You Hide…Shaq?’ (ESPN Original) (ESPN, ABC) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-04",
+      "services": [
+        "hulu"
+      ],
+      "title": "Celebrity Family Feud (Season 12) (ABC) – Holiday Special Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-04",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Diary of a Wimpy Kid Christmas: The Getaway – Premiere",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-04",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Percy Jackson and the Olympians (Season 3) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-04",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Percy Jackson and the Olympians Official Podcast (Season 3) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-04",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "The Perfect Lie (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-04",
+      "services": [
+        "hulu"
+      ],
+      "title": "Tokyo Revengers: War of the Three Titans Arc (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-05",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Asia Artist Awards 2026 – Streaming Live @ 4am ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-05",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Chibi Tiny Tales : Shorts ( Season 8) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-05",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Ozzy Fox – Premiere",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-05",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "The Perfect Lie (Season 1) (Hulu Original) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-06",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Alto Knights (2025)",
+      "release_year": 2025,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-06",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Asia Artist Awards 2026 – Streaming Live @ 4am ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-06",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Ballad of Wallis Island (2025)",
+      "release_year": 2025,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-06",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mess Around – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-06",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-07",
+      "services": [
+        "hulu"
+      ],
+      "title": "America’s Funniest Home Videos (Season 37) (ABC) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-07",
+      "services": [
+        "hulu"
+      ],
+      "title": "Becoming Led Zeppelin (2025)",
+      "release_year": 2025,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-07",
+      "services": [
+        "hulu"
+      ],
+      "title": "Bob’s Burgers: On the Fort Day of Christmas – Holiday Short Premiere",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-07",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-07",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Handsome – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-07",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Mother Knows Murder with Niecy Nash-Betts and Dia La Ren – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-07",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pod Meets World – New Podcast Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-07",
+      "services": [
+        "hulu"
+      ],
+      "title": "That Was Us – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Best Friends – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Clues – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "services": [
+        "hulu"
+      ],
+      "title": "Only Murders in the Building (Season 6) (Hulu Original) – Two-Episode Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "services": [
+        "hulu"
+      ],
+      "title": "Only Murders in the Building Podcast (Season 6) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Perfect Person – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to United with Wayne Rooney (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "StraightioLab – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Thanks Dad with Ego Nwodim – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-09",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "2026 Rock & Roll Hall of Fame Induction Ceremony",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-09",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Disney Jr. Ariel - The Little Mermaid (Season 2) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-09",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Las Culturistas with Matt Rogers and Bowen Yang – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-09",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Merry Berry Love (Season 1) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-09",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Miraculous: Tales of Ladybug and Cat Noir Chibi : Shorts – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-09",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pokemon the Series: The Beginning (Season 2) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-09",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Style Wars (Season 1) (Hulu Original) – Finale Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-10",
+      "services": [
+        "hulu"
+      ],
+      "title": "Abbott Elementary (Season 6) (ABC) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-10",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Countdown to Avengers: Doomsday Official Podcast – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-10",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-10",
+      "services": [
+        "hulu"
+      ],
+      "title": "Fake Doctors, Real Friends with Zach and Donald – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-10",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "The Game Awards 2026 – Streaming Live @ 7:30pm ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-10",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-10",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Kardashians (Season 8) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-10",
+      "services": [
+        "hulu"
+      ],
+      "title": "Scrubs (Season 2) (ABC) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-10",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to Football (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-11",
+      "services": [
+        "hulu"
+      ],
+      "title": "‘Can You Hide…Shaq?’ (ESPN Original) (ESPN, ABC) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-11",
+      "services": [
+        "hulu"
+      ],
+      "title": "Just Play Dead (2026)",
+      "release_year": 2026,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-11",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "My Friends Tigger & Pooh: Super Sleuth Christmas Movie (2007)",
+      "release_year": 2007,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-11",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Percy Jackson and the Olympians (Season 3) – Finale Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-11",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Percy Jackson and the Olympians Official Podcast (Season 3) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-11",
+      "services": [
+        "hulu"
+      ],
+      "title": "Press Your Luck (Season 7) (ABC) – Holiday Special Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-11",
+      "services": [
+        "hulu"
+      ],
+      "title": "Tokyo Revengers: War of the Three Titans Arc (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-12",
+      "services": [
+        "hulu"
+      ],
+      "title": "Celebrity Wheel of Fortune (Season 7) (ABC) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-12",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "How Not to Draw : Shorts (Season 5) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-13",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mess Around – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-13",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-14",
+      "services": [
+        "hulu"
+      ],
+      "title": "America’s Funniest Home Videos (Season 37) (ABC) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-14",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-14",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Handsome – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-14",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Mother Knows Murder with Niecy Nash-Betts and Dia La Ren – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-14",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pod Meets World – New Podcast Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-14",
+      "services": [
+        "hulu"
+      ],
+      "title": "That Was Us – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Best Friends – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Clues – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "hulu"
+      ],
+      "title": "Only Murders in London (Season 6) (Hulu Original) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "hulu"
+      ],
+      "title": "Only Murders in the Building Podcast (Season 6) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Perfect Person – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to Football (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to United with Wayne Rooney (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "StraightioLab – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Thanks Dad with Ego Nwodim – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-15",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-16",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Bluey Cookalongs (Season 1) – Premiere – All Episodes Streaming",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-16",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Las Culturistas with Matt Rogers and Bowen Yang – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-17",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-17",
+      "services": [
+        "hulu"
+      ],
+      "title": "Fake Doctors, Real Friends with Zach and Donald – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-17",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-17",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Jesus Strand: A Search for DNA",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-17",
+      "services": [
+        "hulu"
+      ],
+      "title": "Jesus: His Life (Season 1)",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-17",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to Football (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-18",
+      "services": [
+        "hulu"
+      ],
+      "title": "iHeartRadio Jingle Ball 2026",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-18",
+      "services": [
+        "hulu"
+      ],
+      "title": "I Love Boosters (2026)",
+      "release_year": 2026,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-18",
+      "services": [
+        "hulu"
+      ],
+      "title": "Tokyo Revengers: War of the Three Titans Arc (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-19",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Chibi Tiny Tales (Season 8) – New Episodes",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-19",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Chibiverse (Season 5) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-20",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mess Around – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-20",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Beach Boys (Season 1) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Emergency Room 24 Hours (Seasons 1-5) – Premiere – All Episodes Streaming",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Galileo (Seasons 1-2) – Premiere",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Handsome – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Long Vacation (Season 1) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Mother Knows Murder with Niecy Nash-Betts and Dia La Ren – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Pod Meets World – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "hulu"
+      ],
+      "title": "That Was Us – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "TheConfidence Man (Season 1) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Yamato Nadeshiko (Season 1) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Best Friends – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Clues – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "hulu"
+      ],
+      "title": "Only Murders in London (Season 6) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "hulu"
+      ],
+      "title": "Only Murders in the Building Podcast (Season 6) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Perfect Person – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to Football (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Stick to United with Wayne Rooney (Season 1) – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "StraightioLab – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Thanks Dad with Ego Nwodim – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-22",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-23",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Disney Twisted-Wonderland: The Animation - Episode of Savanaclaw (Season 1) (Disney+ Original) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-24",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-24",
+      "services": [
+        "hulu"
+      ],
+      "title": "Fake Doctors, Real Friends with Zach and Donald – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-24",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Hey Jonas! – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-25",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Disney Parks Magical Christmas Day Parade (ABC) - Holiday Special",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-25",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Dunk the Halls – Streaming Live @ 12pm ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-25",
+      "services": [
+        "hulu"
+      ],
+      "title": "Space Cadet (2024)",
+      "release_year": 2024,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-25",
+      "services": [
+        "hulu"
+      ],
+      "title": "Tokyo Revengers: War of the Three Titans Arc (Hulu Original) – Finale Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-26",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Animal Oddballs (Season 1) – Premiere @ 9pm ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-26",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Chibi Tiny Tales : Shorts (Season 8) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-26",
+      "services": [
+        "hulu"
+      ],
+      "title": "Forbidden Fruits (2026)",
+      "release_year": 2026,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-27",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Mess Around – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-27",
+      "services": [
+        "hulu"
+      ],
+      "title": "The Rivals of Amziah King (2025)",
+      "release_year": 2025,
+      "classification": "dated_movie_candidate",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-27",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-28",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-28",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Handsome – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-28",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Mother Knows Murder with Niecy Nash-Betts and Dia La Ren – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-28",
+      "services": [
+        "hulu"
+      ],
+      "title": "Teen Titans Go! (Season 9)",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-28",
+      "services": [
+        "hulu"
+      ],
+      "title": "That Was Us – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-29",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Best Friends – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-29",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Clues – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-29",
+      "services": [
+        "hulu"
+      ],
+      "title": "Only Murders in London (Season 6) (Hulu Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-29",
+      "services": [
+        "hulu"
+      ],
+      "title": "Only Murders in the Building Podcast (Season 6) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-29",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Perfect Person – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-29",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "StraightioLab – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-29",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Thanks Dad with Ego Nwodim – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-29",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "We’re Here to Help – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-30",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Disney Twisted-Wonderland: The Animation - Episode of Savanaclaw (Season 1) (Disney+ Original) – New Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-30",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "Lilas Dreams & Memories (Season 1) (Disney+ Original) – Premiere",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-30",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Project Runway (Season 13-16)",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-31",
+      "services": [
+        "disney-plus",
+        "hulu"
+      ],
+      "title": "The Year: 2026 (ABC) – Annual Special Premiere",
+      "release_year": null,
+      "classification": "manual_review",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-31",
+      "services": [
+        "hulu"
+      ],
+      "title": "Desperately Devoted – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-31",
+      "services": [
+        "hulu"
+      ],
+      "title": "Duck Dynasty: FlashQuack (Season 1)",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-31",
+      "services": [
+        "hulu"
+      ],
+      "title": "Fake Doctors, Real Friends with Zach and Donald – New Podcast Episode",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-31",
+      "services": [
+        "disney-plus"
+      ],
+      "title": "Dick Clark’s New Year’s Rockin’ Eve with Ryan Seacrest 2027 – Streaming Live @ 8pm ET",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-31",
+      "services": [
+        "hulu"
+      ],
+      "title": "Raising Chelsea (Season 2)",
+      "release_year": null,
+      "classification": "excluded_tv_or_episode",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    }
+  ]
+}
