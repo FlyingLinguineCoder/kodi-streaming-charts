@@ -2,8 +2,6 @@
 name: Audit upcoming streaming premieres
 
 on:
-  schedule:
-    - cron: "47 9 * * *"
   workflow_dispatch:
 
 permissions:
