@@ -24,6 +24,11 @@ DATE_RE = re.compile(
 )
 YEAR_RE = re.compile(r"\((19\d{2}|20\d{2})\)")
 SEASON_RE = re.compile(r"\bseason\s+(\d+)\b", re.I)
+SEASON_BUNDLE_RE = re.compile(
+    r"\bseasons\s+\d+|\bseason\s+\d+\s*(?:[-–—,&/]|and|to|through)"
+    r"\s*(?:season\s+)?\d+\b", re.I,
+)
+SEASON_PART_RE = re.compile(r"\b(?:part|cour)\s+\d+\b|\bmid[- ]?season\b", re.I)
 
 PODCAST_RE = re.compile(r"\bpodcast\b", re.I)
 EPISODE_RE = re.compile(
@@ -32,13 +37,13 @@ EPISODE_RE = re.compile(
     re.I,
 )
 SPECIAL_RE = re.compile(
-    r"\b(?:holiday special|annual special|special premiere|"
+    r"\b(?:holiday special|holiday short|annual special|special premiere|"
     r"parade|awards show)\b",
     re.I,
 )
 PREMIERE_RE = re.compile(r"\b(?:premiere|debut)\b", re.I)
-COMPLETE_SEASON_RE = re.compile(
-    r"\b(?:complete season|all episodes streaming)\b", re.I
+TYPED_PREMIERE_RE = re.compile(
+    r"\b(series|film|movie)\s+(?:premiere|debut)\b", re.I,
 )
 
 
@@ -114,26 +119,32 @@ def classify(title):
     season = int(season_match.group(1)) if season_match else None
     explicit_premiere = bool(PREMIERE_RE.search(title))
 
-    # A release year alone can only nominate a movie; it cannot prove a
-    # streaming premiere. Explicit TV season markers take precedence.
-    if year_match and season is None:
-        return "dated_movie_candidate", int(year_match.group(1)), "medium"
-
     if SPECIAL_RE.search(title):
         return "special_or_event_review", None, "low"
 
-    if explicit_premiere:
-        if season is None or season == 1:
-            return "series_premiere_candidate", None, "medium"
-        return "new_season_premiere_candidate", None, "medium"
+    # A season bundle or a later part can debut on a service mid-run.
+    if SEASON_BUNDLE_RE.search(title) or (
+        season is not None and SEASON_PART_RE.search(title)
+    ):
+        return "tv_arrival_manual_review", None, "low"
 
-    if season is not None and COMPLETE_SEASON_RE.search(title):
+    if season is not None:
+        if season == 0 or not explicit_premiere:
+            return "tv_arrival_manual_review", None, "low"
         if season == 1:
             return "series_premiere_candidate", None, "medium"
         return "new_season_premiere_candidate", None, "medium"
 
-    if season is not None:
-        return "tv_arrival_manual_review", None, "low"
+    typed = TYPED_PREMIERE_RE.search(title)
+    if typed and typed.group(1).casefold() == "series":
+        return "series_premiere_candidate", None, "medium"
+    if year_match or typed:
+        release_year = int(year_match.group(1)) if year_match else None
+        return "dated_movie_candidate", release_year, "medium"
+
+    # The calendar uses a bare "Premiere" label for both films and TV.
+    if explicit_premiere:
+        return "premiere_type_review", None, "low"
 
     return "manual_review", None, "low"
 
@@ -144,6 +155,10 @@ def extract(lines, url, year, today, end_date):
     dated_rows = 0
 
     for line in lines:
+        # Month-only listings follow the last dated heading on these calendars.
+        if line.casefold().startswith("coming in "):
+            current_date = None
+            continue
         match = DATE_RE.match(line)
         if match:
             month = MONTHS[match.group(1).title()]
@@ -247,8 +262,8 @@ def main():
         "limitations": (
             "Calendar labels nominate candidates, not confirmed premieres. "
             "Release years do not prove first-ever subscription availability. "
-            "Season arrivals without an explicit premiere or complete-season "
-            "label require manual review."
+            "An untyped premiere, season bundle, or season arrival without "
+            "a premiere label requires review. Month-only listings are omitted."
         ),
         "sources": source_reports,
         "results": all_results,
