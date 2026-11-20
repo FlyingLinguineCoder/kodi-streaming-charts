@@ -1,0 +1,39 @@
+
+name: Audit upcoming streaming premieres
+
+on:
+  schedule:
+    - cron: "47 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit-premieres:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect and audit upcoming premieres
+        run: python scripts/update_premieres.py
+
+      - name: Save premiere audit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add charts/premieres_audit.json
+          git add charts/premieres_seen_on_streaming.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update upcoming streaming premieres audit"
+            git push
+          fi
