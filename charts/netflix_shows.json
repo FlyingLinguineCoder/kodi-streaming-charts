@@ -9,8 +9,17 @@
     "release_year": 2026
   },
   {
-    "id": 124364,
+    "id": 308007,
     "rank": 2,
+    "adult": 0,
+    "title": "The Altruists",
+    "mediatype": "show",
+    "imdb_id": "tt36786185",
+    "release_year": 2026
+  },
+  {
+    "id": 124364,
+    "rank": 3,
     "adult": 0,
     "title": "FROM",
     "mediatype": "show",
@@ -19,7 +28,7 @@
   },
   {
     "id": 291084,
-    "rank": 3,
+    "rank": 4,
     "adult": 0,
     "title": "Best Medicine",
     "mediatype": "show",
@@ -28,7 +37,7 @@
   },
   {
     "id": 340280,
-    "rank": 4,
+    "rank": 5,
     "adult": 0,
     "title": "Gordon",
     "mediatype": "show",
@@ -36,8 +45,17 @@
     "release_year": 2026
   },
   {
+    "id": 117488,
+    "rank": 6,
+    "adult": 0,
+    "title": "Yellowjackets",
+    "mediatype": "show",
+    "imdb_id": "tt11041332",
+    "release_year": 2021
+  },
+  {
     "id": 225385,
-    "rank": 5,
+    "rank": 7,
     "adult": 0,
     "title": "Black Doves",
     "mediatype": "show",
@@ -46,7 +64,7 @@
   },
   {
     "id": 203857,
-    "rank": 6,
+    "rank": 8,
     "adult": 0,
     "title": "The Diplomat",
     "mediatype": "show",
@@ -54,49 +72,31 @@
     "release_year": 2023
   },
   {
-    "id": 335981,
-    "rank": 7,
-    "adult": 0,
-    "title": "Cunk on Cinema",
-    "mediatype": "show",
-    "imdb_id": "tt47021035",
-    "release_year": 2026
-  },
-  {
-    "id": 117488,
-    "rank": 8,
-    "adult": 0,
-    "title": "Yellowjackets",
-    "mediatype": "show",
-    "imdb_id": "tt11041332",
-    "release_year": 2021
-  },
-  {
-    "id": 255055,
-    "rank": 9,
-    "adult": 0,
-    "title": "Doc",
-    "mediatype": "show",
-    "imdb_id": "tt26748321",
-    "release_year": 2025
-  },
-  {
-    "id": 4614,
-    "rank": 10,
-    "adult": 0,
-    "title": "NCIS",
-    "mediatype": "show",
-    "imdb_id": "tt0364845",
-    "release_year": 2003
-  },
-  {
     "id": 250923,
-    "rank": 11,
+    "rank": 9,
     "adult": 0,
     "title": "Nobody Wants This",
     "mediatype": "show",
     "imdb_id": "tt26933824",
     "release_year": 2024
+  },
+  {
+    "id": 258165,
+    "rank": 10,
+    "adult": 0,
+    "title": "East of Eden",
+    "mediatype": "show",
+    "imdb_id": "tt21097264",
+    "release_year": 2026
+  },
+  {
+    "id": 4614,
+    "rank": 11,
+    "adult": 0,
+    "title": "NCIS",
+    "mediatype": "show",
+    "imdb_id": "tt0364845",
+    "release_year": 2003
   },
   {
     "id": 251941,
@@ -108,8 +108,26 @@
     "release_year": 2024
   },
   {
-    "id": 332839,
+    "id": 335981,
     "rank": 13,
+    "adult": 0,
+    "title": "Cunk on Cinema",
+    "mediatype": "show",
+    "imdb_id": "tt47021035",
+    "release_year": 2026
+  },
+  {
+    "id": 255055,
+    "rank": 14,
+    "adult": 0,
+    "title": "Doc",
+    "mediatype": "show",
+    "imdb_id": "tt26748321",
+    "release_year": 2025
+  },
+  {
+    "id": 332839,
+    "rank": 15,
     "adult": 0,
     "title": "The Law of Beasts",
     "mediatype": "show",
@@ -117,35 +135,8 @@
     "release_year": 2026
   },
   {
-    "id": 318420,
-    "rank": 14,
-    "adult": 0,
-    "title": "Valentina and the 12 Signs",
-    "mediatype": "show",
-    "imdb_id": "tt39161219",
-    "release_year": 2026
-  },
-  {
-    "id": 195339,
-    "rank": 15,
-    "adult": 0,
-    "title": "Pantheon",
-    "mediatype": "show",
-    "imdb_id": "tt11680642",
-    "release_year": 2022
-  },
-  {
-    "id": 258165,
-    "rank": 16,
-    "adult": 0,
-    "title": "East of Eden",
-    "mediatype": "show",
-    "imdb_id": "tt21097264",
-    "release_year": 2026
-  },
-  {
     "id": 1416,
-    "rank": 17,
+    "rank": 16,
     "adult": 0,
     "title": "Grey's Anatomy",
     "mediatype": "show",
@@ -153,22 +144,31 @@
     "release_year": 2005
   },
   {
-    "id": 249023,
-    "rank": 18,
+    "id": 261317,
+    "rank": 17,
     "adult": 0,
-    "title": "North of North",
+    "title": "Mistletoe Murders",
     "mediatype": "show",
-    "imdb_id": "tt27370649",
-    "release_year": 2025
+    "imdb_id": "tt32378211",
+    "release_year": 2024
   },
   {
-    "id": 1400,
+    "id": 112745,
+    "rank": 18,
+    "adult": 0,
+    "title": "Ethos",
+    "mediatype": "show",
+    "imdb_id": "tt11301642",
+    "release_year": 2020
+  },
+  {
+    "id": 214162,
     "rank": 19,
     "adult": 0,
-    "title": "Seinfeld",
+    "title": "Animal Control",
     "mediatype": "show",
-    "imdb_id": "tt0098904",
-    "release_year": 1989
+    "imdb_id": "tt21376524",
+    "release_year": 2023
   },
   {
     "id": 72755,
