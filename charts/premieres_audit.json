@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T05:00:28.218721+00:00",
+  "generated_at_utc": "2026-11-21T01:24:14.102543+00:00",
   "purpose": "Diagnostic audit only; no verified Kodi widget",
   "source": "Powered by Galaxy Movies - https://www.galaxymovies.app",
   "metadata_source": "MDBList",
@@ -13,95 +13,8 @@
   },
   "candidates": [
     {
-      "tmdb_id": 1307474,
-      "title": "On Behalf of My Son",
-      "streaming_dates": {
-        "netflix": "2026-11-20"
-      },
-      "earliest_streaming_date": "2026-11-20",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "year": 2026,
-        "released": "2026-11-05",
-        "released_digital": "2026-11-20",
-        "runtime": 148
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
-    {
-      "tmdb_id": 1568060,
-      "title": "Perfect Liars",
-      "streaming_dates": {
-        "amazon-prime-video": "2026-11-20"
-      },
-      "earliest_streaming_date": "2026-11-20",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "year": 2026,
-        "released": "2026-11-20",
-        "released_digital": "2026-11-20",
-        "runtime": null
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
-    {
-      "tmdb_id": 1791730,
-      "title": "Primetime Preacher$",
-      "streaming_dates": {
-        "netflix": "2026-11-20"
-      },
-      "earliest_streaming_date": "2026-11-20",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "year": 2026,
-        "released": "2026-11-14",
-        "released_digital": "2026-11-20",
-        "runtime": null
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
-    {
-      "tmdb_id": 1595124,
-      "title": "Steps",
-      "streaming_dates": {
-        "netflix": "2026-11-20"
-      },
-      "earliest_streaming_date": "2026-11-20",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "year": 2026,
-        "released": "2026-11-20",
-        "released_digital": "2026-11-20",
-        "runtime": 102
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
-    {
       "tmdb_id": 1611767,
+      "media_type": "movie",
       "title": "Clashing Through the Snow",
       "streaming_dates": {
         "amazon-prime-video": "2026-11-23"
@@ -110,6 +23,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "Clashing Through the Snow",
         "year": 2026,
         "released": "2026-11-23",
         "released_digital": "2026-11-23",
@@ -124,6 +39,7 @@
     },
     {
       "tmdb_id": 1674241,
+      "media_type": "movie",
       "title": "The Symphony of Dance",
       "streaming_dates": {
         "hulu": "2026-11-23"
@@ -132,6 +48,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "The Symphony of Dance",
         "year": 2026,
         "released": "2026-06-07",
         "released_digital": "2026-11-23",
@@ -146,6 +64,7 @@
     },
     {
       "tmdb_id": 1802703,
+      "media_type": "movie",
       "title": "Rob Lowe: The Outsider",
       "streaming_dates": {
         "netflix": "2026-11-24"
@@ -154,6 +73,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "Rob Lowe: The Outsider",
         "year": 2026,
         "released": "2026-11-24",
         "released_digital": "2026-11-24",
@@ -168,6 +89,7 @@
     },
     {
       "tmdb_id": 1458300,
+      "media_type": "movie",
       "title": "The Mosquito Bowl",
       "streaming_dates": {
         "netflix": "2026-11-25"
@@ -176,6 +98,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "The Mosquito Bowl",
         "year": 2026,
         "released": "2026-10-29",
         "released_digital": "2026-11-25",
@@ -190,6 +114,7 @@
     },
     {
       "tmdb_id": 1632599,
+      "media_type": "movie",
       "title": "The Slightest Touch",
       "streaming_dates": {
         "max": "2026-11-25"
@@ -198,6 +123,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "The Slightest Touch",
         "year": 2026,
         "released": "2026-02-28",
         "released_digital": "2026-11-25",
@@ -212,6 +139,7 @@
     },
     {
       "tmdb_id": 832953,
+      "media_type": "movie",
       "title": "The Child",
       "streaming_dates": {
         "netflix": "2026-11-27"
@@ -220,6 +148,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "The Child",
         "year": 2022,
         "released": "2022-02-10",
         "released_digital": null,
@@ -234,6 +164,7 @@
     },
     {
       "tmdb_id": 1480665,
+      "media_type": "movie",
       "title": "The Hunchback, Soul of Paris",
       "streaming_dates": {
         "netflix": "2026-11-27"
@@ -242,6 +173,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "The Hunchback, Soul of Paris",
         "year": 2026,
         "released": "2026-11-27",
         "released_digital": "2026-11-27",
@@ -256,6 +189,7 @@
     },
     {
       "tmdb_id": 1827764,
+      "media_type": "movie",
       "title": "Family Guy The Peter Clause",
       "streaming_dates": {
         "hulu": "2026-11-30"
@@ -264,6 +198,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "Family Guy The Peter Clause",
         "year": 2026,
         "released": "2026-11-30",
         "released_digital": "2026-11-30",
@@ -276,6 +212,7 @@
     },
     {
       "tmdb_id": 1596266,
+      "media_type": "movie",
       "title": "Seized",
       "streaming_dates": {
         "max": "2026-12-01"
@@ -284,6 +221,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "Seized",
         "year": 2026,
         "released": "2026-01-25",
         "released_digital": "2026-12-01",
@@ -298,6 +237,7 @@
     },
     {
       "tmdb_id": 1588626,
+      "media_type": "movie",
       "title": "In a Holidaze",
       "streaming_dates": {
         "netflix": "2026-12-02"
@@ -306,6 +246,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "In a Holidaze",
         "year": 2026,
         "released": "2026-12-02",
         "released_digital": "2026-12-02",
@@ -320,6 +262,7 @@
     },
     {
       "tmdb_id": 1422041,
+      "media_type": "movie",
       "title": "La bola negra",
       "streaming_dates": {
         "netflix": "2026-12-02"
@@ -328,6 +271,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "La Bola Negra",
         "year": 2026,
         "released": "2026-09-25",
         "released_digital": "2026-12-02",
@@ -342,6 +287,7 @@
     },
     {
       "tmdb_id": 1137888,
+      "media_type": "movie",
       "title": "The Man with the Bag",
       "streaming_dates": {
         "amazon-prime-video": "2026-12-02"
@@ -350,6 +296,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "The Man with the Bag",
         "year": 2026,
         "released": "2026-12-02",
         "released_digital": "2026-12-02",
@@ -364,6 +312,7 @@
     },
     {
       "tmdb_id": 1818957,
+      "media_type": "movie",
       "title": "Gianmarco Soresi: God Forbid",
       "streaming_dates": {
         "netflix": "2026-12-03"
@@ -372,6 +321,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "Gianmarco Soresi: God Forbid",
         "year": 2026,
         "released": "2026-12-03",
         "released_digital": "2026-12-03",
@@ -384,6 +335,7 @@
     },
     {
       "tmdb_id": 1620040,
+      "media_type": "movie",
       "title": "My Brother's Killer",
       "streaming_dates": {
         "max": "2026-12-03"
@@ -392,6 +344,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "My Brother's Killer",
         "year": 2026,
         "released": "2026-03-12",
         "released_digital": null,
@@ -406,6 +360,7 @@
     },
     {
       "tmdb_id": 1591961,
+      "media_type": "movie",
       "title": "My Crazy Feminist Girlfriend",
       "streaming_dates": {
         "netflix": "2026-12-03"
@@ -414,6 +369,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "My Crazy Feminist Girlfriend",
         "year": 2026,
         "released": "2026-12-03",
         "released_digital": "2026-12-03",
@@ -428,6 +385,7 @@
     },
     {
       "tmdb_id": 1230440,
+      "media_type": "movie",
       "title": "Secrets",
       "streaming_dates": {
         "netflix": "2026-12-03"
@@ -436,6 +394,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "Secrets",
         "year": 2027,
         "released": "2027-11-18",
         "released_digital": "2027-11-18",
@@ -451,6 +411,7 @@
     },
     {
       "tmdb_id": 1732479,
+      "media_type": "movie",
       "title": "14th",
       "streaming_dates": {
         "netflix": "2026-12-04"
@@ -459,6 +420,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "14th",
         "year": 2026,
         "released": "2026-11-27",
         "released_digital": "2026-12-04",
@@ -473,6 +436,7 @@
     },
     {
       "tmdb_id": 1519780,
+      "media_type": "movie",
       "title": "Diary of a Wimpy Kid Christmas: The Getaway",
       "streaming_dates": {
         "disney-plus": "2026-12-04"
@@ -481,6 +445,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "Diary of a Wimpy Kid Christmas: The Getaway",
         "year": 2026,
         "released": "2026-12-04",
         "released_digital": "2026-12-04",
@@ -495,6 +461,7 @@
     },
     {
       "tmdb_id": 1532787,
+      "media_type": "movie",
       "title": "The Bend in the River",
       "streaming_dates": {
         "netflix": "2026-12-04"
@@ -503,6 +470,8 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "The Bend in the River",
         "year": 2025,
         "released": "2025-08-30",
         "released_digital": null,
@@ -517,6 +486,7 @@
     },
     {
       "tmdb_id": 1824685,
+      "media_type": "movie",
       "title": "Who Killed the Banker's Widow?",
       "streaming_dates": {
         "netflix": "2026-12-04"
@@ -525,10 +495,112 @@
       "observed_previous_services": [],
       "earlier_announced_arrivals": {},
       "metadata": {
+        "type": "movie",
+        "title": "Who Killed the Banker’s Widow?",
         "year": 2026,
         "released": "2026-12-04",
         "released_digital": "2026-12-04",
         "runtime": 99
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 1515392,
+      "media_type": "movie",
+      "title": "Bad Day",
+      "streaming_dates": {
+        "netflix": "2026-12-11"
+      },
+      "earliest_streaming_date": "2026-12-11",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "Bad Day",
+        "year": 2026,
+        "released": "2026-12-11",
+        "released_digital": "2026-12-11",
+        "runtime": 100
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 947502,
+      "media_type": "movie",
+      "title": "In Waves",
+      "streaming_dates": {
+        "netflix": "2026-12-11"
+      },
+      "earliest_streaming_date": "2026-12-11",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "In Waves",
+        "year": 2026,
+        "released": "2026-07-01",
+        "released_digital": "2026-12-11",
+        "runtime": 91
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 1158642,
+      "media_type": "movie",
+      "title": "Jean-Michel Basquiat",
+      "streaming_dates": {
+        "netflix": "2026-12-11"
+      },
+      "earliest_streaming_date": "2026-12-11",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "Jean-Michel Basquiat",
+        "year": 2026,
+        "released": "2026-06-05",
+        "released_digital": "2026-12-11",
+        "runtime": 95
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 1623160,
+      "media_type": "movie",
+      "title": "Proxies",
+      "streaming_dates": {
+        "netflix": "2026-12-11"
+      },
+      "earliest_streaming_date": "2026-12-11",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "Proxies",
+        "year": 2026,
+        "released": "2026-12-11",
+        "released_digital": "2026-12-11",
+        "runtime": null
       },
       "mdblist_watch_providers": [],
       "other_watch_providers": [],

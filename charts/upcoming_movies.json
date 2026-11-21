@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1611767,
+    "title": "Clashing Through the Snow",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-23",
+    "services": [
+      "amazon-prime-video"
+    ],
+    "source": "https://www.aboutamazon.com/news/entertainment/prime-video-november-films-shows-sports-2026",
+    "description": "U.S. subscription premiere on Prime Video, November 23, 2026.",
+    "rank": 1
+  },
+  {
+    "id": 1458300,
+    "title": "The Mosquito Bowl",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-25",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://media.netflix.com/en/only-on-netflix/81661161",
+    "description": "U.S. subscription premiere on Netflix, November 25, 2026.",
+    "rank": 2
+  },
+  {
+    "id": 1632599,
+    "title": "The Slightest Touch",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-25",
+    "services": [
+      "max"
+    ],
+    "source": "https://press.wbd.com/us/media-release/hbo-original-documentary-slightest-touch-debuts-november-25",
+    "description": "U.S. subscription premiere on HBO Max, November 25, 2026.",
+    "rank": 3
+  },
+  {
+    "id": 1280115,
+    "title": "Way of the Warrior Kid",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-25",
+    "services": [
+      "apple-tv"
+    ],
+    "source": "https://www.apple.com/tv-pr/news/2026/11/apple-original-films-celebrates-the-world-premiere-of-way-of-the-warrior-kid/",
+    "description": "U.S. subscription premiere on Apple TV+, November 25, 2026.",
+    "rank": 4
+  },
+  {
+    "id": 1588626,
+    "title": "In a Holidaze",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-02",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
+    "description": "U.S. subscription premiere on Netflix, December 2, 2026.",
+    "rank": 5
+  },
+  {
+    "id": 1137888,
+    "title": "The Man with the Bag",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-02",
+    "services": [
+      "amazon-prime-video"
+    ],
+    "source": "https://www.aboutamazon.com/news/entertainment/the-man-with-the-bag-arnold-schwarzenegger-christmas-movie-prime-video",
+    "description": "U.S. subscription premiere on Prime Video, December 2, 2026.",
+    "rank": 6
+  },
+  {
+    "id": 1380417,
+    "title": "By Any Means",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-03",
+    "services": [
+      "paramount-plus"
+    ],
+    "source": "https://www.paramountplus.com/sneak-peak/new-on-paramount-plus/",
+    "description": "U.S. subscription premiere on Paramount+, December 3, 2026.",
+    "rank": 7
+  },
+  {
+    "id": 1519780,
+    "title": "Diary of a Wimpy Kid Christmas: The Getaway",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-04",
+    "services": [
+      "disney-plus"
+    ],
+    "source": "https://www.disneyplus.com/explore/articles/diary-of-a-wimpy-kid-christmas-the-getaway-movie",
+    "description": "U.S. subscription premiere on Disney+, December 4, 2026.",
+    "rank": 8
+  },
+  {
+    "id": 1433367,
+    "title": "One Night Only",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-04",
+    "services": [
+      "peacock"
+    ],
+    "source": "https://www.broadwayworld.com/bwwtv/article/ONE-NIGHT-ONLY-to-Stream-Exclusively-on-Peacock-Starring-Monica-Barbaro-and-Callum-Turner-20261109",
+    "description": "U.S. subscription premiere on Peacock, December 4, 2026.",
+    "rank": 9
+  },
+  {
+    "id": 1227877,
+    "title": "I Love Boosters",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-18",
+    "services": [
+      "hulu"
+    ],
+    "source": "https://press.hulu.com/schedule/december-2026/",
+    "description": "U.S. subscription premiere on Hulu, December 18, 2026.",
+    "rank": 10
+  }
+]
