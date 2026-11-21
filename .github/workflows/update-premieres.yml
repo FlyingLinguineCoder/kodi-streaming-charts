@@ -12,6 +12,7 @@ concurrency:
   group: movie-premieres-${{ github.ref }}
   cancel-in-progress: false
 
+# Test branch: read-only access prevents publishing.
 permissions:
   contents: read
 
@@ -29,8 +30,6 @@ jobs:
         with:
           python-version: "3.12"
 
-          MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY }}
-
       - name: Collect and audit upcoming premieres
         id: audit
         env:
@@ -42,32 +41,48 @@ jobs:
         if: ${{ !cancelled() && (steps.audit.outcome == 'success' || steps.audit.outcome == 'failure') }}
         env:
           MOVIE_AUDIT_OUTCOME: ${{ steps.audit.outcome }}
+          MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY }}
         run: |
           python -m pip install --disable-pip-version-check --only-binary=:all: lxml==6.1.1
           python -m unittest discover -s tests -p 'test_*.py'
           python scripts/build_upcoming_movies.py
+          python scripts/enrich_upcoming_movies.py
 
-      - name: Save premiere audit and movie widget
-        if: ${{ !cancelled() && (steps.audit.outcome == 'success' || steps.widget.outcome == 'success') }}
-        env:
-          AUDIT_OUTCOME: ${{ steps.audit.outcome }}
-          WIDGET_OUTCOME: ${{ steps.widget.outcome }}
+      - name: Report synopsis test results
+        if: ${{ always() }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python - <<'PY'
+          import json
+          from pathlib import Path
 
-          if [[ "$AUDIT_OUTCOME" == success ]]; then
-            git add charts/premieres_audit.json charts/premieres_seen_on_streaming.json
-          fi
-          if [[ "$WIDGET_OUTCOME" == success && -f charts/upcoming_movies.json ]]; then
-            git add charts/upcoming_movies.json
-          fi
+          path = Path("charts/upcoming_movies.json")
 
-          if ! git diff --cached --quiet; then
-            git commit -m "Update upcoming movie premieres"
-            for attempt in 1 2 3; do
-              git pull --rebase --autostash origin "$GITHUB_REF_NAME"
-              git push origin "HEAD:$GITHUB_REF_NAME" && exit 0
-            done
-            exit 1
-          fi
+          if not path.exists():
+              print("Movie premiere feed was not generated.")
+              raise SystemExit(1)
+
+          movies = json.loads(path.read_text(encoding="utf-8"))
+
+          enriched = [
+              movie for movie in movies
+              if movie.get("mediatype") == "movie"
+              and "\n\nU.S. subscription premiere on " in movie.get("description", "")
+          ]
+
+          print(f"Total upcoming movies: {len(movies)}")
+          print(f"Movies with plot synopses: {len(enriched)}")
+          print(f"Movies without plot synopses: {len(movies) - len(enriched)}")
+
+          for movie in enriched[:5]:
+              print(f"\n{movie['title']}")
+              print(movie["description"])
+
+          if not enriched:
+              print("TEST INCOMPLETE: No verified movie synopses were retrieved.")
+              raise SystemExit(1)
+
+          print("\nLIVE SYNOPSIS TEST PASSED")
+          PY
+
+      # No commit or push step on this test branch.
+      # Existing published feeds remain unchanged.
