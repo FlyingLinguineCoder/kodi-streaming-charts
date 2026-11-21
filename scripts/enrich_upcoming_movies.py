@@ -16,6 +16,49 @@ FEED = Path("charts/upcoming_movies.json")
 API = "https://api.mdblist.com/tmdb/movie/{}"
 MAX_WORDS = 55
 
+# Verified fallbacks keyed by TMDb movie ID.
+# These change descriptions only, never premiere dates or services.
+FALLBACK_PLOTS = {
+    # Netflix newsroom, November 19, 2026
+    1780359: (
+        "Jão: Tales from the Void",
+        "Brazilian pop singer Jão reflects on his father's death, a break "
+        "from music, and his emotional return to the stage in this intimate documentary.",
+    ),
+
+    # Netflix newsroom, November 4, 2026
+    1623160: (
+        "Proxies",
+        "On Christmas Eve, a man walks into a police station and confesses to "
+        "several killings. His confession soon leads to a seemingly closed "
+        "case that defies explanation.",
+    ),
+
+    # Netflix official title page
+    1831555: (
+        "A Deadly Affair: The Pamela Smart Story",
+        "This true-crime documentary revisits the murder of Pamela Smart's "
+        "husband and how her relationship with a teenage student became "
+        "central to a case that captivated the nation.",
+    ),
+
+    # Netflix South Africa announcement; date requires separate review
+    1780221: (
+        "Another Disaster Holiday",
+        "Determined to remain his family's favorite father, Joseph uses a "
+        "babymoon with his pregnant wife as cover to crash his children's "
+        "vacation with his ex-wife and her new boyfriend.",
+    ),
+
+    # Silverback Films documentary synopsis
+    1766439: (
+        "Dolphins: My Close Encounter",
+        "Marine biologist Angela Ziltener spends years studying wild "
+        "dolphins in Egypt's Red Sea, revealing their social relationships, "
+        "remarkable behavior, and bonds with humans.",
+    ),
+}
+
 
 def clean_plot(value):
     if not isinstance(value, str):
@@ -70,6 +113,27 @@ def verified_plot(movie, metadata):
     )
 
 
+def verified_fallback(movie):
+    """Use a verified fallback only for the correct Netflix movie."""
+    try:
+        entry = FALLBACK_PLOTS.get(int(movie.get("id")))
+    except (TypeError, ValueError):
+        return ""
+
+    if not entry:
+        return ""
+
+    expected_title, plot = entry
+
+    if (
+        movie.get("title", "").casefold() != expected_title.casefold()
+        or "netflix" not in movie.get("services", [])
+    ):
+        return ""
+
+    return clean_plot(plot)
+
+
 def enrich(rows, fetch):
     if not isinstance(rows, list):
         raise ValueError("Expected a list of movie premieres")
@@ -81,9 +145,7 @@ def enrich(rows, fetch):
             not isinstance(movie, dict)
             or movie.get("mediatype") != "movie"
         ):
-            raise ValueError(
-                "This script accepts movie premieres only"
-            )
+            raise ValueError("This script accepts movie premieres only")
 
         item = movie.copy()
         existing = item.get("description", "")
@@ -100,11 +162,19 @@ def enrich(rows, fetch):
             plot = verified_plot(item, metadata)
         except (OSError, ValueError, TimeoutError) as error:
             print(
-                f"Synopsis unavailable for "
-                f"{item.get('title')}: "
+                f"Synopsis unavailable for {item.get('title')}: "
                 f"{type(error).__name__}"
             )
             plot = ""
+
+        # Use a hand-verified fallback only if MDBList has no plot.
+        if not plot:
+            plot = verified_fallback(item)
+
+            if plot:
+                print(
+                    f"Verified fallback used for {item.get('title')}"
+                )
 
         if plot:
             item["description"] = (
