@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Clashing Through the Snow",
+    "tmdb": "https://www.themoviedb.org/movie/1611767",
+    "format": "feature_film",
+    "date": "2026-11-23",
+    "services": ["amazon-prime-video"],
+    "source": "https://www.aboutamazon.com/news/entertainment/prime-video-november-films-shows-sports-2026",
+    "corroboration": "https://www.primevideo.com/detail/0TWROLY7CIQMYP2WBPM7XKZI6E"
+  },
+  {
+    "title": "The Mosquito Bowl",
+    "tmdb": "https://www.themoviedb.org/movie/1458300",
+    "format": "feature_film",
+    "date": "2026-11-25",
+    "services": ["netflix"],
+    "source": "https://media.netflix.com/en/only-on-netflix/81661161"
+  },
+  {
+    "title": "The Slightest Touch",
+    "tmdb": "https://www.themoviedb.org/movie/1632599",
+    "format": "feature_documentary",
+    "date": "2026-11-25",
+    "services": ["max"],
+    "source": "https://press.wbd.com/us/media-release/hbo-original-documentary-slightest-touch-debuts-november-25",
+    "corroboration": "https://press.wbd.com/us/media-release/whats-new-hbo-max-november-2?language_content_entity=en"
+  },
+  {
+    "title": "Way of the Warrior Kid",
+    "tmdb": "https://www.themoviedb.org/movie/1280115",
+    "format": "feature_film",
+    "date": "2026-11-25",
+    "services": ["apple-tv"],
+    "source": "https://www.apple.com/tv-pr/news/2026/11/apple-original-films-celebrates-the-world-premiere-of-way-of-the-warrior-kid/",
+    "corroboration": "https://www.justwatch.com/us/movie/way-of-the-warrior-kid",
+    "date_check": "{title} streams globally on Apple TV {date}",
+    "alternate_date_check": "{title} will be available to watch on Apple TV from {date}"
+  },
+  {
+    "title": "In a Holidaze",
+    "tmdb": "https://www.themoviedb.org/movie/1588626",
+    "format": "feature_film",
+    "date": "2026-12-02",
+    "services": ["netflix"],
+    "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
+    "corroboration": "https://media.netflix.com/en/only-on-netflix/81901411"
+  },
+  {
+    "title": "The Man with the Bag",
+    "tmdb": "https://www.themoviedb.org/movie/1137888",
+    "format": "feature_film",
+    "date": "2026-12-02",
+    "services": ["amazon-prime-video"],
+    "source": "https://www.aboutamazon.com/news/entertainment/the-man-with-the-bag-arnold-schwarzenegger-christmas-movie-prime-video"
+  },
+  {
+    "title": "By Any Means",
+    "tmdb": "https://www.themoviedb.org/movie/1380417",
+    "format": "feature_film",
+    "date": "2026-12-03",
+    "services": ["paramount-plus"],
+    "source": "https://www.paramountplus.com/sneak-peak/new-on-paramount-plus/",
+    "corroboration": "https://wespeakmedia2.com/yahya-abdul-mateen-ii-and-mark-wahlberg-team-up-in-by-any-means-streaming-on-paramount-december-3/",
+    "date_check": "the streaming debut of {title} {date}",
+    "alternate_date_check": "{title} streaming on Paramount+ {date}"
+  },
+  {
+    "title": "Diary of a Wimpy Kid Christmas: The Getaway",
+    "tmdb": "https://www.themoviedb.org/movie/1519780",
+    "format": "feature_film",
+    "date": "2026-12-04",
+    "services": ["disney-plus"],
+    "source": "https://www.disneyplus.com/explore/articles/diary-of-a-wimpy-kid-christmas-the-getaway-movie",
+    "calendar_title": "Diary of a Wimpy Kid Christmas: The Getaway – Premiere"
+  },
+  {
+    "title": "One Night Only",
+    "tmdb": "https://www.themoviedb.org/movie/1433367",
+    "format": "feature_film",
+    "date": "2026-12-04",
+    "services": ["peacock"],
+    "source": "https://www.broadwayworld.com/bwwtv/article/ONE-NIGHT-ONLY-to-Stream-Exclusively-on-Peacock-Starring-Monica-Barbaro-and-Callum-Turner-20261109",
+    "corroboration": "https://whentostream.com/romantic-comedy-one-night-only-sets-peacock-streaming-premiere-date/",
+    "date_check": "Peacock will exclusively stream {title} beginning {date}",
+    "alternate_date_check": "{title} is set to make its SVOD debut early next month arriving on Peacock on {date}"
+  },
+  {
+    "title": "I Love Boosters",
+    "tmdb": "https://www.themoviedb.org/movie/1227877",
+    "format": "feature_film",
+    "date": "2026-12-18",
+    "services": ["hulu"],
+    "source": "https://press.hulu.com/schedule/december-2026/",
+    "corroboration": "https://whentostream.com/boots-rileys-i-love-boosters-gets-hulu-streaming-premiere-date/",
+    "calendar_title": "I Love Boosters (2026)",
+    "date_check": "{date} {title}",
+    "alternate_date_check": "{title} is set to make its SVOD debut next month arriving on Hulu on {date}"
+  }
+]
