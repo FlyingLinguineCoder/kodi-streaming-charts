@@ -9,6 +9,24 @@
     "corroboration": "https://www.primevideo.com/detail/0TWROLY7CIQMYP2WBPM7XKZI6E"
   },
   {
+    "title": "The Symphony of Dance",
+    "tmdb": "https://www.themoviedb.org/movie/1674241",
+    "format": "feature_documentary",
+    "date": "2026-11-23",
+    "services": ["hulu"],
+    "source": "https://press.hulu.com/shows/the-symphony-of-dance/",
+    "corroboration": "https://tribecafilm.com/festival/archive/symphony-of-dance-2026"
+  },
+  {
+    "title": "Rob Lowe: The Outsider",
+    "tmdb": "https://www.themoviedb.org/movie/1802703",
+    "format": "feature_documentary",
+    "date": "2026-11-24",
+    "services": ["netflix"],
+    "source": "https://www.netflix.com/tudum/articles/rob-lowe-the-outsider-documentary-release-date-news",
+    "corroboration": "https://media.netflix.com/en/only-on-netflix/81952500"
+  },
+  {
     "title": "The Mosquito Bowl",
     "tmdb": "https://www.themoviedb.org/movie/1458300",
     "format": "feature_film",
@@ -37,6 +55,24 @@
     "alternate_date_check": "{title} will be available to watch on Apple TV from {date}"
   },
   {
+    "title": "The Hunchback, Soul of Paris",
+    "tmdb": "https://www.themoviedb.org/movie/1480665",
+    "format": "feature_film",
+    "date": "2026-11-27",
+    "services": ["netflix"],
+    "source": "https://about.netflix.com/en/news/netflix-presents-quasimodo-the-soul-of-paris-the-myth-revisited-releasing-nov-27-2026",
+    "corroboration": "https://www.netflix.com/title/82013434"
+  },
+  {
+    "title": "Seized",
+    "tmdb": "https://www.themoviedb.org/movie/1596266",
+    "format": "feature_documentary",
+    "date": "2026-12-01",
+    "services": ["max"],
+    "source": "https://www.broadwayworld.com/bwwtv/article/HBO-Documentary-SEIZED-to-Chronicle-Marion-County-Record-Raid-and-Press-Freedom-Fight-20261117",
+    "corroboration": "https://www.tvinsider.com/show/seized/"
+  },
+  {
     "title": "In a Holidaze",
     "tmdb": "https://www.themoviedb.org/movie/1588626",
     "format": "feature_film",
@@ -44,6 +80,15 @@
     "services": ["netflix"],
     "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
     "corroboration": "https://media.netflix.com/en/only-on-netflix/81901411"
+  },
+  {
+    "title": "La Bola Negra",
+    "tmdb": "https://www.themoviedb.org/movie/1422041",
+    "format": "feature_film",
+    "date": "2026-12-02",
+    "services": ["netflix"],
+    "source": "https://www.netflix.com/tudum/articles/la-bola-negra-release-date-cast-photos",
+    "corroboration": "https://media.netflix.com/en/only-on-netflix/82964412"
   },
   {
     "title": "The Man with the Bag",
@@ -65,6 +110,33 @@
     "alternate_date_check": "{title} streaming on Paramount+ {date}"
   },
   {
+    "title": "My Brother's Killer",
+    "tmdb": "https://www.themoviedb.org/movie/1620040",
+    "format": "feature_documentary",
+    "date": "2026-12-03",
+    "services": ["max"],
+    "source": "https://www.webwire.com/ViewPressRel.asp?aId=363280",
+    "corroboration": "https://www.tvinsider.com/show/my-brothers-killer/"
+  },
+  {
+    "title": "My Crazy Feminist Girlfriend",
+    "tmdb": "https://www.themoviedb.org/movie/1591961",
+    "format": "feature_film",
+    "date": "2026-12-03",
+    "services": ["netflix"],
+    "source": "https://about.netflix.com/en/news/my-crazy-feminist-girlfriend-main-trailer-keyart",
+    "corroboration": "https://www.netflix.com/title/81703380"
+  },
+  {
+    "title": "14th",
+    "tmdb": "https://www.themoviedb.org/movie/1732479",
+    "format": "feature_documentary",
+    "date": "2026-12-04",
+    "services": ["netflix"],
+    "source": "https://www.netflix.com/tudum/articles/14th-release-date-news",
+    "corroboration": "https://media.netflix.com/en/only-on-netflix/81908710"
+  },
+  {
     "title": "Diary of a Wimpy Kid Christmas: The Getaway",
     "tmdb": "https://www.themoviedb.org/movie/1519780",
     "format": "feature_film",
@@ -83,6 +155,60 @@
     "corroboration": "https://whentostream.com/romantic-comedy-one-night-only-sets-peacock-streaming-premiere-date/",
     "date_check": "Peacock will exclusively stream {title} beginning {date}",
     "alternate_date_check": "{title} is set to make its SVOD debut early next month arriving on Peacock on {date}"
+  },
+  {
+    "title": "The Bend in the River",
+    "tmdb": "https://www.themoviedb.org/movie/1532787",
+    "format": "feature_documentary",
+    "date": "2026-12-04",
+    "services": ["netflix"],
+    "source": "https://vanessahope.substack.com/p/the-bend-in-the-river-this-moment",
+    "corroboration": "https://www.netflix.com/title/82832148"
+  },
+  {
+    "title": "Who Killed the Banker’s Widow?",
+    "tmdb": "https://www.themoviedb.org/movie/1824685",
+    "format": "feature_documentary",
+    "date": "2026-12-04",
+    "services": ["netflix"],
+    "source": "https://about.netflix.com/en/news/netflix-premieres-who-killed-the-bankers-widow-on-december-4",
+    "corroboration": "https://www.netflix.com/title/81742745"
+  },
+  {
+    "title": "Bad Day",
+    "tmdb": "https://www.themoviedb.org/movie/1515392",
+    "format": "feature_film",
+    "date": "2026-12-11",
+    "services": ["netflix"],
+    "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
+    "corroboration": "https://media.netflix.com/en/only-on-netflix/81481306"
+  },
+  {
+    "title": "In Waves",
+    "tmdb": "https://www.themoviedb.org/movie/947502",
+    "format": "feature_film",
+    "date": "2026-12-11",
+    "services": ["netflix"],
+    "source": "https://www.netflix.com/tudum/articles/in-waves-release-date-cast-photos",
+    "corroboration": "https://media.netflix.com/en/only-on-netflix/82946622"
+  },
+  {
+    "title": "Jean-Michel Basquiat",
+    "tmdb": "https://www.themoviedb.org/movie/1158642",
+    "format": "feature_documentary",
+    "date": "2026-12-11",
+    "services": ["netflix"],
+    "source": "https://www.netflix.com/tudum/articles/jean-michel-basquiat-release-date-news",
+    "corroboration": "https://media.netflix.com/en/only-on-netflix/82820725"
+  },
+  {
+    "title": "Proxies",
+    "tmdb": "https://www.themoviedb.org/movie/1623160",
+    "format": "feature_film",
+    "date": "2026-12-11",
+    "services": ["netflix"],
+    "source": "https://about.netflix.com/en/news/proxies-is-coming-to-netflix-on-december-11",
+    "corroboration": "https://about.netflix.com/en/news/oriol-paulo-returns-to-netflix-with-proxies-premiering-on-11-december"
   },
   {
     "title": "I Love Boosters",
