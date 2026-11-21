@@ -27,12 +27,12 @@
     "release_year": 2018
   },
   {
-    "id": 1100,
+    "id": 1508,
     "rank": 4,
     "adult": 0,
-    "title": "How I Met Your Mother",
+    "title": "Dancing with the Stars",
     "mediatype": "show",
-    "imdb_id": "tt0460649",
+    "imdb_id": "tt0463398",
     "release_year": 2005
   },
   {
@@ -45,12 +45,12 @@
     "release_year": 2021
   },
   {
-    "id": 1508,
+    "id": 1100,
     "rank": 6,
     "adult": 0,
-    "title": "Dancing with the Stars",
+    "title": "How I Met Your Mother",
     "mediatype": "show",
-    "imdb_id": "tt0463398",
+    "imdb_id": "tt0460649",
     "release_year": 2005
   },
   {
@@ -63,52 +63,8 @@
     "release_year": 2022
   },
   {
-    "id": 61617,
-    "rank": 8,
-    "adult": 0,
-    "title": "Over the Garden Wall",
-    "mediatype": "show",
-    "imdb_id": "tt3718778",
-    "release_year": 2014
-  },
-  {
-    "id": 60572,
-    "rank": 9,
-    "adult": 0,
-    "title": "Pokémon",
-    "mediatype": "show",
-    "imdb_id": "tt0168366",
-    "release_year": 1997
-  },
-  {
-    "id": 138501,
-    "rank": 10,
-    "adult": 0,
-    "title": "Agatha All Along",
-    "mediatype": "show",
-    "imdb_id": "tt15571732",
-    "release_year": 2024
-  },
-  {
-    "id": 332379,
-    "rank": 11,
-    "adult": 0,
-    "title": "Countdown to Avengers: Doomsday Official Podcast",
-    "mediatype": "show",
-    "release_year": 2026
-  },
-  {
-    "id": 456,
-    "rank": 12,
-    "adult": 0,
-    "title": "The Simpsons",
-    "mediatype": "show",
-    "imdb_id": "tt0096697",
-    "release_year": 1989
-  },
-  {
     "id": 208569,
-    "rank": 13,
+    "rank": 8,
     "adult": 0,
     "title": "Will Trent",
     "mediatype": "show",
@@ -116,8 +72,44 @@
     "release_year": 2023
   },
   {
+    "id": 456,
+    "rank": 9,
+    "adult": 0,
+    "title": "The Simpsons",
+    "mediatype": "show",
+    "imdb_id": "tt0096697",
+    "release_year": 1989
+  },
+  {
+    "id": 61617,
+    "rank": 10,
+    "adult": 0,
+    "title": "Over the Garden Wall",
+    "mediatype": "show",
+    "imdb_id": "tt3718778",
+    "release_year": 2014
+  },
+  {
+    "id": 138501,
+    "rank": 11,
+    "adult": 0,
+    "title": "Agatha All Along",
+    "mediatype": "show",
+    "imdb_id": "tt15571732",
+    "release_year": 2024
+  },
+  {
+    "id": 60572,
+    "rank": 12,
+    "adult": 0,
+    "title": "Pokémon",
+    "mediatype": "show",
+    "imdb_id": "tt0168366",
+    "release_year": 1997
+  },
+  {
     "id": 65334,
-    "rank": 14,
+    "rank": 13,
     "adult": 0,
     "title": "Miraculous: Tales of Ladybug & Cat Noir",
     "mediatype": "show",
@@ -126,7 +118,7 @@
   },
   {
     "id": 67178,
-    "rank": 15,
+    "rank": 14,
     "adult": 0,
     "title": "Marvel's The Punisher",
     "mediatype": "show",
@@ -134,22 +126,31 @@
     "release_year": 2017
   },
   {
-    "id": 1403,
-    "rank": 16,
-    "adult": 0,
-    "title": "Marvel's Agents of S.H.I.E.L.D.",
-    "mediatype": "show",
-    "imdb_id": "tt2364582",
-    "release_year": 2013
-  },
-  {
     "id": 4556,
-    "rank": 17,
+    "rank": 15,
     "adult": 0,
     "title": "Scrubs",
     "mediatype": "show",
     "imdb_id": "tt0285403",
     "release_year": 2001
+  },
+  {
+    "id": 61889,
+    "rank": 16,
+    "adult": 0,
+    "title": "Marvel's Daredevil",
+    "mediatype": "show",
+    "imdb_id": "tt3322312",
+    "release_year": 2015
+  },
+  {
+    "id": 1678,
+    "rank": 17,
+    "adult": 0,
+    "title": "The Golden Girls",
+    "mediatype": "show",
+    "imdb_id": "tt0088526",
+    "release_year": 1985
   },
   {
     "id": 138502,
@@ -161,13 +162,12 @@
     "release_year": 2024
   },
   {
-    "id": 1417,
+    "id": 332379,
     "rank": 19,
     "adult": 0,
-    "title": "Glee",
+    "title": "Countdown to Avengers: Doomsday Official Podcast",
     "mediatype": "show",
-    "imdb_id": "tt1327801",
-    "release_year": 2009
+    "release_year": 2026
   },
   {
     "id": 693,

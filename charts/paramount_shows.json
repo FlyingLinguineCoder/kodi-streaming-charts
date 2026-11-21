@@ -1,21 +1,21 @@
 [
   {
-    "id": 247718,
-    "rank": 1,
-    "adult": 0,
-    "title": "MobLand",
-    "mediatype": "show",
-    "imdb_id": "tt31510819",
-    "release_year": 2025
-  },
-  {
     "id": 117488,
-    "rank": 2,
+    "rank": 1,
     "adult": 0,
     "title": "Yellowjackets",
     "mediatype": "show",
     "imdb_id": "tt11041332",
     "release_year": 2021
+  },
+  {
+    "id": 247718,
+    "rank": 2,
+    "adult": 0,
+    "title": "MobLand",
+    "mediatype": "show",
+    "imdb_id": "tt31510819",
+    "release_year": 2025
   },
   {
     "id": 303630,
@@ -27,17 +27,8 @@
     "release_year": 2026
   },
   {
-    "id": 14658,
-    "rank": 4,
-    "adult": 0,
-    "title": "Survivor",
-    "mediatype": "show",
-    "imdb_id": "tt0239195",
-    "release_year": 2000
-  },
-  {
     "id": 259909,
-    "rank": 5,
+    "rank": 4,
     "adult": 0,
     "title": "Dexter: Resurrection",
     "mediatype": "show",
@@ -46,7 +37,7 @@
   },
   {
     "id": 153312,
-    "rank": 6,
+    "rank": 5,
     "adult": 0,
     "title": "Tulsa King",
     "mediatype": "show",
@@ -54,22 +45,31 @@
     "release_year": 2022
   },
   {
-    "id": 4614,
-    "rank": 7,
-    "adult": 0,
-    "title": "NCIS",
-    "mediatype": "show",
-    "imdb_id": "tt0364845",
-    "release_year": 2003
-  },
-  {
     "id": 243875,
-    "rank": 8,
+    "rank": 6,
     "adult": 0,
     "title": "Georgie & Mandy's First Marriage",
     "mediatype": "show",
     "imdb_id": "tt31589662",
     "release_year": 2024
+  },
+  {
+    "id": 226285,
+    "rank": 7,
+    "adult": 0,
+    "title": "Elsbeth",
+    "mediatype": "show",
+    "imdb_id": "tt26591110",
+    "release_year": 2024
+  },
+  {
+    "id": 14658,
+    "rank": 8,
+    "adult": 0,
+    "title": "Survivor",
+    "mediatype": "show",
+    "imdb_id": "tt0239195",
+    "release_year": 2000
   },
   {
     "id": 313630,
@@ -81,13 +81,13 @@
     "release_year": 2026
   },
   {
-    "id": 211288,
+    "id": 4614,
     "rank": 10,
     "adult": 0,
-    "title": "Tracker",
+    "title": "NCIS",
     "mediatype": "show",
-    "imdb_id": "tt13875494",
-    "release_year": 2024
+    "imdb_id": "tt0364845",
+    "release_year": 2003
   },
   {
     "id": 2190,
@@ -108,22 +108,22 @@
     "release_year": 2006
   },
   {
-    "id": 30957,
+    "id": 211288,
     "rank": 13,
+    "adult": 0,
+    "title": "Tracker",
+    "mediatype": "show",
+    "imdb_id": "tt13875494",
+    "release_year": 2024
+  },
+  {
+    "id": 30957,
+    "rank": 14,
     "adult": 0,
     "title": "The Amazing Race",
     "mediatype": "show",
     "imdb_id": "tt0285335",
     "release_year": 2001
-  },
-  {
-    "id": 226285,
-    "rank": 14,
-    "adult": 0,
-    "title": "Elsbeth",
-    "mediatype": "show",
-    "imdb_id": "tt26591110",
-    "release_year": 2024
   },
   {
     "id": 58957,
@@ -135,26 +135,8 @@
     "release_year": 2013
   },
   {
-    "id": 1920,
-    "rank": 16,
-    "adult": 0,
-    "title": "Twin Peaks",
-    "mediatype": "show",
-    "imdb_id": "tt0098936",
-    "release_year": 1990
-  },
-  {
-    "id": 243006,
-    "rank": 17,
-    "adult": 0,
-    "title": "NCIS: Origins",
-    "mediatype": "show",
-    "imdb_id": "tt30796986",
-    "release_year": 2024
-  },
-  {
     "id": 126027,
-    "rank": 18,
+    "rank": 16,
     "adult": 0,
     "title": "Ghosts",
     "mediatype": "show",
@@ -162,21 +144,39 @@
     "release_year": 2021
   },
   {
-    "id": 290856,
-    "rank": 19,
+    "id": 1405,
+    "rank": 17,
     "adult": 0,
-    "title": "Marshals",
+    "title": "Dexter",
     "mediatype": "show",
-    "imdb_id": "tt36849871",
-    "release_year": 2026
+    "imdb_id": "tt0773262",
+    "release_year": 2006
   },
   {
-    "id": 80748,
+    "id": 243006,
+    "rank": 18,
+    "adult": 0,
+    "title": "NCIS: Origins",
+    "mediatype": "show",
+    "imdb_id": "tt30796986",
+    "release_year": 2024
+  },
+  {
+    "id": 655,
+    "rank": 19,
+    "adult": 0,
+    "title": "Star Trek: The Next Generation",
+    "mediatype": "show",
+    "imdb_id": "tt0092455",
+    "release_year": 1987
+  },
+  {
+    "id": 6357,
     "rank": 20,
     "adult": 0,
-    "title": "FBI",
+    "title": "The Twilight Zone",
     "mediatype": "show",
-    "imdb_id": "tt7491982",
-    "release_year": 2018
+    "imdb_id": "tt0052520",
+    "release_year": 1959
   }
 ]

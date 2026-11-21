@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-11-20T22:45:07.118290+00:00",
+  "generated_at_utc": "2026-11-21T04:13:11.548813+00:00",
   "purpose": "Diagnostic only; no Kodi widget generated",
   "window": {
-    "start": "2026-11-20",
-    "end": "2027-02-18"
+    "start": "2026-11-21",
+    "end": "2027-02-19"
   },
   "limitations": "Calendar labels nominate candidates, not confirmed premieres. Release years do not prove first-ever subscription availability. An untyped premiere, season bundle, or season arrival without a premiere label requires review. Month-only listings are omitted. Movie review records identify films to check for a first U.S. subscription release. Audit-only dates lack a matching calendar entry.",
   "sources": [
@@ -11,16 +11,16 @@
       "url": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026",
       "status": "parsed",
       "text_blocks": 291,
-      "upcoming_dated_entries": 65,
-      "movie_candidates": 6,
+      "upcoming_dated_entries": 55,
+      "movie_candidates": 2,
       "series_premiere_candidates": 0,
-      "new_season_candidates": 2
+      "new_season_candidates": 1
     },
     {
       "url": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026",
       "status": "parsed",
-      "text_blocks": 288,
-      "upcoming_dated_entries": 202,
+      "text_blocks": 289,
+      "upcoming_dated_entries": 203,
       "movie_candidates": 28,
       "series_premiere_candidates": 9,
       "new_season_candidates": 3
@@ -37,118 +37,6 @@
     }
   ],
   "results": [
-    {
-      "date": "2026-11-20",
-      "services": [
-        "hulu"
-      ],
-      "title": "9-1-1 (Season 10) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-20",
-      "services": [
-        "hulu"
-      ],
-      "title": "9-1-1: Nashville (Season 2) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-20",
-      "services": [
-        "hulu"
-      ],
-      "title": "A Christmas Story (1983)",
-      "release_year": 1983,
-      "classification": "dated_movie_candidate",
-      "confidence": "medium",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-20",
-      "services": [
-        "hulu"
-      ],
-      "title": "Four Christmases (2008)",
-      "release_year": 2008,
-      "classification": "dated_movie_candidate",
-      "confidence": "medium",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-20",
-      "services": [
-        "hulu"
-      ],
-      "title": "Grey’s Anatomy (Season 23) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-20",
-      "services": [
-        "hulu"
-      ],
-      "title": "National Lampoon’s Christmas Vacation (1989)",
-      "release_year": 1989,
-      "classification": "dated_movie_candidate",
-      "confidence": "medium",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-20",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Percy Jackson and the Olympians (Season 3) – Two-Episode Premiere",
-      "release_year": null,
-      "classification": "new_season_premiere_candidate",
-      "confidence": "medium",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-20",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Percy Jackson and the Olympians Official Podcast (Season 3) – Premiere",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-20",
-      "services": [
-        "hulu"
-      ],
-      "title": "The Polar Express (2004)",
-      "release_year": 2004,
-      "classification": "dated_movie_candidate",
-      "confidence": "medium",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-20",
-      "services": [
-        "hulu"
-      ],
-      "title": "Tokyo Revengers: War of the Three Titans Arc (Hulu Original) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
     {
       "date": "2026-11-21",
       "services": [
@@ -2481,6 +2369,17 @@
       "services": [
         "disney-plus"
       ],
+      "title": "Hirugao: Love Affairs in the Afternoon (Season 1)",
+      "release_year": null,
+      "classification": "tv_arrival_manual_review",
+      "confidence": "low",
+      "source": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026"
+    },
+    {
+      "date": "2026-12-21",
+      "services": [
+        "disney-plus"
+      ],
       "title": "Long Vacation (Season 1) – Premiere",
       "release_year": null,
       "classification": "series_premiere_candidate",
@@ -2526,7 +2425,7 @@
       "services": [
         "disney-plus"
       ],
-      "title": "TheConfidence Man (Season 1) – Premiere",
+      "title": "The Confidence Man (Season 1) – Premiere",
       "release_year": null,
       "classification": "series_premiere_candidate",
       "confidence": "medium",
@@ -3075,7 +2974,7 @@
   ],
   "movie_review": {
     "audit_status": "available",
-    "audit_generated_at_utc": "2026-11-20T05:00:28.218721+00:00",
+    "audit_generated_at_utc": "2026-11-21T04:00:40.361217+00:00",
     "candidates": [
       {
         "title": "The Symphony of Dance",
