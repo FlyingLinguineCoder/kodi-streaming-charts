@@ -12,7 +12,7 @@ from datetime import date, datetime, timedelta
 from functools import lru_cache
 from html import unescape
 from http.client import HTTPException
-from urllib.parse import urlencode
+from urllib.parse import quote, urlencode
 
 from lxml import etree, html
 
@@ -23,6 +23,9 @@ logger = logging.getLogger(__name__)
 
 FILM_CALENDAR = "https://whentostream.com"
 TMDB = "https://www.themoviedb.org"
+IMDB_SUGGEST = "https://v3.sg.media-imdb.com/suggestion"
+CINEMETA = "https://v3-cinemeta.strem.io/meta/movie"
+NETFLIX_NEWS = "https://www.whats-on-netflix.com"
 PROFILE_URL = re.compile(r"https://whentostream\.com/[a-z0-9][a-z0-9-]*/")
 MOVIE_PATH = re.compile(r"/movie/([1-9]\d*)(?:-[^/?#]+)?/?")
 # The calendar's SVOD field makes "Apple TV" unambiguous. On TMDb it may mean the store.
@@ -88,6 +91,17 @@ def load_page(url):
         return html.fromstring(raw, parser=html.HTMLParser(encoding="utf-8"))
     except (ValueError, etree.ParserError) as error:
         raise SourceUnavailable(f"Unreadable page: {url}") from error
+
+
+@lru_cache(maxsize=96)
+def load_data(url):
+    raw = download(url)
+    if raw is None:
+        return None
+    try:
+        return json.loads(raw)
+    except (ValueError, UnicodeError) as error:
+        raise SourceUnavailable(f"Unreadable metadata: {url}") from error
 
 
 @lru_cache(maxsize=64)
@@ -249,6 +263,56 @@ def same_film(page, ident, film, read):
     return year == f"({film.year})" or (year == f"({film.year + 1})" and festival_year(ident, film.year, read))
 
 
+def alternate_movie_id(title, year, minutes, directors, read_data):
+    """Match an IMDb feature's original year, then follow its IMDb ID to an explicit TMDb movie ID."""
+    if type(year) is not int:
+        return None
+    query = title.strip().lower().replace("’", "'")
+    first = re.search(r"[a-z0-9]", query)
+    if not first:
+        return None
+    result = read_data(f"{IMDB_SUGGEST}/{first[0]}/{quote(query, safe='')}.json")
+    if not isinstance(result, dict) or not isinstance(result.get("d", []), list):
+        raise SourceUnavailable("Unreadable IMDb feature search")
+    matches = set()
+    for row in result.get("d", []):
+        if not isinstance(row, dict):
+            continue
+        imdb = row.get("id", "")
+        if (not isinstance(imdb, str) or not re.fullmatch(r"tt\d{7,12}", imdb)
+            or row.get("qid") != "movie" or row.get("q") != "feature"
+            or row.get("y") != year or normalized(row.get("l") or "") != normalized(title)):
+            continue
+        data = read_data(f"{CINEMETA}/{imdb}.json")
+        meta = data.get("meta") if isinstance(data, dict) else None
+        if not isinstance(meta, dict):
+            raise SourceUnavailable(f"Unreadable film metadata for {imdb}")
+        ident = meta.get("moviedb_id")
+        runtime = re.fullmatch(r"(\d+)\s*(?:min|mins|minutes)", str(meta.get("runtime", "")), re.I)
+        names, genres = meta.get("director"), meta.get("genres", [])
+        if not isinstance(names, list) or not isinstance(genres, list) or not all(isinstance(g, str) for g in genres):
+            continue
+        credits = {normalized(n) for n in names if isinstance(n, str) and n.strip()}
+        if (meta.get("type") == "movie" and meta.get("id") == meta.get("imdb_id") == imdb
+            and type(ident) is int and ident > 0 and normalized(meta.get("name") or "") == normalized(title)
+            and str(meta.get("releaseInfo")) in {str(year), str(year + 1)}
+            and runtime and int(runtime[1]) >= 50 and abs(int(runtime[1]) - minutes) <= 5
+            and credits and (not directors or credits & directors)
+            and not NONFEATURE.search(" ".join([title, *genres]))):
+            matches.add((imdb, ident))
+    return next(iter(matches))[1] if len(matches) == 1 else None
+
+
+def identify_film(film, read, read_data):
+    try:
+        search = TMDB + "/search/movie?" + urlencode({"query": film.title})
+        candidates = movie_ids(read(search), film.title, film.year)
+        ids = [i for i in sorted(candidates) if same_film(read(f"{TMDB}/movie/{i}"), i, film, read)]
+        return ids[0] if len(ids) == 1 else None
+    except SourceUnavailable:
+        return alternate_movie_id(film.title, film.year, film.minutes, film.directors, read_data)
+
+
 def us_subscription_dates(page):
     """Only a named subscription in the U.S. Digital rows can corroborate this window."""
     if page is None:
@@ -286,12 +350,49 @@ def daily_calendar_evidence(film, read):
     cards = [card for card in page.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," daily ")]')
              if normalized(card.xpath("string(.//h3/a)")) == normalized(film.title)]
     if len(cards) != 1:
-        return None
+        return False if cards else None
+    labels = set()
     for box in cards[0].xpath('.//div[contains(concat(" ",normalize-space(@class)," ")," calendar-scope ")]'):
-        if normalized(box.xpath("string(./strong)")) == "where to watch":
-            labels = [content(a).casefold() for a in box.xpath("./a")]
-            if len(labels) == 1 and SUBSCRIPTIONS.get(labels[0]) == film.service:
-                return url
+        heading = box.xpath("string(./strong)").strip()
+        if normalized(heading) == "where to watch":
+            # Movie Insider renders some subscriptions as text with an icon, others as a link.
+            label = content(box).removeprefix(heading).strip().casefold()
+            if label:
+                labels.add(SUBSCRIPTIONS.get(label))
+    if not labels:
+        return None
+    return url if labels == {film.service} else False
+
+
+def netflix_news_evidence(film, read):
+    """A named U.S. SVOD debut in the text of a film-specific article, including its full year."""
+    title = film.title.replace("’", "'")
+    listing = read(NETFLIX_NEWS + "/?" + urlencode({"s": title}))
+    if listing is None:
+        return None
+    name = r"[^\w]+".join(re.escape(word) for word in normalized(title).split())
+    named = re.compile(rf"(?<!\w){name}(?!\w)", re.I)
+    statement = re.compile(
+        rf"(?:[\w &'’.-]{{1,65}}['’]s\s+)?{name}(?:,\s*[^,;.!?]{{1,140}},)?\s+"
+        r"(?:(?:is (?:set|confirmed) to|will) (?:make|have)|makes) its (?:SVOD|subscription streaming|streaming) "
+        r"(?:premiere|debut) on Netflix in (?:the United States|the US|the U\.S\.) on "
+        rf"(?:(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+)?({US_DATE})(?=[.,;!? ]|$)",
+        re.I,
+    )
+    links = {a.get("href") for a in listing.xpath("//h2/a[@href] | //h3/a[@href]")
+             if named.search(content(a)) and re.fullmatch(re.escape(NETFLIX_NEWS) + r"/news/[\w-]+/", a.get("href"))}
+    confirmed = {}
+    for url in sorted(links)[:5]:
+        article = read(url)
+        if article is None or not named.search(article.xpath("string(//h1)")):
+            continue
+        for para in article.xpath('//article//div[contains(concat(" ",normalize-space(@class)," ")," entry-inner ")]/p'):
+            for sentence in re.split(r"(?<=[.!?])\s+", content(para).replace("U.S.", "US")):
+                match = statement.match(sentence)
+                if match:
+                    confirmed[long_date(match[1])] = url
+    if confirmed:
+        return confirmed.get(film.day) if len(confirmed) == 1 and film.day in confirmed else False
     return None
 
 
@@ -327,6 +428,37 @@ def disney_evidence(report, parsed, film):
     return url if days == {film.day.isoformat()} else False
 
 
+def confirm_subscription(film, ident, official, catalog, read):
+    issue = None
+    release_url = us_releases_url(ident)
+    try:
+        offers = us_subscription_dates(read(release_url))
+        if any(d < film.day or (s == film.service and d != film.day) for s, d in offers):
+            return None
+        if (film.service, film.day) in offers:
+            return release_url
+    except SourceUnavailable as error:
+        issue = error
+    if official:
+        return official
+    if ident in catalog:
+        return GALAXY_URL
+    try:
+        daily = daily_calendar_evidence(film, read)
+    except SourceUnavailable as error:
+        issue = error
+    else:
+        if daily is not None:
+            return daily
+    if film.service == "netflix":
+        article = netflix_news_evidence(film, read)
+        if article is not None:
+            return article
+    if issue:
+        raise issue
+    return None
+
+
 def catalog_allows(ident, title, service, day, catalog, history, today, *, audit_available=True):
     """Never turn an observed subscription transfer into a new premiere."""
     when = day.isoformat()
@@ -355,7 +487,7 @@ def catalog_allows(ident, title, service, day, catalog, history, today, *, audit
     return status == "potential_premiere_unverified"
 
 
-def official_originals(calendar, parsed, catalog, saved, today, end, reserved, read):
+def official_originals(calendar, parsed, catalog, saved, today, end, reserved, read, read_data):
     """Also discover explicitly identified films directly from Disney's U.S. press calendars."""
     old_by_id = {i["id"]: i for i in saved}
     # A missing edition or a failed refresh cannot introduce titles or withdraw its previous entries.
@@ -398,14 +530,24 @@ def official_originals(calendar, parsed, catalog, saved, today, end, reserved, r
         try:
             offers = us_subscription_dates(read(release_url))
         except SourceUnavailable:
-            old = old_by_id.get(ident)
-            if old and old["premiere_date"] == day.isoformat() and old["services"] == services:
-                items.append(old)
-            continue
-        if (service, day) in offers and not any(d < day or (s == service and d != day) for s, d in offers):
-            items.append(movie_item(ident, title, day, services, source) | {
-                "verification": "us-original-film", "corroboration": release_url,
-            })
+            try:
+                feature = alternate_movie_id(title, meta.get("year"), meta["runtime"], (), read_data)
+            except SourceUnavailable:
+                old = old_by_id.get(ident)
+                if old and old["premiere_date"] == day.isoformat() and old["services"] == services:
+                    items.append(old)
+                continue
+            if feature != ident:
+                continue
+            # Disney and the audited U.S. catalog both name this subscription and exact first release date.
+            evidence = GALAXY_URL
+        else:
+            if (service, day) not in offers or any(d < day or (s == service and d != day) for s, d in offers):
+                continue
+            evidence = release_url
+        items.append(movie_item(ident, title, day, services, source) | {
+            "verification": "us-original-film", "corroboration": evidence,
+        })
     return items
 
 
@@ -447,7 +589,7 @@ def candidate_links(today, end, catalog, published_ids, saved, read, search_prof
 
 
 def discover_premieres(records, audit, history, calendar, previous, today, end, *, published_ids=(),
-                       read=load_page, search_profiles=find_profiles):
+                       read=load_page, search_profiles=find_profiles, read_data=load_data):
     """Return verified new rows; retain an existing row only on an outage in its own sources."""
     known_ids = {}
     known_titles = defaultdict(list)
@@ -519,25 +661,14 @@ def discover_premieres(records, audit, history, calendar, previous, today, end, 
             official = disney_evidence(calendar, parsed, film)
             if official is False:
                 return None
-            search = TMDB + "/search/movie?" + urlencode({"query": film.title})
-            candidates = movie_ids(read(search), film.title, film.year)
-            ids = [ident for ident in sorted(candidates) if same_film(read(f"{TMDB}/movie/{ident}"), ident, film, read)]
-            if len(ids) != 1:
+            ident = identify_film(film, read, read_data)
+            if ident is None:
                 return None
-            ident, = ids
             if reserved(ident, film.title, film.service, film.day):
                 return None
             if old and old["id"] != ident:
                 old = None
-            release_url = us_releases_url(ident)
-            offers = us_subscription_dates(read(release_url))
-            if any(d < film.day or (s == film.service and d != film.day) for s, d in offers):
-                return None
-            corroboration = release_url if (film.service, film.day) in offers else official
-            if not corroboration and ident in catalog:
-                corroboration = GALAXY_URL
-            if not corroboration:
-                corroboration = daily_calendar_evidence(film, read)
+            corroboration = confirm_subscription(film, ident, official, catalog, read)
             if not corroboration:
                 return None
             return movie_item(ident, film.title, film.day, [film.service], link) | {
@@ -548,7 +679,7 @@ def discover_premieres(records, audit, history, calendar, previous, today, end, 
             return old
 
     by_id = defaultdict(list)
-    for item in official_originals(calendar, parsed, catalog, saved_originals, today, end, reserved, read):
+    for item in official_originals(calendar, parsed, catalog, saved_originals, today, end, reserved, read, read_data):
         by_id[item["id"]].append(item)
     with ThreadPoolExecutor(max_workers=4) as pool:
         for item in pool.map(verify, sorted(dates)):
