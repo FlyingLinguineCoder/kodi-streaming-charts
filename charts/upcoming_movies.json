@@ -1,5 +1,77 @@
 [
   {
+    "id": 1307474,
+    "title": "On Behalf of My Son",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-20",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/netflix-unveils-poster-and-release-date-for-on-behalf-of-my-son-gabriel-martins-new-film",
+    "description": "U.S. subscription premiere on Netflix, November 20, 2026.",
+    "rank": 1
+  },
+  {
+    "id": 1568060,
+    "title": "Perfect Liars",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-20",
+    "services": [
+      "amazon-prime-video"
+    ],
+    "source": "https://www.aboutamazon.com/news/entertainment/prime-video-november-films-shows-sports-2026",
+    "description": "U.S. subscription premiere on Prime Video, November 20, 2026.",
+    "rank": 2
+  },
+  {
+    "id": 1791730,
+    "title": "Primetime Preacher$",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-20",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-november-2026/",
+    "description": "U.S. subscription premiere on Netflix, November 20, 2026.",
+    "rank": 3
+  },
+  {
+    "id": 1595124,
+    "title": "Steps",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-20",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-november-2026/",
+    "description": "U.S. subscription premiere on Netflix, November 20, 2026.",
+    "rank": 4
+  },
+  {
+    "id": 1329016,
+    "title": "Tony",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-20",
+    "services": [
+      "max"
+    ],
+    "source": "https://whentostream.com/anthony-bourdain-biopic-tony-sets-hbo-max-streaming-release-date/",
+    "description": "U.S. subscription premiere on HBO Max, November 20, 2026.",
+    "rank": 5
+  },
+  {
+    "id": 1458249,
+    "title": "Unbearable Christmas",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-20",
+    "services": [
+      "peacock"
+    ],
+    "source": "https://www.peacocktv.com/blog/what-to-watch-new-on-peacock",
+    "description": "U.S. subscription premiere on Peacock, November 20, 2026.",
+    "rank": 6
+  },
+  {
     "id": 1611767,
     "title": "Clashing Through the Snow",
     "mediatype": "movie",
@@ -9,7 +81,7 @@
     ],
     "source": "https://www.aboutamazon.com/news/entertainment/prime-video-november-films-shows-sports-2026",
     "description": "U.S. subscription premiere on Prime Video, November 23, 2026.",
-    "rank": 1
+    "rank": 7
   },
   {
     "id": 1674241,
@@ -21,7 +93,7 @@
     ],
     "source": "https://press.hulu.com/shows/the-symphony-of-dance/",
     "description": "U.S. subscription premiere on Hulu, November 23, 2026.",
-    "rank": 2
+    "rank": 8
   },
   {
     "id": 1802703,
@@ -33,7 +105,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/rob-lowe-the-outsider-documentary-release-date-news",
     "description": "U.S. subscription premiere on Netflix, November 24, 2026.",
-    "rank": 3
+    "rank": 9
   },
   {
     "id": 1458300,
@@ -45,7 +117,7 @@
     ],
     "source": "https://media.netflix.com/en/only-on-netflix/81661161",
     "description": "U.S. subscription premiere on Netflix, November 25, 2026.",
-    "rank": 4
+    "rank": 10
   },
   {
     "id": 1632599,
@@ -57,7 +129,7 @@
     ],
     "source": "https://press.wbd.com/us/media-release/hbo-original-documentary-slightest-touch-debuts-november-25",
     "description": "U.S. subscription premiere on HBO Max, November 25, 2026.",
-    "rank": 5
+    "rank": 11
   },
   {
     "id": 1280115,
@@ -69,7 +141,55 @@
     ],
     "source": "https://www.apple.com/tv-pr/news/2026/11/apple-original-films-celebrates-the-world-premiere-of-way-of-the-warrior-kid/",
     "description": "U.S. subscription premiere on Apple TV+, November 25, 2026.",
-    "rank": 6
+    "rank": 12
+  },
+  {
+    "id": 1492138,
+    "title": "And Love Knocked",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-27",
+    "services": [
+      "peacock"
+    ],
+    "source": "https://www.peacocktv.com/blog/what-to-watch-new-on-peacock",
+    "description": "U.S. subscription premiere on Peacock, November 27, 2026.",
+    "rank": 13
+  },
+  {
+    "id": 1390382,
+    "title": "Couture",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-27",
+    "services": [
+      "hulu"
+    ],
+    "source": "https://press.hulu.com/schedule/november-2026/",
+    "description": "U.S. subscription premiere on Hulu, November 27, 2026.",
+    "rank": 14
+  },
+  {
+    "id": 1377237,
+    "title": "Runner",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-27",
+    "services": [
+      "hulu"
+    ],
+    "source": "https://press.hulu.com/schedule/november-2026/",
+    "description": "U.S. subscription premiere on Hulu, November 27, 2026.",
+    "rank": 15
+  },
+  {
+    "id": 1506401,
+    "title": "The Child",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-27",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/the-child-is-coming-to-netflix-on-27-november-following-its-cinema-premiere-on-13-november",
+    "description": "U.S. subscription premiere on Netflix, November 27, 2026.",
+    "rank": 16
   },
   {
     "id": 1480665,
@@ -81,7 +201,19 @@
     ],
     "source": "https://about.netflix.com/en/news/netflix-presents-quasimodo-the-soul-of-paris-the-myth-revisited-releasing-nov-27-2026",
     "description": "U.S. subscription premiere on Netflix, November 27, 2026.",
-    "rank": 7
+    "rank": 17
+  },
+  {
+    "id": 1140521,
+    "title": "The Magic Faraway Tree",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-27",
+    "services": [
+      "max"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-november-2026/",
+    "description": "U.S. subscription premiere on HBO Max, November 27, 2026.",
+    "rank": 18
   },
   {
     "id": 1596266,
@@ -93,7 +225,7 @@
     ],
     "source": "https://www.broadwayworld.com/bwwtv/article/HBO-Documentary-SEIZED-to-Chronicle-Marion-County-Record-Raid-and-Press-Freedom-Fight-20261117",
     "description": "U.S. subscription premiere on HBO Max, December 1, 2026.",
-    "rank": 8
+    "rank": 19
   },
   {
     "id": 1588626,
@@ -105,7 +237,7 @@
     ],
     "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
     "description": "U.S. subscription premiere on Netflix, December 2, 2026.",
-    "rank": 9
+    "rank": 20
   },
   {
     "id": 1422041,
@@ -117,7 +249,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/la-bola-negra-release-date-cast-photos",
     "description": "U.S. subscription premiere on Netflix, December 2, 2026.",
-    "rank": 10
+    "rank": 21
   },
   {
     "id": 1137888,
@@ -129,7 +261,7 @@
     ],
     "source": "https://www.aboutamazon.com/news/entertainment/the-man-with-the-bag-arnold-schwarzenegger-christmas-movie-prime-video",
     "description": "U.S. subscription premiere on Prime Video, December 2, 2026.",
-    "rank": 11
+    "rank": 22
   },
   {
     "id": 1380417,
@@ -141,19 +273,19 @@
     ],
     "source": "https://www.paramountplus.com/sneak-peak/new-on-paramount-plus/",
     "description": "U.S. subscription premiere on Paramount+, December 3, 2026.",
-    "rank": 12
+    "rank": 23
   },
   {
-    "id": 1620040,
-    "title": "My Brother's Killer",
+    "id": 1780359,
+    "title": "Jão: Tales from the Void",
     "mediatype": "movie",
     "premiere_date": "2026-12-03",
     "services": [
-      "max"
+      "netflix"
     ],
-    "source": "https://www.webwire.com/ViewPressRel.asp?aId=363280",
-    "description": "U.S. subscription premiere on HBO Max, December 3, 2026.",
-    "rank": 13
+    "source": "https://about.netflix.com/en/news/netflix-releases-trailer-for-jao-tales-from-the-void",
+    "description": "U.S. subscription premiere on Netflix, December 3, 2026.",
+    "rank": 24
   },
   {
     "id": 1591961,
@@ -165,7 +297,19 @@
     ],
     "source": "https://about.netflix.com/en/news/my-crazy-feminist-girlfriend-main-trailer-keyart",
     "description": "U.S. subscription premiere on Netflix, December 3, 2026.",
-    "rank": 14
+    "rank": 25
+  },
+  {
+    "id": 1616675,
+    "title": "Secrets",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-03",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/netflix-unveils-teaser-for-secrets-ravi-bharwanis-first-film-in-eight-years-premiering-december-3",
+    "description": "U.S. subscription premiere on Netflix, December 3, 2026.",
+    "rank": 26
   },
   {
     "id": 1732479,
@@ -177,7 +321,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/14th-release-date-news",
     "description": "U.S. subscription premiere on Netflix, December 4, 2026.",
-    "rank": 15
+    "rank": 27
   },
   {
     "id": 1519780,
@@ -189,7 +333,31 @@
     ],
     "source": "https://www.disneyplus.com/explore/articles/diary-of-a-wimpy-kid-christmas-the-getaway-movie",
     "description": "U.S. subscription premiere on Disney+, December 4, 2026.",
-    "rank": 16
+    "rank": 28
+  },
+  {
+    "id": 1288059,
+    "title": "I Want Your Sex",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-04",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "description": "U.S. subscription premiere on HBO Max, December 4, 2026.",
+    "rank": 29
+  },
+  {
+    "id": 1620040,
+    "title": "My Brother's Killer",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-04",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "description": "U.S. subscription premiere on HBO Max, December 4, 2026.",
+    "rank": 30
   },
   {
     "id": 1433367,
@@ -201,7 +369,7 @@
     ],
     "source": "https://www.broadwayworld.com/bwwtv/article/ONE-NIGHT-ONLY-to-Stream-Exclusively-on-Peacock-Starring-Monica-Barbaro-and-Callum-Turner-20261109",
     "description": "U.S. subscription premiere on Peacock, December 4, 2026.",
-    "rank": 17
+    "rank": 31
   },
   {
     "id": 1532787,
@@ -213,7 +381,7 @@
     ],
     "source": "https://vanessahope.substack.com/p/the-bend-in-the-river-this-moment",
     "description": "U.S. subscription premiere on Netflix, December 4, 2026.",
-    "rank": 18
+    "rank": 32
   },
   {
     "id": 1824685,
@@ -225,7 +393,31 @@
     ],
     "source": "https://about.netflix.com/en/news/netflix-premieres-who-killed-the-bankers-widow-on-december-4",
     "description": "U.S. subscription premiere on Netflix, December 4, 2026.",
-    "rank": 19
+    "rank": 33
+  },
+  {
+    "id": 1560520,
+    "title": "Batman: Knightfall Part 1: Knightfall",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-07",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "description": "U.S. subscription premiere on HBO Max, December 7, 2026.",
+    "rank": 34
+  },
+  {
+    "id": 1625106,
+    "title": "Permafrost",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-10",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "description": "U.S. subscription premiere on Netflix, December 10, 2026.",
+    "rank": 35
   },
   {
     "id": 1515392,
@@ -237,7 +429,7 @@
     ],
     "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
     "description": "U.S. subscription premiere on Netflix, December 11, 2026.",
-    "rank": 20
+    "rank": 36
   },
   {
     "id": 947502,
@@ -249,7 +441,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/in-waves-release-date-cast-photos",
     "description": "U.S. subscription premiere on Netflix, December 11, 2026.",
-    "rank": 21
+    "rank": 37
   },
   {
     "id": 1158642,
@@ -261,7 +453,19 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/jean-michel-basquiat-release-date-news",
     "description": "U.S. subscription premiere on Netflix, December 11, 2026.",
-    "rank": 22
+    "rank": 38
+  },
+  {
+    "id": 1480574,
+    "title": "Just Play Dead",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-11",
+    "services": [
+      "hulu"
+    ],
+    "source": "https://press.hulu.com/schedule/december-2026/",
+    "description": "U.S. subscription premiere on Hulu, December 11, 2026.",
+    "rank": 39
   },
   {
     "id": 1623160,
@@ -273,7 +477,91 @@
     ],
     "source": "https://about.netflix.com/en/news/proxies-is-coming-to-netflix-on-december-11",
     "description": "U.S. subscription premiere on Netflix, December 11, 2026.",
-    "rank": 23
+    "rank": 40
+  },
+  {
+    "id": 1629043,
+    "title": "Phoenix Jones: The Rise and Fall of a Real Life Superhero",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-12",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.whats-on-netflix.com/news/netflix-sets-december-release-phoenix-jones-documentary/",
+    "description": "U.S. subscription premiere on Netflix, December 12, 2026.",
+    "rank": 41
+  },
+  {
+    "id": 1812061,
+    "title": "Manny Halley’s True to the Game: Quadir’s Redemption",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-15",
+    "services": [
+      "paramount-plus"
+    ],
+    "source": "https://www.paramountpressexpress.com/paramount-plus/shows/true-to-the-game-quadirs-redemption/releases/?view=113503-manny-halleys-true-to-the-game-quadirs-redemption-the-fourth-installment-in-the-fan-favorite-franchise-premieres-tuesday-december-15-exclusively-on-pa",
+    "description": "U.S. subscription premiere on Paramount+, December 15, 2026.",
+    "rank": 42
+  },
+  {
+    "id": 1620662,
+    "title": "The Champs",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-15",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "description": "U.S. subscription premiere on Netflix, December 15, 2026.",
+    "rank": 43
+  },
+  {
+    "id": 1831555,
+    "title": "A Deadly Affair: The Pamela Smart Story",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-16",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "description": "U.S. subscription premiere on Netflix, December 16, 2026.",
+    "rank": 44
+  },
+  {
+    "id": 1559982,
+    "title": "Give Me Some Sugah",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-16",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "description": "U.S. subscription premiere on Netflix, December 16, 2026.",
+    "rank": 45
+  },
+  {
+    "id": 1780021,
+    "title": "Another Disaster Holiday",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-18",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "description": "U.S. subscription premiere on Netflix, December 18, 2026.",
+    "rank": 46
+  },
+  {
+    "id": 1403676,
+    "title": "April X",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-18",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "description": "U.S. subscription premiere on HBO Max, December 18, 2026.",
+    "rank": 47
   },
   {
     "id": 1227877,
@@ -285,6 +573,114 @@
     ],
     "source": "https://press.hulu.com/schedule/december-2026/",
     "description": "U.S. subscription premiere on Hulu, December 18, 2026.",
-    "rank": 24
+    "rank": 48
+  },
+  {
+    "id": 940009,
+    "title": "Ray Gunn",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-18",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "description": "U.S. subscription premiere on Netflix, December 18, 2026.",
+    "rank": 49
+  },
+  {
+    "id": 1827575,
+    "title": "Untold: One Giant Upset",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-21",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "description": "U.S. subscription premiere on Netflix, December 21, 2026.",
+    "rank": 50
+  },
+  {
+    "id": 1284046,
+    "title": "Onslaught",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-22",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "description": "U.S. subscription premiere on HBO Max, December 22, 2026.",
+    "rank": 51
+  },
+  {
+    "id": 1457866,
+    "title": "The Further Mis-Adventures of Cliff Booth",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-23",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "description": "U.S. subscription premiere on Netflix, December 23, 2026.",
+    "rank": 52
+  },
+  {
+    "id": 1124142,
+    "title": "The Rivals of Amziah King",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-27",
+    "services": [
+      "hulu"
+    ],
+    "source": "https://press.hulu.com/schedule/december-2026/",
+    "description": "U.S. subscription premiere on Hulu, December 27, 2026.",
+    "rank": 53
+  },
+  {
+    "id": 1766439,
+    "title": "Dolphins: My Close Encounter",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-28",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "description": "U.S. subscription premiere on Netflix, December 28, 2026.",
+    "rank": 54
+  },
+  {
+    "id": 1532610,
+    "title": "Ink",
+    "mediatype": "movie",
+    "premiere_date": "2027-01-08",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/articles/ink-release-date-danny-boyle-movie",
+    "description": "U.S. subscription premiere on Netflix, January 8, 2027.",
+    "rank": 55
+  },
+  {
+    "id": 701244,
+    "title": "The Take",
+    "mediatype": "movie",
+    "premiere_date": "2027-01-15",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/articles/the-take-release-date-cast-news",
+    "description": "U.S. subscription premiere on Netflix, January 15, 2027.",
+    "rank": 56
+  },
+  {
+    "id": 1485292,
+    "title": "Fleetwood Mac: The Chain",
+    "mediatype": "movie",
+    "premiere_date": "2027-01-29",
+    "services": [
+      "apple-tv"
+    ],
+    "source": "https://www.apple.com/tv-pr/news/2026/10/apple-original-films-unveils-title-and-release-date-for-first-ever-fully-authorized-fleetwood-mac-documentary-fleetwood-mac-the-chain/",
+    "description": "U.S. subscription premiere on Apple TV+, January 29, 2027.",
+    "rank": 57
   }
 ]
