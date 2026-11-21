@@ -5,6 +5,7 @@ import os
 import re
 import urllib.error
 import urllib.request
+from calendar import month_name
 from datetime import date, datetime, timedelta
 from functools import lru_cache
 from html.parser import HTMLParser
@@ -13,13 +14,17 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 from zoneinfo import ZoneInfo
 
-from update_premieres import ANNOUNCEMENTS_KEY, AUDIT, HISTORY, KNOWN_SPECIALS, SERVICE_NAMES
+from update_premieres import ANNOUNCEMENTS_KEY, AUDIT, HISTORY, KNOWN_SPECIALS, SERVICE_NAMES, classify
 
 VERIFIED = Path("data/verified_us_movie_premieres.json")
 CALENDAR = Path("charts/disney_hulu_diagnostic.json")
 OUTPUT = Path("charts/upcoming_movies.json")
 FEATURES = {"feature_film", "feature_documentary"}
 MOVIE_URL = re.compile(r"https://www\.themoviedb\.org/movie/([1-9]\d*)(?:-[^/?#]+)?/?")
+MONTHS = "|".join(m.lower() for m in month_name[1:])
+WEEKDAY = r"(?:(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday) )?"
+DAY_HEADING = re.compile(rf"{WEEKDAY}({MONTHS}) (\d{{1,2}})(?:st|nd|rd|th)?(?: (\d{{4}}))?")
+UNCLEAR_HEADING = re.compile(rf"{WEEKDAY}(?:{MONTHS})(?:$| (?:\d|tbd\b|tba\b))|(?:early|mid|late) (?:{MONTHS})\b")
 
 
 def words(text):
@@ -31,8 +36,9 @@ class ReleaseText(HTMLParser):
     blocks = {"p", "tr", "li", "h1", "h2", "h3", "h4", "h5", "h6", "article", "section"}
     hidden = {"script", "style", "template", "noscript", "svg"}
 
-    def __init__(self):
+    def __init__(self, split_breaks=False):
         super().__init__()
+        self.split_breaks = split_breaks
         self.hidden_depth = 0
         self.in_row = False
         self.parts = []
@@ -49,7 +55,7 @@ class ReleaseText(HTMLParser):
         elif not self.hidden_depth and tag == "tr":
             self.flush()
             self.in_row = True
-        elif not self.hidden_depth and not self.in_row and tag in self.blocks:
+        elif not self.hidden_depth and not self.in_row and (tag in self.blocks or (tag == "br" and self.split_breaks)):
             self.flush()
 
     def handle_endtag(self, tag):
@@ -67,7 +73,7 @@ class ReleaseText(HTMLParser):
 
 
 @lru_cache(maxsize=64)
-def source_lines(url):
+def source_lines(url, split_breaks=False):
     request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 KodiMoviePremieres/1.0"})
     try:
         with urllib.request.urlopen(request, timeout=20) as response:
@@ -80,7 +86,7 @@ def source_lines(url):
     except (OSError, HTTPException, LookupError, ValueError) as error:
         print(f"Release source unavailable ({type(error).__name__}): {url}")
         return None
-    parser = ReleaseText()
+    parser = ReleaseText(split_breaks=split_breaks)
     parser.feed(html)
     parser.close()
     parser.flush()
@@ -94,14 +100,44 @@ def dated_statement(lines, title, day, template):
         months.add("sept")
     month_pattern = "|".join(sorted(months))
     # An explicit conflicting year must not match the yearless form.
-    date_pattern = (
-        rf"(?:{month_pattern}) {day.day}(?:st|nd|rd|th)?\b"
-        rf"(?: {day.year}\b|(?! (?:19|20)\d{{2}}\b))"
-    )
+    month = rf"(?:{month_pattern})"
+    number = rf"{day.day}(?:st|nd|rd|th)?"
+    date_pattern = rf"(?:{month} {number}|{number} {month})\b(?: {day.year}\b|(?! (?:19|20)\d{{2}}\b))"
     iso = re.escape(words(day.isoformat()))
     pieces = [re.escape(words(before)), f"(?:{date_pattern}|{iso})", re.escape(words(after))]
     pattern = re.compile(r"\b" + " ".join(piece for piece in pieces if piece) + r"\b")
     return any(pattern.search(line) for line in lines)
+
+
+def calendar_entry(lines, title, day, rule):
+    """Match a complete listing under its own day in a specific year's schedule."""
+    heading = words(rule["heading"].replace("{year}", str(day.year)))
+    if heading not in lines:
+        return False
+    start = lines.index(heading) + 1
+    if "section" in rule:
+        section = words(rule["section"])
+        try:
+            start = lines.index(section, start) + 1
+        except ValueError:
+            return False
+    entry = words(rule["entry"].replace("{title}", title))
+    expected = (day.strftime("%B").lower(), str(day.day), str(day.year))
+    current = None
+    found = False
+    for line in lines[start:]:
+        match = DAY_HEADING.fullmatch(line)
+        if match:
+            month, number, year = match.groups()
+            current = (month, str(int(number)), year or str(day.year))
+        elif (UNCLEAR_HEADING.match(line) or line in {"coming soon", "date to be announced", "tba", "tbd"}
+              or line.startswith(("leaving ", "last chance "))):
+            current = None
+        elif line == entry and current is not None:
+            if current != expected:
+                return False
+            found = True
+    return found
 
 
 def confirms_date(movie, day, read_source):
@@ -111,8 +147,11 @@ def confirms_date(movie, day, read_source):
         (movie["corroboration"], movie.get("alternate_date_check")),
     ):
         if template:
-            lines = read_source(url)
+            is_calendar = isinstance(template, dict)
+            lines = read_source(url, split_breaks=True) if is_calendar else read_source(url)
             if lines is not None:
+                if is_calendar:
+                    return calendar_entry(lines, movie["title"], day, template)
                 return dated_statement(lines, movie["title"], day, template)
     return None
 
@@ -141,11 +180,24 @@ def calendar_confirms(report, movie, day, service):
     )
 
 
+def valid_date_check(rule):
+    if isinstance(rule, str):
+        return rule.count("{date}") == 1 and rule.count("{title}") == 1
+    return (
+        isinstance(rule, dict) and {"heading", "entry"} <= rule.keys() <= {"heading", "entry", "section"}
+        and isinstance(rule["heading"], str) and "{year}" in rule["heading"]
+        and isinstance(rule["entry"], str) and bool(rule["entry"].strip())
+        and ("section" not in rule or isinstance(rule["section"], str) and bool(rule["section"].strip()))
+    )
+
+
 def reviewed_films(records):
     if not isinstance(records, list):
         raise ValueError("Invalid reviewed premiere list")
     seen = set()
     for movie in records:
+        if movie["tmdb"] is None:
+            continue  # The premiere is reviewed but its Kodi movie identity is still unconfirmed.
         if movie["format"] not in FEATURES or movie["tmdb"].startswith("https://www.themoviedb.org/tv/"):
             continue
         match = MOVIE_URL.fullmatch(movie["tmdb"])
@@ -160,35 +212,67 @@ def reviewed_films(records):
             or not movie["source"].startswith("https://")
         ):
             raise ValueError(f"Invalid or duplicate reviewed movie: {movie['title']}")
+        aliases = movie.get("alternate_titles", [])
+        if not isinstance(aliases, list) or any(not isinstance(name, str) or not name.strip() for name in aliases):
+            raise ValueError(f"Invalid alternate catalog title for {movie['title']}")
         if "date_check" in movie:
             templates = [movie["date_check"]]
             if "alternate_date_check" in movie:
                 templates.append(movie["alternate_date_check"])
             if (
-                any(t.count("{date}") != 1 or t.count("{title}") != 1 for t in templates)
+                not all(valid_date_check(t) for t in templates)
                 or not movie.get("corroboration", "").startswith("https://")
                 or movie["corroboration"] == movie["source"]
             ):
                 raise ValueError(f"Invalid date check for {movie['title']}")
+        if "superseded_catalog_date" in movie:
+            old = date.fromisoformat(movie["superseded_catalog_date"])
+            if len(services) != 1 or "date_check" not in movie or old == date.fromisoformat(movie["date"]):
+                raise ValueError(f"Invalid catalog date correction for {movie['title']}")
         seen.add(ident)
         yield ident, date.fromisoformat(movie["date"]), movie
 
 
-def audit_agrees(row, title, when):
+def audit_agrees(row, title, when, alternate_titles=()):
     # Older reports already screened Galaxy and MDBList for the TMDb movie namespace.
     metadata = row.get("metadata") or {}
     dates = row.get("streaming_dates")
+    titles = {words(name) for name in (title, *alternate_titles)}
     return (
         row.get("status") == "potential_premiere_unverified"
         and isinstance(dates, dict) and bool(dates) and isinstance(metadata, dict) and bool(metadata)
         and row.get("media_type", "movie") == "movie"
         and row.get("tmdbType", "movie") == "movie"
         and metadata.get("type", "movie") == "movie"
-        and words(row["title"]) == words(metadata.get("title") or row["title"]) == words(title)
+        and words(row["title"]) in titles and words(metadata.get("title") or row["title"]) in titles
         and row["earliest_streaming_date"] == min(dates.values()) == when
         and not (row.get("observed_previous_services") or row.get("earlier_announced_arrivals")
                  or row.get("other_watch_providers"))
     )
+
+
+def apply_reviewed_date(movie, row, announced):
+    """Correct just the reviewed service/date pair. Keep the raw audit and history intact."""
+    old = movie["superseded_catalog_date"]
+    when = movie["date"]
+    service, = movie["services"]
+    if announced.get(service) == old:
+        announced = announced | {service: when}
+    dates = (row or {}).get("streaming_dates") or {}
+    if dates.get(service) not in {old, when} or row["earliest_streaming_date"] != min(dates.values()):
+        return row, announced
+    dates = dates | {service: when}
+    row = row | {"streaming_dates": dates, "earliest_streaming_date": min(dates.values())}
+    earlier = row.get("earlier_announced_arrivals") or {}
+    if earlier.get(service) == old:
+        row["earlier_announced_arrivals"] = {s: d for s, d in earlier.items() if s != service}
+        if row["status"] == "possible_transfer" and not row.get("other_watch_providers"):
+            # Recheck the ordinary metadata, runtime, and prior-service rules after removing the false date.
+            row["status"], _ = classify(
+                row.copy(), row.get("observed_previous_services") or [],
+                row.get("metadata"), row["earlier_announced_arrivals"],
+            )
+    return row, announced
 
 
 def build_widget(records, audit, history, calendar, previous, today, read_source=source_lines):
@@ -212,10 +296,12 @@ def build_widget(records, audit, history, calendar, previous, today, read_source
         when = day.isoformat()
         title = movie["title"]
         announced = history.get(ANNOUNCEMENTS_KEY, {}).get(str(ident), {})
+        row = by_id.get(ident)
+        if "superseded_catalog_date" in movie:
+            row, announced = apply_reviewed_date(movie, row, announced)
         if history.get(str(ident)) or any(d < when for d in announced.values()):
             continue
-        row = by_id.get(ident)
-        if row is not None and not audit_agrees(row, title, when):
+        if row is not None and not audit_agrees(row, title, when, movie.get("alternate_titles", ())):
             continue
         proof = None
         if audit is not None and "date_check" in movie:
@@ -227,8 +313,11 @@ def build_widget(records, audit, history, calendar, previous, today, read_source
                 continue
             if row is not None and row["streaming_dates"].get(service) != when:
                 continue
-            if service in announced and (row is None or announced[service] != when):
-                continue  # Do not resurrect a withdrawn or moved catalog announcement.
+            if service in announced:
+                if announced[service] != when:
+                    continue
+                if row is None and not (day == today and proof is True):
+                    continue  # Future withdrawals stay out. A live source can confirm release day in the U.S.
             if audit is not None and row is None and "date_check" not in movie:
                 continue
             if "date_check" in movie and (proof is False or (proof is None and not already_published)):

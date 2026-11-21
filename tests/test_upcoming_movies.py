@@ -81,9 +81,11 @@ class UpcomingMoviesTest(unittest.TestCase):
             return self.build(records=[movie], audit={"candidates": []}, read_source=lambda url: parser.lines)
 
         self.assertTrue(from_press("<p>A Feature streams on Netflix Nov. 25th, 2026.</p>"))
+        self.assertTrue(from_press("<p>A Feature streams on Netflix 25 November 2026.</p>"))
         for body in (
             "<p>A Feature streams on Netflix November 2.</p>",
             "<p>A Feature streams on Netflix November 25, 2027.</p>",
+            "<p>A Feature streams on Netflix 25 November 2027.</p>",
             "<p>A Feature streams on Netflix in November.</p>",
             "<p>A Feature streams on Netflix</p><p>November 25 is for Another Film.</p>",
             "<script>A Feature streams on Netflix November 25</script>",
@@ -130,6 +132,95 @@ class UpcomingMoviesTest(unittest.TestCase):
         self.assertEqual(self.build(audit=None, previous=previous, today=date(2026, 11, 26)), [])
         self.assertEqual(self.build(records=[], audit=None, previous=previous), [])
         self.assertEqual(self.build(audit=None, previous=[previous[0] | {"mediatype": "show"}]), [])
+
+    def test_publisher_calendar_uses_edition_section_day_and_complete_title(self):
+        rule = {"heading": "November {year} on Netflix", "section": "Movies this month", "entry": "{title} (2026)"}
+        movie = self.press_movie() | {"date_check": rule}
+
+        def render(listings, heading="November 2026 on Netflix", section="Movies this month"):
+            def read(url, split_breaks=False):
+                parser = widget.ReleaseText(split_breaks)
+                parser.feed(f"<h1>{heading}</h1><p>November 25<br>A Feature (2026)</p>"
+                            f"<h2>{section}</h2><p>{listings}</p>")
+                parser.close()
+                parser.flush()
+                return parser.lines
+            return self.build(records=[movie], audit={"candidates": []}, read_source=read)
+        listed = "November 24<br>Another Film<br><strong>November 25</strong><br>A <em>Feature</em> (2026)"
+        self.assertTrue(render(listed))
+        for page in (
+            listed.replace("November 25", "November 26"), listed.replace("November 25", "November 25 2025"),
+            listed.replace("A <em>Feature</em>", "A Feature Returns"), listed.replace(" (2026)", " Season 1"),
+            listed.replace("<br>A <em>Feature", "<br>Coming soon<br>A <em>Feature"),
+            listed.replace("<br>A <em>Feature", "<br>December<br>A <em>Feature"),
+            listed.replace("<br>A <em>Feature", "<br>November 26–28<br>A <em>Feature"),
+            listed + "<br>November 26<br>A Feature (2026)",
+        ):
+            with self.subTest(page=page):
+                self.assertEqual(render(page), [])
+        self.assertEqual(render(listed, heading="November 2025 on Netflix"), [])
+        self.assertEqual(render(listed, section="TV premieres"), [])
+
+    def test_known_catalog_date_correction_preserves_conflicts_and_evidence(self):
+        old, new = "2026-11-24", self.movie["date"]
+        movie = self.press_movie() | {"superseded_catalog_date": old}
+        old_row = self.row | {"earliest_streaming_date": old, "streaming_dates": {"netflix": old}}
+        updated_row = self.row | {"status": "possible_transfer", "earlier_announced_arrivals": {"netflix": old}}
+        history = {widget.ANNOUNCEMENTS_KEY: {"1001": {"netflix": old}}}
+
+        def render(row, evidence=True, past=history):
+            read = lambda url: [widget.words("A Feature streams on Netflix November 25")] if evidence else []
+            return self.build(records=[movie], audit={"candidates": [row]}, history=past, read_source=read)
+        for row in (old_row, updated_row):
+            snapshot = deepcopy(row)
+            result, = render(row)
+            self.assertEqual(result["premiere_date"], new)
+            self.assertEqual(row, snapshot)
+            self.assertEqual(render(row, evidence=False), [])
+            self.assertEqual(render(row, past=history | {"1001": ["netflix"]}), [])
+        self.assertEqual(history[widget.ANNOUNCEMENTS_KEY]["1001"]["netflix"], old)
+        for changed in (
+            {"observed_previous_services": ["hulu"]}, {"other_watch_providers": ["starz"]},
+            {"earlier_announced_arrivals": {"netflix": old, "hulu": old}},
+            {"metadata": {"type": "movie", "runtime": 12}}, {"metadata": {}},
+            {"metadata": {"type": "movie", "title": "Different movie"}},
+            {"earliest_streaming_date": "2026-11-26", "streaming_dates": {"netflix": "2026-11-26"}},
+        ):
+            with self.subTest(changed=changed):
+                self.assertEqual(render(updated_row | changed), [])
+        earlier = {widget.ANNOUNCEMENTS_KEY: {"1001": {"netflix": old, "hulu": old}}}
+        self.assertEqual(render(old_row, past=earlier), [])
+
+    def test_us_release_day_after_title_drops_from_coming_list(self):
+        movie = self.press_movie()
+        history = {widget.ANNOUNCEMENTS_KEY: {"1001": {"netflix": movie["date"]}}}
+        args = dict(records=[movie], audit={"candidates": []}, history=history,
+                    read_source=lambda url: [widget.words("A Feature streams on Netflix November 25")])
+        release = date.fromisoformat(movie["date"])
+        self.assertEqual(self.build(**args), [])  # A withdrawn future listing stays out.
+        self.assertTrue(self.build(**args, today=release))
+        self.assertEqual(self.build(**(args | {"read_source": lambda url: None}), today=release), [])
+        self.assertEqual(self.build(**(args | {"read_source": lambda url: []}), today=release), [])
+        self.assertEqual(self.build(**(args | {"history": history | {"1001": ["hulu"]}}), today=release), [])
+        self.assertEqual(self.build(**args, today=date(2026, 11, 26)), [])
+
+    def test_shared_titles_and_pending_movie_id_do_not_publish_the_wrong_film(self):
+        verified = self.press_movie() | {"tmdb": "https://www.themoviedb.org/movie/2002"}
+        wrong = self.row | {"status": "release_date_conflict", "metadata": {"type": "movie", "year": 2027}}
+        args = dict(audit={"candidates": [wrong]},
+                    read_source=lambda url: [widget.words("A Feature streams on Netflix November 25")])
+        pending = self.movie | {"tmdb": None}
+        items = self.build(records=[pending, verified], **args)
+        self.assertEqual([(x["id"], x["mediatype"]) for x in items], [(2002, "movie")])
+        self.assertEqual(self.build(records=[pending], **args), [])
+
+    def test_only_reviewed_title_variants_can_match_the_same_movie_id(self):
+        movie = self.movie | {"alternate_titles": ["El niño"]}
+        row = self.row | {"title": "El Niño", "metadata": {"type": "movie", "title": self.movie["title"]}}
+        self.assertTrue(self.build(records=[movie], audit={"candidates": [row]}))
+        for changed in ({"title": "El niño 2"}, {"tmdb_id": 2002}, {"metadata": {"title": "The Other Child"}}):
+            with self.subTest(changed=changed):
+                self.assertEqual(self.build(records=[movie], audit={"candidates": [row | changed]}), [])
 
 
 if __name__ == "__main__":
