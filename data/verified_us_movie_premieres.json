@@ -1,10 +1,107 @@
 [
   {
+    "title": "On Behalf of My Son",
+    "tmdb": "https://www.themoviedb.org/movie/1307474",
+    "format": "feature_film",
+    "date": "2026-11-20",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/netflix-unveils-poster-and-release-date-for-on-behalf-of-my-son-gabriel-martins-new-film",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-netflix-in-november-2026/",
+    "date_check": "{title}, which will arrive in select theaters on November 5 and on Netflix on {date}",
+    "alternate_titles": [
+      "Vicentina Pede Desculpas"
+    ],
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in November {year}",
+      "entry": "{title} (BR) Netflix Film"
+    }
+  },
+  {
+    "title": "Perfect Liars",
+    "tmdb": "https://www.themoviedb.org/movie/1568060",
+    "format": "feature_film",
+    "date": "2026-11-20",
+    "services": [
+      "amazon-prime-video"
+    ],
+    "source": "https://www.aboutamazon.com/news/entertainment/prime-video-november-films-shows-sports-2026",
+    "corroboration": "https://www.aboutamazon.com/news/entertainment/perfect-liars-prime-video",
+    "date_check": "{date}. Based on Alex Mírez’s Wattpad sensation with more than 140 million reads, {title}",
+    "alternate_titles": [
+      "Perfectos mentirosos"
+    ]
+  },
+  {
+    "title": "Primetime Preacher$",
+    "tmdb": "https://www.themoviedb.org/movie/1791730",
+    "format": "feature_documentary",
+    "date": "2026-11-20",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-november-2026/",
+    "corroboration": "https://media.netflix.com/en/only-on-netflix/81774139",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in November {year}",
+      "entry": "{title} Netflix documentary"
+    }
+  },
+  {
+    "title": "Steps",
+    "tmdb": "https://www.themoviedb.org/movie/1595124",
+    "format": "feature_film",
+    "date": "2026-11-20",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-november-2026/",
+    "corroboration": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in November {year}",
+      "entry": "{title} Netflix family"
+    }
+  },
+  {
+    "title": "Tony",
+    "tmdb": "https://www.themoviedb.org/movie/1329016",
+    "format": "feature_film",
+    "date": "2026-11-20",
+    "services": [
+      "max"
+    ],
+    "source": "https://whentostream.com/anthony-bourdain-biopic-tony-sets-hbo-max-streaming-release-date/",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-november-2026/",
+    "date_check": "{title} is set to make its SVOD debut next month, arriving on HBO Max on {date}",
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on HBO Max in November {year}",
+      "entry": "{title} (A24)"
+    }
+  },
+  {
+    "title": "Unbearable Christmas",
+    "tmdb": "https://www.themoviedb.org/movie/1458249",
+    "format": "feature_film",
+    "date": "2026-11-20",
+    "services": [
+      "peacock"
+    ],
+    "source": "https://www.peacocktv.com/blog/what-to-watch-new-on-peacock",
+    "corroboration": "https://unbearablechristmas.com/",
+    "date_check": {
+      "heading": "See what's new on Peacock in November {year} below",
+      "entry": "{title}"
+    }
+  },
+  {
     "title": "Clashing Through the Snow",
     "tmdb": "https://www.themoviedb.org/movie/1611767",
     "format": "feature_film",
     "date": "2026-11-23",
-    "services": ["amazon-prime-video"],
+    "services": [
+      "amazon-prime-video"
+    ],
     "source": "https://www.aboutamazon.com/news/entertainment/prime-video-november-films-shows-sports-2026",
     "corroboration": "https://www.primevideo.com/detail/0TWROLY7CIQMYP2WBPM7XKZI6E"
   },
@@ -13,7 +110,9 @@
     "tmdb": "https://www.themoviedb.org/movie/1674241",
     "format": "feature_documentary",
     "date": "2026-11-23",
-    "services": ["hulu"],
+    "services": [
+      "hulu"
+    ],
     "source": "https://press.hulu.com/shows/the-symphony-of-dance/",
     "corroboration": "https://tribecafilm.com/festival/archive/symphony-of-dance-2026"
   },
@@ -22,7 +121,9 @@
     "tmdb": "https://www.themoviedb.org/movie/1802703",
     "format": "feature_documentary",
     "date": "2026-11-24",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://www.netflix.com/tudum/articles/rob-lowe-the-outsider-documentary-release-date-news",
     "corroboration": "https://media.netflix.com/en/only-on-netflix/81952500"
   },
@@ -31,7 +132,9 @@
     "tmdb": "https://www.themoviedb.org/movie/1458300",
     "format": "feature_film",
     "date": "2026-11-25",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://media.netflix.com/en/only-on-netflix/81661161"
   },
   {
@@ -39,7 +142,9 @@
     "tmdb": "https://www.themoviedb.org/movie/1632599",
     "format": "feature_documentary",
     "date": "2026-11-25",
-    "services": ["max"],
+    "services": [
+      "max"
+    ],
     "source": "https://press.wbd.com/us/media-release/hbo-original-documentary-slightest-touch-debuts-november-25",
     "corroboration": "https://press.wbd.com/us/media-release/whats-new-hbo-max-november-2?language_content_entity=en"
   },
@@ -48,27 +153,124 @@
     "tmdb": "https://www.themoviedb.org/movie/1280115",
     "format": "feature_film",
     "date": "2026-11-25",
-    "services": ["apple-tv"],
+    "services": [
+      "apple-tv"
+    ],
     "source": "https://www.apple.com/tv-pr/news/2026/11/apple-original-films-celebrates-the-world-premiere-of-way-of-the-warrior-kid/",
     "corroboration": "https://www.justwatch.com/us/movie/way-of-the-warrior-kid",
     "date_check": "{title} streams globally on Apple TV {date}",
     "alternate_date_check": "{title} will be available to watch on Apple TV from {date}"
   },
   {
+    "title": "And Love Knocked",
+    "tmdb": "https://www.themoviedb.org/movie/1492138",
+    "format": "feature_film",
+    "date": "2026-11-27",
+    "services": [
+      "peacock"
+    ],
+    "source": "https://www.peacocktv.com/blog/what-to-watch-new-on-peacock",
+    "corroboration": "https://homecinemaadvisor.com/film/1492138-and-love-knocked",
+    "date_check": {
+      "heading": "See what's new on Peacock in November {year} below",
+      "entry": "{title} - Premiere"
+    }
+  },
+  {
+    "title": "Couture",
+    "tmdb": "https://www.themoviedb.org/movie/1390382",
+    "format": "feature_film",
+    "date": "2026-11-27",
+    "services": [
+      "hulu"
+    ],
+    "source": "https://press.hulu.com/schedule/november-2026/",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-hulu-in-november-2026/",
+    "date_check": "{date} {title} (2025) Added",
+    "alternate_titles": [
+      "Coutures"
+    ]
+  },
+  {
+    "title": "Runner",
+    "tmdb": "https://www.themoviedb.org/movie/1377237",
+    "format": "feature_film",
+    "date": "2026-11-27",
+    "services": [
+      "hulu"
+    ],
+    "source": "https://press.hulu.com/schedule/november-2026/",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-hulu-in-november-2026/",
+    "date_check": "{date} {title} (2026) Added"
+  },
+  {
+    "title": "The Child",
+    "tmdb": "https://www.themoviedb.org/movie/1506401",
+    "format": "feature_film",
+    "date": "2026-11-27",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/the-child-is-coming-to-netflix-on-27-november-following-its-cinema-premiere-on-13-november",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-netflix-in-november-2026/",
+    "date_check": "{title} is coming to Netflix on {date}",
+    "alternate_titles": [
+      "El niño"
+    ],
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in November {year}",
+      "entry": "{title} (ES) Netflix Film"
+    }
+  },
+  {
     "title": "The Hunchback, Soul of Paris",
     "tmdb": "https://www.themoviedb.org/movie/1480665",
     "format": "feature_film",
     "date": "2026-11-27",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://about.netflix.com/en/news/netflix-presents-quasimodo-the-soul-of-paris-the-myth-revisited-releasing-nov-27-2026",
     "corroboration": "https://www.netflix.com/title/82013434"
+  },
+  {
+    "title": "The Magic Faraway Tree",
+    "tmdb": "https://www.themoviedb.org/movie/1140521",
+    "format": "feature_film",
+    "date": "2026-11-27",
+    "services": [
+      "max"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-november-2026/",
+    "corroboration": "https://whentostream.com/the-magic-faraway-tree-2026/",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on HBO Max in November {year}",
+      "entry": "{title} (2026)"
+    }
+  },
+  {
+    "title": "The Christmas Showdown 2",
+    "tmdb": null,
+    "format": "feature_film",
+    "date": "2026-11-29",
+    "services": [
+      "max"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-november-2026/",
+    "corroboration": "https://www.onbackstage.com/tv/new-on-hbo-max-november-2026",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on HBO Max in November {year}",
+      "entry": "OWN Holiday Movie: {title} (OWN)"
+    }
   },
   {
     "title": "Seized",
     "tmdb": "https://www.themoviedb.org/movie/1596266",
     "format": "feature_documentary",
     "date": "2026-12-01",
-    "services": ["max"],
+    "services": [
+      "max"
+    ],
     "source": "https://www.broadwayworld.com/bwwtv/article/HBO-Documentary-SEIZED-to-Chronicle-Marion-County-Record-Raid-and-Press-Freedom-Fight-20261117",
     "corroboration": "https://www.tvinsider.com/show/seized/"
   },
@@ -77,7 +279,9 @@
     "tmdb": "https://www.themoviedb.org/movie/1588626",
     "format": "feature_film",
     "date": "2026-12-02",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
     "corroboration": "https://media.netflix.com/en/only-on-netflix/81901411"
   },
@@ -86,16 +290,32 @@
     "tmdb": "https://www.themoviedb.org/movie/1422041",
     "format": "feature_film",
     "date": "2026-12-02",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://www.netflix.com/tudum/articles/la-bola-negra-release-date-cast-photos",
     "corroboration": "https://media.netflix.com/en/only-on-netflix/82964412"
+  },
+  {
+    "title": "Marcos: Another World Is Possible",
+    "tmdb": null,
+    "format": "feature_documentary",
+    "date": "2026-12-02",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/netflix-unveils-the-trailer-for-marcos-otro-mundo-es-posible-diego-enrique-osornos-documentary-on-the-zapatista-movement-premiering-december-2",
+    "corroboration": "https://www.netflix.com/title/81783065",
+    "date_check": "{title}, Diego Enrique Osorno’s documentary on the Zapatista movement, premiering {date}"
   },
   {
     "title": "The Man with the Bag",
     "tmdb": "https://www.themoviedb.org/movie/1137888",
     "format": "feature_film",
     "date": "2026-12-02",
-    "services": ["amazon-prime-video"],
+    "services": [
+      "amazon-prime-video"
+    ],
     "source": "https://www.aboutamazon.com/news/entertainment/the-man-with-the-bag-arnold-schwarzenegger-christmas-movie-prime-video"
   },
   {
@@ -103,36 +323,68 @@
     "tmdb": "https://www.themoviedb.org/movie/1380417",
     "format": "feature_film",
     "date": "2026-12-03",
-    "services": ["paramount-plus"],
+    "services": [
+      "paramount-plus"
+    ],
     "source": "https://www.paramountplus.com/sneak-peak/new-on-paramount-plus/",
     "corroboration": "https://wespeakmedia2.com/yahya-abdul-mateen-ii-and-mark-wahlberg-team-up-in-by-any-means-streaming-on-paramount-december-3/",
     "date_check": "the streaming debut of {title} {date}",
     "alternate_date_check": "{title} streaming on Paramount+ {date}"
   },
   {
-    "title": "My Brother's Killer",
-    "tmdb": "https://www.themoviedb.org/movie/1620040",
+    "title": "Jão: Tales from the Void",
+    "tmdb": "https://www.themoviedb.org/movie/1780359",
     "format": "feature_documentary",
     "date": "2026-12-03",
-    "services": ["max"],
-    "source": "https://www.webwire.com/ViewPressRel.asp?aId=363280",
-    "corroboration": "https://www.tvinsider.com/show/my-brothers-killer/"
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/netflix-releases-trailer-for-jao-tales-from-the-void",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "date_check": "{title} premieres on {date} only on Netflix",
+    "alternate_titles": [
+      "Jão: Memórias Póstumas"
+    ],
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} (BR) Netflix Documentary"
+    }
   },
   {
     "title": "My Crazy Feminist Girlfriend",
     "tmdb": "https://www.themoviedb.org/movie/1591961",
     "format": "feature_film",
     "date": "2026-12-03",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://about.netflix.com/en/news/my-crazy-feminist-girlfriend-main-trailer-keyart",
     "corroboration": "https://www.netflix.com/title/81703380"
+  },
+  {
+    "title": "Secrets",
+    "tmdb": "https://www.themoviedb.org/movie/1616675",
+    "format": "feature_film",
+    "date": "2026-12-03",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/netflix-unveils-teaser-for-secrets-ravi-bharwanis-first-film-in-eight-years-premiering-december-3",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "date_check": "{title} premieres globally on {date}",
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} (ID) Netflix Film"
+    }
   },
   {
     "title": "14th",
     "tmdb": "https://www.themoviedb.org/movie/1732479",
     "format": "feature_documentary",
     "date": "2026-12-04",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://www.netflix.com/tudum/articles/14th-release-date-news",
     "corroboration": "https://media.netflix.com/en/only-on-netflix/81908710"
   },
@@ -141,16 +393,63 @@
     "tmdb": "https://www.themoviedb.org/movie/1519780",
     "format": "feature_film",
     "date": "2026-12-04",
-    "services": ["disney-plus"],
+    "services": [
+      "disney-plus"
+    ],
     "source": "https://www.disneyplus.com/explore/articles/diary-of-a-wimpy-kid-christmas-the-getaway-movie",
     "calendar_title": "Diary of a Wimpy Kid Christmas: The Getaway – Premiere"
+  },
+  {
+    "title": "I Want Your Sex",
+    "tmdb": "https://www.themoviedb.org/movie/1288059",
+    "format": "feature_film",
+    "date": "2026-12-04",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-december-2026/",
+    "date_check": {
+      "heading": "11/20/{year} Press release Distributed by Public on 11/20/{year} 12:00",
+      "entry": "{title}",
+      "section": "Titles coming to HBO Max in December"
+    },
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on HBO Max in December {year}",
+      "entry": "{title}",
+      "section": "Titles coming to HBO Max in December"
+    }
+  },
+  {
+    "title": "My Brother's Killer",
+    "tmdb": "https://www.themoviedb.org/movie/1620040",
+    "format": "feature_documentary",
+    "date": "2026-12-04",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-december-2026/",
+    "date_check": {
+      "heading": "11/20/{year} Press release Distributed by Public on 11/20/{year} 12:00",
+      "entry": "{title} (ID)",
+      "section": "Titles coming to HBO Max in December"
+    },
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on HBO Max in December {year}",
+      "entry": "{title} (ID)",
+      "section": "Titles coming to HBO Max in December"
+    },
+    "superseded_catalog_date": "2026-12-03"
   },
   {
     "title": "One Night Only",
     "tmdb": "https://www.themoviedb.org/movie/1433367",
     "format": "feature_film",
     "date": "2026-12-04",
-    "services": ["peacock"],
+    "services": [
+      "peacock"
+    ],
     "source": "https://www.broadwayworld.com/bwwtv/article/ONE-NIGHT-ONLY-to-Stream-Exclusively-on-Peacock-Starring-Monica-Barbaro-and-Callum-Turner-20261109",
     "corroboration": "https://whentostream.com/romantic-comedy-one-night-only-sets-peacock-streaming-premiere-date/",
     "date_check": "Peacock will exclusively stream {title} beginning {date}",
@@ -161,7 +460,9 @@
     "tmdb": "https://www.themoviedb.org/movie/1532787",
     "format": "feature_documentary",
     "date": "2026-12-04",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://vanessahope.substack.com/p/the-bend-in-the-river-this-moment",
     "corroboration": "https://www.netflix.com/title/82832148"
   },
@@ -170,16 +471,77 @@
     "tmdb": "https://www.themoviedb.org/movie/1824685",
     "format": "feature_documentary",
     "date": "2026-12-04",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://about.netflix.com/en/news/netflix-premieres-who-killed-the-bankers-widow-on-december-4",
     "corroboration": "https://www.netflix.com/title/81742745"
+  },
+  {
+    "title": "Tapping Into Christmas",
+    "tmdb": null,
+    "format": "feature_film",
+    "date": "2026-12-06",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-december-2026/",
+    "date_check": {
+      "heading": "11/20/{year} Press release Distributed by Public on 11/20/{year} 12:00",
+      "entry": "OWN Holiday Movie: {title} (OWN)",
+      "section": "Titles coming to HBO Max in December"
+    },
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on HBO Max in December {year}",
+      "entry": "OWN Holiday Movie: {title} (OWN)",
+      "section": "Titles coming to HBO Max in December"
+    }
+  },
+  {
+    "title": "Batman: Knightfall Part 1: Knightfall",
+    "tmdb": "https://www.themoviedb.org/movie/1560520",
+    "format": "feature_film",
+    "date": "2026-12-07",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-december-2026/",
+    "date_check": {
+      "heading": "11/20/{year} Press release Distributed by Public on 11/20/{year} 12:00",
+      "entry": "Batman: Knightfall Part 1",
+      "section": "Titles coming to HBO Max in December"
+    },
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on HBO Max in December {year}",
+      "entry": "Batman: Knightfall Part 1",
+      "section": "Titles coming to HBO Max in December"
+    }
+  },
+  {
+    "title": "Permafrost",
+    "tmdb": "https://www.themoviedb.org/movie/1625106",
+    "format": "feature_film",
+    "date": "2026-12-10",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "corroboration": "https://www.netflix.com/title/81907559",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} (SE) Netflix film"
+    }
   },
   {
     "title": "Bad Day",
     "tmdb": "https://www.themoviedb.org/movie/1515392",
     "format": "feature_film",
     "date": "2026-12-11",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
     "corroboration": "https://media.netflix.com/en/only-on-netflix/81481306"
   },
@@ -188,7 +550,9 @@
     "tmdb": "https://www.themoviedb.org/movie/947502",
     "format": "feature_film",
     "date": "2026-12-11",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://www.netflix.com/tudum/articles/in-waves-release-date-cast-photos",
     "corroboration": "https://media.netflix.com/en/only-on-netflix/82946622"
   },
@@ -197,29 +561,293 @@
     "tmdb": "https://www.themoviedb.org/movie/1158642",
     "format": "feature_documentary",
     "date": "2026-12-11",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://www.netflix.com/tudum/articles/jean-michel-basquiat-release-date-news",
     "corroboration": "https://media.netflix.com/en/only-on-netflix/82820725"
+  },
+  {
+    "title": "Just Play Dead",
+    "tmdb": "https://www.themoviedb.org/movie/1480574",
+    "format": "feature_film",
+    "date": "2026-12-11",
+    "services": [
+      "hulu"
+    ],
+    "source": "https://press.hulu.com/schedule/december-2026/",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-hulu-in-december-2026/",
+    "date_check": "{date} {title} (2026) Added",
+    "calendar_title": "Just Play Dead (2026)"
   },
   {
     "title": "Proxies",
     "tmdb": "https://www.themoviedb.org/movie/1623160",
     "format": "feature_film",
     "date": "2026-12-11",
-    "services": ["netflix"],
+    "services": [
+      "netflix"
+    ],
     "source": "https://about.netflix.com/en/news/proxies-is-coming-to-netflix-on-december-11",
     "corroboration": "https://about.netflix.com/en/news/oriol-paulo-returns-to-netflix-with-proxies-premiering-on-11-december"
+  },
+  {
+    "title": "Phoenix Jones: The Rise and Fall of a Real Life Superhero",
+    "tmdb": "https://www.themoviedb.org/movie/1629043",
+    "format": "feature_documentary",
+    "date": "2026-12-12",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.whats-on-netflix.com/news/netflix-sets-december-release-phoenix-jones-documentary/",
+    "corroboration": "https://www.whats-on-netflix.com/coming-soon/new-documentaries-on-netflix-december-2026/",
+    "date_check": "{title} will make its streaming debut on Netflix in the United States on {date}"
+  },
+  {
+    "title": "Manny Halley’s True to the Game: Quadir’s Redemption",
+    "tmdb": "https://www.themoviedb.org/movie/1812061",
+    "format": "feature_film",
+    "date": "2026-12-15",
+    "services": [
+      "paramount-plus"
+    ],
+    "source": "https://www.paramountpressexpress.com/paramount-plus/shows/true-to-the-game-quadirs-redemption/releases/?view=113503-manny-halleys-true-to-the-game-quadirs-redemption-the-fourth-installment-in-the-fan-favorite-franchise-premieres-tuesday-december-15-exclusively-on-pa",
+    "corroboration": "https://www.paramountpressexpress.com/paramount-plus/shows/true-to-the-game-quadirs-redemption",
+    "date_check": "{title}, the fourth installment in the fan-favorite franchise, premieres Tuesday, {date} exclusively on Paramount+",
+    "alternate_titles": [
+      "True to the Game: Quadir's Redemption"
+    ]
+  },
+  {
+    "title": "The Champs",
+    "tmdb": "https://www.themoviedb.org/movie/1620662",
+    "format": "feature_film",
+    "date": "2026-12-15",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "corroboration": "https://about.netflix.com/en/news/the-champs-or-now-available-the-trailer-and-key-art-for-the-new-film-starring-alessandro-gassmann-and-anna-ferzetti-coming-only-on-netflix-on-december-15",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} (IT) Netflix film"
+    },
+    "alternate_titles": [
+      "Campioni"
+    ]
+  },
+  {
+    "title": "A Deadly Affair: The Pamela Smart Story",
+    "tmdb": "https://www.themoviedb.org/movie/1831555",
+    "format": "feature_documentary",
+    "date": "2026-12-16",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "corroboration": "https://www.netflix.com/title/81770985",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} (GB) Netflix documentary"
+    }
+  },
+  {
+    "title": "Give Me Some Sugah",
+    "tmdb": "https://www.themoviedb.org/movie/1559982",
+    "format": "feature_film",
+    "date": "2026-12-16",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "corroboration": "https://media.netflix.com/en/only-on-netflix/82087625",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} Netflix film"
+    }
+  },
+  {
+    "title": "Another Disaster Holiday",
+    "tmdb": "https://www.themoviedb.org/movie/1780021",
+    "format": "feature_film",
+    "date": "2026-12-18",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "corroboration": "https://about.netflix.com/en/news/netflix-marks-10-years-in-south-africa-with-a-major-content-slate",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} (ZA) Netflix film"
+    }
+  },
+  {
+    "title": "April X",
+    "tmdb": "https://www.themoviedb.org/movie/1403676",
+    "format": "feature_film",
+    "date": "2026-12-18",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-december-2026/",
+    "date_check": {
+      "heading": "11/20/{year} Press release Distributed by Public on 11/20/{year} 12:00",
+      "entry": "{title}",
+      "section": "Titles coming to HBO Max in December"
+    },
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on HBO Max in December {year}",
+      "entry": "{title}",
+      "section": "Titles coming to HBO Max in December"
+    }
   },
   {
     "title": "I Love Boosters",
     "tmdb": "https://www.themoviedb.org/movie/1227877",
     "format": "feature_film",
     "date": "2026-12-18",
-    "services": ["hulu"],
+    "services": [
+      "hulu"
+    ],
     "source": "https://press.hulu.com/schedule/december-2026/",
     "corroboration": "https://whentostream.com/boots-rileys-i-love-boosters-gets-hulu-streaming-premiere-date/",
     "calendar_title": "I Love Boosters (2026)",
     "date_check": "{date} {title}",
     "alternate_date_check": "{title} is set to make its SVOD debut next month arriving on Hulu on {date}"
+  },
+  {
+    "title": "Ray Gunn",
+    "tmdb": "https://www.themoviedb.org/movie/940009",
+    "format": "feature_film",
+    "date": "2026-12-18",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "corroboration": "https://media.netflix.com/en/only-on-netflix/81756797",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} Netflix film"
+    }
+  },
+  {
+    "title": "Untold: One Giant Upset",
+    "tmdb": "https://www.themoviedb.org/movie/1827575",
+    "format": "feature_documentary",
+    "date": "2026-12-21",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "corroboration": "https://www.netflix.com/title/81915890",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} Netflix documentary"
+    }
+  },
+  {
+    "title": "Onslaught",
+    "tmdb": "https://www.themoviedb.org/movie/1284046",
+    "format": "feature_film",
+    "date": "2026-12-22",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
+    "corroboration": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-december-2026/",
+    "date_check": {
+      "heading": "11/20/{year} Press release Distributed by Public on 11/20/{year} 12:00",
+      "entry": "{title} (A24)",
+      "section": "Titles coming to HBO Max in December"
+    },
+    "alternate_date_check": {
+      "heading": "Here’s What’s Streaming on HBO Max in December {year}",
+      "entry": "{title} (A24)",
+      "section": "Titles coming to HBO Max in December"
+    }
+  },
+  {
+    "title": "The Further Mis-Adventures of Cliff Booth",
+    "tmdb": "https://www.themoviedb.org/movie/1457866",
+    "format": "feature_film",
+    "date": "2026-12-23",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "corroboration": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} Netflix film"
+    }
+  },
+  {
+    "title": "The Rivals of Amziah King",
+    "tmdb": "https://www.themoviedb.org/movie/1124142",
+    "format": "feature_film",
+    "date": "2026-12-27",
+    "services": [
+      "hulu"
+    ],
+    "source": "https://press.hulu.com/schedule/december-2026/",
+    "corroboration": "https://whentostream.com/matthew-mcconaugheys-the-rivals-of-amziah-king-sets-hulu-streaming-premiere-date/",
+    "date_check": "{date} {title} (2026) Added",
+    "alternate_date_check": "{title} is set to make its SVOD debut next month, arriving on Hulu on {date}",
+    "calendar_title": "The Rivals of Amziah King (2025)"
+  },
+  {
+    "title": "Dolphins: My Close Encounter",
+    "tmdb": "https://www.themoviedb.org/movie/1766439",
+    "format": "feature_documentary",
+    "date": "2026-12-28",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
+    "corroboration": "https://silverbackfilms.tv/shows/dolphins-my-close-encounters/",
+    "date_check": {
+      "heading": "Here’s What’s Streaming on Netflix in December {year}",
+      "entry": "{title} (GB) Netflix documentary"
+    },
+    "alternate_titles": [
+      "Dolphins: My Close Encounters"
+    ]
+  },
+  {
+    "title": "Ink",
+    "tmdb": "https://www.themoviedb.org/movie/1532610",
+    "format": "feature_film",
+    "date": "2027-01-08",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/articles/ink-release-date-danny-boyle-movie",
+    "corroboration": "https://www.firstshowing.net/schedule2027/",
+    "date_check": "{title} lands in select theaters on Dec. 11, 2026, and Netflix on {date}"
+  },
+  {
+    "title": "The Take",
+    "tmdb": "https://www.themoviedb.org/movie/701244",
+    "format": "feature_film",
+    "date": "2027-01-15",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/articles/the-take-release-date-cast-news",
+    "corroboration": "https://www.firstshowing.net/schedule2027/",
+    "date_check": "{title} is staking out select theaters and coming to Netflix {date}"
+  },
+  {
+    "title": "Fleetwood Mac: The Chain",
+    "tmdb": "https://www.themoviedb.org/movie/1485292",
+    "format": "feature_documentary",
+    "date": "2027-01-29",
+    "services": [
+      "apple-tv"
+    ],
+    "source": "https://www.apple.com/tv-pr/news/2026/10/apple-original-films-unveils-title-and-release-date-for-first-ever-fully-authorized-fleetwood-mac-documentary-fleetwood-mac-the-chain/",
+    "corroboration": "https://www.firstshowing.net/schedule2027/",
+    "date_check": "{title}, premiering globally on Apple TV on {date}"
   }
 ]
