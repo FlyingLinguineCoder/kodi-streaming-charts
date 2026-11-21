@@ -1,6 +1,7 @@
-"""Build the U.S. Upcoming Movies widget from reviewed feature-film announcements."""
+"""Build the U.S. movie widget from reviewed announcements and newly verified releases."""
 
 import json
+import logging
 import os
 import re
 import urllib.error
@@ -14,21 +15,17 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 from zoneinfo import ZoneInfo
 
+from discover_movie_premieres import FEATURES, discover_premieres, movie_item, normalized as words
 from update_premieres import ANNOUNCEMENTS_KEY, AUDIT, HISTORY, KNOWN_SPECIALS, SERVICE_NAMES, classify
 
 VERIFIED = Path("data/verified_us_movie_premieres.json")
 CALENDAR = Path("charts/disney_hulu_diagnostic.json")
 OUTPUT = Path("charts/upcoming_movies.json")
-FEATURES = {"feature_film", "feature_documentary"}
 MOVIE_URL = re.compile(r"https://www\.themoviedb\.org/movie/([1-9]\d*)(?:-[^/?#]+)?/?")
 MONTHS = "|".join(m.lower() for m in month_name[1:])
 WEEKDAY = r"(?:(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday) )?"
 DAY_HEADING = re.compile(rf"{WEEKDAY}({MONTHS}) (\d{{1,2}})(?:st|nd|rd|th)?(?: (\d{{4}}))?")
 UNCLEAR_HEADING = re.compile(rf"{WEEKDAY}(?:{MONTHS})(?:$| (?:\d|tbd\b|tba\b))|(?:early|mid|late) (?:{MONTHS})\b")
-
-
-def words(text):
-    return " ".join(re.findall(r"\w+", text.casefold()))
 
 
 class ReleaseText(HTMLParser):
@@ -275,7 +272,7 @@ def apply_reviewed_date(movie, row, announced):
     return row, announced
 
 
-def build_widget(records, audit, history, calendar, previous, today, read_source=source_lines):
+def build_widget(records, audit, history, calendar, previous, today, read_source=source_lines, *, discover=None):
     published = {
         (item["id"], item["title"], item["premiere_date"], service)
         for item in previous if isinstance(item, dict) and item.get("mediatype") == "movie"
@@ -316,8 +313,8 @@ def build_widget(records, audit, history, calendar, previous, today, read_source
             if service in announced:
                 if announced[service] != when:
                     continue
-                if row is None and not (day == today and proof is True):
-                    continue  # Future withdrawals stay out. A live source can confirm release day in the U.S.
+                if audit is not None and row is None and not (day == today and proof is True):
+                    continue  # A missing row in a fresh audit can signal a withdrawal.
             if audit is not None and row is None and "date_check" not in movie:
                 continue
             if "date_check" in movie and (proof is False or (proof is None and not already_published)):
@@ -326,12 +323,10 @@ def build_widget(records, audit, history, calendar, previous, today, read_source
             if cal is True or (cal is None and already_published):
                 services.append(service)
         if services:
-            names = " and ".join(SERVICE_NAMES[s] for s in services)
-            items.append({
-                "id": ident, "title": title, "mediatype": "movie", "premiere_date": when,
-                "services": services, "source": movie["source"],
-                "description": f"U.S. subscription premiere on {names}, {day:%B} {day.day}, {day.year}.",
-            })
+            items.append(movie_item(ident, title, day, services, movie["source"]))
+    if discover is not None:
+        items.extend(discover(records, audit, history, calendar, previous, today, end,
+                              published_ids={item["id"] for item in items}))
     items.sort(key=lambda item: (item["premiere_date"], words(item["title"]), item["id"]))
     for rank, item in enumerate(items, 1):
         item["rank"] = rank
@@ -354,6 +349,7 @@ def read_optional(path, default):
 
 
 def main():
+    logging.basicConfig(level=logging.INFO, format="%(message)s")
     prune_only = os.environ.get("MOVIE_AUDIT_OUTCOME") == "failure"
     if prune_only and not OUTPUT.exists():
         print("No prior movie widget to prune.")
@@ -362,15 +358,17 @@ def main():
     calendar = read_optional(CALENDAR, {})
     items = build_widget(
         read_json(VERIFIED), None if prune_only else read_json(AUDIT),
-        {} if prune_only else read_json(HISTORY), calendar, previous,
+        read_optional(HISTORY, {}) if prune_only else read_json(HISTORY), calendar, previous,
         datetime.now(ZoneInfo("America/New_York")).date(),
+        discover=discover_premieres,
     )
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with TemporaryDirectory(dir=OUTPUT.parent) as folder:
         pending = Path(folder) / OUTPUT.name
         pending.write_text(json.dumps(items, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         pending.replace(OUTPUT)
-    print(f"Saved {len(items)} upcoming U.S. movie premieres to {OUTPUT}.")
+    automatic = sum("verification" in item for item in items)
+    print(f"Saved {len(items)} upcoming U.S. movie premieres to {OUTPUT} ({automatic} automatically discovered).")
 
 
 if __name__ == "__main__":

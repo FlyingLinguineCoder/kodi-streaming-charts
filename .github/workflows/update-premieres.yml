@@ -41,7 +41,8 @@ jobs:
         env:
           MOVIE_AUDIT_OUTCOME: ${{ steps.audit.outcome }}
         run: |
-          python -m unittest discover -s tests -p 'test_upcoming_movies.py'
+          python -m pip install --disable-pip-version-check --only-binary=:all: lxml==6.1.1
+          python -m unittest discover -s tests -p 'test_*.py'
           python scripts/build_upcoming_movies.py
 
       - name: Save premiere audit and movie widget
