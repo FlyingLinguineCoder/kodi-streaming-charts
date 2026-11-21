@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-21T04:13:11.548813+00:00",
+  "generated_at_utc": "2026-11-21T16:02:35.071772+00:00",
   "purpose": "Diagnostic only; no Kodi widget generated",
   "window": {
     "start": "2026-11-21",
@@ -2974,7 +2974,7 @@
   ],
   "movie_review": {
     "audit_status": "available",
-    "audit_generated_at_utc": "2026-11-21T04:00:40.361217+00:00",
+    "audit_generated_at_utc": "2026-11-21T06:10:23.765964+00:00",
     "candidates": [
       {
         "title": "The Symphony of Dance",
