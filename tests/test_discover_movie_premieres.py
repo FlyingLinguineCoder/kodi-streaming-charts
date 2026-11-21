@@ -24,6 +24,7 @@ class AutomaticPremieresTest(unittest.TestCase):
     def setUp(self):
         self.pages = {}
         self.profiles = {}
+        self.metadata = {}
         self.set_sources()
         self.audit = {"candidates": []}
         self.history = {}
@@ -63,10 +64,31 @@ class AutomaticPremieresTest(unittest.TestCase):
             raise value
         return html.fromstring(value) if value else None
 
+    def read_data(self, url):
+        if url not in self.metadata:
+            raise discovery.SourceUnavailable("metadata unavailable")
+        return self.metadata[url]
+
+    def runner_sources(self, service="Netflix"):
+        self.set_sources(service=service)
+        outage = discovery.SourceUnavailable("TMDb returned HTTP 403")
+        self.pages[self.search] = self.pages[self.releases] = outage
+        self.suggestion = discovery.IMDB_SUGGEST + "/a/a%20new%20film.json"
+        imdb = "tt12345678"
+        self.metadata[self.suggestion] = {"d": [{"id": imdb, "l": self.name, "qid": "movie", "q": "feature", "y": 2029}]}
+        self.detail = f"{discovery.CINEMETA}/{imdb}.json"
+        self.metadata[self.detail] = {"meta": {"id": imdb, "imdb_id": imdb, "type": "movie", "moviedb_id": 701,
+            "name": self.name, "director": ["Ada Rivera"], "releaseInfo": "2029", "runtime": "93 min", "genres": ["Drama"]}}
+        self.daily = "https://www.movieinsider.com/movies/february/2029/6"
+        self.pages[self.daily] = (
+            '<h1>Movies Coming Out February 6, 2029</h1><div class="panel daily"><h3><a>A New Film</a></h3>'
+            f'<div class="calendar-scope"><strong>Where to Watch:</strong><br> {service} <i></i></div></div>'
+        )
+
     def run_widget(self, previous=(), records=(), today=None, *, audit_ok=True):
         return widget.build_widget(
             list(records), self.audit if audit_ok else None, self.history, self.report, list(previous), today or self.today,
-            read_source=lambda url: None, discover=partial(discovery.discover_premieres, read=self.read,
+            read_source=lambda url: None, discover=partial(discovery.discover_premieres, read=self.read, read_data=self.read_data,
                                                             search_profiles=lambda title: self.profiles.get(title, ())),
         )
 
@@ -81,6 +103,97 @@ class AutomaticPremieresTest(unittest.TestCase):
                 self.assertEqual(item["source"], self.link)
                 self.assertEqual(item["corroboration"], self.releases)
                 self.assertEqual(self.run_widget([item]), [item])
+
+    def test_runner_403_can_publish_every_service_with_separate_dated_evidence(self):
+        for slug, service in widget.SERVICE_NAMES.items():
+            with self.subTest(service=service):
+                self.runner_sources(service)
+                item, = self.run_widget()
+                self.assertEqual((item["id"], item["services"], item["premiere_date"], item["corroboration"]),
+                                 (701, [slug], "2029-02-06", self.daily))
+                self.assertEqual(self.run_widget([item]), [item])
+                self.pages[self.daily] = self.pages[self.daily].replace(service, "Rent or buy")
+                self.assertEqual(self.run_widget([item]), [])
+
+    def test_backup_identity_needs_matching_feature_id_director_year_and_runtime(self):
+        for field, value in (("qid", "tvMovie"), ("q", "TV series"), ("y", 2028), ("l", "A New Film II")):
+            self.runner_sources()
+            self.metadata[self.suggestion]["d"][0][field] = value
+            self.assertEqual(self.run_widget(), [], field)
+        for field, value in (("id", "tt11111111"), ("imdb_id", "tt11111111"), ("moviedb_id", 0), ("type", "series"),
+                             ("director", ["Another Director"]), ("name", "Another Film"), ("runtime", "60 min"),
+                             ("releaseInfo", "2020"), ("genres", ["Stand-up comedy special"])):
+            self.runner_sources()
+            self.metadata[self.detail]["meta"][field] = value
+            self.assertEqual(self.run_widget(), [], field)
+        self.runner_sources()
+        self.metadata[self.detail]["meta"]["releaseInfo"] = "2030"
+        self.assertEqual(len(self.run_widget()), 1)  # IMDb explicitly confirms the source's original year.
+        copy = self.metadata[self.suggestion]["d"][0] | {"id": "tt11223344"}
+        self.metadata[self.suggestion]["d"].append(copy)
+        self.metadata[discovery.CINEMETA + "/tt11223344.json"] = {"meta": self.metadata[self.detail]["meta"] |
+            {"id": copy["id"], "imdb_id": copy["id"], "moviedb_id": 702}}
+        self.assertEqual(self.run_widget(), [])
+
+    def test_news_needs_same_film_explicit_us_subscription_debut_and_exact_day(self):
+        self.runner_sources()
+        self.pages.pop(self.daily)
+        search = discovery.NETFLIX_NEWS + "/?s=A+New+Film"
+        article = discovery.NETFLIX_NEWS + "/news/a-new-film-streaming-date/"
+        self.pages[search] = f'<h2><a href="{article}">A New Film sets a Netflix date</a></h2>'
+        statement = ("A New Film, the comedy directed by Ada Rivera, is set to make its SVOD premiere "
+                     "on Netflix in the United States on February 6th, 2029.")
+        page = f'<article><h1>A New Film sets a Netflix date</h1><div class="entry-inner"><p>{statement}</p></div></article>'
+        self.pages[article] = page
+        item, = self.run_widget()
+        self.assertEqual(item["corroboration"], article)
+        for bad in (statement.replace("A New Film,", "Another Film,"), statement.replace("United States", "UK"),
+                    statement.replace("February 6th", "February 7th"), statement.replace("2029", "2030"),
+                    statement.replace("is set to", "is expected to"), statement.replace("SVOD premiere", "rental debut"),
+                    statement.replace("Netflix", "Hulu"), statement.replace("February 6th, 2029", "February 2029")):
+            self.pages[article] = page.replace(statement, bad)
+            self.assertEqual(self.run_widget(), [], bad)
+        self.pages[article] = page
+        self.pages[self.daily] = ('<h1>Movies Coming Out February 6, 2029</h1><div class="daily"><h3><a>A New Film</a></h3>'
+                                  '<div class="calendar-scope"><strong>Where to Watch:</strong>Hulu</div></div>')
+        self.assertEqual(self.run_widget([item]), [])
+
+    def test_backup_cannot_override_a_healthy_primary_conflict_or_service_history(self):
+        self.runner_sources()
+        self.set_sources()
+        self.pages[self.tmdb] = self.pages[self.tmdb].replace("Ada Rivera", "A Different Director")
+        self.assertEqual(self.run_widget(), [])
+        self.runner_sources()
+        self.history = {"701": ["starz"]}
+        self.assertEqual(self.run_widget(), [])
+        self.history = {}
+        self.pages[self.releases] = (
+            '<table class="releases"><thead><tr><th><h2 id="US">US</h2></th></tr></thead><tbody>'
+            '<tr><td>01/10/2029</td><td></td><td>Digital</td><td></td><td>Hulu</td></tr></tbody></table>')
+        self.assertEqual(self.run_widget(), [])
+
+    def test_official_disney_and_hulu_keep_movie_working_when_tmdb_denies_the_runner(self):
+        for service, label in (("disney-plus", "Disney+"), ("hulu", "Hulu")):
+            with self.subTest(service=service):
+                self.runner_sources(label)
+                del self.pages[self.month_url]
+                when = self.day.isoformat()
+                source = discovery.DISNEY_PRESS + "february-2029"
+                entry = {"date": when, "services": [service], "classification": "dated_movie_candidate",
+                         "title": f"{self.name} ({label} Original Movie) – Premiere", "source": source}
+                self.report = {"generated_at_utc": self.today.isoformat(), "sources": [{"url": source, "status": "parsed"}],
+                               "results": [entry]}
+                row = {"tmdb_id": 701, "media_type": "movie", "title": self.name, "earliest_streaming_date": when,
+                       "streaming_dates": {service: when}, "status": "potential_premiere_unverified",
+                       "metadata": {"type": "movie", "title": self.name, "released": when, "year": 2029, "runtime": 93}}
+                self.audit = {"candidates": [row]}
+                item, = self.run_widget()
+                self.assertEqual((item["source"], item["corroboration"], item["services"]), (source, discovery.GALAXY_URL, [service]))
+                self.metadata[self.detail]["meta"]["moviedb_id"] = 774
+                self.assertEqual(self.run_widget([item]), [])
+                self.metadata[self.detail]["meta"]["moviedb_id"] = 701
+                entry["services"] = ["hulu", "disney-plus"]
+                self.assertEqual(self.run_widget([item]), [])
 
     def test_date_is_bound_to_film_subscription_service_and_us(self):
         for url, old, bad in (
