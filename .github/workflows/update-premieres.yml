@@ -12,7 +12,7 @@ concurrency:
   group: movie-premieres-${{ github.ref }}
   cancel-in-progress: false
 
-# Test branch: read-only access prevents publishing.
+# Testing only: do not publish changes.
 permissions:
   contents: read
 
@@ -69,20 +69,44 @@ jobs:
               and "\n\nU.S. subscription premiere on " in movie.get("description", "")
           ]
 
+          missing = [
+              movie for movie in movies
+              if movie.get("mediatype") == "movie"
+              and "\n\nU.S. subscription premiere on " not in movie.get("description", "")
+          ]
+
           print(f"Total upcoming movies: {len(movies)}")
           print(f"Movies with plot synopses: {len(enriched)}")
-          print(f"Movies without plot synopses: {len(movies) - len(enriched)}")
+          print(f"Movies without plot synopses: {len(missing)}")
+
+          print("\nMOVIES MISSING SYNOPSES:")
+
+          if not missing:
+              print("None!")
+          else:
+              for movie in missing:
+                  title = movie.get("title", "(untitled)")
+                  ident = movie.get("id", "?")
+                  date = movie.get("premiere_date", "?")
+                  services = ", ".join(movie.get("services", []))
+
+                  print(
+                      f"- {title} | TMDb {ident} | "
+                      f"{date} | {services}"
+                  )
+
+          print("\nSAMPLE COMPLETED DESCRIPTIONS:")
 
           for movie in enriched[:5]:
               print(f"\n{movie['title']}")
               print(movie["description"])
 
           if not enriched:
-              print("TEST INCOMPLETE: No verified movie synopses were retrieved.")
+              print("TEST INCOMPLETE: No verified movie synopses retrieved.")
               raise SystemExit(1)
 
           print("\nLIVE SYNOPSIS TEST PASSED")
           PY
 
-      # No commit or push step on this test branch.
-      # Existing published feeds remain unchanged.
+      # Testing only: no commits or pushes.
+      # Published widgets and streaming charts remain unchanged.
