@@ -22,10 +22,12 @@ GALAXY_URL = (
 )
 API_KEY = os.environ.get("MDBLIST_API_KEY", "")
 
-SERVICES = {
-    "netflix", "amazon-prime-video", "apple-tv", "max",
-    "disney-plus", "hulu", "peacock", "paramount-plus",
+SERVICE_NAMES = {
+    "netflix": "Netflix", "amazon-prime-video": "Prime Video",
+    "apple-tv": "Apple TV+", "max": "HBO Max", "disney-plus": "Disney+",
+    "hulu": "Hulu", "peacock": "Peacock", "paramount-plus": "Paramount+",
 }
+SERVICES = set(SERVICE_NAMES)
 
 HISTORY_SERVICES = SERVICES | {
     "starz", "amc-plus", "mgm-plus", "crunchyroll",
@@ -452,6 +454,7 @@ def main():
                 str(ident),
                 {
                     "tmdb_id": ident,
+                    "media_type": "movie",
                     "title": str(
                         item.get("title") or "Unknown"
                     ),
@@ -498,6 +501,8 @@ def main():
             record["metadata"] = {
                 field: metadata.get(field)
                 for field in (
+                    "type",
+                    "title",
                     "year",
                     "released",
                     "released_digital",
