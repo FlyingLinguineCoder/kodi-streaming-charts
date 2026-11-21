@@ -12,6 +12,30 @@
     "rank": 1
   },
   {
+    "id": 1674241,
+    "title": "The Symphony of Dance",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-23",
+    "services": [
+      "hulu"
+    ],
+    "source": "https://press.hulu.com/shows/the-symphony-of-dance/",
+    "description": "U.S. subscription premiere on Hulu, November 23, 2026.",
+    "rank": 2
+  },
+  {
+    "id": 1802703,
+    "title": "Rob Lowe: The Outsider",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-24",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/articles/rob-lowe-the-outsider-documentary-release-date-news",
+    "description": "U.S. subscription premiere on Netflix, November 24, 2026.",
+    "rank": 3
+  },
+  {
     "id": 1458300,
     "title": "The Mosquito Bowl",
     "mediatype": "movie",
@@ -21,7 +45,7 @@
     ],
     "source": "https://media.netflix.com/en/only-on-netflix/81661161",
     "description": "U.S. subscription premiere on Netflix, November 25, 2026.",
-    "rank": 2
+    "rank": 4
   },
   {
     "id": 1632599,
@@ -33,7 +57,7 @@
     ],
     "source": "https://press.wbd.com/us/media-release/hbo-original-documentary-slightest-touch-debuts-november-25",
     "description": "U.S. subscription premiere on HBO Max, November 25, 2026.",
-    "rank": 3
+    "rank": 5
   },
   {
     "id": 1280115,
@@ -45,7 +69,31 @@
     ],
     "source": "https://www.apple.com/tv-pr/news/2026/11/apple-original-films-celebrates-the-world-premiere-of-way-of-the-warrior-kid/",
     "description": "U.S. subscription premiere on Apple TV+, November 25, 2026.",
-    "rank": 4
+    "rank": 6
+  },
+  {
+    "id": 1480665,
+    "title": "The Hunchback, Soul of Paris",
+    "mediatype": "movie",
+    "premiere_date": "2026-11-27",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/netflix-presents-quasimodo-the-soul-of-paris-the-myth-revisited-releasing-nov-27-2026",
+    "description": "U.S. subscription premiere on Netflix, November 27, 2026.",
+    "rank": 7
+  },
+  {
+    "id": 1596266,
+    "title": "Seized",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-01",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.broadwayworld.com/bwwtv/article/HBO-Documentary-SEIZED-to-Chronicle-Marion-County-Record-Raid-and-Press-Freedom-Fight-20261117",
+    "description": "U.S. subscription premiere on HBO Max, December 1, 2026.",
+    "rank": 8
   },
   {
     "id": 1588626,
@@ -57,7 +105,19 @@
     ],
     "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
     "description": "U.S. subscription premiere on Netflix, December 2, 2026.",
-    "rank": 5
+    "rank": 9
+  },
+  {
+    "id": 1422041,
+    "title": "La Bola Negra",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-02",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/articles/la-bola-negra-release-date-cast-photos",
+    "description": "U.S. subscription premiere on Netflix, December 2, 2026.",
+    "rank": 10
   },
   {
     "id": 1137888,
@@ -69,7 +129,7 @@
     ],
     "source": "https://www.aboutamazon.com/news/entertainment/the-man-with-the-bag-arnold-schwarzenegger-christmas-movie-prime-video",
     "description": "U.S. subscription premiere on Prime Video, December 2, 2026.",
-    "rank": 6
+    "rank": 11
   },
   {
     "id": 1380417,
@@ -81,7 +141,43 @@
     ],
     "source": "https://www.paramountplus.com/sneak-peak/new-on-paramount-plus/",
     "description": "U.S. subscription premiere on Paramount+, December 3, 2026.",
-    "rank": 7
+    "rank": 12
+  },
+  {
+    "id": 1620040,
+    "title": "My Brother's Killer",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-03",
+    "services": [
+      "max"
+    ],
+    "source": "https://www.webwire.com/ViewPressRel.asp?aId=363280",
+    "description": "U.S. subscription premiere on HBO Max, December 3, 2026.",
+    "rank": 13
+  },
+  {
+    "id": 1591961,
+    "title": "My Crazy Feminist Girlfriend",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-03",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/my-crazy-feminist-girlfriend-main-trailer-keyart",
+    "description": "U.S. subscription premiere on Netflix, December 3, 2026.",
+    "rank": 14
+  },
+  {
+    "id": 1732479,
+    "title": "14th",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-04",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/articles/14th-release-date-news",
+    "description": "U.S. subscription premiere on Netflix, December 4, 2026.",
+    "rank": 15
   },
   {
     "id": 1519780,
@@ -93,7 +189,7 @@
     ],
     "source": "https://www.disneyplus.com/explore/articles/diary-of-a-wimpy-kid-christmas-the-getaway-movie",
     "description": "U.S. subscription premiere on Disney+, December 4, 2026.",
-    "rank": 8
+    "rank": 16
   },
   {
     "id": 1433367,
@@ -105,7 +201,79 @@
     ],
     "source": "https://www.broadwayworld.com/bwwtv/article/ONE-NIGHT-ONLY-to-Stream-Exclusively-on-Peacock-Starring-Monica-Barbaro-and-Callum-Turner-20261109",
     "description": "U.S. subscription premiere on Peacock, December 4, 2026.",
-    "rank": 9
+    "rank": 17
+  },
+  {
+    "id": 1532787,
+    "title": "The Bend in the River",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-04",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://vanessahope.substack.com/p/the-bend-in-the-river-this-moment",
+    "description": "U.S. subscription premiere on Netflix, December 4, 2026.",
+    "rank": 18
+  },
+  {
+    "id": 1824685,
+    "title": "Who Killed the Banker’s Widow?",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-04",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/netflix-premieres-who-killed-the-bankers-widow-on-december-4",
+    "description": "U.S. subscription premiere on Netflix, December 4, 2026.",
+    "rank": 19
+  },
+  {
+    "id": 1515392,
+    "title": "Bad Day",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-11",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
+    "description": "U.S. subscription premiere on Netflix, December 11, 2026.",
+    "rank": 20
+  },
+  {
+    "id": 947502,
+    "title": "In Waves",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-11",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/articles/in-waves-release-date-cast-photos",
+    "description": "U.S. subscription premiere on Netflix, December 11, 2026.",
+    "rank": 21
+  },
+  {
+    "id": 1158642,
+    "title": "Jean-Michel Basquiat",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-11",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://www.netflix.com/tudum/articles/jean-michel-basquiat-release-date-news",
+    "description": "U.S. subscription premiere on Netflix, December 11, 2026.",
+    "rank": 22
+  },
+  {
+    "id": 1623160,
+    "title": "Proxies",
+    "mediatype": "movie",
+    "premiere_date": "2026-12-11",
+    "services": [
+      "netflix"
+    ],
+    "source": "https://about.netflix.com/en/news/proxies-is-coming-to-netflix-on-december-11",
+    "description": "U.S. subscription premiere on Netflix, December 11, 2026.",
+    "rank": 23
   },
   {
     "id": 1227877,
@@ -117,6 +285,6 @@
     ],
     "source": "https://press.hulu.com/schedule/december-2026/",
     "description": "U.S. subscription premiere on Hulu, December 18, 2026.",
-    "rank": 10
+    "rank": 24
   }
 ]
