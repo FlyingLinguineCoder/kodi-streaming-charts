@@ -27,26 +27,8 @@
     "release_year": 2025
   },
   {
-    "id": 275139,
-    "rank": 4,
-    "adult": 0,
-    "title": "Phony",
-    "mediatype": "show",
-    "imdb_id": "tt21952924",
-    "release_year": 2026
-  },
-  {
-    "id": 279246,
-    "rank": 5,
-    "adult": 0,
-    "title": "The Remarried Empress",
-    "mediatype": "show",
-    "imdb_id": "tt39325975",
-    "release_year": 2026
-  },
-  {
     "id": 291084,
-    "rank": 6,
+    "rank": 4,
     "adult": 0,
     "title": "Best Medicine",
     "mediatype": "show",
@@ -54,8 +36,17 @@
     "release_year": 2026
   },
   {
+    "id": 275139,
+    "rank": 5,
+    "adult": 0,
+    "title": "Phony",
+    "mediatype": "show",
+    "imdb_id": "tt21952924",
+    "release_year": 2026
+  },
+  {
     "id": 1416,
-    "rank": 7,
+    "rank": 6,
     "adult": 0,
     "title": "Grey's Anatomy",
     "mediatype": "show",
@@ -63,35 +54,8 @@
     "release_year": 2005
   },
   {
-    "id": 301284,
-    "rank": 8,
-    "adult": 0,
-    "title": "The Killings at Parrish Station",
-    "mediatype": "show",
-    "imdb_id": "tt38448408",
-    "release_year": 2026
-  },
-  {
-    "id": 75219,
-    "rank": 9,
-    "adult": 0,
-    "title": "9-1-1",
-    "mediatype": "show",
-    "imdb_id": "tt7235466",
-    "release_year": 2018
-  },
-  {
-    "id": 14658,
-    "rank": 10,
-    "adult": 0,
-    "title": "Survivor",
-    "mediatype": "show",
-    "imdb_id": "tt0239195",
-    "release_year": 2000
-  },
-  {
     "id": 208921,
-    "rank": 11,
+    "rank": 7,
     "adult": 0,
     "title": "Rivals",
     "mediatype": "show",
@@ -100,7 +64,7 @@
   },
   {
     "id": 125935,
-    "rank": 12,
+    "rank": 8,
     "adult": 0,
     "title": "Abbott Elementary",
     "mediatype": "show",
@@ -108,8 +72,17 @@
     "release_year": 2021
   },
   {
+    "id": 14658,
+    "rank": 9,
+    "adult": 0,
+    "title": "Survivor",
+    "mediatype": "show",
+    "imdb_id": "tt0239195",
+    "release_year": 2000
+  },
+  {
     "id": 46533,
-    "rank": 13,
+    "rank": 10,
     "adult": 0,
     "title": "The Americans",
     "mediatype": "show",
@@ -117,8 +90,17 @@
     "release_year": 2013
   },
   {
+    "id": 75219,
+    "rank": 11,
+    "adult": 0,
+    "title": "9-1-1",
+    "mediatype": "show",
+    "imdb_id": "tt7235466",
+    "release_year": 2018
+  },
+  {
     "id": 122066,
-    "rank": 14,
+    "rank": 12,
     "adult": 0,
     "title": "The Dropout",
     "mediatype": "show",
@@ -126,17 +108,8 @@
     "release_year": 2022
   },
   {
-    "id": 5920,
-    "rank": 15,
-    "adult": 0,
-    "title": "The Mentalist",
-    "mediatype": "show",
-    "imdb_id": "tt1196946",
-    "release_year": 2008
-  },
-  {
     "id": 211288,
-    "rank": 16,
+    "rank": 13,
     "adult": 0,
     "title": "Tracker",
     "mediatype": "show",
@@ -144,8 +117,44 @@
     "release_year": 2024
   },
   {
-    "id": 4087,
+    "id": 301284,
+    "rank": 14,
+    "adult": 0,
+    "title": "The Killings at Parrish Station",
+    "mediatype": "show",
+    "imdb_id": "tt38448408",
+    "release_year": 2026
+  },
+  {
+    "id": 284838,
+    "rank": 15,
+    "adult": 0,
+    "title": "9-1-1: Nashville",
+    "mediatype": "show",
+    "imdb_id": "tt33550053",
+    "release_year": 2025
+  },
+  {
+    "id": 5920,
+    "rank": 16,
+    "adult": 0,
+    "title": "The Mentalist",
+    "mediatype": "show",
+    "imdb_id": "tt1196946",
+    "release_year": 2008
+  },
+  {
+    "id": 279246,
     "rank": 17,
+    "adult": 0,
+    "title": "The Remarried Empress",
+    "mediatype": "show",
+    "imdb_id": "tt39325975",
+    "release_year": 2026
+  },
+  {
+    "id": 4087,
+    "rank": 18,
     "adult": 0,
     "title": "The X-Files",
     "mediatype": "show",
@@ -153,22 +162,13 @@
     "release_year": 1993
   },
   {
-    "id": 30957,
-    "rank": 18,
-    "adult": 0,
-    "title": "The Amazing Race",
-    "mediatype": "show",
-    "imdb_id": "tt0285335",
-    "release_year": 2001
-  },
-  {
-    "id": 284838,
+    "id": 79744,
     "rank": 19,
     "adult": 0,
-    "title": "9-1-1: Nashville",
+    "title": "The Rookie",
     "mediatype": "show",
-    "imdb_id": "tt33550053",
-    "release_year": 2025
+    "imdb_id": "tt7587890",
+    "release_year": 2018
   },
   {
     "id": 2734,

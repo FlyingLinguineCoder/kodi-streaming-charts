@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-11-21T16:02:35.071772+00:00",
+  "generated_at_utc": "2026-11-22T04:16:13.257762+00:00",
   "purpose": "Diagnostic only; no Kodi widget generated",
   "window": {
-    "start": "2026-11-21",
-    "end": "2027-02-19"
+    "start": "2026-11-22",
+    "end": "2027-02-20"
   },
   "limitations": "Calendar labels nominate candidates, not confirmed premieres. Release years do not prove first-ever subscription availability. An untyped premiere, season bundle, or season arrival without a premiere label requires review. Month-only listings are omitted. Movie review records identify films to check for a first U.S. subscription release. Audit-only dates lack a matching calendar entry.",
   "sources": [
@@ -11,10 +11,10 @@
       "url": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026",
       "status": "parsed",
       "text_blocks": 291,
-      "upcoming_dated_entries": 55,
+      "upcoming_dated_entries": 53,
       "movie_candidates": 2,
       "series_premiere_candidates": 0,
-      "new_season_candidates": 1
+      "new_season_candidates": 0
     },
     {
       "url": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026",
@@ -37,28 +37,6 @@
     }
   ],
   "results": [
-    {
-      "date": "2026-11-21",
-      "services": [
-        "disney-plus"
-      ],
-      "title": "How Not to Draw: Shorts (Season 5) – New Episodes",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-21",
-      "services": [
-        "disney-plus"
-      ],
-      "title": "Miraculous Tales of Ladybug & Cat Noir (Season 7) – Premiere",
-      "release_year": null,
-      "classification": "new_season_premiere_candidate",
-      "confidence": "medium",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
     {
       "date": "2026-11-22",
       "services": [
@@ -2974,7 +2952,7 @@
   ],
   "movie_review": {
     "audit_status": "available",
-    "audit_generated_at_utc": "2026-11-21T06:10:23.765964+00:00",
+    "audit_generated_at_utc": "2026-11-21T16:02:46.589314+00:00",
     "candidates": [
       {
         "title": "The Symphony of Dance",

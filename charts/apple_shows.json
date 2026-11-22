@@ -108,35 +108,8 @@
     "release_year": 2019
   },
   {
-    "id": 241609,
-    "rank": 13,
-    "adult": 0,
-    "title": "Your Friends & Neighbors",
-    "mediatype": "show",
-    "imdb_id": "tt30459041",
-    "release_year": 2025
-  },
-  {
-    "id": 252107,
-    "rank": 14,
-    "adult": 0,
-    "title": "Star City",
-    "mediatype": "show",
-    "imdb_id": "tt32140872",
-    "release_year": 2026
-  },
-  {
-    "id": 258230,
-    "rank": 15,
-    "adult": 0,
-    "title": "Last Seen",
-    "mediatype": "show",
-    "imdb_id": "tt6037988",
-    "release_year": 2026
-  },
-  {
     "id": 117303,
-    "rank": 16,
+    "rank": 13,
     "adult": 0,
     "title": "Lessons in Chemistry",
     "mediatype": "show",
@@ -144,17 +117,35 @@
     "release_year": 2023
   },
   {
-    "id": 247767,
-    "rank": 17,
+    "id": 241609,
+    "rank": 14,
     "adult": 0,
-    "title": "The Studio",
+    "title": "Your Friends & Neighbors",
     "mediatype": "show",
-    "imdb_id": "tt23649128",
+    "imdb_id": "tt30459041",
     "release_year": 2025
   },
   {
+    "id": 225171,
+    "rank": 15,
+    "adult": 0,
+    "title": "Pluribus",
+    "mediatype": "show",
+    "imdb_id": "tt22202452",
+    "release_year": 2025
+  },
+  {
+    "id": 258230,
+    "rank": 16,
+    "adult": 0,
+    "title": "Last Seen",
+    "mediatype": "show",
+    "imdb_id": "tt6037988",
+    "release_year": 2026
+  },
+  {
     "id": 250203,
-    "rank": 18,
+    "rank": 17,
     "adult": 0,
     "title": "Brothers",
     "mediatype": "show",
@@ -162,21 +153,30 @@
     "release_year": 2026
   },
   {
-    "id": 245318,
-    "rank": 19,
-    "adult": 0,
-    "title": "Margo's Got Money Troubles",
-    "mediatype": "show",
-    "imdb_id": "tt31137273",
-    "release_year": 2026
-  },
-  {
     "id": 278624,
-    "rank": 20,
+    "rank": 18,
     "adult": 0,
     "title": "Lucky",
     "mediatype": "show",
     "imdb_id": "tt34866681",
+    "release_year": 2026
+  },
+  {
+    "id": 252107,
+    "rank": 19,
+    "adult": 0,
+    "title": "Star City",
+    "mediatype": "show",
+    "imdb_id": "tt32140872",
+    "release_year": 2026
+  },
+  {
+    "id": 285404,
+    "rank": 20,
+    "adult": 0,
+    "title": "Maximum Pleasure Guaranteed",
+    "mediatype": "show",
+    "imdb_id": "tt35946742",
     "release_year": 2026
   }
 ]

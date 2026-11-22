@@ -9,17 +9,8 @@
     "release_year": 2026
   },
   {
-    "id": 243875,
-    "rank": 2,
-    "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
-    "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
-  },
-  {
     "id": 81723,
-    "rank": 3,
+    "rank": 2,
     "adult": 0,
     "title": "The Gilded Age",
     "mediatype": "show",
@@ -27,17 +18,17 @@
     "release_year": 2022
   },
   {
-    "id": 305245,
-    "rank": 4,
+    "id": 243875,
+    "rank": 3,
     "adult": 0,
-    "title": "Silent Night",
+    "title": "Georgie & Mandy's First Marriage",
     "mediatype": "show",
-    "imdb_id": "tt38961437",
-    "release_year": 2026
+    "imdb_id": "tt31589662",
+    "release_year": 2024
   },
   {
     "id": 125935,
-    "rank": 5,
+    "rank": 4,
     "adult": 0,
     "title": "Abbott Elementary",
     "mediatype": "show",
@@ -45,17 +36,8 @@
     "release_year": 2021
   },
   {
-    "id": 58957,
-    "rank": 6,
-    "adult": 0,
-    "title": "Nathan for You",
-    "mediatype": "show",
-    "imdb_id": "tt2297757",
-    "release_year": 2013
-  },
-  {
     "id": 218344,
-    "rank": 7,
+    "rank": 5,
     "adult": 0,
     "title": "Blue Lights",
     "mediatype": "show",
@@ -64,7 +46,7 @@
   },
   {
     "id": 1668,
-    "rank": 8,
+    "rank": 6,
     "adult": 0,
     "title": "Friends",
     "mediatype": "show",
@@ -72,13 +54,31 @@
     "release_year": 1994
   },
   {
+    "id": 58957,
+    "rank": 7,
+    "adult": 0,
+    "title": "Nathan for You",
+    "mediatype": "show",
+    "imdb_id": "tt2297757",
+    "release_year": 2013
+  },
+  {
     "id": 1104,
-    "rank": 9,
+    "rank": 8,
     "adult": 0,
     "title": "Mad Men",
     "mediatype": "show",
     "imdb_id": "tt0804503",
     "release_year": 2007
+  },
+  {
+    "id": 250307,
+    "rank": 9,
+    "adult": 0,
+    "title": "The Pitt",
+    "mediatype": "show",
+    "imdb_id": "tt31938062",
+    "release_year": 2025
   },
   {
     "id": 342122,
@@ -89,53 +89,17 @@
     "imdb_id": "tt2654599"
   },
   {
-    "id": 250307,
+    "id": 305245,
     "rank": 11,
     "adult": 0,
-    "title": "The Pitt",
+    "title": "Silent Night",
     "mediatype": "show",
-    "imdb_id": "tt31938062",
-    "release_year": 2025
-  },
-  {
-    "id": 339697,
-    "rank": 12,
-    "adult": 0,
-    "title": "Melania Rea",
-    "mediatype": "show",
-    "imdb_id": "tt45114341",
+    "imdb_id": "tt38961437",
     "release_year": 2026
   },
   {
-    "id": 1399,
-    "rank": 13,
-    "adult": 0,
-    "title": "Game of Thrones",
-    "mediatype": "show",
-    "imdb_id": "tt0944947",
-    "release_year": 2011
-  },
-  {
-    "id": 62852,
-    "rank": 14,
-    "adult": 0,
-    "title": "Billions",
-    "mediatype": "show",
-    "imdb_id": "tt4270492",
-    "release_year": 2016
-  },
-  {
-    "id": 61662,
-    "rank": 15,
-    "adult": 0,
-    "title": "Schitt's Creek",
-    "mediatype": "show",
-    "imdb_id": "tt3526078",
-    "release_year": 2015
-  },
-  {
     "id": 204284,
-    "rank": 16,
+    "rank": 12,
     "adult": 0,
     "title": "The Rehearsal",
     "mediatype": "show",
@@ -143,39 +107,75 @@
     "release_year": 2022
   },
   {
-    "id": 46648,
+    "id": 61662,
+    "rank": 13,
+    "adult": 0,
+    "title": "Schitt's Creek",
+    "mediatype": "show",
+    "imdb_id": "tt3526078",
+    "release_year": 2015
+  },
+  {
+    "id": 34634,
+    "rank": 14,
+    "adult": 0,
+    "title": "Gold Rush",
+    "mediatype": "show",
+    "imdb_id": "tt1800864",
+    "release_year": 2010
+  },
+  {
+    "id": 62852,
+    "rank": 15,
+    "adult": 0,
+    "title": "Billions",
+    "mediatype": "show",
+    "imdb_id": "tt4270492",
+    "release_year": 2016
+  },
+  {
+    "id": 1418,
+    "rank": 16,
+    "adult": 0,
+    "title": "The Big Bang Theory",
+    "mediatype": "show",
+    "imdb_id": "tt0898266",
+    "release_year": 2007
+  },
+  {
+    "id": 1399,
     "rank": 17,
     "adult": 0,
-    "title": "True Detective",
+    "title": "Game of Thrones",
     "mediatype": "show",
-    "imdb_id": "tt2356777",
-    "release_year": 2014
+    "imdb_id": "tt0944947",
+    "release_year": 2011
   },
   {
-    "id": 1398,
+    "id": 1438,
     "rank": 18,
     "adult": 0,
-    "title": "The Sopranos",
+    "title": "The Wire",
     "mediatype": "show",
-    "imdb_id": "tt0141842",
-    "release_year": 1999
-  },
-  {
-    "id": 688,
-    "rank": 19,
-    "adult": 0,
-    "title": "The West Wing",
-    "mediatype": "show",
-    "imdb_id": "tt0200276",
-    "release_year": 1999
+    "imdb_id": "tt0306414",
+    "release_year": 2002
   },
   {
     "id": 280880,
-    "rank": 20,
+    "rank": 19,
     "adult": 0,
     "title": "Rage (Furia)",
     "mediatype": "show",
     "imdb_id": "tt32327588",
     "release_year": 2025
+  },
+  {
+    "id": 4613,
+    "rank": 20,
+    "adult": 0,
+    "title": "Band of Brothers",
+    "mediatype": "show",
+    "imdb_id": "tt0185906",
+    "release_year": 2001
   }
 ]
