@@ -1,0 +1,83 @@
+
+name: Update upcoming TV premieres
+
+on:
+  schedule:
+    - cron: "43 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: upcoming-tv-premieres-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-upcoming-shows:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check TV generator syntax
+        run: python -m py_compile scripts/update_upcoming_shows.py
+
+      - name: Generate upcoming TV premieres
+        env:
+          MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY }}
+        run: python scripts/update_upcoming_shows.py
+
+      - name: Validate TV premiere feed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("charts/upcoming_shows.json")
+          shows = json.loads(path.read_text(encoding="utf-8"))
+
+          assert isinstance(shows, list)
+          assert all(
+              isinstance(show, dict)
+              and show.get("mediatype") == "show"
+              and show.get("id")
+              and show.get("premiere_date")
+              and show.get("services")
+              and show.get("season", 0) >= 1
+              for show in shows
+          )
+
+          ids = [show["id"] for show in shows]
+          assert len(ids) == len(set(ids)), "Duplicate TV shows"
+
+          print(f"Validated {len(shows)} upcoming TV premieres")
+          PY
+
+      - name: Commit updated TV premieres
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add charts/upcoming_shows.json
+          git add data/tvmaze_imdb_to_tmdb.json
+
+          if git diff --cached --quiet; then
+            echo "No TV premiere changes"
+            exit 0
+          fi
+
+          git commit -m "Update upcoming TV premieres"
+
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME" && exit 0
+          done
+
+          exit 1
