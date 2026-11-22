@@ -2,6 +2,7 @@
 """Build a Kodi/TMDb Helper upcoming TV premieres feed.
 
 Includes brand-new series and returning seasons.
+Excludes year-numbered annual specials.
 Uses TVmaze schedules and MDBList for TMDb ID matching.
 Does not modify Movies or existing streaming charts.
 
@@ -58,33 +59,61 @@ class PlainText(HTMLParser):
 def plot_text(value):
     if not isinstance(value, str):
         return ""
+
     parser = PlainText()
     parser.feed(value)
+
     words = html.unescape(" ".join(parser.parts)).split()
+
     return " ".join(words[:MAX_PLOT_WORDS]) + (
         "…" if len(words) > MAX_PLOT_WORDS else ""
     )
 
 
 def country_code(channel):
-    country = channel.get("country") if isinstance(channel, dict) else None
-    return country.get("code") if isinstance(country, dict) else None
+    country = (
+        channel.get("country")
+        if isinstance(channel, dict)
+        else None
+    )
+
+    return (
+        country.get("code")
+        if isinstance(country, dict)
+        else None
+    )
 
 
 def service_for(show):
     """Avoid inferring streaming rights from unrelated networks."""
+
     channel = show.get("webChannel")
+
     if isinstance(channel, dict):
         code = country_code(channel)
+
         if code and code != "US":
             return None
-        name = str(channel.get("name") or "").strip().casefold()
+
+        name = str(
+            channel.get("name") or ""
+        ).strip().casefold()
+
         return SERVICES.get(name)
 
     network = show.get("network")
-    if isinstance(network, dict) and country_code(network) == "US":
-        if str(network.get("name") or "").strip().casefold() == "hbo":
+
+    if (
+        isinstance(network, dict)
+        and country_code(network) == "US"
+    ):
+        if (
+            str(network.get("name") or "")
+            .strip()
+            .casefold() == "hbo"
+        ):
             return "max", "HBO Max"
+
     return None
 
 
@@ -97,12 +126,19 @@ def parse_day(value):
 
 def show_of(episode):
     embedded = episode.get("_embedded") or {}
-    return embedded.get("show") or episode.get("show") or {}
+
+    return (
+        embedded.get("show")
+        or episode.get("show")
+        or {}
+    )
 
 
 def candidates(schedule, today):
     if not isinstance(schedule, list):
-        raise ValueError("TVmaze schedule was not a JSON list")
+        raise ValueError(
+            "TVmaze schedule was not a JSON list"
+        )
 
     matches = {}
 
@@ -111,11 +147,18 @@ def candidates(schedule, today):
             continue
 
         day = parse_day(episode.get("airdate"))
-        if day is None or not today <= day <= today + timedelta(days=DAYS_AHEAD):
+
+        if (
+            day is None
+            or not today <= day <= today + timedelta(days=DAYS_AHEAD)
+        ):
             continue
 
         season = episode.get("season")
-        if type(season) is not int or season < 1:
+
+        # Include normal seasons, but exclude annual specials
+        # that use years such as 2026 as season numbers.
+        if type(season) is not int or not (1 <= season < 1900):
             continue
 
         # Count only the first episode of a season.
@@ -123,21 +166,35 @@ def candidates(schedule, today):
             continue
 
         show = show_of(episode)
-        if not isinstance(show, dict) or not show.get("name"):
+
+        if (
+            not isinstance(show, dict)
+            or not show.get("name")
+        ):
             continue
 
         service = service_for(show)
+
         if not service:
             continue
 
         externals = show.get("externals") or {}
-        imdb = externals.get("imdb") if isinstance(externals, dict) else None
 
-        if not isinstance(imdb, str) or not re.fullmatch(r"tt\d{7,12}", imdb):
+        imdb = (
+            externals.get("imdb")
+            if isinstance(externals, dict)
+            else None
+        )
+
+        if (
+            not isinstance(imdb, str)
+            or not re.fullmatch(r"tt\d{7,12}", imdb)
+        ):
             continue
 
         if season == 1:
             first = parse_day(show.get("premiered"))
+
             if first is not None and first < day:
                 continue
 
@@ -150,24 +207,40 @@ def candidates(schedule, today):
             "date": day,
             "service": service,
             "show": show,
-            "source": episode.get("url") or show.get("url"),
+            "source": (
+                episode.get("url")
+                or show.get("url")
+            ),
         }
 
         older = matches.get(key)
-        if older is None or day < older["date"]:
+
+        if (
+            older is None
+            or day < older["date"]
+        ):
             matches[key] = record
 
     return sorted(
         matches.values(),
-        key=lambda x: (x["date"], x["title"].casefold())
+        key=lambda x: (
+            x["date"],
+            x["title"].casefold(),
+        ),
     )
 
 
 def imdb_of(metadata):
     ids = metadata.get("ids") or {}
+
     if not isinstance(ids, dict):
         ids = {}
-    return ids.get("imdb") or metadata.get("imdb_id") or metadata.get("imdbid")
+
+    return (
+        ids.get("imdb")
+        or metadata.get("imdb_id")
+        or metadata.get("imdbid")
+    )
 
 
 def tmdb_of(metadata, imdb):
@@ -181,6 +254,7 @@ def tmdb_of(metadata, imdb):
         return None
 
     ids = metadata.get("ids") or {}
+
     if not isinstance(ids, dict):
         ids = {}
 
@@ -200,12 +274,17 @@ def tmdb_of(metadata, imdb):
 
 def build(schedule, resolve, today):
     found = candidates(schedule, today)
+
     output = []
     seen = set()
 
     for row in found:
         metadata = resolve(row["imdb_id"])
-        ident = tmdb_of(metadata, row["imdb_id"])
+
+        ident = tmdb_of(
+            metadata,
+            row["imdb_id"],
+        )
 
         if ident is None or ident in seen:
             continue
@@ -217,13 +296,15 @@ def build(schedule, resolve, today):
         day = row["date"]
 
         classification = (
-            "New series" if season == 1
+            "New series"
+            if season == 1
             else f"Season {season}"
         )
 
         heading = (
             f"{classification} listed for {name} on "
-            f"{day.strftime('%B')} {day.day}, {day.year}."
+            f"{day.strftime('%B')} "
+            f"{day.day}, {day.year}."
         )
 
         qualification = (
@@ -231,10 +312,15 @@ def build(schedule, resolve, today):
             "availability not independently verified."
         )
 
-        synopsis = plot_text(row["show"].get("summary"))
+        synopsis = plot_text(
+            row["show"].get("summary")
+        )
+
         description = (
             (synopsis + "\n\n" if synopsis else "")
-            + heading + " " + qualification
+            + heading
+            + " "
+            + qualification
         )
 
         output.append({
@@ -242,12 +328,21 @@ def build(schedule, resolve, today):
             "title": row["title"],
             "mediatype": "show",
             "premiere_date": day.isoformat(),
-            "premiere_type": "series" if season == 1 else "season",
+            "premiere_type": (
+                "series"
+                if season == 1
+                else "season"
+            ),
             "season": season,
             "services": [slug],
             "description": description,
-            "source": row["source"] or "https://www.tvmaze.com/api",
-            "verification": "tvmaze_schedule_us_unverified",
+            "source": (
+                row["source"]
+                or "https://www.tvmaze.com/api"
+            ),
+            "verification": (
+                "tvmaze_schedule_us_unverified"
+            ),
             "imdb_id": row["imdb_id"],
             "rank": len(output) + 1,
         })
@@ -267,9 +362,11 @@ def get_json(url, retries=3):
     for attempt in range(retries):
         try:
             with urllib.request.urlopen(
-                request, timeout=65
+                request,
+                timeout=65,
             ) as response:
                 return json.load(response)
+
         except (
             urllib.error.HTTPError,
             urllib.error.URLError,
@@ -278,11 +375,16 @@ def get_json(url, retries=3):
         ):
             if attempt == retries - 1:
                 raise
-            time.sleep(3 * (attempt + 1))
+
+            time.sleep(
+                3 * (attempt + 1)
+            )
 
 
 def main():
-    key = os.environ.get("MDBLIST_API_KEY")
+    key = os.environ.get(
+        "MDBLIST_API_KEY"
+    )
 
     if not key:
         raise RuntimeError(
@@ -292,13 +394,19 @@ def main():
     schedule = get_json(TVMAZE)
 
     known = (
-        json.loads(ID_CACHE.read_text(encoding="utf-8"))
+        json.loads(
+            ID_CACHE.read_text(
+                encoding="utf-8"
+            )
+        )
         if ID_CACHE.exists()
         else {}
     )
 
     if not isinstance(known, dict):
-        raise ValueError("Invalid cached TV show IDs")
+        raise ValueError(
+            "Invalid cached TV show IDs"
+        )
 
     cache = {}
     failures = 0
@@ -309,7 +417,10 @@ def main():
         if imdb not in cache:
             old_id = known.get(imdb)
 
-            if type(old_id) is int and old_id > 0:
+            if (
+                type(old_id) is int
+                and old_id > 0
+            ):
                 cache[imdb] = {
                     "type": "show",
                     "ids": {
@@ -317,17 +428,24 @@ def main():
                         "tmdb": old_id,
                     },
                 }
+
                 return cache[imdb]
 
             url = (
                 MDBLIST.format(imdb)
                 + "?"
-                + urllib.parse.urlencode({"apikey": key})
+                + urllib.parse.urlencode({
+                    "apikey": key
+                })
             )
 
             try:
                 cache[imdb] = get_json(url)
-                ident = tmdb_of(cache[imdb], imdb)
+
+                ident = tmdb_of(
+                    cache[imdb],
+                    imdb,
+                )
 
                 if ident is not None:
                     known[imdb] = ident
@@ -342,6 +460,7 @@ def main():
                     f"Metadata unavailable for {imdb}: "
                     f"{type(exc).__name__}"
                 )
+
                 failures += 1
                 cache[imdb] = None
 
@@ -350,41 +469,67 @@ def main():
         return cache[imdb]
 
     output, discovered = build(
-        schedule, resolve, date.today()
+        schedule,
+        resolve,
+        date.today(),
     )
 
-    if discovered and failures > max(3, discovered // 3):
+    if (
+        discovered
+        and failures > max(3, discovered // 3)
+    ):
         raise RuntimeError(
-            "Too many MDBList errors; preserving previous feed"
+            "Too many MDBList errors; "
+            "preserving previous feed"
         )
 
     if discovered and not output:
         raise RuntimeError(
-            "No validated TMDb show IDs; preserving previous feed"
+            "No validated TMDb show IDs; "
+            "preserving previous feed"
         )
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
     temp = OUT.with_suffix(".tmp")
+
     temp.write_text(
-        json.dumps(output, indent=2, ensure_ascii=False) + "\n",
+        json.dumps(
+            output,
+            indent=2,
+            ensure_ascii=False,
+        ) + "\n",
         encoding="utf-8",
     )
+
     temp.replace(OUT)
 
-    ID_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    ID_CACHE.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
     cache_temp = ID_CACHE.with_suffix(".tmp")
+
     cache_temp.write_text(
-        json.dumps(known, indent=2, sort_keys=True) + "\n",
+        json.dumps(
+            known,
+            indent=2,
+            sort_keys=True,
+        ) + "\n",
         encoding="utf-8",
     )
+
     cache_temp.replace(ID_CACHE)
 
     print(
         f"Upcoming TV candidates: {discovered}; "
         f"validated and saved: {len(output)}"
     )
+
     print(
         "TVmaze schedule; U.S. subscription "
         "availability not independently verified"
