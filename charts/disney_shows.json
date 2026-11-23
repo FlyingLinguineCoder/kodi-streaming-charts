@@ -27,17 +27,8 @@
     "release_year": 2018
   },
   {
-    "id": 136315,
-    "rank": 4,
-    "adult": 0,
-    "title": "The Bear",
-    "mediatype": "show",
-    "imdb_id": "tt14452776",
-    "release_year": 2022
-  },
-  {
     "id": 2046,
-    "rank": 5,
+    "rank": 4,
     "adult": 0,
     "title": "Alias",
     "mediatype": "show",
@@ -45,35 +36,8 @@
     "release_year": 2001
   },
   {
-    "id": 208569,
-    "rank": 6,
-    "adult": 0,
-    "title": "Will Trent",
-    "mediatype": "show",
-    "imdb_id": "tt17543592",
-    "release_year": 2023
-  },
-  {
-    "id": 60572,
-    "rank": 7,
-    "adult": 0,
-    "title": "Pokémon",
-    "mediatype": "show",
-    "imdb_id": "tt0168366",
-    "release_year": 1997
-  },
-  {
-    "id": 1100,
-    "rank": 8,
-    "adult": 0,
-    "title": "How I Met Your Mother",
-    "mediatype": "show",
-    "imdb_id": "tt0460649",
-    "release_year": 2005
-  },
-  {
     "id": 107113,
-    "rank": 9,
+    "rank": 5,
     "adult": 0,
     "title": "Only Murders in the Building",
     "mediatype": "show",
@@ -81,13 +45,49 @@
     "release_year": 2021
   },
   {
+    "id": 60572,
+    "rank": 6,
+    "adult": 0,
+    "title": "Pokémon",
+    "mediatype": "show",
+    "imdb_id": "tt0168366",
+    "release_year": 1997
+  },
+  {
+    "id": 456,
+    "rank": 7,
+    "adult": 0,
+    "title": "The Simpsons",
+    "mediatype": "show",
+    "imdb_id": "tt0096697",
+    "release_year": 1989
+  },
+  {
+    "id": 136315,
+    "rank": 8,
+    "adult": 0,
+    "title": "The Bear",
+    "mediatype": "show",
+    "imdb_id": "tt14452776",
+    "release_year": 2022
+  },
+  {
     "id": 84958,
-    "rank": 10,
+    "rank": 9,
     "adult": 0,
     "title": "Loki",
     "mediatype": "show",
     "imdb_id": "tt9140554",
     "release_year": 2021
+  },
+  {
+    "id": 208569,
+    "rank": 10,
+    "adult": 0,
+    "title": "Will Trent",
+    "mediatype": "show",
+    "imdb_id": "tt17543592",
+    "release_year": 2023
   },
   {
     "id": 61617,
@@ -99,13 +99,13 @@
     "release_year": 2014
   },
   {
-    "id": 456,
+    "id": 1100,
     "rank": 12,
     "adult": 0,
-    "title": "The Simpsons",
+    "title": "How I Met Your Mother",
     "mediatype": "show",
-    "imdb_id": "tt0096697",
-    "release_year": 1989
+    "imdb_id": "tt0460649",
+    "release_year": 2005
   },
   {
     "id": 65334,
@@ -135,13 +135,13 @@
     "release_year": 2018
   },
   {
-    "id": 1508,
+    "id": 1417,
     "rank": 16,
     "adult": 0,
-    "title": "Dancing with the Stars",
+    "title": "Glee",
     "mediatype": "show",
-    "imdb_id": "tt0463398",
-    "release_year": 2005
+    "imdb_id": "tt1327801",
+    "release_year": 2009
   },
   {
     "id": 67178,
@@ -153,13 +153,13 @@
     "release_year": 2017
   },
   {
-    "id": 138501,
+    "id": 82856,
     "rank": 18,
     "adult": 0,
-    "title": "Agatha All Along",
+    "title": "The Mandalorian",
     "mediatype": "show",
-    "imdb_id": "tt15571732",
-    "release_year": 2024
+    "imdb_id": "tt8111088",
+    "release_year": 2019
   },
   {
     "id": 1678,
@@ -171,12 +171,12 @@
     "release_year": 1985
   },
   {
-    "id": 83867,
+    "id": 1508,
     "rank": 20,
     "adult": 0,
-    "title": "Andor",
+    "title": "Dancing with the Stars",
     "mediatype": "show",
-    "imdb_id": "tt9253284",
-    "release_year": 2022
+    "imdb_id": "tt0463398",
+    "release_year": 2005
   }
 ]

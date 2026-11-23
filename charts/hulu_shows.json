@@ -36,80 +36,8 @@
     "release_year": 2005
   },
   {
-    "id": 275139,
-    "rank": 5,
-    "adult": 0,
-    "title": "Phony",
-    "mediatype": "show",
-    "imdb_id": "tt21952924",
-    "release_year": 2026
-  },
-  {
-    "id": 291084,
-    "rank": 6,
-    "adult": 0,
-    "title": "Best Medicine",
-    "mediatype": "show",
-    "imdb_id": "tt36885662",
-    "release_year": 2026
-  },
-  {
-    "id": 125935,
-    "rank": 7,
-    "adult": 0,
-    "title": "Abbott Elementary",
-    "mediatype": "show",
-    "imdb_id": "tt14218830",
-    "release_year": 2021
-  },
-  {
-    "id": 122066,
-    "rank": 8,
-    "adult": 0,
-    "title": "The Dropout",
-    "mediatype": "show",
-    "imdb_id": "tt10166622",
-    "release_year": 2022
-  },
-  {
-    "id": 279246,
-    "rank": 9,
-    "adult": 0,
-    "title": "The Remarried Empress",
-    "mediatype": "show",
-    "imdb_id": "tt39325975",
-    "release_year": 2026
-  },
-  {
-    "id": 46533,
-    "rank": 10,
-    "adult": 0,
-    "title": "The Americans",
-    "mediatype": "show",
-    "imdb_id": "tt2149175",
-    "release_year": 2013
-  },
-  {
-    "id": 14658,
-    "rank": 11,
-    "adult": 0,
-    "title": "Survivor",
-    "mediatype": "show",
-    "imdb_id": "tt0239195",
-    "release_year": 2000
-  },
-  {
-    "id": 75219,
-    "rank": 12,
-    "adult": 0,
-    "title": "9-1-1",
-    "mediatype": "show",
-    "imdb_id": "tt7235466",
-    "release_year": 2018
-  },
-  {
     "id": 5920,
-    "rank": 13,
+    "rank": 5,
     "adult": 0,
     "title": "The Mentalist",
     "mediatype": "show",
@@ -117,8 +45,17 @@
     "release_year": 2008
   },
   {
+    "id": 125935,
+    "rank": 6,
+    "adult": 0,
+    "title": "Abbott Elementary",
+    "mediatype": "show",
+    "imdb_id": "tt14218830",
+    "release_year": 2021
+  },
+  {
     "id": 211288,
-    "rank": 14,
+    "rank": 7,
     "adult": 0,
     "title": "Tracker",
     "mediatype": "show",
@@ -126,22 +63,85 @@
     "release_year": 2024
   },
   {
-    "id": 208921,
+    "id": 275139,
+    "rank": 8,
+    "adult": 0,
+    "title": "Phony",
+    "mediatype": "show",
+    "imdb_id": "tt21952924",
+    "release_year": 2026
+  },
+  {
+    "id": 46533,
+    "rank": 9,
+    "adult": 0,
+    "title": "The Americans",
+    "mediatype": "show",
+    "imdb_id": "tt2149175",
+    "release_year": 2013
+  },
+  {
+    "id": 279246,
+    "rank": 10,
+    "adult": 0,
+    "title": "The Remarried Empress",
+    "mediatype": "show",
+    "imdb_id": "tt39325975",
+    "release_year": 2026
+  },
+  {
+    "id": 122066,
+    "rank": 11,
+    "adult": 0,
+    "title": "The Dropout",
+    "mediatype": "show",
+    "imdb_id": "tt10166622",
+    "release_year": 2022
+  },
+  {
+    "id": 291084,
+    "rank": 12,
+    "adult": 0,
+    "title": "Best Medicine",
+    "mediatype": "show",
+    "imdb_id": "tt36885662",
+    "release_year": 2026
+  },
+  {
+    "id": 79744,
+    "rank": 13,
+    "adult": 0,
+    "title": "The Rookie",
+    "mediatype": "show",
+    "imdb_id": "tt7587890",
+    "release_year": 2018
+  },
+  {
+    "id": 75219,
+    "rank": 14,
+    "adult": 0,
+    "title": "9-1-1",
+    "mediatype": "show",
+    "imdb_id": "tt7235466",
+    "release_year": 2018
+  },
+  {
+    "id": 14658,
     "rank": 15,
+    "adult": 0,
+    "title": "Survivor",
+    "mediatype": "show",
+    "imdb_id": "tt0239195",
+    "release_year": 2000
+  },
+  {
+    "id": 208921,
+    "rank": 16,
     "adult": 0,
     "title": "Rivals",
     "mediatype": "show",
     "imdb_id": "tt21906238",
     "release_year": 2024
-  },
-  {
-    "id": 30957,
-    "rank": 16,
-    "adult": 0,
-    "title": "The Amazing Race",
-    "mediatype": "show",
-    "imdb_id": "tt0285335",
-    "release_year": 2001
   },
   {
     "id": 4087,
@@ -153,30 +153,30 @@
     "release_year": 1993
   },
   {
-    "id": 2734,
+    "id": 60622,
     "rank": 18,
     "adult": 0,
-    "title": "Law & Order: Special Victims Unit",
+    "title": "Fargo",
     "mediatype": "show",
-    "imdb_id": "tt0203259",
-    "release_year": 1999
+    "imdb_id": "tt2802850",
+    "release_year": 2014
   },
   {
-    "id": 79744,
+    "id": 61662,
     "rank": 19,
     "adult": 0,
-    "title": "The Rookie",
+    "title": "Schitt's Creek",
     "mediatype": "show",
-    "imdb_id": "tt7587890",
-    "release_year": 2018
+    "imdb_id": "tt3526078",
+    "release_year": 2015
   },
   {
-    "id": 2370,
+    "id": 1413,
     "rank": 20,
     "adult": 0,
-    "title": "Hell's Kitchen",
+    "title": "American Horror Story",
     "mediatype": "show",
-    "imdb_id": "tt0437005",
-    "release_year": 2005
+    "imdb_id": "tt1844624",
+    "release_year": 2011
   }
 ]
