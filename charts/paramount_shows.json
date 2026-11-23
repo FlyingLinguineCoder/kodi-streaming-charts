@@ -54,31 +54,31 @@
     "release_year": 1997
   },
   {
-    "id": 243875,
-    "rank": 7,
-    "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
-    "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
-  },
-  {
-    "id": 313630,
-    "rank": 8,
-    "adult": 0,
-    "title": "Eternally Yours",
-    "mediatype": "show",
-    "imdb_id": "tt33078239",
-    "release_year": 2026
-  },
-  {
     "id": 1405,
-    "rank": 9,
+    "rank": 7,
     "adult": 0,
     "title": "Dexter",
     "mediatype": "show",
     "imdb_id": "tt0773262",
     "release_year": 2006
+  },
+  {
+    "id": 14658,
+    "rank": 8,
+    "adult": 0,
+    "title": "Survivor",
+    "mediatype": "show",
+    "imdb_id": "tt0239195",
+    "release_year": 2000
+  },
+  {
+    "id": 313630,
+    "rank": 9,
+    "adult": 0,
+    "title": "Eternally Yours",
+    "mediatype": "show",
+    "imdb_id": "tt33078239",
+    "release_year": 2026
   },
   {
     "id": 58957,
@@ -90,22 +90,22 @@
     "release_year": 2013
   },
   {
-    "id": 14658,
-    "rank": 11,
-    "adult": 0,
-    "title": "Survivor",
-    "mediatype": "show",
-    "imdb_id": "tt0239195",
-    "release_year": 2000
-  },
-  {
     "id": 211288,
-    "rank": 12,
+    "rank": 11,
     "adult": 0,
     "title": "Tracker",
     "mediatype": "show",
     "imdb_id": "tt13875494",
     "release_year": 2024
+  },
+  {
+    "id": 126027,
+    "rank": 12,
+    "adult": 0,
+    "title": "Ghosts",
+    "mediatype": "show",
+    "imdb_id": "tt11379026",
+    "release_year": 2021
   },
   {
     "id": 113962,
@@ -117,26 +117,17 @@
     "release_year": 2023
   },
   {
-    "id": 126027,
+    "id": 243875,
     "rank": 14,
     "adult": 0,
-    "title": "Ghosts",
+    "title": "Georgie & Mandy's First Marriage",
     "mediatype": "show",
-    "imdb_id": "tt11379026",
-    "release_year": 2021
-  },
-  {
-    "id": 30957,
-    "rank": 15,
-    "adult": 0,
-    "title": "The Amazing Race",
-    "mediatype": "show",
-    "imdb_id": "tt0285335",
-    "release_year": 2001
+    "imdb_id": "tt31589662",
+    "release_year": 2024
   },
   {
     "id": 226285,
-    "rank": 16,
+    "rank": 15,
     "adult": 0,
     "title": "Elsbeth",
     "mediatype": "show",
@@ -144,8 +135,35 @@
     "release_year": 2024
   },
   {
-    "id": 1920,
+    "id": 30957,
+    "rank": 16,
+    "adult": 0,
+    "title": "The Amazing Race",
+    "mediatype": "show",
+    "imdb_id": "tt0285335",
+    "release_year": 2001
+  },
+  {
+    "id": 4614,
     "rank": 17,
+    "adult": 0,
+    "title": "NCIS",
+    "mediatype": "show",
+    "imdb_id": "tt0364845",
+    "release_year": 2003
+  },
+  {
+    "id": 655,
+    "rank": 18,
+    "adult": 0,
+    "title": "Star Trek: The Next Generation",
+    "mediatype": "show",
+    "imdb_id": "tt0092455",
+    "release_year": 1987
+  },
+  {
+    "id": 1920,
+    "rank": 19,
     "adult": 0,
     "title": "Twin Peaks",
     "mediatype": "show",
@@ -154,29 +172,11 @@
   },
   {
     "id": 1972,
-    "rank": 18,
+    "rank": 20,
     "adult": 0,
     "title": "Battlestar Galactica",
     "mediatype": "show",
     "imdb_id": "tt0407362",
     "release_year": 2004
-  },
-  {
-    "id": 4278,
-    "rank": 19,
-    "adult": 0,
-    "title": "Friday Night Lights",
-    "mediatype": "show",
-    "imdb_id": "tt0758745",
-    "release_year": 2006
-  },
-  {
-    "id": 4614,
-    "rank": 20,
-    "adult": 0,
-    "title": "NCIS",
-    "mediatype": "show",
-    "imdb_id": "tt0364845",
-    "release_year": 2003
   }
 ]

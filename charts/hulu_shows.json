@@ -9,17 +9,8 @@
     "release_year": 2026
   },
   {
-    "id": 103540,
-    "rank": 2,
-    "adult": 0,
-    "title": "Percy Jackson and the Olympians",
-    "mediatype": "show",
-    "imdb_id": "tt12324366",
-    "release_year": 2023
-  },
-  {
     "id": 273247,
-    "rank": 3,
+    "rank": 2,
     "adult": 0,
     "title": "The Lowdown",
     "mediatype": "show",
@@ -27,22 +18,31 @@
     "release_year": 2025
   },
   {
-    "id": 275139,
-    "rank": 4,
+    "id": 103540,
+    "rank": 3,
     "adult": 0,
-    "title": "Phony",
+    "title": "Percy Jackson and the Olympians",
     "mediatype": "show",
-    "imdb_id": "tt21952924",
-    "release_year": 2026
+    "imdb_id": "tt12324366",
+    "release_year": 2023
   },
   {
     "id": 1416,
-    "rank": 5,
+    "rank": 4,
     "adult": 0,
     "title": "Grey's Anatomy",
     "mediatype": "show",
     "imdb_id": "tt0413573",
     "release_year": 2005
+  },
+  {
+    "id": 275139,
+    "rank": 5,
+    "adult": 0,
+    "title": "Phony",
+    "mediatype": "show",
+    "imdb_id": "tt21952924",
+    "release_year": 2026
   },
   {
     "id": 291084,
@@ -54,8 +54,26 @@
     "release_year": 2026
   },
   {
-    "id": 279246,
+    "id": 125935,
     "rank": 7,
+    "adult": 0,
+    "title": "Abbott Elementary",
+    "mediatype": "show",
+    "imdb_id": "tt14218830",
+    "release_year": 2021
+  },
+  {
+    "id": 122066,
+    "rank": 8,
+    "adult": 0,
+    "title": "The Dropout",
+    "mediatype": "show",
+    "imdb_id": "tt10166622",
+    "release_year": 2022
+  },
+  {
+    "id": 279246,
+    "rank": 9,
     "adult": 0,
     "title": "The Remarried Empress",
     "mediatype": "show",
@@ -64,7 +82,7 @@
   },
   {
     "id": 46533,
-    "rank": 8,
+    "rank": 10,
     "adult": 0,
     "title": "The Americans",
     "mediatype": "show",
@@ -72,17 +90,8 @@
     "release_year": 2013
   },
   {
-    "id": 208921,
-    "rank": 9,
-    "adult": 0,
-    "title": "Rivals",
-    "mediatype": "show",
-    "imdb_id": "tt21906238",
-    "release_year": 2024
-  },
-  {
     "id": 14658,
-    "rank": 10,
+    "rank": 11,
     "adult": 0,
     "title": "Survivor",
     "mediatype": "show",
@@ -90,53 +99,8 @@
     "release_year": 2000
   },
   {
-    "id": 211288,
-    "rank": 11,
-    "adult": 0,
-    "title": "Tracker",
-    "mediatype": "show",
-    "imdb_id": "tt13875494",
-    "release_year": 2024
-  },
-  {
-    "id": 125935,
-    "rank": 12,
-    "adult": 0,
-    "title": "Abbott Elementary",
-    "mediatype": "show",
-    "imdb_id": "tt14218830",
-    "release_year": 2021
-  },
-  {
-    "id": 79744,
-    "rank": 13,
-    "adult": 0,
-    "title": "The Rookie",
-    "mediatype": "show",
-    "imdb_id": "tt7587890",
-    "release_year": 2018
-  },
-  {
-    "id": 122066,
-    "rank": 14,
-    "adult": 0,
-    "title": "The Dropout",
-    "mediatype": "show",
-    "imdb_id": "tt10166622",
-    "release_year": 2022
-  },
-  {
-    "id": 30957,
-    "rank": 15,
-    "adult": 0,
-    "title": "The Amazing Race",
-    "mediatype": "show",
-    "imdb_id": "tt0285335",
-    "release_year": 2001
-  },
-  {
     "id": 75219,
-    "rank": 16,
+    "rank": 12,
     "adult": 0,
     "title": "9-1-1",
     "mediatype": "show",
@@ -144,13 +108,49 @@
     "release_year": 2018
   },
   {
-    "id": 301284,
+    "id": 5920,
+    "rank": 13,
+    "adult": 0,
+    "title": "The Mentalist",
+    "mediatype": "show",
+    "imdb_id": "tt1196946",
+    "release_year": 2008
+  },
+  {
+    "id": 211288,
+    "rank": 14,
+    "adult": 0,
+    "title": "Tracker",
+    "mediatype": "show",
+    "imdb_id": "tt13875494",
+    "release_year": 2024
+  },
+  {
+    "id": 208921,
+    "rank": 15,
+    "adult": 0,
+    "title": "Rivals",
+    "mediatype": "show",
+    "imdb_id": "tt21906238",
+    "release_year": 2024
+  },
+  {
+    "id": 30957,
+    "rank": 16,
+    "adult": 0,
+    "title": "The Amazing Race",
+    "mediatype": "show",
+    "imdb_id": "tt0285335",
+    "release_year": 2001
+  },
+  {
+    "id": 4087,
     "rank": 17,
     "adult": 0,
-    "title": "The Killings at Parrish Station",
+    "title": "The X-Files",
     "mediatype": "show",
-    "imdb_id": "tt38448408",
-    "release_year": 2026
+    "imdb_id": "tt0106179",
+    "release_year": 1993
   },
   {
     "id": 2734,
@@ -162,21 +162,21 @@
     "release_year": 1999
   },
   {
-    "id": 5920,
+    "id": 79744,
     "rank": 19,
     "adult": 0,
-    "title": "The Mentalist",
+    "title": "The Rookie",
     "mediatype": "show",
-    "imdb_id": "tt1196946",
-    "release_year": 2008
+    "imdb_id": "tt7587890",
+    "release_year": 2018
   },
   {
-    "id": 4087,
+    "id": 2370,
     "rank": 20,
     "adult": 0,
-    "title": "The X-Files",
+    "title": "Hell's Kitchen",
     "mediatype": "show",
-    "imdb_id": "tt0106179",
-    "release_year": 1993
+    "imdb_id": "tt0437005",
+    "release_year": 2005
   }
 ]

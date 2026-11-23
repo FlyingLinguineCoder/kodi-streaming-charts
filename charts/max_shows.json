@@ -18,26 +18,8 @@
     "release_year": 2022
   },
   {
-    "id": 243875,
-    "rank": 3,
-    "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
-    "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
-  },
-  {
-    "id": 58957,
-    "rank": 4,
-    "adult": 0,
-    "title": "Nathan for You",
-    "mediatype": "show",
-    "imdb_id": "tt2297757",
-    "release_year": 2013
-  },
-  {
     "id": 125935,
-    "rank": 5,
+    "rank": 3,
     "adult": 0,
     "title": "Abbott Elementary",
     "mediatype": "show",
@@ -45,13 +27,31 @@
     "release_year": 2021
   },
   {
+    "id": 218344,
+    "rank": 4,
+    "adult": 0,
+    "title": "Blue Lights",
+    "mediatype": "show",
+    "imdb_id": "tt14466018",
+    "release_year": 2023
+  },
+  {
     "id": 1668,
-    "rank": 6,
+    "rank": 5,
     "adult": 0,
     "title": "Friends",
     "mediatype": "show",
     "imdb_id": "tt0108778",
     "release_year": 1994
+  },
+  {
+    "id": 58957,
+    "rank": 6,
+    "adult": 0,
+    "title": "Nathan for You",
+    "mediatype": "show",
+    "imdb_id": "tt2297757",
+    "release_year": 2013
   },
   {
     "id": 250307,
@@ -63,39 +63,39 @@
     "release_year": 2025
   },
   {
-    "id": 218344,
+    "id": 1399,
     "rank": 8,
     "adult": 0,
-    "title": "Blue Lights",
+    "title": "Game of Thrones",
     "mediatype": "show",
-    "imdb_id": "tt14466018",
-    "release_year": 2023
+    "imdb_id": "tt0944947",
+    "release_year": 2011
   },
   {
-    "id": 34634,
+    "id": 243875,
     "rank": 9,
     "adult": 0,
-    "title": "Gold Rush",
+    "title": "Georgie & Mandy's First Marriage",
     "mediatype": "show",
-    "imdb_id": "tt1800864",
-    "release_year": 2010
-  },
-  {
-    "id": 342122,
-    "rank": 10,
-    "adult": 0,
-    "title": "Lanterns",
-    "mediatype": "show",
-    "imdb_id": "tt2654599"
+    "imdb_id": "tt31589662",
+    "release_year": 2024
   },
   {
     "id": 1104,
-    "rank": 11,
+    "rank": 10,
     "adult": 0,
     "title": "Mad Men",
     "mediatype": "show",
     "imdb_id": "tt0804503",
     "release_year": 2007
+  },
+  {
+    "id": 342122,
+    "rank": 11,
+    "adult": 0,
+    "title": "Lanterns",
+    "mediatype": "show",
+    "imdb_id": "tt2654599"
   },
   {
     "id": 204284,
@@ -107,13 +107,13 @@
     "release_year": 2022
   },
   {
-    "id": 62852,
+    "id": 61662,
     "rank": 13,
     "adult": 0,
-    "title": "Billions",
+    "title": "Schitt's Creek",
     "mediatype": "show",
-    "imdb_id": "tt4270492",
-    "release_year": 2016
+    "imdb_id": "tt3526078",
+    "release_year": 2015
   },
   {
     "id": 285418,
@@ -125,57 +125,57 @@
     "release_year": 2026
   },
   {
-    "id": 305245,
+    "id": 688,
     "rank": 15,
     "adult": 0,
-    "title": "Silent Night",
+    "title": "The West Wing",
     "mediatype": "show",
-    "imdb_id": "tt38961437",
-    "release_year": 2026
+    "imdb_id": "tt0200276",
+    "release_year": 1999
   },
   {
-    "id": 46648,
+    "id": 94997,
     "rank": 16,
     "adult": 0,
-    "title": "True Detective",
+    "title": "House of the Dragon",
     "mediatype": "show",
-    "imdb_id": "tt2356777",
-    "release_year": 2014
+    "imdb_id": "tt11198330",
+    "release_year": 2022
   },
   {
-    "id": 224372,
+    "id": 34634,
     "rank": 17,
     "adult": 0,
-    "title": "A Knight of the Seven Kingdoms",
+    "title": "Gold Rush",
     "mediatype": "show",
-    "imdb_id": "tt27497448",
-    "release_year": 2026
+    "imdb_id": "tt1800864",
+    "release_year": 2010
   },
   {
-    "id": 1438,
+    "id": 62852,
     "rank": 18,
     "adult": 0,
-    "title": "The Wire",
+    "title": "Billions",
     "mediatype": "show",
-    "imdb_id": "tt0306414",
-    "release_year": 2002
+    "imdb_id": "tt4270492",
+    "release_year": 2016
   },
   {
-    "id": 61662,
+    "id": 231751,
     "rank": 19,
     "adult": 0,
-    "title": "Schitt's Creek",
+    "title": "The Hardacres",
     "mediatype": "show",
-    "imdb_id": "tt3526078",
-    "release_year": 2015
+    "imdb_id": "tt28489780",
+    "release_year": 2024
   },
   {
-    "id": 1399,
+    "id": 85552,
     "rank": 20,
     "adult": 0,
-    "title": "Game of Thrones",
+    "title": "Euphoria",
     "mediatype": "show",
-    "imdb_id": "tt0944947",
-    "release_year": 2011
+    "imdb_id": "tt8772296",
+    "release_year": 2019
   }
 ]

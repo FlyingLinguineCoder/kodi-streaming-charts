@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-11-22T16:02:03.368087+00:00",
+  "generated_at_utc": "2026-11-23T04:32:11.085245+00:00",
   "purpose": "Diagnostic only; no Kodi widget generated",
   "window": {
-    "start": "2026-11-22",
-    "end": "2027-02-20"
+    "start": "2026-11-23",
+    "end": "2027-02-21"
   },
   "limitations": "Calendar labels nominate candidates, not confirmed premieres. Release years do not prove first-ever subscription availability. An untyped premiere, season bundle, or season arrival without a premiere label requires review. Month-only listings are omitted. Movie review records identify films to check for a first U.S. subscription release. Audit-only dates lack a matching calendar entry.",
   "sources": [
@@ -11,7 +11,7 @@
       "url": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026",
       "status": "parsed",
       "text_blocks": 291,
-      "upcoming_dated_entries": 53,
+      "upcoming_dated_entries": 50,
       "movie_candidates": 2,
       "series_premiere_candidates": 0,
       "new_season_candidates": 0
@@ -37,40 +37,6 @@
     }
   ],
   "results": [
-    {
-      "date": "2026-11-22",
-      "services": [
-        "hulu"
-      ],
-      "title": "The Mess Around – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-22",
-      "services": [
-        "hulu"
-      ],
-      "title": "Mission: Yozakura Family (Season 2, Cour 2) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-22",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "We’re Here to Help – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
     {
       "date": "2026-11-23",
       "services": [
@@ -2952,7 +2918,7 @@
   ],
   "movie_review": {
     "audit_status": "available",
-    "audit_generated_at_utc": "2026-11-22T04:16:28.991509+00:00",
+    "audit_generated_at_utc": "2026-11-22T16:02:16.577800+00:00",
     "candidates": [
       {
         "title": "The Symphony of Dance",
