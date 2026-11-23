@@ -1,29 +1,5 @@
 [
   {
-    "id": 1611767,
-    "title": "Clashing Through the Snow",
-    "mediatype": "movie",
-    "premiere_date": "2026-11-23",
-    "services": [
-      "amazon-prime-video"
-    ],
-    "source": "https://www.aboutamazon.com/news/entertainment/prime-video-november-films-shows-sports-2026",
-    "description": "After weather grounds all flights east for the holidays, two work rivals competing for the same job begrudgingly embark on a cross-country road trip that brings them closer together in ways they never imagined.\n\nU.S. subscription premiere on Prime Video, November 23, 2026.",
-    "rank": 1
-  },
-  {
-    "id": 1674241,
-    "title": "The Symphony of Dance",
-    "mediatype": "movie",
-    "premiere_date": "2026-11-23",
-    "services": [
-      "hulu"
-    ],
-    "source": "https://press.hulu.com/shows/the-symphony-of-dance/",
-    "description": "A behind-the-scenes glimpse at a marathon of performances by Dancing with the Stars’ Derek and Hayley Hough becomes something entirely different when Hayley is forced to fight for her life following a shocking health crisis.\n\nU.S. subscription premiere on Hulu, November 23, 2026.",
-    "rank": 2
-  },
-  {
     "id": 1802703,
     "title": "Rob Lowe: The Outsider",
     "mediatype": "movie",
@@ -33,7 +9,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/rob-lowe-the-outsider-documentary-release-date-news",
     "description": "Traces Lowe's career from his breakout roles in “The Outsiders” and “St. Elmo’s Fire” to his Emmy-nominated performance on “The West Wing” and how he maintained his Hollywood career.\n\nU.S. subscription premiere on Netflix, November 24, 2026.",
-    "rank": 3
+    "rank": 1
   },
   {
     "id": 1458300,
@@ -45,7 +21,7 @@
     ],
     "source": "https://media.netflix.com/en/only-on-netflix/81661161",
     "description": "In the aftermath of Pearl Harbor, four college football stars enlist in the US Marines, discovering the strength of brotherhood and the cost of war.\n\nU.S. subscription premiere on Netflix, November 25, 2026.",
-    "rank": 4
+    "rank": 2
   },
   {
     "id": 1632599,
@@ -57,7 +33,7 @@
     ],
     "source": "https://press.wbd.com/us/media-release/hbo-original-documentary-slightest-touch-debuts-november-25",
     "description": "Emma Fogarty lives with Epidermolysis Bullosa, a rare and extremely painful genetic condition that leaves her skin so fragile it blisters and tears at the slightest touch. As she turns 40, the age doctors predicted she would never reach, she takes up an offer from her long-time friend, Colin Farrell, to complete the Dublin Marathon…\n\nU.S. subscription premiere on HBO Max, November 25, 2026.",
-    "rank": 5
+    "rank": 3
   },
   {
     "id": 1280115,
@@ -69,7 +45,7 @@
     ],
     "source": "https://www.apple.com/tv-pr/news/2026/11/apple-original-films-celebrates-the-world-premiere-of-way-of-the-warrior-kid/",
     "description": "Jake is an injured Navy SEAL who becomes a mentor for his shy, struggling nephew Marc. Using the principles of his military training, Jake teaches Marc how to be a Warrior Kid as he enters high school.\n\nU.S. subscription premiere on Apple TV+, November 25, 2026.",
-    "rank": 6
+    "rank": 4
   },
   {
     "id": 1492138,
@@ -81,7 +57,7 @@
     ],
     "source": "https://www.peacocktv.com/blog/what-to-watch-new-on-peacock",
     "description": "When a driven Wall Street executive and a down-to-earth Christmas-tree salesman cross paths, their lives collide. Four years later, fate knocks on her door. Amid city lights and second chances, the two strangers discover love finds its way home in this holiday romantic drama.\n\nU.S. subscription premiere on Peacock, November 27, 2026.",
-    "rank": 7
+    "rank": 5
   },
   {
     "id": 1390382,
@@ -93,7 +69,7 @@
     ],
     "source": "https://press.hulu.com/schedule/november-2026/",
     "description": "An American filmmaker faces challenges and self-discovery as she arrives in Paris for Fashion Week on a life-and-death journey.\n\nU.S. subscription premiere on Hulu, November 27, 2026.",
-    "rank": 8
+    "rank": 6
   },
   {
     "id": 1517868,
@@ -107,7 +83,7 @@
     "description": "A plucky dishwasher leaps to viral superstardom at a trendy food content creation company. While her life seems picturesque — complete with an adoring husband, ride-or-die best friend and a cupboard full of woman-owned ethically-sourced chili crisp to boot — mounting professional pressures threaten to reawaken a hidden secret from her troubled past.\n\nU.S. subscription premiere on Netflix, November 27, 2026.",
     "verification": "us-svod",
     "corroboration": "https://www.whats-on-netflix.com/news/john-earlys-cult-comedy-maddies-secret-sets-netflix-streaming-debut/",
-    "rank": 9
+    "rank": 7
   },
   {
     "id": 1377237,
@@ -119,7 +95,7 @@
     ],
     "source": "https://press.hulu.com/schedule/november-2026/",
     "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must…\n\nU.S. subscription premiere on Hulu, November 27, 2026.",
-    "rank": 10
+    "rank": 8
   },
   {
     "id": 1506401,
@@ -131,7 +107,7 @@
     ],
     "source": "https://about.netflix.com/en/news/the-child-is-coming-to-netflix-on-27-november-following-its-cinema-premiere-on-13-november",
     "description": "The story of Mariaje and Nicasio, the mother and grandfather of one of the children who died in a gas explosion in a town in the Basque Country in October 1980. On a journey marked by unexpected emotions, Mariaje and Nicasio search for - and find - their own unique way to overcome their loss.\n\nU.S. subscription premiere on Netflix, November 27, 2026.",
-    "rank": 11
+    "rank": 9
   },
   {
     "id": 1480665,
@@ -143,7 +119,7 @@
     ],
     "source": "https://about.netflix.com/en/news/netflix-presents-quasimodo-the-soul-of-paris-the-myth-revisited-releasing-nov-27-2026",
     "description": "Paris, 1830. As cholera threatens to ravage the city, a hunchback hunted for medical experiments is caught between political turmoil and impossible love.\n\nU.S. subscription premiere on Netflix, November 27, 2026.",
-    "rank": 12
+    "rank": 10
   },
   {
     "id": 1140521,
@@ -155,7 +131,7 @@
     ],
     "source": "https://whentostream.com/heres-whats-streaming-on-hbo-max-in-november-2026/",
     "description": "A modern family relocates to the countryside where the children discover a magical tree with eccentric residents. They're transported to fantastical lands, rekindling their family bond through adventures.\n\nU.S. subscription premiere on HBO Max, November 27, 2026.",
-    "rank": 13
+    "rank": 11
   },
   {
     "id": 1596266,
@@ -167,7 +143,7 @@
     ],
     "source": "https://www.broadwayworld.com/bwwtv/article/HBO-Documentary-SEIZED-to-Chronicle-Marion-County-Record-Raid-and-Press-Freedom-Fight-20261117",
     "description": "When the small town of Marion, Kansas, is thrust into the international spotlight after a police raid on the Marion County Record and the death of its 98-year-old co-owner, a fierce debate ignites about the abuse of power, journalistic ethics, local journalism, and the United States Constitution.\n\nU.S. subscription premiere on HBO Max, December 1, 2026.",
-    "rank": 14
+    "rank": 12
   },
   {
     "id": 1291366,
@@ -181,7 +157,7 @@
     "description": "A young sheriff's deputy finds himself in the crosshairs of dangerous criminals when the dead body he is assigned to keep an eye on disappears from a crime scene.\n\nU.S. subscription premiere on Paramount+, December 1, 2026.",
     "verification": "us-svod",
     "corroboration": "https://www.movieinsider.com/movies/december/2026/1",
-    "rank": 15
+    "rank": 13
   },
   {
     "id": 1588626,
@@ -193,7 +169,7 @@
     ],
     "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
     "description": "After making a romantic mistake of epic proportions, an aimless twentysomething finds herself trapped in a holiday time-loop, forced to relive the same Christmas at her family’s cabin until she discovers what truly makes her happy.\n\nU.S. subscription premiere on Netflix, December 2, 2026.",
-    "rank": 16
+    "rank": 14
   },
   {
     "id": 1422041,
@@ -205,7 +181,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/la-bola-negra-release-date-cast-photos",
     "description": "The intertwined lives of three men in three different eras, three lives intimately linked by sexuality and desire, pain, and legacy.\n\nU.S. subscription premiere on Netflix, December 2, 2026.",
-    "rank": 17
+    "rank": 15
   },
   {
     "id": 1137888,
@@ -217,7 +193,7 @@
     ],
     "source": "https://www.aboutamazon.com/news/entertainment/the-man-with-the-bag-arnold-schwarzenegger-christmas-movie-prime-video",
     "description": "After Santa’s magic bag is stolen, he turns to his naughty list to find Vance, a thief, to help him get it back. Along with his daughter, Santa, and a group of misfits, Vance will have to pull off the greatest heist of his life to save Christmas.\n\nU.S. subscription premiere on Prime Video, December 2, 2026.",
-    "rank": 18
+    "rank": 16
   },
   {
     "id": 1380417,
@@ -229,7 +205,7 @@
     ],
     "source": "https://www.paramountplus.com/sneak-peak/new-on-paramount-plus/",
     "description": "In 1960s Mississippi, a young Black FBI agent is forced to partner with a notorious mafia hitman to investigate a wave of brutal civil rights murders.\n\nU.S. subscription premiere on Paramount+, December 3, 2026.",
-    "rank": 19
+    "rank": 17
   },
   {
     "id": 1780359,
@@ -241,7 +217,7 @@
     ],
     "source": "https://about.netflix.com/en/news/netflix-releases-trailer-for-jao-tales-from-the-void",
     "description": "Brazilian pop singer Jão reflects on his father's death, a break from music, and his emotional return to the stage in this intimate documentary.\n\nU.S. subscription premiere on Netflix, December 3, 2026.",
-    "rank": 20
+    "rank": 18
   },
   {
     "id": 1591961,
@@ -253,7 +229,7 @@
     ],
     "source": "https://about.netflix.com/en/news/my-crazy-feminist-girlfriend-main-trailer-keyart",
     "description": "After seven years, his ex returns as an unapologetic feminist, clashing head-on without compromising \"love\" nor \"rights.\"\n\nU.S. subscription premiere on Netflix, December 3, 2026.",
-    "rank": 21
+    "rank": 19
   },
   {
     "id": 1616675,
@@ -265,7 +241,7 @@
     ],
     "source": "https://about.netflix.com/en/news/netflix-unveils-teaser-for-secrets-ravi-bharwanis-first-film-in-eight-years-premiering-december-3",
     "description": "A single mother’s carefully rebuilt life with her daughter is threatened when her dark, violent past resurfaces, forcing her to confront old wounds and hidden truths that could unravel everything she has fought for.\n\nU.S. subscription premiere on Netflix, December 3, 2026.",
-    "rank": 22
+    "rank": 20
   },
   {
     "id": 1732479,
@@ -277,7 +253,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/14th-release-date-news",
     "description": "Revolves around the equal protection and citizenship-focused 14th amendment, which was ratified in 1868 in the turbulent era of Reconstruction and has been a contentious part of the American body politic ever since.\n\nU.S. subscription premiere on Netflix, December 4, 2026.",
-    "rank": 23
+    "rank": 21
   },
   {
     "id": 1519780,
@@ -289,7 +265,7 @@
     ],
     "source": "https://www.disneyplus.com/explore/articles/diary-of-a-wimpy-kid-christmas-the-getaway-movie",
     "description": "With the stress of the holidays fast approaching, the Heffley family—to Greg's dismay—makes a last-minute decision to escape to an all-inclusive island resort for some much-needed rest and relaxation. As hilarious hijinks ensue, the Heffleys soon discover that paradise may not be everything it's cracked up to be.\n\nU.S. subscription premiere on Disney+, December 4, 2026.",
-    "rank": 24
+    "rank": 22
   },
   {
     "id": 1288059,
@@ -301,7 +277,7 @@
     ],
     "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
     "description": "When a naive young man becomes the sexual muse for a renowned and provocative artist, his dream job quickly turns dangerous as he is drawn into an obsessive world of power, betrayal, and murder.\n\nU.S. subscription premiere on HBO Max, December 4, 2026.",
-    "rank": 25
+    "rank": 23
   },
   {
     "id": 1620040,
@@ -313,7 +289,7 @@
     ],
     "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
     "description": "The unsolved murder of Billy London, a gay adult film performer brutally killed in West Hollywood, was an urban legend for 33 years. A documentary intended to honor his life took an unexpected turn when members of the community joined forces to uncover overlooked clues, and seek a resolution to the mystery of who killed…\n\nU.S. subscription premiere on HBO Max, December 4, 2026.",
-    "rank": 26
+    "rank": 24
   },
   {
     "id": 1433367,
@@ -325,7 +301,7 @@
     ],
     "source": "https://www.broadwayworld.com/bwwtv/article/ONE-NIGHT-ONLY-to-Stream-Exclusively-on-Peacock-Starring-Monica-Barbaro-and-Callum-Turner-20261109",
     "description": "Two love-starved strangers crash into each other on the one night of the year when single people are allowed to have sex.\n\nU.S. subscription premiere on Peacock, December 4, 2026.",
-    "rank": 27
+    "rank": 25
   },
   {
     "id": 1532787,
@@ -337,7 +313,7 @@
     ],
     "source": "https://vanessahope.substack.com/p/the-bend-in-the-river-this-moment",
     "description": "Filming five friends for nearly fifty-years—first as free-spirited guides on the Colorado River—director Robb Moss now finds the group in their seventies grappling with the choices they’ve made as individuals and as a generation. The film interweaves moments from the distant past with those of the recent present, exploring the inexorable flow of aging and…\n\nU.S. subscription premiere on Netflix, December 4, 2026.",
-    "rank": 28
+    "rank": 26
   },
   {
     "id": 1824685,
@@ -349,7 +325,7 @@
     ],
     "source": "https://about.netflix.com/en/news/netflix-premieres-who-killed-the-bankers-widow-on-december-4",
     "description": "When a prominent banker dies, his wife inherits the powerful golden share, granting her control over key decisions within the family business empire. Five years later, the widow is found murdered, shot twice in the head, while collecting her Porsche from the dealership run by her son-in-law. The crime exposes deep-rooted rivalries within the company’s…\n\nU.S. subscription premiere on Netflix, December 4, 2026.",
-    "rank": 29
+    "rank": 27
   },
   {
     "id": 1560520,
@@ -361,7 +337,7 @@
     ],
     "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
     "description": "Arkham Asylum has been destroyed, and all its inmates have been unleashed upon Gotham City. As Batman races to round up some of his greatest enemies, he is pushed to his physical and mental limits and into a final confrontation with a new threat: the man called Bane!\n\nU.S. subscription premiere on HBO Max, December 7, 2026.",
-    "rank": 30
+    "rank": 28
   },
   {
     "id": 1625106,
@@ -373,7 +349,7 @@
     ],
     "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
     "description": "Follows Marcus Tell and Ann Wilding, the Swedish police's most unlikely duo, forced to unite when their seemingly vastly different investigations lead to the same dramatic conclusion: an attack during Stockholm's Nobel Week.\n\nU.S. subscription premiere on Netflix, December 10, 2026.",
-    "rank": 31
+    "rank": 29
   },
   {
     "id": 1515392,
@@ -385,7 +361,7 @@
     ],
     "source": "https://www.netflix.com/tudum/features/new-fall-movies-on-netflix-2026",
     "description": "On one of the worst and wildest days of her life, single mom Joy fights to keep one little promise to her daughter.\n\nU.S. subscription premiere on Netflix, December 11, 2026.",
-    "rank": 32
+    "rank": 30
   },
   {
     "id": 947502,
@@ -397,7 +373,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/in-waves-release-date-cast-photos",
     "description": "In Los Angeles, shy teenager AJ meets Kristen, who lives for surfing; he loves skateboarding and drawing. They fall madly in love, and a happy future seems within reach. But everything changes when Kristen faces a sudden illness. Together, they face adversity, driven by the strength of their love, their friends, and their newly shared…\n\nU.S. subscription premiere on Netflix, December 11, 2026.",
-    "rank": 33
+    "rank": 31
   },
   {
     "id": 1158642,
@@ -409,7 +385,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/jean-michel-basquiat-release-date-news",
     "description": "Follows Basquiat’s early life as the child of middle-class Haitian and Puerto Rican parents in Brooklyn, through his adventures in the punk subculture and up to his breakout as a major American artist. All the while, special attention is paid to Basquiat’s mental and emotional state, with interviews from former friends and colleagues to supplement…\n\nU.S. subscription premiere on Netflix, December 11, 2026.",
-    "rank": 34
+    "rank": 32
   },
   {
     "id": 1480574,
@@ -421,7 +397,7 @@
     ],
     "source": "https://press.hulu.com/schedule/december-2026/",
     "description": "A criminal mastermind plans to fake his death for insurance money while framing his wife's lover. His wife plots to kill him for real and take it all. Both race to outmanoeuvre each other in a deadly battle of wits.\n\nU.S. subscription premiere on Hulu, December 11, 2026.",
-    "rank": 35
+    "rank": 33
   },
   {
     "id": 1623160,
@@ -433,7 +409,7 @@
     ],
     "source": "https://about.netflix.com/en/news/proxies-is-coming-to-netflix-on-december-11",
     "description": "On Christmas Eve, a man walks into a police station and confesses to several killings. His confession soon leads to a seemingly closed case that defies explanation.\n\nU.S. subscription premiere on Netflix, December 11, 2026.",
-    "rank": 36
+    "rank": 34
   },
   {
     "id": 1629043,
@@ -445,7 +421,7 @@
     ],
     "source": "https://www.whats-on-netflix.com/news/netflix-sets-december-release-phoenix-jones-documentary/",
     "description": "A masked vigilante in Seattle gains fame fighting crime with his superhero team, until police expose his identity. Years later, during civil unrest, he returns despite controversy over his true motives and character.\n\nU.S. subscription premiere on Netflix, December 12, 2026.",
-    "rank": 37
+    "rank": 35
   },
   {
     "id": 1812061,
@@ -457,7 +433,7 @@
     ],
     "source": "https://www.paramountpressexpress.com/paramount-plus/shows/true-to-the-game-quadirs-redemption/releases/?view=113503-manny-halleys-true-to-the-game-quadirs-redemption-the-fourth-installment-in-the-fan-favorite-franchise-premieres-tuesday-december-15-exclusively-on-pa",
     "description": "Gena and Quadir continue to establish their life together amid Quadir's complicated ties to the drug world. Questions surrounding Gena's baby threaten to permanently change their relationship.\n\nU.S. subscription premiere on Paramount+, December 15, 2026.",
-    "rank": 38
+    "rank": 36
   },
   {
     "id": 1620662,
@@ -469,7 +445,7 @@
     ],
     "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
     "description": "A stubborn and hotheaded minor league basketball coach is forced to train a Special Olympics team when he is sentenced to community service.\n\nU.S. subscription premiere on Netflix, December 15, 2026.",
-    "rank": 39
+    "rank": 37
   },
   {
     "id": 1831555,
@@ -481,7 +457,7 @@
     ],
     "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
     "description": "This true-crime documentary revisits the murder of Pamela Smart's husband and how her relationship with a teenage student became central to a case that captivated the nation.\n\nU.S. subscription premiere on Netflix, December 16, 2026.",
-    "rank": 40
+    "rank": 38
   },
   {
     "id": 1559982,
@@ -493,7 +469,7 @@
     ],
     "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
     "description": "A Chicago bakery owner is stunned by a miraculous discovery that challenges her to reclaim lost time, heal old wounds, and find purpose in the unexpected.\n\nU.S. subscription premiere on Netflix, December 16, 2026.",
-    "rank": 41
+    "rank": 39
   },
   {
     "id": 1780021,
@@ -505,7 +481,7 @@
     ],
     "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
     "description": "Determined to remain his family's favorite father, Joseph uses a babymoon with his pregnant wife as cover to crash his children's vacation with his ex-wife and her new boyfriend.\n\nU.S. subscription premiere on Netflix, December 18, 2026.",
-    "rank": 42
+    "rank": 40
   },
   {
     "id": 1403676,
@@ -517,7 +493,7 @@
     ],
     "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
     "description": "When his twin sister April (Lilly Krug) goes missing, Bax (Connor Storrie) searches every corner of their futuristic, post-Soviet cityscape to find her. Ultimately descending into a violent criminal underworld and madness, Bax is forced to confront the cost of identity, love, and survival.\n\nU.S. subscription premiere on HBO Max, December 18, 2026.",
-    "rank": 43
+    "rank": 41
   },
   {
     "id": 1227877,
@@ -529,7 +505,7 @@
     ],
     "source": "https://press.hulu.com/schedule/december-2026/",
     "description": "A group of shoplifters take aim at a cutthroat fashion maven by stealing from her stores and reselling them at a lower price — what they call 'fashion-forward philanthropy'.\n\nU.S. subscription premiere on Hulu, December 18, 2026.",
-    "rank": 44
+    "rank": 42
   },
   {
     "id": 940009,
@@ -541,7 +517,7 @@
     ],
     "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
     "description": "In Metropia, a gigantic city in an alternate future as seen from 1939, private eye Raymond Gunn is drawn into a case involving aliens, murder and a multimedia star named Venus Nova.\n\nU.S. subscription premiere on Netflix, December 18, 2026.",
-    "rank": 45
+    "rank": 43
   },
   {
     "id": 1827575,
@@ -553,7 +529,7 @@
     ],
     "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
     "description": "Follows the greatest upset in Super Bowl history: the New York Giants' 2008 championship win over the undefeated New England Patriots. Well, undefeated no longer.\n\nU.S. subscription premiere on Netflix, December 21, 2026.",
-    "rank": 46
+    "rank": 44
   },
   {
     "id": 1284046,
@@ -565,7 +541,7 @@
     ],
     "source": "https://www.pubt.io/view/ADDAB118B827B76F7BD6389E4DB527462DF3265A",
     "description": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter.\n\nU.S. subscription premiere on HBO Max, December 22, 2026.",
-    "rank": 47
+    "rank": 45
   },
   {
     "id": 1457866,
@@ -577,7 +553,7 @@
     ],
     "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
     "description": "Eight years after the events of Once Upon a Time in... Hollywood, Cliff Booth returns to a changing Los Angeles. Now working as a fixer in the shadows of the Hollywood studio system, Cliff finds himself entangled in a dangerous web of secrets, crimes and betrayals that will test everything he knows about loyalty and…\n\nU.S. subscription premiere on Netflix, December 23, 2026.",
-    "rank": 48
+    "rank": 46
   },
   {
     "id": 1124142,
@@ -589,7 +565,7 @@
     ],
     "source": "https://press.hulu.com/schedule/december-2026/",
     "description": "Deep within the backwoods of rural Oklahoma, charismatic and musically gifted Amziah King herds a bluegrass-playing band of misfits while overseeing the premier honey-making operation in town. When Amziah’s estranged foster daughter unexpectedly returns, Amziah leaps at the possibility to renew connection and create a family business. But the honey game is ruthless, and Amziah’s…\n\nU.S. subscription premiere on Hulu, December 27, 2026.",
-    "rank": 49
+    "rank": 47
   },
   {
     "id": 1766439,
@@ -601,7 +577,7 @@
     ],
     "source": "https://whentostream.com/heres-whats-streaming-on-netflix-in-december-2026/",
     "description": "Marine biologist Angela Ziltener spends years studying wild dolphins in Egypt's Red Sea, revealing their social relationships, remarkable behavior, and bonds with humans.\n\nU.S. subscription premiere on Netflix, December 28, 2026.",
-    "rank": 50
+    "rank": 48
   },
   {
     "id": 1596318,
@@ -615,7 +591,7 @@
     "description": "A celebration of girlhood and the complexities that come with it, Cookie Queens is a coming-of-age story about the joys, pressures, and tensions woven into one of America’s most cherished rituals: Girl Scout Cookie season.\n\nU.S. subscription premiere on Paramount+, January 6, 2027.",
     "verification": "us-svod",
     "corroboration": "https://www.movieinsider.com/movies/january/2027/6",
-    "rank": 51
+    "rank": 49
   },
   {
     "id": 1532610,
@@ -627,7 +603,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/ink-release-date-danny-boyle-movie",
     "description": "After buying a struggling British tabloid in 1969, mogul Rupert Murdoch and editor Larry Lamb banded together a group of misfits and visionaries to reshape the image of the news industry as we know it.\n\nU.S. subscription premiere on Netflix, January 8, 2027.",
-    "rank": 52
+    "rank": 50
   },
   {
     "id": 701244,
@@ -639,7 +615,7 @@
     ],
     "source": "https://www.netflix.com/tudum/articles/the-take-release-date-cast-news",
     "description": "A bank guard, a teller and a master thief play a deadly game of cons and double-crosses.\n\nU.S. subscription premiere on Netflix, January 15, 2027.",
-    "rank": 53
+    "rank": 51
   },
   {
     "id": 1485292,
@@ -651,6 +627,6 @@
     ],
     "source": "https://www.apple.com/tv-pr/news/2026/10/apple-original-films-unveils-title-and-release-date-for-first-ever-fully-authorized-fleetwood-mac-documentary-fleetwood-mac-the-chain/",
     "description": "Fleetwood Mac reflects on their fortuitous meeting in 1974 and the uncompromising 50-plus-year history that’s followed, from their record-breaking recordings and tours — including never-before-seen footage, exclusive new interviews, and archival interviews — through to today. Explore how the band's trials and tribulations, personal resilience, and musical dexterity combined to create songs that have not…\n\nU.S. subscription premiere on Apple TV+, January 29, 2027.",
-    "rank": 54
+    "rank": 52
   }
 ]

@@ -65,6 +65,9 @@
   "1016121": [
     "amazon-prime-video"
   ],
+  "1017507": [
+    "paramount-plus"
+  ],
   "10176": [
     "amazon-prime-video"
   ],
@@ -138,6 +141,9 @@
   "10331": [
     "max"
   ],
+  "1033643": [
+    "peacock"
+  ],
   "1036814": [
     "peacock"
   ],
@@ -146,6 +152,9 @@
   ],
   "1037598": [
     "peacock"
+  ],
+  "103761": [
+    "mgm-plus"
   ],
   "1039773": [
     "peacock"
@@ -173,6 +182,12 @@
   ],
   "10436": [
     "amazon-prime-video"
+  ],
+  "1044343": [
+    "disney-plus"
+  ],
+  "1045944": [
+    "netflix"
   ],
   "1046758": [
     "amazon-prime-video"
@@ -218,6 +233,9 @@
   ],
   "1055451": [
     "amc-plus"
+  ],
+  "10555": [
+    "apple-tv"
   ],
   "105593": [
     "criterion"
@@ -291,6 +309,9 @@
   "10720": [
     "amazon-prime-video"
   ],
+  "1072197": [
+    "peacock"
+  ],
   "1072342": [
     "peacock"
   ],
@@ -299,6 +320,9 @@
   ],
   "1072790": [
     "max"
+  ],
+  "1073170": [
+    "paramount-plus"
   ],
   "10750": [
     "amazon-prime-video"
@@ -365,12 +389,18 @@
   "1087891": [
     "max"
   ],
+  "10882": [
+    "apple-tv"
+  ],
   "1089": [
     "netflix",
     "peacock"
   ],
   "1091": [
     "amazon-prime-video"
+  ],
+  "109176": [
+    "disney-plus"
   ],
   "10925": [
     "amazon-prime-video"
@@ -429,11 +459,17 @@
   "11104": [
     "max"
   ],
+  "1111794": [
+    "peacock"
+  ],
   "1112545": [
     "criterion"
   ],
   "1112547": [
     "criterion"
+  ],
+  "1113013": [
+    "peacock"
   ],
   "111398": [
     "criterion"
@@ -452,6 +488,12 @@
   ],
   "11159": [
     "max"
+  ],
+  "1118033": [
+    "hulu"
+  ],
+  "11187": [
+    "apple-tv"
   ],
   "11217": [
     "amazon-prime-video"
@@ -498,6 +540,9 @@
   "1128941": [
     "amc-plus"
   ],
+  "1128979": [
+    "hulu"
+  ],
   "11296": [
     "criterion"
   ],
@@ -516,6 +561,12 @@
   "1134596": [
     "peacock"
   ],
+  "113479": [
+    "criterion"
+  ],
+  "11355": [
+    "amazon-prime-video"
+  ],
   "1135807": [
     "peacock"
   ],
@@ -530,6 +581,9 @@
   ],
   "1136867": [
     "max"
+  ],
+  "11372": [
+    "amazon-prime-video"
   ],
   "1137350": [
     "peacock"
@@ -630,7 +684,8 @@
     "amazon-prime-video"
   ],
   "1159831": [
-    "amazon-prime-video"
+    "amazon-prime-video",
+    "max"
   ],
   "11601": [
     "amazon-prime-video"
@@ -643,6 +698,9 @@
   ],
   "11643": [
     "mgm-plus"
+  ],
+  "11652": [
+    "amazon-prime-video"
   ],
   "11655": [
     "max"
@@ -658,6 +716,9 @@
   ],
   "116811": [
     "amc-plus"
+  ],
+  "1168401": [
+    "hulu"
   ],
   "11699": [
     "criterion"
@@ -719,6 +780,9 @@
   "119336": [
     "criterion"
   ],
+  "1193501": [
+    "hulu"
+  ],
   "119450": [
     "max"
   ],
@@ -752,6 +816,9 @@
   ],
   "1202479": [
     "max"
+  ],
+  "1204892": [
+    "amazon-prime-video"
   ],
   "1205177": [
     "amazon-prime-video"
@@ -825,6 +892,9 @@
   ],
   "1223782": [
     "peacock"
+  ],
+  "12244": [
+    "apple-tv"
   ],
   "1225686": [
     "peacock"
@@ -911,6 +981,9 @@
   "1246": [
     "amazon-prime-video"
   ],
+  "1246729": [
+    "paramount-plus"
+  ],
   "12473": [
     "amazon-prime-video"
   ],
@@ -941,6 +1014,9 @@
   "1257400": [
     "criterion"
   ],
+  "12610": [
+    "amazon-prime-video"
+  ],
   "1262": [
     "peacock"
   ],
@@ -949,6 +1025,9 @@
   ],
   "1264573": [
     "max"
+  ],
+  "12657": [
+    "amazon-prime-video"
   ],
   "1266": [
     "amazon-prime-video"
@@ -968,6 +1047,9 @@
   ],
   "1275964": [
     "max"
+  ],
+  "1275974": [
+    "hulu"
   ],
   "1276771": [
     "max"
@@ -989,6 +1071,9 @@
   ],
   "1280483": [
     "max"
+  ],
+  "1280544": [
+    "amc-plus"
   ],
   "1282138": [
     "netflix"
@@ -1042,6 +1127,9 @@
   "13068": [
     "max"
   ],
+  "1307474": [
+    "netflix"
+  ],
   "130873": [
     "criterion"
   ],
@@ -1086,11 +1174,15 @@
   "1317288": [
     "max"
   ],
+  "13183": [
+    "apple-tv"
+  ],
   "1318413": [
     "peacock"
   ],
   "132": [
-    "max"
+    "max",
+    "criterion"
   ],
   "13203": [
     "amazon-prime-video"
@@ -1098,8 +1190,17 @@
   "1320392": [
     "max"
   ],
+  "13206": [
+    "amc-plus"
+  ],
+  "1322218": [
+    "netflix"
+  ],
   "1323475": [
     "netflix"
+  ],
+  "13246": [
+    "paramount-plus"
   ],
   "1324842": [
     "hulu"
@@ -1109,6 +1210,12 @@
   ],
   "13279": [
     "hulu"
+  ],
+  "1328803": [
+    "peacock"
+  ],
+  "1329016": [
+    "max"
   ],
   "1329130": [
     "peacock"
@@ -1127,6 +1234,9 @@
   ],
   "13368": [
     "amazon-prime-video"
+  ],
+  "13376": [
+    "peacock"
   ],
   "1337636": [
     "hulu"
@@ -1170,11 +1280,17 @@
   "13510": [
     "amazon-prime-video"
   ],
+  "1352755": [
+    "amazon-prime-video"
+  ],
   "13531": [
     "amazon-prime-video"
   ],
   "1353263": [
     "amazon-prime-video"
+  ],
+  "1355030": [
+    "hulu"
   ],
   "13553": [
     "criterion"
@@ -1195,6 +1311,12 @@
   "136": [
     "max"
   ],
+  "1360677": [
+    "disney-plus"
+  ],
+  "1362514": [
+    "amc-plus"
+  ],
   "136418": [
     "amazon-prime-video"
   ],
@@ -1211,7 +1333,8 @@
     "amazon-prime-video"
   ],
   "1367": [
-    "amazon-prime-video"
+    "amazon-prime-video",
+    "apple-tv"
   ],
   "13673": [
     "max"
@@ -1222,13 +1345,22 @@
   "1368166": [
     "max"
   ],
+  "137": [
+    "apple-tv"
+  ],
   "1371": [
     "amazon-prime-video"
   ],
   "137106": [
     "paramount-plus"
   ],
+  "137172": [
+    "criterion"
+  ],
   "1372605": [
+    "amc-plus"
+  ],
+  "137347": [
     "amc-plus"
   ],
   "1374": [
@@ -1264,8 +1396,14 @@
   "1381027": [
     "amazon-prime-video"
   ],
+  "138551": [
+    "mgm-plus"
+  ],
   "13856": [
     "amazon-prime-video"
+  ],
+  "1386628": [
+    "disney-plus"
   ],
   "1386665": [
     "peacock"
@@ -1278,6 +1416,9 @@
   ],
   "1390300": [
     "apple-tv"
+  ],
+  "13928": [
+    "disney-plus"
   ],
   "1393017": [
     "disney-plus"
@@ -1308,13 +1449,24 @@
     "max"
   ],
   "14022": [
-    "max"
+    "max",
+    "criterion"
   ],
   "14034": [
     "apple-tv"
   ],
-  "14069": [
+  "140447": [
+    "amc-plus"
+  ],
+  "14050": [
     "max"
+  ],
+  "14069": [
+    "max",
+    "apple-tv"
+  ],
+  "141043": [
+    "peacock"
   ],
   "14161": [
     "peacock"
@@ -1327,6 +1479,9 @@
   ],
   "1422562": [
     "max"
+  ],
+  "14240": [
+    "criterion"
   ],
   "1425045": [
     "netflix"
@@ -1355,6 +1510,9 @@
   "1436524": [
     "peacock"
   ],
+  "1439660": [
+    "max"
+  ],
   "144": [
     "max"
   ],
@@ -1366,6 +1524,9 @@
   ],
   "14475": [
     "amazon-prime-video"
+  ],
+  "1449400": [
+    "apple-tv"
   ],
   "145186": [
     "peacock"
@@ -1412,6 +1573,13 @@
   "14735": [
     "amazon-prime-video"
   ],
+  "14757": [
+    "mgm-plus"
+  ],
+  "1477712": [
+    "apple-tv",
+    "shudder"
+  ],
   "14799": [
     "amazon-prime-video"
   ],
@@ -1420,6 +1588,12 @@
   ],
   "14807": [
     "max"
+  ],
+  "1481608": [
+    "amc-plus"
+  ],
+  "14822": [
+    "disney-plus"
   ],
   "14836": [
     "max",
@@ -1434,6 +1608,9 @@
   "14913": [
     "peacock"
   ],
+  "1492608": [
+    "amazon-prime-video"
+  ],
   "1493": [
     "max"
   ],
@@ -1442,6 +1619,9 @@
   ],
   "14976": [
     "netflix"
+  ],
+  "149871": [
+    "apple-tv"
   ],
   "149893": [
     "amc-plus"
@@ -1467,6 +1647,9 @@
   "151071": [
     "peacock"
   ],
+  "15119": [
+    "criterion"
+  ],
   "15121": [
     "disney-plus"
   ],
@@ -1478,6 +1661,9 @@
   ],
   "1515899": [
     "paramount-plus"
+  ],
+  "1516391": [
+    "netflix"
   ],
   "1517305": [
     "amazon-prime-video"
@@ -1497,6 +1683,9 @@
   "1527153": [
     "peacock"
   ],
+  "152737": [
+    "amazon-prime-video"
+  ],
   "152760": [
     "amazon-prime-video"
   ],
@@ -1505,6 +1694,9 @@
   ],
   "1533838": [
     "peacock"
+  ],
+  "15371": [
+    "apple-tv"
   ],
   "1537366": [
     "disney-plus"
@@ -1518,11 +1710,17 @@
   "1541": [
     "amazon-prime-video"
   ],
+  "1541013": [
+    "max"
+  ],
   "1541827": [
     "hulu"
   ],
   "1546": [
     "criterion"
+  ],
+  "1547527": [
+    "hulu"
   ],
   "1548017": [
     "max"
@@ -1572,6 +1770,9 @@
   "157845": [
     "max"
   ],
+  "1581": [
+    "apple-tv"
+  ],
   "15844": [
     "amc-plus"
   ],
@@ -1593,17 +1794,33 @@
   "1592033": [
     "peacock"
   ],
+  "1593": [
+    "apple-tv"
+  ],
+  "1593350": [
+    "netflix"
+  ],
   "1594": [
     "amazon-prime-video"
+  ],
+  "1595124": [
+    "netflix"
   ],
   "1596270": [
     "max"
   ],
   "1597": [
-    "peacock"
+    "peacock",
+    "apple-tv"
   ],
   "159824": [
     "hulu"
+  ],
+  "1606527": [
+    "netflix"
+  ],
+  "1607": [
+    "apple-tv"
   ],
   "16093": [
     "max"
@@ -1665,6 +1882,9 @@
   "16395": [
     "criterion"
   ],
+  "16425": [
+    "mgm-plus"
+  ],
   "1663942": [
     "peacock"
   ],
@@ -1701,6 +1921,10 @@
   ],
   "17073": [
     "amazon-prime-video"
+  ],
+  "17099": [
+    "max",
+    "criterion"
   ],
   "1710": [
     "amazon-prime-video"
@@ -1750,6 +1974,9 @@
   "1752743": [
     "criterion"
   ],
+  "1757386": [
+    "apple-tv"
+  ],
   "1759508": [
     "peacock"
   ],
@@ -1777,6 +2004,9 @@
   ],
   "179144": [
     "max"
+  ],
+  "1791730": [
+    "netflix"
   ],
   "17918": [
     "amazon-prime-video"
@@ -1846,6 +2076,9 @@
   "1844": [
     "amazon-prime-video"
   ],
+  "18449": [
+    "mgm-plus"
+  ],
   "1847": [
     "amazon-prime-video"
   ],
@@ -1856,6 +2089,9 @@
     "criterion"
   ],
   "18573": [
+    "max"
+  ],
+  "18646": [
     "max"
   ],
   "18660": [
@@ -1872,6 +2108,9 @@
   ],
   "18698": [
     "max"
+  ],
+  "18702": [
+    "mgm-plus"
   ],
   "187569": [
     "criterion"
@@ -1897,6 +2136,9 @@
   ],
   "18944": [
     "criterion"
+  ],
+  "18973": [
+    "mgm-plus"
   ],
   "18978": [
     "max"
@@ -1958,12 +2200,18 @@
   "194662": [
     "max"
   ],
+  "19490": [
+    "peacock"
+  ],
   "19494": [
     "netflix",
     "amazon-prime-video"
   ],
   "19542": [
     "max"
+  ],
+  "1969": [
+    "amazon-prime-video"
   ],
   "1970": [
     "peacock"
@@ -2078,6 +2326,9 @@
   "21296": [
     "mgm-plus"
   ],
+  "21376": [
+    "mgm-plus"
+  ],
   "21430": [
     "criterion"
   ],
@@ -2151,13 +2402,22 @@
   "225728": [
     "amazon-prime-video"
   ],
+  "22595": [
+    "criterion"
+  ],
   "22596": [
     "max"
+  ],
+  "225989": [
+    "peacock"
   ],
   "22642": [
     "mgm-plus"
   ],
   "22688": [
+    "mgm-plus"
+  ],
+  "22694": [
     "mgm-plus"
   ],
   "227159": [
@@ -2286,6 +2546,9 @@
   "24548": [
     "amazon-prime-video"
   ],
+  "24589": [
+    "disney-plus"
+  ],
   "245891": [
     "amazon-prime-video"
   ],
@@ -2309,6 +2572,10 @@
     "max"
   ],
   "2493": [
+    "peacock",
+    "apple-tv"
+  ],
+  "249397": [
     "peacock"
   ],
   "25016": [
@@ -2319,6 +2586,9 @@
   ],
   "250546": [
     "max"
+  ],
+  "250868": [
+    "hulu"
   ],
   "252": [
     "max"
@@ -2353,6 +2623,10 @@
   "25623": [
     "max"
   ],
+  "25625": [
+    "max",
+    "criterion"
+  ],
   "25690": [
     "criterion"
   ],
@@ -2361,6 +2635,9 @@
   ],
   "258156": [
     "hulu"
+  ],
+  "258216": [
+    "peacock"
   ],
   "25842": [
     "max"
@@ -2376,6 +2653,9 @@
   ],
   "259316": [
     "peacock"
+  ],
+  "25941": [
+    "amc-plus"
   ],
   "25944": [
     "criterion"
@@ -2401,6 +2681,9 @@
   "26201": [
     "max"
   ],
+  "262543": [
+    "amazon-prime-video"
+  ],
   "26286": [
     "criterion"
   ],
@@ -2418,6 +2701,12 @@
   ],
   "26381": [
     "peacock"
+  ],
+  "26408": [
+    "criterion"
+  ],
+  "264420": [
+    "hulu"
   ],
   "264644": [
     "max"
@@ -2487,6 +2776,9 @@
     "amazon-prime-video"
   ],
   "27040": [
+    "criterion"
+  ],
+  "27067": [
     "criterion"
   ],
   "271467": [
@@ -2583,6 +2875,12 @@
   "282813": [
     "amazon-prime-video"
   ],
+  "28297": [
+    "max"
+  ],
+  "283235": [
+    "amazon-prime-video"
+  ],
   "283350": [
     "peacock"
   ],
@@ -2595,6 +2893,9 @@
   "286554": [
     "peacock"
   ],
+  "28704": [
+    "amc-plus"
+  ],
   "287321": [
     "peacock"
   ],
@@ -2602,6 +2903,10 @@
     "max"
   ],
   "287903": [
+    "peacock",
+    "amazon-prime-video"
+  ],
+  "288158": [
     "peacock"
   ],
   "288301": [
@@ -2698,6 +3003,9 @@
     "netflix",
     "criterion"
   ],
+  "299054": [
+    "apple-tv"
+  ],
   "3": [
     "criterion"
   ],
@@ -2731,6 +3039,9 @@
   ],
   "30554": [
     "criterion"
+  ],
+  "30577": [
+    "mgm-plus"
   ],
   "30580": [
     "criterion"
@@ -2766,6 +3077,12 @@
   "31032": [
     "criterion"
   ],
+  "31048": [
+    "mgm-plus"
+  ],
+  "31058": [
+    "criterion"
+  ],
   "311": [
     "amazon-prime-video"
   ],
@@ -2781,9 +3098,16 @@
   "31225": [
     "max"
   ],
+  "3131": [
+    "apple-tv"
+  ],
   "313297": [
     "max",
     "hulu"
+  ],
+  "31374": [
+    "max",
+    "criterion"
   ],
   "313922": [
     "netflix"
@@ -2793,6 +3117,9 @@
   ],
   "31428": [
     "criterion"
+  ],
+  "314365": [
+    "peacock"
   ],
   "314370": [
     "mgm-plus"
@@ -2806,17 +3133,24 @@
   "315465": [
     "max"
   ],
+  "31563": [
+    "paramount-plus"
+  ],
   "31593": [
     "amazon-prime-video"
   ],
   "316029": [
     "max"
   ],
+  "316042": [
+    "peacock"
+  ],
   "3175": [
     "criterion"
   ],
   "3176": [
-    "amazon-prime-video"
+    "amazon-prime-video",
+    "apple-tv"
   ],
   "3178": [
     "criterion"
@@ -2850,6 +3184,9 @@
   ],
   "324786": [
     "peacock"
+  ],
+  "325789": [
+    "amazon-prime-video"
   ],
   "326000": [
     "mgm-plus"
@@ -3025,6 +3362,9 @@
   "35019": [
     "max"
   ],
+  "35022": [
+    "criterion"
+  ],
   "35074": [
     "peacock"
   ],
@@ -3036,6 +3376,9 @@
   ],
   "351339": [
     "netflix"
+  ],
+  "352197": [
+    "criterion"
   ],
   "353047": [
     "amazon-prime-video"
@@ -3061,8 +3404,17 @@
   "355178": [
     "max"
   ],
+  "355277": [
+    "disney-plus"
+  ],
+  "35552": [
+    "amazon-prime-video"
+  ],
   "355547": [
     "peacock"
+  ],
+  "356191": [
+    "amc-plus"
   ],
   "359940": [
     "max"
@@ -3078,6 +3430,9 @@
   ],
   "362268": [
     "criterion"
+  ],
+  "362883": [
+    "peacock"
   ],
   "363810": [
     "max"
@@ -3097,9 +3452,18 @@
   "36557": [
     "amazon-prime-video"
   ],
+  "366242": [
+    "peacock"
+  ],
   "36669": [
     "amazon-prime-video",
     "apple-tv"
+  ],
+  "367537": [
+    "peacock"
+  ],
+  "367538": [
+    "peacock"
   ],
   "36819": [
     "max"
@@ -3113,6 +3477,9 @@
   "36878": [
     "max",
     "criterion"
+  ],
+  "369061": [
+    "peacock"
   ],
   "369192": [
     "max"
@@ -3171,6 +3538,9 @@
     "max"
   ],
   "37640": [
+    "criterion"
+  ],
+  "37650": [
     "criterion"
   ],
   "376865": [
@@ -3278,6 +3648,9 @@
   "3902": [
     "criterion"
   ],
+  "39030": [
+    "disney-plus"
+  ],
   "390590": [
     "max"
   ],
@@ -3294,8 +3667,14 @@
   "39269": [
     "criterion"
   ],
+  "39376": [
+    "amc-plus"
+  ],
   "39451": [
     "max"
+  ],
+  "39519": [
+    "mgm-plus"
   ],
   "39538": [
     "max"
@@ -3307,7 +3686,8 @@
     "peacock"
   ],
   "396422": [
-    "max"
+    "max",
+    "apple-tv"
   ],
   "396535": [
     "peacock"
@@ -3348,6 +3728,9 @@
   "401": [
     "amazon-prime-video"
   ],
+  "40106": [
+    "amc-plus"
+  ],
   "4011": [
     "peacock"
   ],
@@ -3369,6 +3752,9 @@
   "402900": [
     "max"
   ],
+  "40347": [
+    "amc-plus"
+  ],
   "404368": [
     "apple-tv"
   ],
@@ -3384,8 +3770,14 @@
   "40619": [
     "disney-plus"
   ],
+  "40650": [
+    "criterion"
+  ],
   "406563": [
     "max"
+  ],
+  "406785": [
+    "disney-plus"
   ],
   "406994": [
     "amazon-prime-video"
@@ -3419,8 +3811,15 @@
   "41391": [
     "criterion"
   ],
+  "41426": [
+    "max",
+    "criterion"
+  ],
   "41465": [
     "mgm-plus"
+  ],
+  "41471": [
+    "max"
   ],
   "41505": [
     "amazon-prime-video"
@@ -3436,7 +3835,8 @@
     "criterion"
   ],
   "417859": [
-    "peacock"
+    "peacock",
+    "apple-tv"
   ],
   "417870": [
     "amazon-prime-video"
@@ -3464,6 +3864,12 @@
   ],
   "420634": [
     "peacock"
+  ],
+  "420809": [
+    "apple-tv"
+  ],
+  "42131": [
+    "criterion"
   ],
   "42135": [
     "max"
@@ -3510,11 +3916,17 @@
   "424600": [
     "max"
   ],
+  "424694": [
+    "apple-tv"
+  ],
   "4248": [
     "apple-tv"
   ],
   "42497": [
     "criterion"
+  ],
+  "42580": [
+    "disney-plus"
   ],
   "42594": [
     "mgm-plus"
@@ -3546,6 +3958,9 @@
   "42733": [
     "criterion"
   ],
+  "42744": [
+    "mgm-plus"
+  ],
   "427641": [
     "max"
   ],
@@ -3573,11 +3988,18 @@
   "431530": [
     "peacock"
   ],
+  "43255": [
+    "criterion"
+  ],
   "43323": [
-    "max"
+    "max",
+    "criterion"
   ],
   "433501": [
     "peacock"
+  ],
+  "433630": [
+    "max"
   ],
   "434072": [
     "netflix"
@@ -3588,6 +4010,9 @@
   ],
   "4348": [
     "peacock"
+  ],
+  "43487": [
+    "criterion"
   ],
   "43508": [
     "max"
@@ -3600,6 +4025,9 @@
   ],
   "437586": [
     "max"
+  ],
+  "43856": [
+    "mgm-plus"
   ],
   "438590": [
     "amazon-prime-video"
@@ -3622,6 +4050,9 @@
   "44012": [
     "max"
   ],
+  "44026": [
+    "criterion"
+  ],
   "441393": [
     "criterion"
   ],
@@ -3636,6 +4067,9 @@
   ],
   "443791": [
     "amazon-prime-video"
+  ],
+  "444000": [
+    "hulu"
   ],
   "444526": [
     "max"
@@ -3661,8 +4095,14 @@
   "449176": [
     "max"
   ],
+  "44940": [
+    "mgm-plus"
+  ],
   "449406": [
     "netflix"
+  ],
+  "44945": [
+    "amazon-prime-video"
   ],
   "450322": [
     "max"
@@ -3754,6 +4194,9 @@
   ],
   "461644": [
     "criterion"
+  ],
+  "46169": [
+    "disney-plus"
   ],
   "46195": [
     "apple-tv"
@@ -3857,6 +4300,9 @@
   "481084": [
     "amazon-prime-video"
   ],
+  "48110": [
+    "mgm-plus"
+  ],
   "48131": [
     "criterion"
   ],
@@ -3942,6 +4388,9 @@
     "apple-tv",
     "peacock"
   ],
+  "49520": [
+    "peacock"
+  ],
   "49538": [
     "max"
   ],
@@ -3951,6 +4400,9 @@
   ],
   "496": [
     "amazon-prime-video"
+  ],
+  "496316": [
+    "hulu"
   ],
   "49687": [
     "criterion"
@@ -3966,6 +4418,9 @@
   ],
   "49806": [
     "max"
+  ],
+  "4982": [
+    "apple-tv"
   ],
   "4995": [
     "criterion"
@@ -4090,8 +4545,17 @@
   "512199": [
     "max"
   ],
+  "513692": [
+    "peacock"
+  ],
   "5143": [
     "amazon-prime-video"
+  ],
+  "51434": [
+    "mgm-plus"
+  ],
+  "51442": [
+    "mgm-plus"
   ],
   "51450": [
     "peacock"
@@ -4104,6 +4568,9 @@
   ],
   "5156": [
     "max"
+  ],
+  "515908": [
+    "amc-plus"
   ],
   "51608": [
     "peacock"
@@ -4152,6 +4619,9 @@
   ],
   "521509": [
     "amc-plus"
+  ],
+  "521639": [
+    "peacock"
   ],
   "522016": [
     "peacock"
@@ -4208,7 +4678,8 @@
     "netflix"
   ],
   "529203": [
-    "peacock"
+    "peacock",
+    "apple-tv"
   ],
   "530385": [
     "amazon-prime-video"
@@ -4228,11 +4699,21 @@
   "533642": [
     "amazon-prime-video"
   ],
+  "534490": [
+    "netflix",
+    "amazon-prime-video"
+  ],
   "535544": [
     "netflix"
   ],
   "53571": [
     "mgm-plus"
+  ],
+  "53574": [
+    "mgm-plus"
+  ],
+  "536056": [
+    "paramount-plus"
   ],
   "536841": [
     "max"
@@ -4279,6 +4760,9 @@
   "54408": [
     "peacock"
   ],
+  "54417": [
+    "mgm-plus"
+  ],
   "545611": [
     "apple-tv"
   ],
@@ -4301,6 +4785,9 @@
     "criterion"
   ],
   "551804": [
+    "peacock"
+  ],
+  "552872": [
     "peacock"
   ],
   "553087": [
@@ -4363,6 +4850,9 @@
   "5693": [
     "amazon-prime-video"
   ],
+  "569805": [
+    "peacock"
+  ],
   "570": [
     "max"
   ],
@@ -4409,6 +4899,9 @@
   ],
   "581032": [
     "peacock"
+  ],
+  "581526": [
+    "amazon-prime-video"
   ],
   "5820": [
     "amazon-prime-video"
@@ -4471,6 +4964,9 @@
   "593": [
     "max"
   ],
+  "59336": [
+    "criterion"
+  ],
   "593745": [
     "criterion"
   ],
@@ -4504,6 +5000,9 @@
   "600": [
     "max"
   ],
+  "601844": [
+    "netflix"
+  ],
   "602223": [
     "peacock"
   ],
@@ -4536,6 +5035,9 @@
   ],
   "610253": [
     "peacock"
+  ],
+  "611640": [
+    "amc-plus"
   ],
   "611914": [
     "peacock"
@@ -4629,6 +5131,9 @@
   "625323": [
     "max"
   ],
+  "62560": [
+    "criterion"
+  ],
   "627": [
     "criterion"
   ],
@@ -4666,6 +5171,9 @@
   "631058": [
     "peacock"
   ],
+  "631060": [
+    "netflix"
+  ],
   "63148": [
     "max"
   ],
@@ -4680,6 +5188,9 @@
   ],
   "634492": [
     "max"
+  ],
+  "634528": [
+    "amazon-prime-video"
   ],
   "634544": [
     "amazon-prime-video"
@@ -4710,6 +5221,9 @@
   ],
   "641": [
     "peacock"
+  ],
+  "642732": [
+    "max"
   ],
   "6435": [
     "max"
@@ -4823,6 +5337,9 @@
   "672521": [
     "amazon-prime-video"
   ],
+  "672647": [
+    "amazon-prime-video"
+  ],
   "673": [
     "peacock"
   ],
@@ -4836,10 +5353,14 @@
     "peacock"
   ],
   "675353": [
-    "netflix"
+    "netflix",
+    "apple-tv"
   ],
   "675531": [
     "amazon-prime-video"
+  ],
+  "676156": [
+    "peacock"
   ],
   "677179": [
     "amazon-prime-video"
@@ -4861,7 +5382,8 @@
     "amazon-prime-video"
   ],
   "686": [
-    "amazon-prime-video"
+    "amazon-prime-video",
+    "apple-tv"
   ],
   "686684": [
     "hulu"
@@ -4871,6 +5393,9 @@
   ],
   "69": [
     "max"
+  ],
+  "69165": [
+    "mgm-plus"
   ],
   "693": [
     "peacock"
@@ -4896,6 +5421,9 @@
   "699": [
     "amazon-prime-video"
   ],
+  "70": [
+    "apple-tv"
+  ],
   "70160": [
     "peacock"
   ],
@@ -4913,6 +5441,9 @@
   ],
   "704": [
     "max"
+  ],
+  "704269": [
+    "amc-plus"
   ],
   "704969": [
     "peacock"
@@ -4934,6 +5465,12 @@
   ],
   "710": [
     "amazon-prime-video"
+  ],
+  "71065": [
+    "mgm-plus"
+  ],
+  "71134": [
+    "mgm-plus"
   ],
   "714": [
     "amazon-prime-video"
@@ -4979,6 +5516,12 @@
   "72784": [
     "peacock"
   ],
+  "728054": [
+    "amc-plus"
+  ],
+  "72962": [
+    "disney-plus"
+  ],
   "729935": [
     "criterion"
   ],
@@ -5010,6 +5553,9 @@
   "744276": [
     "netflix"
   ],
+  "744746": [
+    "amc-plus"
+  ],
   "744933": [
     "peacock"
   ],
@@ -5040,6 +5586,9 @@
   "7485": [
     "apple-tv"
   ],
+  "748897": [
+    "peacock"
+  ],
   "749274": [
     "netflix"
   ],
@@ -5061,6 +5610,9 @@
   "753": [
     "max"
   ],
+  "7551": [
+    "apple-tv"
+  ],
   "7553": [
     "amazon-prime-video"
   ],
@@ -5076,6 +5628,12 @@
   "757725": [
     "amazon-prime-video"
   ],
+  "75780": [
+    "apple-tv"
+  ],
+  "75888": [
+    "mgm-plus"
+  ],
   "760104": [
     "amazon-prime-video"
   ],
@@ -5084,6 +5642,9 @@
   ],
   "762433": [
     "peacock"
+  ],
+  "762921": [
+    "amc-plus"
   ],
   "763285": [
     "netflix"
@@ -5141,6 +5702,9 @@
   "776419": [
     "discovery-plus"
   ],
+  "776503": [
+    "apple-tv"
+  ],
   "776518": [
     "max"
   ],
@@ -5149,6 +5713,15 @@
   ],
   "77765": [
     "mgm-plus"
+  ],
+  "77866": [
+    "netflix"
+  ],
+  "77949": [
+    "amazon-prime-video"
+  ],
+  "78047": [
+    "disney-plus"
   ],
   "785157": [
     "amazon-prime-video"
@@ -5161,6 +5734,9 @@
   ],
   "7857": [
     "max"
+  ],
+  "78691": [
+    "mgm-plus"
   ],
   "787": [
     "amazon-prime-video"
@@ -5193,6 +5769,9 @@
   "794": [
     "criterion"
   ],
+  "794960": [
+    "hulu"
+  ],
   "795": [
     "amazon-prime-video",
     "criterion"
@@ -5211,6 +5790,9 @@
   ],
   "797": [
     "max"
+  ],
+  "7974": [
+    "criterion"
   ],
   "79887": [
     "criterion"
@@ -5243,6 +5825,9 @@
   "8012": [
     "amazon-prime-video"
   ],
+  "801688": [
+    "amazon-prime-video"
+  ],
   "801965": [
     "hulu"
   ],
@@ -5250,6 +5835,9 @@
     "criterion"
   ],
   "80271": [
+    "peacock"
+  ],
+  "80304": [
     "peacock"
   ],
   "803114": [
@@ -5354,6 +5942,9 @@
   "8208": [
     "max"
   ],
+  "821390": [
+    "amc-plus"
+  ],
   "823452": [
     "amazon-prime-video"
   ],
@@ -5365,6 +5956,9 @@
   ],
   "82390": [
     "criterion"
+  ],
+  "825597": [
+    "disney-plus"
   ],
   "82598": [
     "mgm-plus"
@@ -5381,6 +5975,9 @@
   ],
   "827": [
     "max"
+  ],
+  "827315": [
+    "mgm-plus"
   ],
   "8293": [
     "amazon-prime-video"
@@ -5458,6 +6055,9 @@
   "84309": [
     "amc-plus"
   ],
+  "84333": [
+    "amc-plus"
+  ],
   "84348": [
     "amazon-prime-video"
   ],
@@ -5512,8 +6112,20 @@
   "860901": [
     "criterion"
   ],
+  "86193": [
+    "mgm-plus"
+  ],
+  "863946": [
+    "amc-plus"
+  ],
+  "864101": [
+    "amazon-prime-video"
+  ],
   "8649": [
     "criterion"
+  ],
+  "865797": [
+    "amc-plus"
   ],
   "866398": [
     "amazon-prime-video"
@@ -5615,6 +6227,9 @@
   "8852": [
     "amazon-prime-video"
   ],
+  "88527": [
+    "criterion"
+  ],
   "8856": [
     "netflix"
   ],
@@ -5623,6 +6238,9 @@
   ],
   "887357": [
     "max"
+  ],
+  "8888": [
+    "amc-plus"
   ],
   "891657": [
     "peacock"
@@ -5735,7 +6353,13 @@
   "923024": [
     "peacock"
   ],
+  "92393": [
+    "amc-plus"
+  ],
   "926393": [
+    "max"
+  ],
+  "926676": [
     "max"
   ],
   "927": [
@@ -5771,6 +6395,9 @@
   ],
   "929569": [
     "disney-plus"
+  ],
+  "9297": [
+    "apple-tv"
   ],
   "9298": [
     "amazon-prime-video"
@@ -5851,6 +6478,9 @@
   "9434": [
     "amazon-prime-video"
   ],
+  "9438": [
+    "disney-plus"
+  ],
   "944936": [
     "peacock"
   ],
@@ -5858,7 +6488,8 @@
     "amazon-prime-video"
   ],
   "945961": [
-    "hulu"
+    "hulu",
+    "peacock"
   ],
   "947": [
     "netflix"
@@ -6008,6 +6639,9 @@
   "97262": [
     "peacock"
   ],
+  "9737": [
+    "apple-tv"
+  ],
   "974521": [
     "criterion"
   ],
@@ -6107,6 +6741,9 @@
   "986": [
     "max"
   ],
+  "986070": [
+    "netflix"
+  ],
   "9871": [
     "amazon-prime-video",
     "peacock"
@@ -6120,8 +6757,14 @@
   "9882": [
     "amazon-prime-video"
   ],
+  "988460": [
+    "hulu"
+  ],
   "9885": [
     "amazon-prime-video"
+  ],
+  "98894": [
+    "mgm-plus"
   ],
   "991494": [
     "apple-tv"
@@ -6238,6 +6881,9 @@
     },
     "1827764": {
       "hulu": "2026-11-30"
+    },
+    "1828828": {
+      "paramount-plus": "2026-11-27"
     },
     "832953": {
       "netflix": "2026-11-27"

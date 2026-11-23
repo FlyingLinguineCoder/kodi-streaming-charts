@@ -1,67 +1,17 @@
 {
-  "generated_at_utc": "2026-11-23T04:32:26.160297+00:00",
+  "generated_at_utc": "2026-11-23T16:25:12.320200+00:00",
   "purpose": "Diagnostic audit only; no verified Kodi widget",
   "source": "Powered by Galaxy Movies - https://www.galaxymovies.app",
   "metadata_source": "MDBList",
   "metadata_configured": true,
   "limitations": "MDBList watch_providers are not proof of past availability; announced dates may change; change-feed history begins when this workflow was installed. No complete historical subscription catalog is available, so no candidate is confirmed as a premiere.",
   "counts": {
-    "potential_premiere_unverified": 21,
+    "potential_premiere_unverified": 20,
     "older_release_unverified": 1,
     "exclude_nonfeature_special": 2,
     "release_date_conflict": 1
   },
   "candidates": [
-    {
-      "tmdb_id": 1611767,
-      "media_type": "movie",
-      "title": "Clashing Through the Snow",
-      "streaming_dates": {
-        "amazon-prime-video": "2026-11-23"
-      },
-      "earliest_streaming_date": "2026-11-23",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "type": "movie",
-        "title": "Clashing Through the Snow",
-        "year": 2026,
-        "released": "2026-11-23",
-        "released_digital": "2026-11-23",
-        "runtime": 107
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
-    {
-      "tmdb_id": 1674241,
-      "media_type": "movie",
-      "title": "The Symphony of Dance",
-      "streaming_dates": {
-        "hulu": "2026-11-23"
-      },
-      "earliest_streaming_date": "2026-11-23",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "type": "movie",
-        "title": "The Symphony of Dance",
-        "year": 2026,
-        "released": "2026-06-07",
-        "released_digital": "2026-11-23",
-        "runtime": 108
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
     {
       "tmdb_id": 1802703,
       "media_type": "movie",
@@ -129,6 +79,31 @@
         "released": "2026-02-28",
         "released_digital": "2026-11-25",
         "runtime": 102
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 1828828,
+      "media_type": "movie",
+      "title": "On the Last Day of Christmas",
+      "streaming_dates": {
+        "paramount-plus": "2026-11-27"
+      },
+      "earliest_streaming_date": "2026-11-27",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "On the Last Day of Christmas",
+        "year": 2026,
+        "released": "2026-11-27",
+        "released_digital": "2026-11-27",
+        "runtime": 108
       },
       "mdblist_watch_providers": [],
       "other_watch_providers": [],
