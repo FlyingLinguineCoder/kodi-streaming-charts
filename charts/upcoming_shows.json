@@ -1,37 +1,5 @@
 [
   {
-    "id": 290826,
-    "title": "Dig",
-    "mediatype": "show",
-    "premiere_date": "2026-11-23",
-    "premiere_type": "series",
-    "season": 1,
-    "services": [
-      "peacock"
-    ],
-    "description": "Dig follows a team of dedicated archaeologists (and less-dedicated college students) who spend their summer working on a dig site in Greece. Their discovery of a rare artifact sends them on the adventure of a lifetime.\n\nNew series listed for Peacock on November 23, 2026. Schedule from TVmaze; U.S. streaming availability not independently verified.",
-    "source": "https://www.tvmaze.com/episodes/3695782/dig-1x01-pilot",
-    "verification": "tvmaze_schedule_us_unverified",
-    "imdb_id": "tt36843594",
-    "rank": 1
-  },
-  {
-    "id": 502,
-    "title": "Sesame Street",
-    "mediatype": "show",
-    "premiere_date": "2026-11-23",
-    "premiere_type": "season",
-    "season": 57,
-    "services": [
-      "netflix"
-    ],
-    "description": "Sunny days are here! This freshly reimagined \" Sesame Street \" series features characters you love, fan-favorite segments — and new ways to play.\n\nSeason 57 listed for Netflix on November 23, 2026. Schedule from TVmaze; U.S. streaming availability not independently verified.",
-    "source": "https://www.tvmaze.com/episodes/3771199/sesame-street-57x01-elmo-tangos-puppy-playdate",
-    "verification": "tvmaze_schedule_us_unverified",
-    "imdb_id": "tt0063951",
-    "rank": 2
-  },
-  {
     "id": 171802,
     "title": "Blade Runner 2099",
     "mediatype": "show",
@@ -45,7 +13,7 @@
     "source": "https://www.tvmaze.com/episodes/3682675/blade-runner-2099-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt18224594",
-    "rank": 3
+    "rank": 1
   },
   {
     "id": 326247,
@@ -61,7 +29,23 @@
     "source": "https://www.tvmaze.com/episodes/3708426/fool-night-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt43613803",
-    "rank": 4
+    "rank": 2
+  },
+  {
+    "id": 338930,
+    "title": "Legevakta",
+    "mediatype": "show",
+    "premiere_date": "2026-11-26",
+    "premiere_type": "series",
+    "season": 1,
+    "services": [
+      "netflix"
+    ],
+    "description": "Banished to a chaotic ER to save her career, brilliant but impatient surgeon Sofia fights the chaos-until warmth, camaraderie, and love make her choose between solo ambition and an unexpected family.\n\nNew series listed for Netflix on November 26, 2026. Schedule from TVmaze; U.S. streaming availability not independently verified.",
+    "source": "https://www.tvmaze.com/episodes/3830721/legevakta-1x01-episode-1",
+    "verification": "tvmaze_schedule_us_unverified",
+    "imdb_id": "tt36951910",
+    "rank": 3
   },
   {
     "id": 244447,
@@ -74,10 +58,10 @@
       "netflix"
     ],
     "description": "The Hunting Wives tells the story of Sophie O'Neil and her family's move from the East Coast to deep-red East Texas, where she succumbs to socialite Margo Banks‘ irresistible charms – and finds her life consumed by obsession, seduction, and murder.\n\nSeason 2 listed for Netflix on November 26, 2026. Schedule from TVmaze; U.S. streaming availability not independently verified.",
-    "source": "https://www.tvmaze.com/episodes/3706933/the-hunting-wives-2x01-tba",
+    "source": "https://www.tvmaze.com/episodes/3706933/the-hunting-wives-2x01-scared-straight",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt31038430",
-    "rank": 5
+    "rank": 4
   },
   {
     "id": 155780,
@@ -93,7 +77,7 @@
     "source": "https://www.tvmaze.com/episodes/3794912/batwheels-4x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt13292830",
-    "rank": 6
+    "rank": 5
   },
   {
     "id": 340862,
@@ -109,7 +93,7 @@
     "source": "https://www.tvmaze.com/episodes/3803674/collect-praise-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt43728785",
-    "rank": 7
+    "rank": 6
   },
   {
     "id": 221122,
@@ -125,7 +109,7 @@
     "source": "https://www.tvmaze.com/episodes/3824429/fbi-true-9x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt21340132",
-    "rank": 8
+    "rank": 7
   },
   {
     "id": 294607,
@@ -141,7 +125,7 @@
     "source": "https://www.tvmaze.com/episodes/3804410/trinity-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt37433759",
-    "rank": 9
+    "rank": 8
   },
   {
     "id": 130853,
@@ -157,7 +141,7 @@
     "source": "https://www.tvmaze.com/episodes/3705781/bad-monkey-2x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt15203646",
-    "rank": 10
+    "rank": 9
   },
   {
     "id": 258866,
@@ -173,7 +157,7 @@
     "source": "https://www.tvmaze.com/episodes/3814144/dance-moms-a-new-era-3x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt32875185",
-    "rank": 11
+    "rank": 10
   },
   {
     "id": 288672,
@@ -189,7 +173,7 @@
     "source": "https://www.tvmaze.com/episodes/3765170/pride-and-prejudice-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt36475261",
-    "rank": 12
+    "rank": 11
   },
   {
     "id": 273801,
@@ -205,7 +189,7 @@
     "source": "https://www.tvmaze.com/episodes/3810505/its-florida-man-3x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt33745056",
-    "rank": 13
+    "rank": 12
   },
   {
     "id": 87826,
@@ -221,7 +205,7 @@
     "source": "https://www.tvmaze.com/episodes/3824325/selling-sunset-10x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt9817298",
-    "rank": 14
+    "rank": 13
   },
   {
     "id": 157061,
@@ -237,7 +221,7 @@
     "source": "https://www.tvmaze.com/episodes/3804446/the-devils-hour-3x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt14379784",
-    "rank": 15
+    "rank": 14
   },
   {
     "id": 107113,
@@ -253,7 +237,7 @@
     "source": "https://www.tvmaze.com/episodes/3714462/only-murders-in-the-building-6x01-changing-of-the-guard",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt11691774",
-    "rank": 16
+    "rank": 15
   },
   {
     "id": 250670,
@@ -269,7 +253,7 @@
     "source": "https://www.tvmaze.com/episodes/3724943/maxton-hall-3x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt27792190",
-    "rank": 17
+    "rank": 16
   },
   {
     "id": 270596,
@@ -285,7 +269,7 @@
     "source": "https://www.tvmaze.com/episodes/3765169/the-murder-of-jonbenet-ramsey-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt31614143",
-    "rank": 18
+    "rank": 17
   },
   {
     "id": 256726,
@@ -301,7 +285,7 @@
     "source": "https://www.tvmaze.com/episodes/3802728/tantara-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt35685457",
-    "rank": 19
+    "rank": 18
   },
   {
     "id": 261625,
@@ -317,7 +301,7 @@
     "source": "https://www.tvmaze.com/episodes/3809597/here-come-the-irish-3x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt33299244",
-    "rank": 20
+    "rank": 19
   },
   {
     "id": 76178,
@@ -333,7 +317,7 @@
     "source": "https://www.tvmaze.com/episodes/3824006/my-next-guest-needs-no-introduction-7x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt7829834",
-    "rank": 21
+    "rank": 20
   },
   {
     "id": 249522,
@@ -349,7 +333,7 @@
     "source": "https://www.tvmaze.com/episodes/3823746/beast-games-3x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt31812476",
-    "rank": 22
+    "rank": 21
   },
   {
     "id": 291074,
@@ -365,7 +349,7 @@
     "source": "https://www.tvmaze.com/episodes/3776948/ted-the-animated-series-1x01-a-star-is-burped",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt36881756",
-    "rank": 23
+    "rank": 22
   },
   {
     "id": 289729,
@@ -381,7 +365,7 @@
     "source": "https://www.tvmaze.com/episodes/3766541/unaccustomed-earth-1x01-unaccustomed-earth",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt36634761",
-    "rank": 24
+    "rank": 23
   },
   {
     "id": 305520,
@@ -397,7 +381,7 @@
     "source": "https://www.tvmaze.com/episodes/3824935/living-the-dream-1x01-na",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt38935871",
-    "rank": 25
+    "rank": 24
   },
   {
     "id": 136342,
@@ -413,7 +397,7 @@
     "source": "https://www.tvmaze.com/episodes/3799919/disney-twisted-wonderland-the-animation-2x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt28306749",
-    "rank": 26
+    "rank": 25
   },
   {
     "id": 82596,
@@ -429,7 +413,7 @@
     "source": "https://www.tvmaze.com/episodes/3716058/emily-in-paris-6x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt8962124",
-    "rank": 27
+    "rank": 26
   },
   {
     "id": 224377,
@@ -445,7 +429,7 @@
     "source": "https://www.tvmaze.com/episodes/3581384/harry-potter-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt13918446",
-    "rank": 28
+    "rank": 27
   },
   {
     "id": 224021,
@@ -461,7 +445,7 @@
     "source": "https://www.tvmaze.com/episodes/3824191/aremorden-2x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt23664162",
-    "rank": 29
+    "rank": 28
   },
   {
     "id": 293691,
@@ -477,7 +461,7 @@
     "source": "https://www.tvmaze.com/episodes/3824314/one-night-in-idaho-the-college-murders-2x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt32810392",
-    "rank": 30
+    "rank": 29
   },
   {
     "id": 277010,
@@ -493,7 +477,7 @@
     "source": "https://www.tvmaze.com/episodes/3812053/the-later-daters-2x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt34599590",
-    "rank": 31
+    "rank": 30
   },
   {
     "id": 243200,
@@ -509,7 +493,7 @@
     "source": "https://www.tvmaze.com/episodes/3797246/animal-2x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt30817086",
-    "rank": 32
+    "rank": 31
   },
   {
     "id": 249037,
@@ -525,7 +509,7 @@
     "source": "https://www.tvmaze.com/episodes/3778067/the-twin-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt30495117",
-    "rank": 33
+    "rank": 32
   },
   {
     "id": 4656,
@@ -541,7 +525,7 @@
     "source": "https://www.tvmaze.com/episodes/3803425/wwe-monday-night-raw-34x01-1754-frost-bank-center-in-san-antonio-tx",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt0185103",
-    "rank": 34
+    "rank": 33
   },
   {
     "id": 290825,
@@ -557,7 +541,7 @@
     "source": "https://www.tvmaze.com/episodes/3770752/the-wanted-man-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt36842987",
-    "rank": 35
+    "rank": 34
   },
   {
     "id": 307913,
@@ -573,7 +557,7 @@
     "source": "https://www.tvmaze.com/episodes/3823998/canada-shore-2x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt39093331",
-    "rank": 36
+    "rank": 35
   },
   {
     "id": 341168,
@@ -589,7 +573,7 @@
     "source": "https://www.tvmaze.com/episodes/3805326/kaleb-off-the-farm-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt49932124",
-    "rank": 37
+    "rank": 36
   },
   {
     "id": 243214,
@@ -605,7 +589,7 @@
     "source": "https://www.tvmaze.com/episodes/3805146/criminal-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt27493572",
-    "rank": 38
+    "rank": 37
   },
   {
     "id": 138503,
@@ -621,7 +605,7 @@
     "source": "https://www.tvmaze.com/episodes/3784253/your-friendly-neighborhood-spider-man-2x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt16027074",
-    "rank": 39
+    "rank": 38
   },
   {
     "id": 108545,
@@ -637,7 +621,7 @@
     "source": "https://www.tvmaze.com/episodes/3823004/3-body-problem-2x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt13016388",
-    "rank": 40
+    "rank": 39
   },
   {
     "id": 342613,
@@ -653,7 +637,7 @@
     "source": "https://www.tvmaze.com/episodes/3824804/grown-ups-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt31806039",
-    "rank": 41
+    "rank": 40
   },
   {
     "id": 215943,
@@ -669,7 +653,7 @@
     "source": "https://www.tvmaze.com/episodes/3824015/the-traitors-6x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt15557874",
-    "rank": 42
+    "rank": 41
   },
   {
     "id": 97951,
@@ -685,7 +669,7 @@
     "source": "https://www.tvmaze.com/episodes/3793777/mayor-of-kingstown-5x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt11712058",
-    "rank": 43
+    "rank": 42
   },
   {
     "id": 4419,
@@ -701,7 +685,7 @@
     "source": "https://www.tvmaze.com/episodes/3826621/real-time-with-bill-maher-25x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt0350448",
-    "rank": 44
+    "rank": 43
   },
   {
     "id": 225180,
@@ -717,7 +701,7 @@
     "source": "https://www.tvmaze.com/episodes/3803675/blue-eye-samurai-2x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt13309742",
-    "rank": 45
+    "rank": 44
   },
   {
     "id": 114461,
@@ -733,7 +717,7 @@
     "source": "https://www.tvmaze.com/episodes/3700733/ahsoka-2x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt13622776",
-    "rank": 46
+    "rank": 45
   },
   {
     "id": 285887,
@@ -749,7 +733,7 @@
     "source": "https://www.tvmaze.com/episodes/3784606/bloodaxe-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt36048621",
-    "rank": 47
+    "rank": 46
   },
   {
     "id": 296114,
@@ -765,7 +749,7 @@
     "source": "https://www.tvmaze.com/episodes/3823983/los-secretos-de-la-cortesana-1x01-episodio-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt37582710",
-    "rank": 48
+    "rank": 47
   },
   {
     "id": 215528,
@@ -781,7 +765,7 @@
     "source": "https://www.tvmaze.com/episodes/3684047/neuromancer-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt31512174",
-    "rank": 49
+    "rank": 48
   },
   {
     "id": 209130,
@@ -797,7 +781,7 @@
     "source": "https://www.tvmaze.com/episodes/3822820/slumberkins-2x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt21942724",
-    "rank": 50
+    "rank": 49
   },
   {
     "id": 291377,
@@ -813,7 +797,7 @@
     "source": "https://www.tvmaze.com/episodes/3776950/barbershop-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt36939928",
-    "rank": 51
+    "rank": 50
   },
   {
     "id": 289549,
@@ -829,7 +813,7 @@
     "source": "https://www.tvmaze.com/episodes/3784422/prodigies-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt36501178",
-    "rank": 52
+    "rank": 51
   },
   {
     "id": 274395,
@@ -845,7 +829,7 @@
     "source": "https://www.tvmaze.com/episodes/3784062/the-land-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt33998048",
-    "rank": 53
+    "rank": 52
   },
   {
     "id": 95557,
@@ -861,7 +845,7 @@
     "source": "https://www.tvmaze.com/episodes/3824818/invincible-5x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt6741278",
-    "rank": 54
+    "rank": 53
   },
   {
     "id": 310113,
@@ -877,7 +861,7 @@
     "source": "https://www.tvmaze.com/episodes/3824842/oswald-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt37350717",
-    "rank": 55
+    "rank": 54
   },
   {
     "id": 247619,
@@ -893,7 +877,7 @@
     "source": "https://www.tvmaze.com/episodes/3809931/overcompensating-2x01-epsiode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt23488694",
-    "rank": 56
+    "rank": 55
   },
   {
     "id": 289730,
@@ -909,7 +893,7 @@
     "source": "https://www.tvmaze.com/episodes/3810379/the-age-of-innocence-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt36634723",
-    "rank": 57
+    "rank": 56
   },
   {
     "id": 156933,
@@ -925,6 +909,22 @@
     "source": "https://www.tvmaze.com/episodes/3825190/presumed-innocent-2x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt17677860",
+    "rank": 57
+  },
+  {
+    "id": 219080,
+    "title": "The Mighty Nein",
+    "mediatype": "show",
+    "premiere_date": "2027-03-24",
+    "premiere_type": "season",
+    "season": 2,
+    "services": [
+      "amazon-prime-video"
+    ],
+    "description": "The Mighty Nein follows a group of fugitives and outcasts, bound by secrets and scars. But when a powerful arcane relic known as \"The Beacon\" falls into dangerous hands, they must learn to work together to save the realm and stop reality itself from unraveling.\n\nSeason 2 listed for Prime Video on March 24, 2027. Schedule from TVmaze; U.S. streaming availability not independently verified.",
+    "source": "https://www.tvmaze.com/episodes/3821300/the-mighty-nein-2x01-tba",
+    "verification": "tvmaze_schedule_us_unverified",
+    "imdb_id": "tt26453092",
     "rank": 58
   }
 ]
