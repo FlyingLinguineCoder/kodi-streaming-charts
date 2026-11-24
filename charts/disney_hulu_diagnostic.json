@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-24T04:22:29.571790+00:00",
+  "generated_at_utc": "2026-11-24T16:29:17.801589+00:00",
   "purpose": "Diagnostic only; no Kodi widget generated",
   "window": {
     "start": "2026-11-24",
@@ -2817,7 +2817,7 @@
   ],
   "movie_review": {
     "audit_status": "available",
-    "audit_generated_at_utc": "2026-11-23T16:25:12.320200+00:00",
+    "audit_generated_at_utc": "2026-11-24T04:22:50.895064+00:00",
     "candidates": [
       {
         "title": "Diary of a Wimpy Kid Christmas: The Getaway",

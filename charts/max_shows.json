@@ -27,13 +27,13 @@
     "release_year": 2026
   },
   {
-    "id": 125935,
+    "id": 341164,
     "rank": 4,
     "adult": 0,
-    "title": "Abbott Elementary",
+    "title": "Oobah: Scams for a Better Tomorrow",
     "mediatype": "show",
-    "imdb_id": "tt14218830",
-    "release_year": 2021
+    "imdb_id": "tt50688819",
+    "release_year": 2026
   },
   {
     "id": 243875,
@@ -45,13 +45,13 @@
     "release_year": 2024
   },
   {
-    "id": 341164,
+    "id": 125935,
     "rank": 6,
     "adult": 0,
-    "title": "Oobah: Scams for a Better Tomorrow",
+    "title": "Abbott Elementary",
     "mediatype": "show",
-    "imdb_id": "tt50688819",
-    "release_year": 2026
+    "imdb_id": "tt14218830",
+    "release_year": 2021
   },
   {
     "id": 1668,
@@ -72,25 +72,8 @@
     "release_year": 2013
   },
   {
-    "id": 342122,
-    "rank": 9,
-    "adult": 0,
-    "title": "Lanterns",
-    "mediatype": "show",
-    "imdb_id": "tt2654599"
-  },
-  {
-    "id": 218344,
-    "rank": 10,
-    "adult": 0,
-    "title": "Blue Lights",
-    "mediatype": "show",
-    "imdb_id": "tt14466018",
-    "release_year": 2023
-  },
-  {
     "id": 250307,
-    "rank": 11,
+    "rank": 9,
     "adult": 0,
     "title": "The Pitt",
     "mediatype": "show",
@@ -98,13 +81,30 @@
     "release_year": 2025
   },
   {
-    "id": 1104,
+    "id": 342122,
+    "rank": 10,
+    "adult": 0,
+    "title": "Lanterns",
+    "mediatype": "show",
+    "imdb_id": "tt2654599"
+  },
+  {
+    "id": 218344,
+    "rank": 11,
+    "adult": 0,
+    "title": "Blue Lights",
+    "mediatype": "show",
+    "imdb_id": "tt14466018",
+    "release_year": 2023
+  },
+  {
+    "id": 69158,
     "rank": 12,
     "adult": 0,
-    "title": "Mad Men",
+    "title": "The Good Fight",
     "mediatype": "show",
-    "imdb_id": "tt0804503",
-    "release_year": 2007
+    "imdb_id": "tt5853176",
+    "release_year": 2017
   },
   {
     "id": 61662,
@@ -116,26 +116,8 @@
     "release_year": 2015
   },
   {
-    "id": 224372,
-    "rank": 14,
-    "adult": 0,
-    "title": "A Knight of the Seven Kingdoms",
-    "mediatype": "show",
-    "imdb_id": "tt27497448",
-    "release_year": 2026
-  },
-  {
-    "id": 69158,
-    "rank": 15,
-    "adult": 0,
-    "title": "The Good Fight",
-    "mediatype": "show",
-    "imdb_id": "tt5853176",
-    "release_year": 2017
-  },
-  {
     "id": 204284,
-    "rank": 16,
+    "rank": 14,
     "adult": 0,
     "title": "The Rehearsal",
     "mediatype": "show",
@@ -143,26 +125,17 @@
     "release_year": 2022
   },
   {
-    "id": 1398,
-    "rank": 17,
+    "id": 206828,
+    "rank": 15,
     "adult": 0,
-    "title": "The Sopranos",
+    "title": "DTF St. Louis",
     "mediatype": "show",
-    "imdb_id": "tt0141842",
-    "release_year": 1999
-  },
-  {
-    "id": 688,
-    "rank": 18,
-    "adult": 0,
-    "title": "The West Wing",
-    "mediatype": "show",
-    "imdb_id": "tt0200276",
-    "release_year": 1999
+    "imdb_id": "tt34385331",
+    "release_year": 2026
   },
   {
     "id": 1399,
-    "rank": 19,
+    "rank": 16,
     "adult": 0,
     "title": "Game of Thrones",
     "mediatype": "show",
@@ -170,12 +143,39 @@
     "release_year": 2011
   },
   {
-    "id": 1418,
+    "id": 1104,
+    "rank": 17,
+    "adult": 0,
+    "title": "Mad Men",
+    "mediatype": "show",
+    "imdb_id": "tt0804503",
+    "release_year": 2007
+  },
+  {
+    "id": 119889,
+    "rank": 18,
+    "adult": 0,
+    "title": "Unseamly: The Investigation of Peter Nygård",
+    "mediatype": "show",
+    "imdb_id": "tt14433222",
+    "release_year": 2021
+  },
+  {
+    "id": 285418,
+    "rank": 19,
+    "adult": 0,
+    "title": "Youth",
+    "mediatype": "show",
+    "imdb_id": "tt35949226",
+    "release_year": 2026
+  },
+  {
+    "id": 94997,
     "rank": 20,
     "adult": 0,
-    "title": "The Big Bang Theory",
+    "title": "House of the Dragon",
     "mediatype": "show",
-    "imdb_id": "tt0898266",
-    "release_year": 2007
+    "imdb_id": "tt11198330",
+    "release_year": 2022
   }
 ]

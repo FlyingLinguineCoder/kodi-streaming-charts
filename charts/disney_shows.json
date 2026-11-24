@@ -36,8 +36,17 @@
     "release_year": 2018
   },
   {
-    "id": 107113,
+    "id": 84958,
     "rank": 5,
+    "adult": 0,
+    "title": "Loki",
+    "mediatype": "show",
+    "imdb_id": "tt9140554",
+    "release_year": 2021
+  },
+  {
+    "id": 107113,
+    "rank": 6,
     "adult": 0,
     "title": "Only Murders in the Building",
     "mediatype": "show",
@@ -46,7 +55,7 @@
   },
   {
     "id": 136315,
-    "rank": 6,
+    "rank": 7,
     "adult": 0,
     "title": "The Bear",
     "mediatype": "show",
@@ -55,7 +64,7 @@
   },
   {
     "id": 60572,
-    "rank": 7,
+    "rank": 8,
     "adult": 0,
     "title": "Pokémon",
     "mediatype": "show",
@@ -63,31 +72,22 @@
     "release_year": 1997
   },
   {
-    "id": 84958,
-    "rank": 8,
+    "id": 138501,
+    "rank": 9,
     "adult": 0,
-    "title": "Loki",
+    "title": "Agatha All Along",
     "mediatype": "show",
-    "imdb_id": "tt9140554",
-    "release_year": 2021
+    "imdb_id": "tt15571732",
+    "release_year": 2024
   },
   {
     "id": 1100,
-    "rank": 9,
+    "rank": 10,
     "adult": 0,
     "title": "How I Met Your Mother",
     "mediatype": "show",
     "imdb_id": "tt0460649",
     "release_year": 2005
-  },
-  {
-    "id": 61617,
-    "rank": 10,
-    "adult": 0,
-    "title": "Over the Garden Wall",
-    "mediatype": "show",
-    "imdb_id": "tt3718778",
-    "release_year": 2014
   },
   {
     "id": 208569,
@@ -99,26 +99,17 @@
     "release_year": 2023
   },
   {
-    "id": 138501,
+    "id": 153577,
     "rank": 12,
     "adult": 0,
-    "title": "Agatha All Along",
+    "title": "Selenkay",
     "mediatype": "show",
-    "imdb_id": "tt15571732",
+    "imdb_id": "tt15675338",
     "release_year": 2024
   },
   {
-    "id": 198178,
-    "rank": 13,
-    "adult": 0,
-    "title": "Wonder Man",
-    "mediatype": "show",
-    "imdb_id": "tt21066182",
-    "release_year": 2026
-  },
-  {
     "id": 1685,
-    "rank": 14,
+    "rank": 13,
     "adult": 0,
     "title": "Project Runway",
     "mediatype": "show",
@@ -126,31 +117,40 @@
     "release_year": 2004
   },
   {
-    "id": 2046,
-    "rank": 15,
-    "adult": 0,
-    "title": "Alias",
-    "mediatype": "show",
-    "imdb_id": "tt0285333",
-    "release_year": 2001
-  },
-  {
-    "id": 693,
-    "rank": 16,
-    "adult": 0,
-    "title": "Desperate Housewives",
-    "mediatype": "show",
-    "imdb_id": "tt0410975",
-    "release_year": 2004
-  },
-  {
     "id": 1508,
-    "rank": 17,
+    "rank": 14,
     "adult": 0,
     "title": "Dancing with the Stars",
     "mediatype": "show",
     "imdb_id": "tt0463398",
     "release_year": 2005
+  },
+  {
+    "id": 198178,
+    "rank": 15,
+    "adult": 0,
+    "title": "Wonder Man",
+    "mediatype": "show",
+    "imdb_id": "tt21066182",
+    "release_year": 2026
+  },
+  {
+    "id": 61617,
+    "rank": 16,
+    "adult": 0,
+    "title": "Over the Garden Wall",
+    "mediatype": "show",
+    "imdb_id": "tt3718778",
+    "release_year": 2014
+  },
+  {
+    "id": 3763,
+    "rank": 17,
+    "adult": 0,
+    "title": "Dinosaurs",
+    "mediatype": "show",
+    "imdb_id": "tt0101081",
+    "release_year": 1991
   },
   {
     "id": 65334,
@@ -162,21 +162,21 @@
     "release_year": 2015
   },
   {
-    "id": 138502,
+    "id": 693,
     "rank": 19,
     "adult": 0,
-    "title": "X-Men '97",
+    "title": "Desperate Housewives",
     "mediatype": "show",
-    "imdb_id": "tt16026746",
-    "release_year": 2024
+    "imdb_id": "tt0410975",
+    "release_year": 2004
   },
   {
-    "id": 67178,
+    "id": 202555,
     "rank": 20,
     "adult": 0,
-    "title": "Marvel's The Punisher",
+    "title": "Daredevil: Born Again",
     "mediatype": "show",
-    "imdb_id": "tt5675620",
-    "release_year": 2017
+    "imdb_id": "tt18923754",
+    "release_year": 2025
   }
 ]

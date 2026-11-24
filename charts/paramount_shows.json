@@ -18,17 +18,8 @@
     "release_year": 2025
   },
   {
-    "id": 303630,
-    "rank": 3,
-    "adult": 0,
-    "title": "Cupertino",
-    "mediatype": "show",
-    "imdb_id": "tt33270224",
-    "release_year": 2026
-  },
-  {
     "id": 211288,
-    "rank": 4,
+    "rank": 3,
     "adult": 0,
     "title": "Tracker",
     "mediatype": "show",
@@ -37,7 +28,7 @@
   },
   {
     "id": 290856,
-    "rank": 5,
+    "rank": 4,
     "adult": 0,
     "title": "Marshals",
     "mediatype": "show",
@@ -45,17 +36,17 @@
     "release_year": 2026
   },
   {
-    "id": 153312,
-    "rank": 6,
+    "id": 303630,
+    "rank": 5,
     "adult": 0,
-    "title": "Tulsa King",
+    "title": "Cupertino",
     "mediatype": "show",
-    "imdb_id": "tt16358384",
-    "release_year": 2022
+    "imdb_id": "tt33270224",
+    "release_year": 2026
   },
   {
     "id": 259909,
-    "rank": 7,
+    "rank": 6,
     "adult": 0,
     "title": "Dexter: Resurrection",
     "mediatype": "show",
@@ -63,8 +54,26 @@
     "release_year": 2025
   },
   {
-    "id": 243875,
+    "id": 153312,
+    "rank": 7,
+    "adult": 0,
+    "title": "Tulsa King",
+    "mediatype": "show",
+    "imdb_id": "tt16358384",
+    "release_year": 2022
+  },
+  {
+    "id": 2190,
     "rank": 8,
+    "adult": 0,
+    "title": "South Park",
+    "mediatype": "show",
+    "imdb_id": "tt0121955",
+    "release_year": 1997
+  },
+  {
+    "id": 243875,
+    "rank": 9,
     "adult": 0,
     "title": "Georgie & Mandy's First Marriage",
     "mediatype": "show",
@@ -73,7 +82,7 @@
   },
   {
     "id": 126027,
-    "rank": 9,
+    "rank": 10,
     "adult": 0,
     "title": "Ghosts",
     "mediatype": "show",
@@ -81,26 +90,8 @@
     "release_year": 2021
   },
   {
-    "id": 113962,
-    "rank": 10,
-    "adult": 0,
-    "title": "Lioness",
-    "mediatype": "show",
-    "imdb_id": "tt13111078",
-    "release_year": 2023
-  },
-  {
-    "id": 2190,
-    "rank": 11,
-    "adult": 0,
-    "title": "South Park",
-    "mediatype": "show",
-    "imdb_id": "tt0121955",
-    "release_year": 1997
-  },
-  {
     "id": 58957,
-    "rank": 12,
+    "rank": 11,
     "adult": 0,
     "title": "Nathan for You",
     "mediatype": "show",
@@ -108,13 +99,22 @@
     "release_year": 2013
   },
   {
-    "id": 1972,
+    "id": 113962,
+    "rank": 12,
+    "adult": 0,
+    "title": "Lioness",
+    "mediatype": "show",
+    "imdb_id": "tt13111078",
+    "release_year": 2023
+  },
+  {
+    "id": 1405,
     "rank": 13,
     "adult": 0,
-    "title": "Battlestar Galactica",
+    "title": "Dexter",
     "mediatype": "show",
-    "imdb_id": "tt0407362",
-    "release_year": 2004
+    "imdb_id": "tt0773262",
+    "release_year": 2006
   },
   {
     "id": 313630,
@@ -126,8 +126,17 @@
     "release_year": 2026
   },
   {
-    "id": 226285,
+    "id": 69158,
     "rank": 15,
+    "adult": 0,
+    "title": "The Good Fight",
+    "mediatype": "show",
+    "imdb_id": "tt5853176",
+    "release_year": 2017
+  },
+  {
+    "id": 226285,
+    "rank": 16,
     "adult": 0,
     "title": "Elsbeth",
     "mediatype": "show",
@@ -135,40 +144,31 @@
     "release_year": 2024
   },
   {
+    "id": 1972,
+    "rank": 17,
+    "adult": 0,
+    "title": "Battlestar Galactica",
+    "mediatype": "show",
+    "imdb_id": "tt0407362",
+    "release_year": 2004
+  },
+  {
+    "id": 4278,
+    "rank": 18,
+    "adult": 0,
+    "title": "Friday Night Lights",
+    "mediatype": "show",
+    "imdb_id": "tt0758745",
+    "release_year": 2006
+  },
+  {
     "id": 1920,
-    "rank": 16,
+    "rank": 19,
     "adult": 0,
     "title": "Twin Peaks",
     "mediatype": "show",
     "imdb_id": "tt0098936",
     "release_year": 1990
-  },
-  {
-    "id": 6357,
-    "rank": 17,
-    "adult": 0,
-    "title": "The Twilight Zone",
-    "mediatype": "show",
-    "imdb_id": "tt0052520",
-    "release_year": 1959
-  },
-  {
-    "id": 157741,
-    "rank": 18,
-    "adult": 0,
-    "title": "Landman",
-    "mediatype": "show",
-    "imdb_id": "tt14186672",
-    "release_year": 2024
-  },
-  {
-    "id": 114655,
-    "rank": 19,
-    "adult": 0,
-    "title": "The Curse",
-    "mediatype": "show",
-    "imdb_id": "tt13623608",
-    "release_year": 2023
   },
   {
     "id": 284833,
