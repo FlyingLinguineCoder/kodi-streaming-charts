@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-11-23T16:24:54.249925+00:00",
+  "generated_at_utc": "2026-11-24T04:22:29.571790+00:00",
   "purpose": "Diagnostic only; no Kodi widget generated",
   "window": {
-    "start": "2026-11-23",
-    "end": "2027-02-21"
+    "start": "2026-11-24",
+    "end": "2027-02-22"
   },
   "limitations": "Calendar labels nominate candidates, not confirmed premieres. Release years do not prove first-ever subscription availability. An untyped premiere, season bundle, or season arrival without a premiere label requires review. Month-only listings are omitted. Movie review records identify films to check for a first U.S. subscription release. Audit-only dates lack a matching calendar entry.",
   "sources": [
@@ -11,8 +11,8 @@
       "url": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026",
       "status": "parsed",
       "text_blocks": 291,
-      "upcoming_dated_entries": 50,
-      "movie_candidates": 2,
+      "upcoming_dated_entries": 41,
+      "movie_candidates": 1,
       "series_premiere_candidates": 0,
       "new_season_candidates": 0
     },
@@ -37,107 +37,6 @@
     }
   ],
   "results": [
-    {
-      "date": "2026-11-23",
-      "services": [
-        "hulu"
-      ],
-      "title": "America’s Funniest Home Videos (Season 37) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-23",
-      "services": [
-        "hulu"
-      ],
-      "title": "Desperately Devoted – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-23",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Handsome – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-23",
-      "services": [
-        "hulu"
-      ],
-      "title": "MAO (Season 1, Part 2) (Dubbed) – All Episodes Streaming",
-      "release_year": null,
-      "classification": "tv_arrival_manual_review",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-23",
-      "services": [
-        "hulu"
-      ],
-      "title": "Mickey 17 (2025)",
-      "release_year": 2025,
-      "classification": "dated_movie_candidate",
-      "confidence": "medium",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-23",
-      "services": [
-        "disney-plus"
-      ],
-      "title": "Mickey Mouse Clubhouse: Mickey's Adventures in Wonderland",
-      "release_year": null,
-      "classification": "manual_review",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-23",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Mother Knows Murder – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-23",
-      "services": [
-        "disney-plus"
-      ],
-      "title": "Pod Meets World – New Podcast Episodes",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-23",
-      "services": [
-        "hulu"
-      ],
-      "title": "That Was Us – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
     {
       "date": "2026-11-24",
       "services": [
@@ -2918,15 +2817,8 @@
   ],
   "movie_review": {
     "audit_status": "available",
-    "audit_generated_at_utc": "2026-11-23T04:32:26.160297+00:00",
+    "audit_generated_at_utc": "2026-11-23T16:25:12.320200+00:00",
     "candidates": [
-      {
-        "title": "The Symphony of Dance",
-        "tmdb_id": 1674241,
-        "service": "hulu",
-        "date": "2026-11-23",
-        "evidence": "movie_audit_only"
-      },
       {
         "title": "Diary of a Wimpy Kid Christmas: The Getaway",
         "tmdb_id": 1519780,

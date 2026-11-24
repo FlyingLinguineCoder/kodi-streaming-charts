@@ -27,26 +27,8 @@
     "release_year": 2026
   },
   {
-    "id": 259909,
-    "rank": 4,
-    "adult": 0,
-    "title": "Dexter: Resurrection",
-    "mediatype": "show",
-    "imdb_id": "tt33043892",
-    "release_year": 2025
-  },
-  {
-    "id": 153312,
-    "rank": 5,
-    "adult": 0,
-    "title": "Tulsa King",
-    "mediatype": "show",
-    "imdb_id": "tt16358384",
-    "release_year": 2022
-  },
-  {
     "id": 211288,
-    "rank": 6,
+    "rank": 4,
     "adult": 0,
     "title": "Tracker",
     "mediatype": "show",
@@ -55,7 +37,7 @@
   },
   {
     "id": 290856,
-    "rank": 7,
+    "rank": 5,
     "adult": 0,
     "title": "Marshals",
     "mediatype": "show",
@@ -63,13 +45,31 @@
     "release_year": 2026
   },
   {
-    "id": 2190,
+    "id": 153312,
+    "rank": 6,
+    "adult": 0,
+    "title": "Tulsa King",
+    "mediatype": "show",
+    "imdb_id": "tt16358384",
+    "release_year": 2022
+  },
+  {
+    "id": 259909,
+    "rank": 7,
+    "adult": 0,
+    "title": "Dexter: Resurrection",
+    "mediatype": "show",
+    "imdb_id": "tt33043892",
+    "release_year": 2025
+  },
+  {
+    "id": 243875,
     "rank": 8,
     "adult": 0,
-    "title": "South Park",
+    "title": "Georgie & Mandy's First Marriage",
     "mediatype": "show",
-    "imdb_id": "tt0121955",
-    "release_year": 1997
+    "imdb_id": "tt31589662",
+    "release_year": 2024
   },
   {
     "id": 126027,
@@ -90,44 +90,17 @@
     "release_year": 2023
   },
   {
-    "id": 226285,
+    "id": 2190,
     "rank": 11,
     "adult": 0,
-    "title": "Elsbeth",
+    "title": "South Park",
     "mediatype": "show",
-    "imdb_id": "tt26591110",
-    "release_year": 2024
-  },
-  {
-    "id": 243875,
-    "rank": 12,
-    "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
-    "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
-  },
-  {
-    "id": 157741,
-    "rank": 13,
-    "adult": 0,
-    "title": "Landman",
-    "mediatype": "show",
-    "imdb_id": "tt14186672",
-    "release_year": 2024
-  },
-  {
-    "id": 1405,
-    "rank": 14,
-    "adult": 0,
-    "title": "Dexter",
-    "mediatype": "show",
-    "imdb_id": "tt0773262",
-    "release_year": 2006
+    "imdb_id": "tt0121955",
+    "release_year": 1997
   },
   {
     "id": 58957,
-    "rank": 15,
+    "rank": 12,
     "adult": 0,
     "title": "Nathan for You",
     "mediatype": "show",
@@ -135,35 +108,8 @@
     "release_year": 2013
   },
   {
-    "id": 14658,
-    "rank": 16,
-    "adult": 0,
-    "title": "Survivor",
-    "mediatype": "show",
-    "imdb_id": "tt0239195",
-    "release_year": 2000
-  },
-  {
-    "id": 313630,
-    "rank": 17,
-    "adult": 0,
-    "title": "Eternally Yours",
-    "mediatype": "show",
-    "imdb_id": "tt33078239",
-    "release_year": 2026
-  },
-  {
-    "id": 1920,
-    "rank": 18,
-    "adult": 0,
-    "title": "Twin Peaks",
-    "mediatype": "show",
-    "imdb_id": "tt0098936",
-    "release_year": 1990
-  },
-  {
     "id": 1972,
-    "rank": 19,
+    "rank": 13,
     "adult": 0,
     "title": "Battlestar Galactica",
     "mediatype": "show",
@@ -171,12 +117,66 @@
     "release_year": 2004
   },
   {
-    "id": 4614,
+    "id": 313630,
+    "rank": 14,
+    "adult": 0,
+    "title": "Eternally Yours",
+    "mediatype": "show",
+    "imdb_id": "tt33078239",
+    "release_year": 2026
+  },
+  {
+    "id": 226285,
+    "rank": 15,
+    "adult": 0,
+    "title": "Elsbeth",
+    "mediatype": "show",
+    "imdb_id": "tt26591110",
+    "release_year": 2024
+  },
+  {
+    "id": 1920,
+    "rank": 16,
+    "adult": 0,
+    "title": "Twin Peaks",
+    "mediatype": "show",
+    "imdb_id": "tt0098936",
+    "release_year": 1990
+  },
+  {
+    "id": 6357,
+    "rank": 17,
+    "adult": 0,
+    "title": "The Twilight Zone",
+    "mediatype": "show",
+    "imdb_id": "tt0052520",
+    "release_year": 1959
+  },
+  {
+    "id": 157741,
+    "rank": 18,
+    "adult": 0,
+    "title": "Landman",
+    "mediatype": "show",
+    "imdb_id": "tt14186672",
+    "release_year": 2024
+  },
+  {
+    "id": 114655,
+    "rank": 19,
+    "adult": 0,
+    "title": "The Curse",
+    "mediatype": "show",
+    "imdb_id": "tt13623608",
+    "release_year": 2023
+  },
+  {
+    "id": 284833,
     "rank": 20,
     "adult": 0,
-    "title": "NCIS",
+    "title": "Avatar: Seven Havens",
     "mediatype": "show",
-    "imdb_id": "tt0364845",
-    "release_year": 2003
+    "imdb_id": "tt35854736",
+    "release_year": 2026
   }
 ]

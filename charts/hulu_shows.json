@@ -1,25 +1,16 @@
 [
   {
-    "id": 339503,
+    "id": 211288,
     "rank": 1,
     "adult": 0,
-    "title": "The Circle",
+    "title": "Tracker",
     "mediatype": "show",
-    "imdb_id": "tt49910378",
-    "release_year": 2026
-  },
-  {
-    "id": 273247,
-    "rank": 2,
-    "adult": 0,
-    "title": "The Lowdown",
-    "mediatype": "show",
-    "imdb_id": "tt31289994",
-    "release_year": 2025
+    "imdb_id": "tt13875494",
+    "release_year": 2024
   },
   {
     "id": 103540,
-    "rank": 3,
+    "rank": 2,
     "adult": 0,
     "title": "Percy Jackson and the Olympians",
     "mediatype": "show",
@@ -27,13 +18,22 @@
     "release_year": 2023
   },
   {
-    "id": 1416,
+    "id": 273247,
+    "rank": 3,
+    "adult": 0,
+    "title": "The Lowdown",
+    "mediatype": "show",
+    "imdb_id": "tt31289994",
+    "release_year": 2025
+  },
+  {
+    "id": 339503,
     "rank": 4,
     "adult": 0,
-    "title": "Grey's Anatomy",
+    "title": "The Circle",
     "mediatype": "show",
-    "imdb_id": "tt0413573",
-    "release_year": 2005
+    "imdb_id": "tt49910378",
+    "release_year": 2026
   },
   {
     "id": 5920,
@@ -54,26 +54,8 @@
     "release_year": 2021
   },
   {
-    "id": 211288,
-    "rank": 7,
-    "adult": 0,
-    "title": "Tracker",
-    "mediatype": "show",
-    "imdb_id": "tt13875494",
-    "release_year": 2024
-  },
-  {
-    "id": 275139,
-    "rank": 8,
-    "adult": 0,
-    "title": "Phony",
-    "mediatype": "show",
-    "imdb_id": "tt21952924",
-    "release_year": 2026
-  },
-  {
     "id": 46533,
-    "rank": 9,
+    "rank": 7,
     "adult": 0,
     "title": "The Americans",
     "mediatype": "show",
@@ -82,7 +64,7 @@
   },
   {
     "id": 279246,
-    "rank": 10,
+    "rank": 8,
     "adult": 0,
     "title": "The Remarried Empress",
     "mediatype": "show",
@@ -90,17 +72,44 @@
     "release_year": 2026
   },
   {
-    "id": 122066,
+    "id": 214162,
+    "rank": 9,
+    "adult": 0,
+    "title": "Animal Control",
+    "mediatype": "show",
+    "imdb_id": "tt21376524",
+    "release_year": 2023
+  },
+  {
+    "id": 1416,
+    "rank": 10,
+    "adult": 0,
+    "title": "Grey's Anatomy",
+    "mediatype": "show",
+    "imdb_id": "tt0413573",
+    "release_year": 2005
+  },
+  {
+    "id": 456,
     "rank": 11,
     "adult": 0,
-    "title": "The Dropout",
+    "title": "The Simpsons",
     "mediatype": "show",
-    "imdb_id": "tt10166622",
-    "release_year": 2022
+    "imdb_id": "tt0096697",
+    "release_year": 1989
+  },
+  {
+    "id": 275139,
+    "rank": 12,
+    "adult": 0,
+    "title": "Phony",
+    "mediatype": "show",
+    "imdb_id": "tt21952924",
+    "release_year": 2026
   },
   {
     "id": 291084,
-    "rank": 12,
+    "rank": 13,
     "adult": 0,
     "title": "Best Medicine",
     "mediatype": "show",
@@ -108,31 +117,22 @@
     "release_year": 2026
   },
   {
-    "id": 79744,
-    "rank": 13,
-    "adult": 0,
-    "title": "The Rookie",
-    "mediatype": "show",
-    "imdb_id": "tt7587890",
-    "release_year": 2018
-  },
-  {
-    "id": 75219,
+    "id": 122066,
     "rank": 14,
     "adult": 0,
-    "title": "9-1-1",
+    "title": "The Dropout",
     "mediatype": "show",
-    "imdb_id": "tt7235466",
-    "release_year": 2018
+    "imdb_id": "tt10166622",
+    "release_year": 2022
   },
   {
-    "id": 14658,
+    "id": 1413,
     "rank": 15,
     "adult": 0,
-    "title": "Survivor",
+    "title": "American Horror Story",
     "mediatype": "show",
-    "imdb_id": "tt0239195",
-    "release_year": 2000
+    "imdb_id": "tt1844624",
+    "release_year": 2011
   },
   {
     "id": 208921,
@@ -153,8 +153,17 @@
     "release_year": 1993
   },
   {
-    "id": 60622,
+    "id": 75219,
     "rank": 18,
+    "adult": 0,
+    "title": "9-1-1",
+    "mediatype": "show",
+    "imdb_id": "tt7235466",
+    "release_year": 2018
+  },
+  {
+    "id": 60622,
+    "rank": 19,
     "adult": 0,
     "title": "Fargo",
     "mediatype": "show",
@@ -162,21 +171,12 @@
     "release_year": 2014
   },
   {
-    "id": 61662,
-    "rank": 19,
-    "adult": 0,
-    "title": "Schitt's Creek",
-    "mediatype": "show",
-    "imdb_id": "tt3526078",
-    "release_year": 2015
-  },
-  {
-    "id": 1413,
+    "id": 2710,
     "rank": 20,
     "adult": 0,
-    "title": "American Horror Story",
+    "title": "It's Always Sunny in Philadelphia",
     "mediatype": "show",
-    "imdb_id": "tt1844624",
-    "release_year": 2011
+    "imdb_id": "tt0472954",
+    "release_year": 2005
   }
 ]
