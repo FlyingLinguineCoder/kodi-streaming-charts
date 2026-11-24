@@ -1,42 +1,17 @@
 {
-  "generated_at_utc": "2026-11-24T04:22:50.895064+00:00",
+  "generated_at_utc": "2026-11-24T16:29:43.187872+00:00",
   "purpose": "Diagnostic audit only; no verified Kodi widget",
   "source": "Powered by Galaxy Movies - https://www.galaxymovies.app",
   "metadata_source": "MDBList",
   "metadata_configured": true,
   "limitations": "MDBList watch_providers are not proof of past availability; announced dates may change; change-feed history begins when this workflow was installed. No complete historical subscription catalog is available, so no candidate is confirmed as a premiere.",
   "counts": {
-    "potential_premiere_unverified": 20,
+    "potential_premiere_unverified": 21,
     "older_release_unverified": 1,
     "exclude_nonfeature_special": 2,
     "release_date_conflict": 1
   },
   "candidates": [
-    {
-      "tmdb_id": 1802703,
-      "media_type": "movie",
-      "title": "Rob Lowe: The Outsider",
-      "streaming_dates": {
-        "netflix": "2026-11-24"
-      },
-      "earliest_streaming_date": "2026-11-24",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "type": "movie",
-        "title": "Rob Lowe: The Outsider",
-        "year": 2026,
-        "released": "2026-11-24",
-        "released_digital": "2026-11-24",
-        "runtime": 91
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
     {
       "tmdb_id": 1458300,
       "media_type": "movie",
@@ -600,6 +575,56 @@
         "year": 2026,
         "released": "2026-12-11",
         "released_digital": "2026-12-11",
+        "runtime": null
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 1620662,
+      "media_type": "movie",
+      "title": "Campioni",
+      "streaming_dates": {
+        "netflix": "2026-12-15"
+      },
+      "earliest_streaming_date": "2026-12-15",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "The Champs",
+        "year": 2026,
+        "released": "2026-12-15",
+        "released_digital": "2026-12-15",
+        "runtime": null
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 1812061,
+      "media_type": "movie",
+      "title": "True to the Game: Quadir's Redemption",
+      "streaming_dates": {
+        "paramount-plus": "2026-12-15"
+      },
+      "earliest_streaming_date": "2026-12-15",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "True to the Game: Quadir's Redemption",
+        "year": 2026,
+        "released": "2026-12-15",
+        "released_digital": "2026-12-15",
         "runtime": null
       },
       "mdblist_watch_providers": [],
