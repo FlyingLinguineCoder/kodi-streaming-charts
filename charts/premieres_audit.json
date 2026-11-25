@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-25T04:30:02.850019+00:00",
+  "generated_at_utc": "2026-11-25T16:29:31.024922+00:00",
   "purpose": "Diagnostic audit only; no verified Kodi widget",
   "source": "Powered by Galaxy Movies - https://www.galaxymovies.app",
   "metadata_source": "MDBList",
@@ -9,59 +9,10 @@
     "potential_premiere_unverified": 21,
     "older_release_unverified": 1,
     "exclude_nonfeature_special": 2,
-    "release_date_conflict": 1
+    "release_date_conflict": 1,
+    "needs_metadata": 1
   },
   "candidates": [
-    {
-      "tmdb_id": 1458300,
-      "media_type": "movie",
-      "title": "The Mosquito Bowl",
-      "streaming_dates": {
-        "netflix": "2026-11-25"
-      },
-      "earliest_streaming_date": "2026-11-25",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "type": "movie",
-        "title": "The Mosquito Bowl",
-        "year": 2026,
-        "released": "2026-10-29",
-        "released_digital": "2026-11-25",
-        "runtime": 128
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
-    {
-      "tmdb_id": 1632599,
-      "media_type": "movie",
-      "title": "The Slightest Touch",
-      "streaming_dates": {
-        "max": "2026-11-25"
-      },
-      "earliest_streaming_date": "2026-11-25",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "type": "movie",
-        "title": "The Slightest Touch",
-        "year": 2026,
-        "released": "2026-02-28",
-        "released_digital": "2026-11-25",
-        "runtime": 102
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
     {
       "tmdb_id": 1828828,
       "media_type": "movie",
@@ -125,6 +76,31 @@
       "metadata": {
         "type": "movie",
         "title": "The Hunchback, Soul of Paris",
+        "year": 2026,
+        "released": "2026-11-27",
+        "released_digital": "2026-11-27",
+        "runtime": 90
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 1811599,
+      "media_type": "movie",
+      "title": "Tyson Fury",
+      "streaming_dates": {
+        "netflix": "2026-11-27"
+      },
+      "earliest_streaming_date": "2026-11-27",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "Tyson Fury",
         "year": 2026,
         "released": "2026-11-27",
         "released_digital": "2026-11-27",
@@ -632,6 +608,48 @@
       "status": "potential_premiere_unverified",
       "reasons": [
         "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 1559982,
+      "media_type": "movie",
+      "title": "Give Me Some Sugah",
+      "streaming_dates": {
+        "netflix": "2026-12-16"
+      },
+      "earliest_streaming_date": "2026-12-16",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "Give Me Some Sugah",
+        "year": 2026,
+        "released": "2026-12-16",
+        "released_digital": "2026-12-16",
+        "runtime": null
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 1677568,
+      "media_type": "movie",
+      "title": "The Cage",
+      "streaming_dates": {
+        "netflix": "2026-12-16"
+      },
+      "earliest_streaming_date": "2026-12-16",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "needs_metadata",
+      "reasons": [
+        "MDBList metadata unavailable"
       ]
     }
   ]
