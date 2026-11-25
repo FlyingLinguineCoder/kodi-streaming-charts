@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-11-24T16:29:17.801589+00:00",
+  "generated_at_utc": "2026-11-25T04:29:46.662958+00:00",
   "purpose": "Diagnostic only; no Kodi widget generated",
   "window": {
-    "start": "2026-11-24",
-    "end": "2027-02-22"
+    "start": "2026-11-25",
+    "end": "2027-02-23"
   },
   "limitations": "Calendar labels nominate candidates, not confirmed premieres. Release years do not prove first-ever subscription availability. An untyped premiere, season bundle, or season arrival without a premiere label requires review. Month-only listings are omitted. Movie review records identify films to check for a first U.S. subscription release. Audit-only dates lack a matching calendar entry.",
   "sources": [
@@ -11,7 +11,7 @@
       "url": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026",
       "status": "parsed",
       "text_blocks": 291,
-      "upcoming_dated_entries": 41,
+      "upcoming_dated_entries": 30,
       "movie_candidates": 1,
       "series_premiere_candidates": 0,
       "new_season_candidates": 0
@@ -37,134 +37,6 @@
     }
   ],
   "results": [
-    {
-      "date": "2026-11-24",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Best Friends – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-24",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Clues – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-24",
-      "services": [
-        "disney-plus"
-      ],
-      "title": "Dancing with the Stars (Season 35) – Streaming Live @ 8pm ET",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-24",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Hey Jonas! – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-24",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Perfect Person – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-24",
-      "services": [
-        "hulu"
-      ],
-      "title": "Phony (Season 1) (Hulu Original) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-24",
-      "services": [
-        "hulu"
-      ],
-      "title": "Reasonable Doubt (Season 4) (Hulu Original) – Finale Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-24",
-      "services": [
-        "disney-plus"
-      ],
-      "title": "Stick to United with Wayne Rooney (Season 1) – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-24",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "StraightioLab – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-24",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Thanks Dad with Ego Nwodim – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-24",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "We’re Here to Help – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
     {
       "date": "2026-11-25",
       "services": [
@@ -2817,7 +2689,7 @@
   ],
   "movie_review": {
     "audit_status": "available",
-    "audit_generated_at_utc": "2026-11-24T04:22:50.895064+00:00",
+    "audit_generated_at_utc": "2026-11-24T16:29:43.187872+00:00",
     "candidates": [
       {
         "title": "Diary of a Wimpy Kid Christmas: The Getaway",
