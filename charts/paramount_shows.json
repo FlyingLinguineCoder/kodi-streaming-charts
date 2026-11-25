@@ -27,17 +27,8 @@
     "release_year": 2024
   },
   {
-    "id": 303630,
-    "rank": 4,
-    "adult": 0,
-    "title": "Cupertino",
-    "mediatype": "show",
-    "imdb_id": "tt33270224",
-    "release_year": 2026
-  },
-  {
     "id": 259909,
-    "rank": 5,
+    "rank": 4,
     "adult": 0,
     "title": "Dexter: Resurrection",
     "mediatype": "show",
@@ -45,17 +36,8 @@
     "release_year": 2025
   },
   {
-    "id": 290856,
-    "rank": 6,
-    "adult": 0,
-    "title": "Marshals",
-    "mediatype": "show",
-    "imdb_id": "tt36849871",
-    "release_year": 2026
-  },
-  {
     "id": 153312,
-    "rank": 7,
+    "rank": 5,
     "adult": 0,
     "title": "Tulsa King",
     "mediatype": "show",
@@ -63,8 +45,17 @@
     "release_year": 2022
   },
   {
+    "id": 303630,
+    "rank": 6,
+    "adult": 0,
+    "title": "Cupertino",
+    "mediatype": "show",
+    "imdb_id": "tt33270224",
+    "release_year": 2026
+  },
+  {
     "id": 2190,
-    "rank": 8,
+    "rank": 7,
     "adult": 0,
     "title": "South Park",
     "mediatype": "show",
@@ -72,8 +63,26 @@
     "release_year": 1997
   },
   {
-    "id": 1405,
+    "id": 290856,
+    "rank": 8,
+    "adult": 0,
+    "title": "Marshals",
+    "mediatype": "show",
+    "imdb_id": "tt36849871",
+    "release_year": 2026
+  },
+  {
+    "id": 113962,
     "rank": 9,
+    "adult": 0,
+    "title": "Lioness",
+    "mediatype": "show",
+    "imdb_id": "tt13111078",
+    "release_year": 2023
+  },
+  {
+    "id": 1405,
+    "rank": 10,
     "adult": 0,
     "title": "Dexter",
     "mediatype": "show",
@@ -82,21 +91,12 @@
   },
   {
     "id": 126027,
-    "rank": 10,
+    "rank": 11,
     "adult": 0,
     "title": "Ghosts",
     "mediatype": "show",
     "imdb_id": "tt11379026",
     "release_year": 2021
-  },
-  {
-    "id": 58957,
-    "rank": 11,
-    "adult": 0,
-    "title": "Nathan for You",
-    "mediatype": "show",
-    "imdb_id": "tt2297757",
-    "release_year": 2013
   },
   {
     "id": 243875,
@@ -108,35 +108,17 @@
     "release_year": 2024
   },
   {
-    "id": 113962,
+    "id": 58957,
     "rank": 13,
     "adult": 0,
-    "title": "Lioness",
+    "title": "Nathan for You",
     "mediatype": "show",
-    "imdb_id": "tt13111078",
-    "release_year": 2023
-  },
-  {
-    "id": 157741,
-    "rank": 14,
-    "adult": 0,
-    "title": "Landman",
-    "mediatype": "show",
-    "imdb_id": "tt14186672",
-    "release_year": 2024
-  },
-  {
-    "id": 226285,
-    "rank": 15,
-    "adult": 0,
-    "title": "Elsbeth",
-    "mediatype": "show",
-    "imdb_id": "tt26591110",
-    "release_year": 2024
+    "imdb_id": "tt2297757",
+    "release_year": 2013
   },
   {
     "id": 80748,
-    "rank": 16,
+    "rank": 14,
     "adult": 0,
     "title": "FBI",
     "mediatype": "show",
@@ -144,13 +126,31 @@
     "release_year": 2018
   },
   {
-    "id": 69158,
+    "id": 62852,
+    "rank": 15,
+    "adult": 0,
+    "title": "Billions",
+    "mediatype": "show",
+    "imdb_id": "tt4270492",
+    "release_year": 2016
+  },
+  {
+    "id": 157741,
+    "rank": 16,
+    "adult": 0,
+    "title": "Landman",
+    "mediatype": "show",
+    "imdb_id": "tt14186672",
+    "release_year": 2024
+  },
+  {
+    "id": 6357,
     "rank": 17,
     "adult": 0,
-    "title": "The Good Fight",
+    "title": "The Twilight Zone",
     "mediatype": "show",
-    "imdb_id": "tt5853176",
-    "release_year": 2017
+    "imdb_id": "tt0052520",
+    "release_year": 1959
   },
   {
     "id": 4614,
@@ -162,21 +162,21 @@
     "release_year": 2003
   },
   {
-    "id": 655,
+    "id": 1920,
     "rank": 19,
     "adult": 0,
-    "title": "Star Trek: The Next Generation",
+    "title": "Twin Peaks",
     "mediatype": "show",
-    "imdb_id": "tt0092455",
-    "release_year": 1987
+    "imdb_id": "tt0098936",
+    "release_year": 1990
   },
   {
-    "id": 313630,
+    "id": 69158,
     "rank": 20,
     "adult": 0,
-    "title": "Eternally Yours",
+    "title": "The Good Fight",
     "mediatype": "show",
-    "imdb_id": "tt33078239",
-    "release_year": 2026
+    "imdb_id": "tt5853176",
+    "release_year": 2017
   }
 ]

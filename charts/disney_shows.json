@@ -18,13 +18,13 @@
     "release_year": 1989
   },
   {
-    "id": 75219,
+    "id": 1508,
     "rank": 3,
     "adult": 0,
-    "title": "9-1-1",
+    "title": "Dancing with the Stars",
     "mediatype": "show",
-    "imdb_id": "tt7235466",
-    "release_year": 2018
+    "imdb_id": "tt0463398",
+    "release_year": 2005
   },
   {
     "id": 1416,
@@ -36,22 +36,22 @@
     "release_year": 2005
   },
   {
-    "id": 84958,
+    "id": 75219,
     "rank": 5,
     "adult": 0,
-    "title": "Loki",
+    "title": "9-1-1",
     "mediatype": "show",
-    "imdb_id": "tt9140554",
-    "release_year": 2021
+    "imdb_id": "tt7235466",
+    "release_year": 2018
   },
   {
-    "id": 107113,
+    "id": 1100,
     "rank": 6,
     "adult": 0,
-    "title": "Only Murders in the Building",
+    "title": "How I Met Your Mother",
     "mediatype": "show",
-    "imdb_id": "tt11691774",
-    "release_year": 2021
+    "imdb_id": "tt0460649",
+    "release_year": 2005
   },
   {
     "id": 136315,
@@ -63,44 +63,26 @@
     "release_year": 2022
   },
   {
-    "id": 153577,
+    "id": 107113,
     "rank": 8,
     "adult": 0,
-    "title": "Selenkay",
+    "title": "Only Murders in the Building",
     "mediatype": "show",
-    "imdb_id": "tt15675338",
-    "release_year": 2024
+    "imdb_id": "tt11691774",
+    "release_year": 2021
   },
   {
-    "id": 60572,
+    "id": 84958,
     "rank": 9,
     "adult": 0,
-    "title": "Pokémon",
+    "title": "Loki",
     "mediatype": "show",
-    "imdb_id": "tt0168366",
-    "release_year": 1997
-  },
-  {
-    "id": 1100,
-    "rank": 10,
-    "adult": 0,
-    "title": "How I Met Your Mother",
-    "mediatype": "show",
-    "imdb_id": "tt0460649",
-    "release_year": 2005
-  },
-  {
-    "id": 157212,
-    "rank": 11,
-    "adult": 0,
-    "title": "Rennervations",
-    "mediatype": "show",
-    "imdb_id": "tt18069838",
-    "release_year": 2023
+    "imdb_id": "tt9140554",
+    "release_year": 2021
   },
   {
     "id": 61617,
-    "rank": 12,
+    "rank": 10,
     "adult": 0,
     "title": "Over the Garden Wall",
     "mediatype": "show",
@@ -108,62 +90,17 @@
     "release_year": 2014
   },
   {
-    "id": 1508,
-    "rank": 13,
+    "id": 60572,
+    "rank": 11,
     "adult": 0,
-    "title": "Dancing with the Stars",
+    "title": "Pokémon",
     "mediatype": "show",
-    "imdb_id": "tt0463398",
-    "release_year": 2005
-  },
-  {
-    "id": 1685,
-    "rank": 14,
-    "adult": 0,
-    "title": "Project Runway",
-    "mediatype": "show",
-    "imdb_id": "tt0437741",
-    "release_year": 2004
-  },
-  {
-    "id": 202555,
-    "rank": 15,
-    "adult": 0,
-    "title": "Daredevil: Born Again",
-    "mediatype": "show",
-    "imdb_id": "tt18923754",
-    "release_year": 2025
-  },
-  {
-    "id": 138501,
-    "rank": 16,
-    "adult": 0,
-    "title": "Agatha All Along",
-    "mediatype": "show",
-    "imdb_id": "tt15571732",
-    "release_year": 2024
-  },
-  {
-    "id": 68654,
-    "rank": 17,
-    "adult": 0,
-    "title": "MECH-X4",
-    "mediatype": "show",
-    "imdb_id": "tt5568740",
-    "release_year": 2016
-  },
-  {
-    "id": 82728,
-    "rank": 18,
-    "adult": 0,
-    "title": "Bluey",
-    "mediatype": "show",
-    "imdb_id": "tt7678620",
-    "release_year": 2018
+    "imdb_id": "tt0168366",
+    "release_year": 1997
   },
   {
     "id": 208569,
-    "rank": 19,
+    "rank": 12,
     "adult": 0,
     "title": "Will Trent",
     "mediatype": "show",
@@ -171,12 +108,75 @@
     "release_year": 2023
   },
   {
+    "id": 202555,
+    "rank": 13,
+    "adult": 0,
+    "title": "Daredevil: Born Again",
+    "mediatype": "show",
+    "imdb_id": "tt18923754",
+    "release_year": 2025
+  },
+  {
     "id": 65334,
-    "rank": 20,
+    "rank": 14,
     "adult": 0,
     "title": "Miraculous: Tales of Ladybug & Cat Noir",
     "mediatype": "show",
     "imdb_id": "tt2580046",
     "release_year": 2015
+  },
+  {
+    "id": 138502,
+    "rank": 15,
+    "adult": 0,
+    "title": "X-Men '97",
+    "mediatype": "show",
+    "imdb_id": "tt16026746",
+    "release_year": 2024
+  },
+  {
+    "id": 4556,
+    "rank": 16,
+    "adult": 0,
+    "title": "Scrubs",
+    "mediatype": "show",
+    "imdb_id": "tt0285403",
+    "release_year": 2001
+  },
+  {
+    "id": 88396,
+    "rank": 17,
+    "adult": 0,
+    "title": "The Falcon and the Winter Soldier",
+    "mediatype": "show",
+    "imdb_id": "tt9208876",
+    "release_year": 2021
+  },
+  {
+    "id": 1417,
+    "rank": 18,
+    "adult": 0,
+    "title": "Glee",
+    "mediatype": "show",
+    "imdb_id": "tt1327801",
+    "release_year": 2009
+  },
+  {
+    "id": 114461,
+    "rank": 19,
+    "adult": 0,
+    "title": "Ahsoka",
+    "mediatype": "show",
+    "imdb_id": "tt13622776",
+    "release_year": 2023
+  },
+  {
+    "id": 157212,
+    "rank": 20,
+    "adult": 0,
+    "title": "Rennervations",
+    "mediatype": "show",
+    "imdb_id": "tt18069838",
+    "release_year": 2023
   }
 ]
