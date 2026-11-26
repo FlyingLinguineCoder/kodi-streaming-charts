@@ -27,8 +27,17 @@
     "release_year": 2026
   },
   {
-    "id": 125935,
+    "id": 1668,
     "rank": 4,
+    "adult": 0,
+    "title": "Friends",
+    "mediatype": "show",
+    "imdb_id": "tt0108778",
+    "release_year": 1994
+  },
+  {
+    "id": 125935,
+    "rank": 5,
     "adult": 0,
     "title": "Abbott Elementary",
     "mediatype": "show",
@@ -37,7 +46,7 @@
   },
   {
     "id": 250307,
-    "rank": 5,
+    "rank": 6,
     "adult": 0,
     "title": "The Pitt",
     "mediatype": "show",
@@ -45,44 +54,8 @@
     "release_year": 2025
   },
   {
-    "id": 1668,
-    "rank": 6,
-    "adult": 0,
-    "title": "Friends",
-    "mediatype": "show",
-    "imdb_id": "tt0108778",
-    "release_year": 1994
-  },
-  {
-    "id": 341164,
-    "rank": 7,
-    "adult": 0,
-    "title": "Oobah: Scams for a Better Tomorrow",
-    "mediatype": "show",
-    "imdb_id": "tt50688819",
-    "release_year": 2026
-  },
-  {
-    "id": 243875,
-    "rank": 8,
-    "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
-    "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
-  },
-  {
-    "id": 285418,
-    "rank": 9,
-    "adult": 0,
-    "title": "Youth",
-    "mediatype": "show",
-    "imdb_id": "tt35949226",
-    "release_year": 2026
-  },
-  {
     "id": 688,
-    "rank": 10,
+    "rank": 7,
     "adult": 0,
     "title": "The West Wing",
     "mediatype": "show",
@@ -90,16 +63,8 @@
     "release_year": 1999
   },
   {
-    "id": 342122,
-    "rank": 11,
-    "adult": 0,
-    "title": "Lanterns",
-    "mediatype": "show",
-    "imdb_id": "tt2654599"
-  },
-  {
     "id": 58957,
-    "rank": 12,
+    "rank": 8,
     "adult": 0,
     "title": "Nathan for You",
     "mediatype": "show",
@@ -107,17 +72,17 @@
     "release_year": 2013
   },
   {
-    "id": 218344,
-    "rank": 13,
+    "id": 243875,
+    "rank": 9,
     "adult": 0,
-    "title": "Blue Lights",
+    "title": "Georgie & Mandy's First Marriage",
     "mediatype": "show",
-    "imdb_id": "tt14466018",
-    "release_year": 2023
+    "imdb_id": "tt31589662",
+    "release_year": 2024
   },
   {
     "id": 335032,
-    "rank": 14,
+    "rank": 10,
     "adult": 0,
     "title": "Secret Life of a Vegas Casino",
     "mediatype": "show",
@@ -125,17 +90,8 @@
     "release_year": 2026
   },
   {
-    "id": 1418,
-    "rank": 15,
-    "adult": 0,
-    "title": "The Big Bang Theory",
-    "mediatype": "show",
-    "imdb_id": "tt0898266",
-    "release_year": 2007
-  },
-  {
     "id": 1104,
-    "rank": 16,
+    "rank": 11,
     "adult": 0,
     "title": "Mad Men",
     "mediatype": "show",
@@ -143,17 +99,26 @@
     "release_year": 2007
   },
   {
-    "id": 204284,
-    "rank": 17,
+    "id": 131927,
+    "rank": 12,
     "adult": 0,
-    "title": "The Rehearsal",
+    "title": "Dexter: New Blood",
     "mediatype": "show",
-    "imdb_id": "tt10802170",
-    "release_year": 2022
+    "imdb_id": "tt14164730",
+    "release_year": 2021
+  },
+  {
+    "id": 341164,
+    "rank": 13,
+    "adult": 0,
+    "title": "OOBAH: Scams for a Better Tomorrow",
+    "mediatype": "show",
+    "imdb_id": "tt50688819",
+    "release_year": 2026
   },
   {
     "id": 61662,
-    "rank": 18,
+    "rank": 14,
     "adult": 0,
     "title": "Schitt's Creek",
     "mediatype": "show",
@@ -161,21 +126,56 @@
     "release_year": 2015
   },
   {
-    "id": 206828,
+    "id": 218344,
+    "rank": 15,
+    "adult": 0,
+    "title": "Blue Lights",
+    "mediatype": "show",
+    "imdb_id": "tt14466018",
+    "release_year": 2023
+  },
+  {
+    "id": 1418,
+    "rank": 16,
+    "adult": 0,
+    "title": "The Big Bang Theory",
+    "mediatype": "show",
+    "imdb_id": "tt0898266",
+    "release_year": 2007
+  },
+  {
+    "id": 342122,
+    "rank": 17,
+    "adult": 0,
+    "title": "Lanterns",
+    "mediatype": "show",
+    "imdb_id": "tt2654599"
+  },
+  {
+    "id": 204284,
+    "rank": 18,
+    "adult": 0,
+    "title": "The Rehearsal",
+    "mediatype": "show",
+    "imdb_id": "tt10802170",
+    "release_year": 2022
+  },
+  {
+    "id": 285418,
     "rank": 19,
     "adult": 0,
-    "title": "DTF St. Louis",
+    "title": "Youth",
     "mediatype": "show",
-    "imdb_id": "tt34385331",
+    "imdb_id": "tt35949226",
     "release_year": 2026
   },
   {
-    "id": 1399,
+    "id": 224372,
     "rank": 20,
     "adult": 0,
-    "title": "Game of Thrones",
+    "title": "A Knight of the Seven Kingdoms",
     "mediatype": "show",
-    "imdb_id": "tt0944947",
-    "release_year": 2011
+    "imdb_id": "tt27497448",
+    "release_year": 2026
   }
 ]

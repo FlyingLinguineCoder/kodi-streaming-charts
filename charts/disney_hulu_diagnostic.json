@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-11-25T16:29:14.667187+00:00",
+  "generated_at_utc": "2026-11-26T04:25:58.374689+00:00",
   "purpose": "Diagnostic only; no Kodi widget generated",
   "window": {
-    "start": "2026-11-25",
-    "end": "2027-02-23"
+    "start": "2026-11-26",
+    "end": "2027-02-24"
   },
   "limitations": "Calendar labels nominate candidates, not confirmed premieres. Release years do not prove first-ever subscription availability. An untyped premiere, season bundle, or season arrival without a premiere label requires review. Month-only listings are omitted. Movie review records identify films to check for a first U.S. subscription release. Audit-only dates lack a matching calendar entry.",
   "sources": [
@@ -11,7 +11,7 @@
       "url": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026",
       "status": "parsed",
       "text_blocks": 291,
-      "upcoming_dated_entries": 30,
+      "upcoming_dated_entries": 20,
       "movie_candidates": 1,
       "series_premiere_candidates": 0,
       "new_season_candidates": 0
@@ -37,121 +37,6 @@
     }
   ],
   "results": [
-    {
-      "date": "2026-11-25",
-      "services": [
-        "hulu"
-      ],
-      "title": "All’s Fair (Season 2) (Hulu Original) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-25",
-      "services": [
-        "hulu"
-      ],
-      "title": "All’s Fair Podcast (Season 2) – New Episodes",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-25",
-      "services": [
-        "disney-plus"
-      ],
-      "title": "Big City Greens (Season 5) – New Episodes",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-25",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Dancing with the Stars (Season 35) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-25",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Las Culturistas with Matt Rogers and Bowen Yang – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-25",
-      "services": [
-        "hulu"
-      ],
-      "title": "FX’s The Lowdown (Season 2) – Finale Episode @ 9pm PT",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-25",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Merry Berry Love (Season 1) (Hulu Original) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-25",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "The Remarried Empress (Season 1) (Hulu Original) – Finale Episodes",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-25",
-      "services": [
-        "hulu"
-      ],
-      "title": "Rivals (Season 2, Part 2) (Hulu Original) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-25",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Style Wars (Season 1) (Hulu Original) – New Episodes",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
     {
       "date": "2026-11-26",
       "services": [
@@ -2689,7 +2574,7 @@
   ],
   "movie_review": {
     "audit_status": "available",
-    "audit_generated_at_utc": "2026-11-25T04:30:02.850019+00:00",
+    "audit_generated_at_utc": "2026-11-25T16:29:31.024922+00:00",
     "candidates": [
       {
         "title": "Diary of a Wimpy Kid Christmas: The Getaway",
