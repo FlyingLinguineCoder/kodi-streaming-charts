@@ -18,13 +18,13 @@
     "release_year": 2025
   },
   {
-    "id": 259909,
+    "id": 2190,
     "rank": 3,
     "adult": 0,
-    "title": "Dexter: Resurrection",
+    "title": "South Park",
     "mediatype": "show",
-    "imdb_id": "tt33043892",
-    "release_year": 2025
+    "imdb_id": "tt0121955",
+    "release_year": 1997
   },
   {
     "id": 303630,
@@ -36,22 +36,22 @@
     "release_year": 2026
   },
   {
-    "id": 211288,
+    "id": 259909,
     "rank": 5,
+    "adult": 0,
+    "title": "Dexter: Resurrection",
+    "mediatype": "show",
+    "imdb_id": "tt33043892",
+    "release_year": 2025
+  },
+  {
+    "id": 211288,
+    "rank": 6,
     "adult": 0,
     "title": "Tracker",
     "mediatype": "show",
     "imdb_id": "tt13875494",
     "release_year": 2024
-  },
-  {
-    "id": 153312,
-    "rank": 6,
-    "adult": 0,
-    "title": "Tulsa King",
-    "mediatype": "show",
-    "imdb_id": "tt16358384",
-    "release_year": 2022
   },
   {
     "id": 290856,
@@ -63,26 +63,8 @@
     "release_year": 2026
   },
   {
-    "id": 2190,
-    "rank": 8,
-    "adult": 0,
-    "title": "South Park",
-    "mediatype": "show",
-    "imdb_id": "tt0121955",
-    "release_year": 1997
-  },
-  {
-    "id": 113962,
-    "rank": 9,
-    "adult": 0,
-    "title": "Lioness",
-    "mediatype": "show",
-    "imdb_id": "tt13111078",
-    "release_year": 2023
-  },
-  {
     "id": 58957,
-    "rank": 10,
+    "rank": 8,
     "adult": 0,
     "title": "Nathan for You",
     "mediatype": "show",
@@ -90,17 +72,44 @@
     "release_year": 2013
   },
   {
-    "id": 243875,
+    "id": 153312,
+    "rank": 9,
+    "adult": 0,
+    "title": "Tulsa King",
+    "mediatype": "show",
+    "imdb_id": "tt16358384",
+    "release_year": 2022
+  },
+  {
+    "id": 131927,
+    "rank": 10,
+    "adult": 0,
+    "title": "Dexter: New Blood",
+    "mediatype": "show",
+    "imdb_id": "tt14164730",
+    "release_year": 2021
+  },
+  {
+    "id": 14658,
     "rank": 11,
     "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
+    "title": "Survivor",
     "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
+    "imdb_id": "tt0239195",
+    "release_year": 2000
+  },
+  {
+    "id": 113962,
+    "rank": 12,
+    "adult": 0,
+    "title": "Lioness",
+    "mediatype": "show",
+    "imdb_id": "tt13111078",
+    "release_year": 2023
   },
   {
     "id": 126027,
-    "rank": 12,
+    "rank": 13,
     "adult": 0,
     "title": "Ghosts",
     "mediatype": "show",
@@ -108,22 +117,13 @@
     "release_year": 2021
   },
   {
-    "id": 1405,
-    "rank": 13,
-    "adult": 0,
-    "title": "Dexter",
-    "mediatype": "show",
-    "imdb_id": "tt0773262",
-    "release_year": 2006
-  },
-  {
-    "id": 131927,
+    "id": 243875,
     "rank": 14,
     "adult": 0,
-    "title": "Dexter: New Blood",
+    "title": "Georgie & Mandy's First Marriage",
     "mediatype": "show",
-    "imdb_id": "tt14164730",
-    "release_year": 2021
+    "imdb_id": "tt31589662",
+    "release_year": 2024
   },
   {
     "id": 6357,
@@ -135,31 +135,31 @@
     "release_year": 1959
   },
   {
-    "id": 62852,
+    "id": 655,
     "rank": 16,
     "adult": 0,
-    "title": "Billions",
+    "title": "Star Trek: The Next Generation",
     "mediatype": "show",
-    "imdb_id": "tt4270492",
-    "release_year": 2016
+    "imdb_id": "tt0092455",
+    "release_year": 1987
   },
   {
-    "id": 1972,
+    "id": 1405,
     "rank": 17,
     "adult": 0,
-    "title": "Battlestar Galactica",
+    "title": "Dexter",
     "mediatype": "show",
-    "imdb_id": "tt0407362",
-    "release_year": 2004
+    "imdb_id": "tt0773262",
+    "release_year": 2006
   },
   {
-    "id": 157741,
+    "id": 114655,
     "rank": 18,
     "adult": 0,
-    "title": "Landman",
+    "title": "The Curse",
     "mediatype": "show",
-    "imdb_id": "tt14186672",
-    "release_year": 2024
+    "imdb_id": "tt13623608",
+    "release_year": 2023
   },
   {
     "id": 141,
@@ -171,12 +171,12 @@
     "release_year": 1982
   },
   {
-    "id": 14658,
+    "id": 1972,
     "rank": 20,
     "adult": 0,
-    "title": "Survivor",
+    "title": "Battlestar Galactica",
     "mediatype": "show",
-    "imdb_id": "tt0239195",
-    "release_year": 2000
+    "imdb_id": "tt0407362",
+    "release_year": 2004
   }
 ]
