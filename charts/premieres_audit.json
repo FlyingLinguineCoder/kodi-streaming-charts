@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-11-26T04:26:12.785671+00:00",
+  "generated_at_utc": "2026-11-26T16:25:29.282411+00:00",
   "purpose": "Diagnostic audit only; no verified Kodi widget",
   "source": "Powered by Galaxy Movies - https://www.galaxymovies.app",
   "metadata_source": "MDBList",
   "metadata_configured": true,
   "limitations": "MDBList watch_providers are not proof of past availability; announced dates may change; change-feed history begins when this workflow was installed. No complete historical subscription catalog is available, so no candidate is confirmed as a premiere.",
   "counts": {
-    "potential_premiere_unverified": 21,
+    "potential_premiere_unverified": 22,
     "older_release_unverified": 1,
     "exclude_nonfeature_special": 2,
     "release_date_conflict": 1,
@@ -203,6 +203,31 @@
         "released": "2026-09-25",
         "released_digital": "2026-12-02",
         "runtime": 159
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
+      "tmdb_id": 1841173,
+      "media_type": "movie",
+      "title": "Marcos: Another World Is Possible",
+      "streaming_dates": {
+        "netflix": "2026-12-02"
+      },
+      "earliest_streaming_date": "2026-12-02",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "Marcos: Another World Is Possible",
+        "year": 2026,
+        "released": "2026-10-18",
+        "released_digital": "2026-12-02",
+        "runtime": null
       },
       "mdblist_watch_providers": [],
       "other_watch_providers": [],
