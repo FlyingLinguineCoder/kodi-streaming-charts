@@ -9,22 +9,22 @@
     "release_year": 2021
   },
   {
-    "id": 81723,
-    "rank": 2,
-    "adult": 0,
-    "title": "The Gilded Age",
-    "mediatype": "show",
-    "imdb_id": "tt4406178",
-    "release_year": 2022
-  },
-  {
     "id": 1668,
-    "rank": 3,
+    "rank": 2,
     "adult": 0,
     "title": "Friends",
     "mediatype": "show",
     "imdb_id": "tt0108778",
     "release_year": 1994
+  },
+  {
+    "id": 81723,
+    "rank": 3,
+    "adult": 0,
+    "title": "The Gilded Age",
+    "mediatype": "show",
+    "imdb_id": "tt4406178",
+    "release_year": 2022
   },
   {
     "id": 298852,
@@ -54,13 +54,13 @@
     "release_year": 2013
   },
   {
-    "id": 125935,
+    "id": 61662,
     "rank": 7,
     "adult": 0,
-    "title": "Abbott Elementary",
+    "title": "Schitt's Creek",
     "mediatype": "show",
-    "imdb_id": "tt14218830",
-    "release_year": 2021
+    "imdb_id": "tt3526078",
+    "release_year": 2015
   },
   {
     "id": 688,
@@ -72,17 +72,8 @@
     "release_year": 1999
   },
   {
-    "id": 131927,
-    "rank": 9,
-    "adult": 0,
-    "title": "Dexter: New Blood",
-    "mediatype": "show",
-    "imdb_id": "tt14164730",
-    "release_year": 2021
-  },
-  {
     "id": 1104,
-    "rank": 10,
+    "rank": 9,
     "adult": 0,
     "title": "Mad Men",
     "mediatype": "show",
@@ -90,17 +81,8 @@
     "release_year": 2007
   },
   {
-    "id": 243875,
-    "rank": 11,
-    "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
-    "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
-  },
-  {
     "id": 218344,
-    "rank": 12,
+    "rank": 11,
     "adult": 0,
     "title": "Blue Lights",
     "mediatype": "show",
@@ -108,43 +90,8 @@
     "release_year": 2023
   },
   {
-    "id": 335032,
-    "rank": 13,
-    "adult": 0,
-    "title": "Secret Life of a Vegas Casino",
-    "mediatype": "show",
-    "imdb_id": "tt45602692",
-    "release_year": 2026
-  },
-  {
-    "id": 342122,
-    "rank": 14,
-    "adult": 0,
-    "title": "Lanterns",
-    "mediatype": "show",
-    "imdb_id": "tt2654599"
-  },
-  {
-    "id": 1418,
-    "rank": 15,
-    "adult": 0,
-    "title": "The Big Bang Theory",
-    "mediatype": "show",
-    "imdb_id": "tt0898266",
-    "release_year": 2007
-  },
-  {
-    "id": 61662,
-    "rank": 16,
-    "adult": 0,
-    "title": "Schitt's Creek",
-    "mediatype": "show",
-    "imdb_id": "tt3526078",
-    "release_year": 2015
-  },
-  {
     "id": 204284,
-    "rank": 17,
+    "rank": 12,
     "adult": 0,
     "title": "The Rehearsal",
     "mediatype": "show",
@@ -152,30 +99,74 @@
     "release_year": 2022
   },
   {
-    "id": 94997,
+    "id": 131927,
+    "rank": 13,
+    "adult": 0,
+    "title": "Dexter: New Blood",
+    "mediatype": "show",
+    "imdb_id": "tt14164730",
+    "release_year": 2021
+  },
+  {
+    "id": 125935,
+    "rank": 14,
+    "adult": 0,
+    "title": "Abbott Elementary",
+    "mediatype": "show",
+    "imdb_id": "tt14218830",
+    "release_year": 2021
+  },
+  {
+    "id": 243875,
+    "rank": 15,
+    "adult": 0,
+    "title": "Georgie & Mandy's First Marriage",
+    "mediatype": "show",
+    "imdb_id": "tt31589662",
+    "release_year": 2024
+  },
+  {
+    "id": 342122,
+    "rank": 16,
+    "adult": 0,
+    "title": "Lanterns",
+    "mediatype": "show",
+    "imdb_id": "tt2654599"
+  },
+  {
+    "id": 1418,
+    "rank": 17,
+    "adult": 0,
+    "title": "The Big Bang Theory",
+    "mediatype": "show",
+    "imdb_id": "tt0898266",
+    "release_year": 2007
+  },
+  {
+    "id": 21950,
     "rank": 18,
     "adult": 0,
-    "title": "House of the Dragon",
+    "title": "Paradise Lost",
     "mediatype": "show",
-    "imdb_id": "tt11198330",
-    "release_year": 2022
+    "imdb_id": "tt1201129",
+    "release_year": 2008
+  },
+  {
+    "id": 80748,
+    "rank": 19,
+    "adult": 0,
+    "title": "FBI",
+    "mediatype": "show",
+    "imdb_id": "tt7491982",
+    "release_year": 2018
   },
   {
     "id": 87104,
-    "rank": 19,
+    "rank": 20,
     "adult": 0,
     "title": "Years and Years",
     "mediatype": "show",
     "imdb_id": "tt8694364",
     "release_year": 2019
-  },
-  {
-    "id": 1438,
-    "rank": 20,
-    "adult": 0,
-    "title": "The Wire",
-    "mediatype": "show",
-    "imdb_id": "tt0306414",
-    "release_year": 2002
   }
 ]

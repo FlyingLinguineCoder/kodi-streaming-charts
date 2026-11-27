@@ -1,7 +1,16 @@
 [
   {
-    "id": 279246,
+    "id": 273247,
     "rank": 1,
+    "adult": 0,
+    "title": "The Lowdown",
+    "mediatype": "show",
+    "imdb_id": "tt31289994",
+    "release_year": 2025
+  },
+  {
+    "id": 279246,
+    "rank": 2,
     "adult": 0,
     "title": "The Remarried Empress",
     "mediatype": "show",
@@ -10,7 +19,7 @@
   },
   {
     "id": 275139,
-    "rank": 2,
+    "rank": 3,
     "adult": 0,
     "title": "Phony",
     "mediatype": "show",
@@ -18,35 +27,8 @@
     "release_year": 2026
   },
   {
-    "id": 273247,
-    "rank": 3,
-    "adult": 0,
-    "title": "The Lowdown",
-    "mediatype": "show",
-    "imdb_id": "tt31289994",
-    "release_year": 2025
-  },
-  {
-    "id": 103540,
-    "rank": 4,
-    "adult": 0,
-    "title": "Percy Jackson and the Olympians",
-    "mediatype": "show",
-    "imdb_id": "tt12324366",
-    "release_year": 2023
-  },
-  {
-    "id": 211288,
-    "rank": 5,
-    "adult": 0,
-    "title": "Tracker",
-    "mediatype": "show",
-    "imdb_id": "tt13875494",
-    "release_year": 2024
-  },
-  {
     "id": 815,
-    "rank": 6,
+    "rank": 4,
     "adult": 0,
     "title": "Peep Show",
     "mediatype": "show",
@@ -54,13 +36,31 @@
     "release_year": 2003
   },
   {
-    "id": 1508,
+    "id": 103540,
+    "rank": 5,
+    "adult": 0,
+    "title": "Percy Jackson and the Olympians",
+    "mediatype": "show",
+    "imdb_id": "tt12324366",
+    "release_year": 2023
+  },
+  {
+    "id": 14658,
+    "rank": 6,
+    "adult": 0,
+    "title": "Survivor",
+    "mediatype": "show",
+    "imdb_id": "tt0239195",
+    "release_year": 2000
+  },
+  {
+    "id": 211288,
     "rank": 7,
     "adult": 0,
-    "title": "Dancing with the Stars",
+    "title": "Tracker",
     "mediatype": "show",
-    "imdb_id": "tt0463398",
-    "release_year": 2005
+    "imdb_id": "tt13875494",
+    "release_year": 2024
   },
   {
     "id": 291084,
@@ -72,17 +72,8 @@
     "release_year": 2026
   },
   {
-    "id": 208921,
-    "rank": 9,
-    "adult": 0,
-    "title": "Rivals",
-    "mediatype": "show",
-    "imdb_id": "tt21906238",
-    "release_year": 2024
-  },
-  {
     "id": 122066,
-    "rank": 10,
+    "rank": 9,
     "adult": 0,
     "title": "The Dropout",
     "mediatype": "show",
@@ -90,44 +81,8 @@
     "release_year": 2022
   },
   {
-    "id": 125935,
-    "rank": 11,
-    "adult": 0,
-    "title": "Abbott Elementary",
-    "mediatype": "show",
-    "imdb_id": "tt14218830",
-    "release_year": 2021
-  },
-  {
-    "id": 5920,
-    "rank": 12,
-    "adult": 0,
-    "title": "The Mentalist",
-    "mediatype": "show",
-    "imdb_id": "tt1196946",
-    "release_year": 2008
-  },
-  {
-    "id": 339503,
-    "rank": 13,
-    "adult": 0,
-    "title": "The Circle",
-    "mediatype": "show",
-    "imdb_id": "tt49910378",
-    "release_year": 2026
-  },
-  {
-    "id": 46533,
-    "rank": 14,
-    "adult": 0,
-    "title": "The Americans",
-    "mediatype": "show",
-    "imdb_id": "tt2149175",
-    "release_year": 2013
-  },
-  {
     "id": 1100,
-    "rank": 15,
+    "rank": 10,
     "adult": 0,
     "title": "How I Met Your Mother",
     "mediatype": "show",
@@ -135,17 +90,35 @@
     "release_year": 2005
   },
   {
-    "id": 1416,
-    "rank": 16,
+    "id": 30957,
+    "rank": 11,
     "adult": 0,
-    "title": "Grey's Anatomy",
+    "title": "The Amazing Race",
     "mediatype": "show",
-    "imdb_id": "tt0413573",
-    "release_year": 2005
+    "imdb_id": "tt0285335",
+    "release_year": 2001
+  },
+  {
+    "id": 61662,
+    "rank": 12,
+    "adult": 0,
+    "title": "Schitt's Creek",
+    "mediatype": "show",
+    "imdb_id": "tt3526078",
+    "release_year": 2015
+  },
+  {
+    "id": 32726,
+    "rank": 13,
+    "adult": 0,
+    "title": "Bob's Burgers",
+    "mediatype": "show",
+    "imdb_id": "tt1561755",
+    "release_year": 2011
   },
   {
     "id": 4087,
-    "rank": 17,
+    "rank": 14,
     "adult": 0,
     "title": "The X-Files",
     "mediatype": "show",
@@ -153,30 +126,57 @@
     "release_year": 1993
   },
   {
-    "id": 214162,
-    "rank": 18,
+    "id": 46533,
+    "rank": 15,
     "adult": 0,
-    "title": "Animal Control",
+    "title": "The Americans",
     "mediatype": "show",
-    "imdb_id": "tt21376524",
-    "release_year": 2023
+    "imdb_id": "tt2149175",
+    "release_year": 2013
   },
   {
-    "id": 14658,
-    "rank": 19,
+    "id": 5920,
+    "rank": 16,
     "adult": 0,
-    "title": "Survivor",
+    "title": "The Mentalist",
     "mediatype": "show",
-    "imdb_id": "tt0239195",
-    "release_year": 2000
+    "imdb_id": "tt1196946",
+    "release_year": 2008
+  },
+  {
+    "id": 141,
+    "rank": 17,
+    "adult": 0,
+    "title": "Cheers",
+    "mediatype": "show",
+    "imdb_id": "tt0083399",
+    "release_year": 1982
+  },
+  {
+    "id": 339503,
+    "rank": 18,
+    "adult": 0,
+    "title": "The Circle",
+    "mediatype": "show",
+    "imdb_id": "tt49910378",
+    "release_year": 2026
   },
   {
     "id": 1421,
-    "rank": 20,
+    "rank": 19,
     "adult": 0,
     "title": "Modern Family",
     "mediatype": "show",
     "imdb_id": "tt1442437",
     "release_year": 2009
+  },
+  {
+    "id": 1508,
+    "rank": 20,
+    "adult": 0,
+    "title": "Dancing with the Stars",
+    "mediatype": "show",
+    "imdb_id": "tt0463398",
+    "release_year": 2005
   }
 ]

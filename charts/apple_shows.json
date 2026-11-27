@@ -9,22 +9,22 @@
     "release_year": 2026
   },
   {
-    "id": 254630,
-    "rank": 2,
-    "adult": 0,
-    "title": "12 12 12",
-    "mediatype": "show",
-    "imdb_id": "tt32375763",
-    "release_year": 2026
-  },
-  {
     "id": 248830,
-    "rank": 3,
+    "rank": 2,
     "adult": 0,
     "title": "Stick",
     "mediatype": "show",
     "imdb_id": "tt31710249",
     "release_year": 2025
+  },
+  {
+    "id": 254630,
+    "rank": 3,
+    "adult": 0,
+    "title": "12 12 12",
+    "mediatype": "show",
+    "imdb_id": "tt32375763",
+    "release_year": 2026
   },
   {
     "id": 95480,
@@ -36,26 +36,8 @@
     "release_year": 2022
   },
   {
-    "id": 97546,
-    "rank": 5,
-    "adult": 0,
-    "title": "Ted Lasso",
-    "mediatype": "show",
-    "imdb_id": "tt10986410",
-    "release_year": 2020
-  },
-  {
-    "id": 125988,
-    "rank": 6,
-    "adult": 0,
-    "title": "Silo",
-    "mediatype": "show",
-    "imdb_id": "tt14688458",
-    "release_year": 2023
-  },
-  {
     "id": 270476,
-    "rank": 7,
+    "rank": 5,
     "adult": 0,
     "title": "Widow's Bay",
     "mediatype": "show",
@@ -64,12 +46,30 @@
   },
   {
     "id": 312693,
-    "rank": 8,
+    "rank": 6,
     "adult": 0,
     "title": "Small Prophets",
     "mediatype": "show",
     "imdb_id": "tt38504111",
     "release_year": 2026
+  },
+  {
+    "id": 125988,
+    "rank": 7,
+    "adult": 0,
+    "title": "Silo",
+    "mediatype": "show",
+    "imdb_id": "tt14688458",
+    "release_year": 2023
+  },
+  {
+    "id": 97546,
+    "rank": 8,
+    "adult": 0,
+    "title": "Ted Lasso",
+    "mediatype": "show",
+    "imdb_id": "tt10986410",
+    "release_year": 2020
   },
   {
     "id": 196322,
@@ -81,35 +81,17 @@
     "release_year": 2024
   },
   {
-    "id": 250203,
+    "id": 12152,
     "rank": 10,
     "adult": 0,
-    "title": "Brothers",
+    "title": "This Is America, Charlie Brown",
     "mediatype": "show",
-    "imdb_id": "tt6773088",
-    "release_year": 2026
-  },
-  {
-    "id": 95396,
-    "rank": 11,
-    "adult": 0,
-    "title": "Severance",
-    "mediatype": "show",
-    "imdb_id": "tt11280740",
-    "release_year": 2022
-  },
-  {
-    "id": 234310,
-    "rank": 12,
-    "adult": 0,
-    "title": "Where's Wanda?",
-    "mediatype": "show",
-    "imdb_id": "tt29011445",
-    "release_year": 2024
+    "imdb_id": "tt0286397",
+    "release_year": 1988
   },
   {
     "id": 225171,
-    "rank": 13,
+    "rank": 11,
     "adult": 0,
     "title": "Pluribus",
     "mediatype": "show",
@@ -118,7 +100,7 @@
   },
   {
     "id": 136311,
-    "rank": 14,
+    "rank": 12,
     "adult": 0,
     "title": "Shrinking",
     "mediatype": "show",
@@ -126,21 +108,39 @@
     "release_year": 2023
   },
   {
-    "id": 87917,
-    "rank": 15,
+    "id": 95396,
+    "rank": 13,
     "adult": 0,
-    "title": "For All Mankind",
+    "title": "Severance",
     "mediatype": "show",
-    "imdb_id": "tt7772588",
-    "release_year": 2019
+    "imdb_id": "tt11280740",
+    "release_year": 2022
   },
   {
-    "id": 306179,
+    "id": 130853,
+    "rank": 14,
+    "adult": 0,
+    "title": "Bad Monkey",
+    "mediatype": "show",
+    "imdb_id": "tt15203646",
+    "release_year": 2024
+  },
+  {
+    "id": 250203,
+    "rank": 15,
+    "adult": 0,
+    "title": "Brothers",
+    "mediatype": "show",
+    "imdb_id": "tt6773088",
+    "release_year": 2026
+  },
+  {
+    "id": 285404,
     "rank": 16,
     "adult": 0,
-    "title": "Awkwafina: The Unlikely Cook",
+    "title": "Maximum Pleasure Guaranteed",
     "mediatype": "show",
-    "imdb_id": "tt38992068",
+    "imdb_id": "tt35946742",
     "release_year": 2026
   },
   {
@@ -153,8 +153,17 @@
     "release_year": 2021
   },
   {
-    "id": 247767,
+    "id": 87917,
     "rank": 18,
+    "adult": 0,
+    "title": "For All Mankind",
+    "mediatype": "show",
+    "imdb_id": "tt7772588",
+    "release_year": 2019
+  },
+  {
+    "id": 247767,
+    "rank": 19,
     "adult": 0,
     "title": "The Studio",
     "mediatype": "show",
@@ -162,21 +171,12 @@
     "release_year": 2025
   },
   {
-    "id": 90282,
-    "rank": 19,
-    "adult": 0,
-    "title": "The Morning Show",
-    "mediatype": "show",
-    "imdb_id": "tt7203552",
-    "release_year": 2019
-  },
-  {
-    "id": 130853,
+    "id": 278624,
     "rank": 20,
     "adult": 0,
-    "title": "Bad Monkey",
+    "title": "Lucky",
     "mediatype": "show",
-    "imdb_id": "tt15203646",
-    "release_year": 2024
+    "imdb_id": "tt34866681",
+    "release_year": 2026
   }
 ]

@@ -45,22 +45,22 @@
     "release_year": 2025
   },
   {
-    "id": 211288,
+    "id": 14658,
     "rank": 6,
+    "adult": 0,
+    "title": "Survivor",
+    "mediatype": "show",
+    "imdb_id": "tt0239195",
+    "release_year": 2000
+  },
+  {
+    "id": 211288,
+    "rank": 7,
     "adult": 0,
     "title": "Tracker",
     "mediatype": "show",
     "imdb_id": "tt13875494",
     "release_year": 2024
-  },
-  {
-    "id": 290856,
-    "rank": 7,
-    "adult": 0,
-    "title": "Marshals",
-    "mediatype": "show",
-    "imdb_id": "tt36849871",
-    "release_year": 2026
   },
   {
     "id": 58957,
@@ -72,44 +72,17 @@
     "release_year": 2013
   },
   {
-    "id": 153312,
+    "id": 30957,
     "rank": 9,
     "adult": 0,
-    "title": "Tulsa King",
+    "title": "The Amazing Race",
     "mediatype": "show",
-    "imdb_id": "tt16358384",
-    "release_year": 2022
-  },
-  {
-    "id": 131927,
-    "rank": 10,
-    "adult": 0,
-    "title": "Dexter: New Blood",
-    "mediatype": "show",
-    "imdb_id": "tt14164730",
-    "release_year": 2021
-  },
-  {
-    "id": 14658,
-    "rank": 11,
-    "adult": 0,
-    "title": "Survivor",
-    "mediatype": "show",
-    "imdb_id": "tt0239195",
-    "release_year": 2000
-  },
-  {
-    "id": 113962,
-    "rank": 12,
-    "adult": 0,
-    "title": "Lioness",
-    "mediatype": "show",
-    "imdb_id": "tt13111078",
-    "release_year": 2023
+    "imdb_id": "tt0285335",
+    "release_year": 2001
   },
   {
     "id": 126027,
-    "rank": 13,
+    "rank": 10,
     "adult": 0,
     "title": "Ghosts",
     "mediatype": "show",
@@ -117,17 +90,17 @@
     "release_year": 2021
   },
   {
-    "id": 243875,
-    "rank": 14,
+    "id": 290856,
+    "rank": 11,
     "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
+    "title": "Marshals",
     "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
+    "imdb_id": "tt36849871",
+    "release_year": 2026
   },
   {
     "id": 6357,
-    "rank": 15,
+    "rank": 12,
     "adult": 0,
     "title": "The Twilight Zone",
     "mediatype": "show",
@@ -135,26 +108,8 @@
     "release_year": 1959
   },
   {
-    "id": 655,
-    "rank": 16,
-    "adult": 0,
-    "title": "Star Trek: The Next Generation",
-    "mediatype": "show",
-    "imdb_id": "tt0092455",
-    "release_year": 1987
-  },
-  {
-    "id": 1405,
-    "rank": 17,
-    "adult": 0,
-    "title": "Dexter",
-    "mediatype": "show",
-    "imdb_id": "tt0773262",
-    "release_year": 2006
-  },
-  {
     "id": 114655,
-    "rank": 18,
+    "rank": 13,
     "adult": 0,
     "title": "The Curse",
     "mediatype": "show",
@@ -162,8 +117,17 @@
     "release_year": 2023
   },
   {
+    "id": 113962,
+    "rank": 14,
+    "adult": 0,
+    "title": "Lioness",
+    "mediatype": "show",
+    "imdb_id": "tt13111078",
+    "release_year": 2023
+  },
+  {
     "id": 141,
-    "rank": 19,
+    "rank": 15,
     "adult": 0,
     "title": "Cheers",
     "mediatype": "show",
@@ -171,12 +135,48 @@
     "release_year": 1982
   },
   {
-    "id": 1972,
+    "id": 153312,
+    "rank": 16,
+    "adult": 0,
+    "title": "Tulsa King",
+    "mediatype": "show",
+    "imdb_id": "tt16358384",
+    "release_year": 2022
+  },
+  {
+    "id": 4278,
+    "rank": 17,
+    "adult": 0,
+    "title": "Friday Night Lights",
+    "mediatype": "show",
+    "imdb_id": "tt0758745",
+    "release_year": 2006
+  },
+  {
+    "id": 131927,
+    "rank": 18,
+    "adult": 0,
+    "title": "Dexter: New Blood",
+    "mediatype": "show",
+    "imdb_id": "tt14164730",
+    "release_year": 2021
+  },
+  {
+    "id": 243875,
+    "rank": 19,
+    "adult": 0,
+    "title": "Georgie & Mandy's First Marriage",
+    "mediatype": "show",
+    "imdb_id": "tt31589662",
+    "release_year": 2024
+  },
+  {
+    "id": 655,
     "rank": 20,
     "adult": 0,
-    "title": "Battlestar Galactica",
+    "title": "Star Trek: The Next Generation",
     "mediatype": "show",
-    "imdb_id": "tt0407362",
-    "release_year": 2004
+    "imdb_id": "tt0092455",
+    "release_year": 1987
   }
 ]

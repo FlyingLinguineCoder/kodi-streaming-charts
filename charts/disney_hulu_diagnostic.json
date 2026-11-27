@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-11-26T16:25:12.584508+00:00",
+  "generated_at_utc": "2026-11-27T04:28:05.908166+00:00",
   "purpose": "Diagnostic only; no Kodi widget generated",
   "window": {
-    "start": "2026-11-26",
-    "end": "2027-02-24"
+    "start": "2026-11-27",
+    "end": "2027-02-25"
   },
   "limitations": "Calendar labels nominate candidates, not confirmed premieres. Release years do not prove first-ever subscription availability. An untyped premiere, season bundle, or season arrival without a premiere label requires review. Month-only listings are omitted. Movie review records identify films to check for a first U.S. subscription release. Audit-only dates lack a matching calendar entry.",
   "sources": [
@@ -11,8 +11,8 @@
       "url": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026",
       "status": "parsed",
       "text_blocks": 291,
-      "upcoming_dated_entries": 20,
-      "movie_candidates": 1,
+      "upcoming_dated_entries": 13,
+      "movie_candidates": 0,
       "series_premiere_candidates": 0,
       "new_season_candidates": 0
     },
@@ -37,85 +37,6 @@
     }
   ],
   "results": [
-    {
-      "date": "2026-11-26",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Dancing with the Stars Official Podcast (Season 35) – New Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-26",
-      "services": [
-        "hulu"
-      ],
-      "title": "Fake Doctors, Real Friends with Zach and Donald – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-26",
-      "services": [
-        "disney-plus",
-        "hulu"
-      ],
-      "title": "Hey Jonas! – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-26",
-      "services": [
-        "hulu"
-      ],
-      "title": "The Kardashians (Season 8) (Hulu Original) – New Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-26",
-      "services": [
-        "hulu"
-      ],
-      "title": "Mummies (2023)",
-      "release_year": 2023,
-      "classification": "dated_movie_candidate",
-      "confidence": "medium",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-26",
-      "services": [
-        "disney-plus"
-      ],
-      "title": "Sofia the First: Royal Magic (Season 1) – Holiday Special Episode",
-      "release_year": null,
-      "classification": "excluded_episode_or_live_event",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
-    {
-      "date": "2026-11-26",
-      "services": [
-        "disney-plus"
-      ],
-      "title": "Stick to Football (Season 1) – New Podcast Episode",
-      "release_year": null,
-      "classification": "excluded_podcast",
-      "confidence": "low",
-      "source": "https://press.disneyplus.com/news/next-on-disney-plus-november-2026"
-    },
     {
       "date": "2026-11-27",
       "services": [
@@ -2574,7 +2495,7 @@
   ],
   "movie_review": {
     "audit_status": "available",
-    "audit_generated_at_utc": "2026-11-26T04:26:12.785671+00:00",
+    "audit_generated_at_utc": "2026-11-26T16:25:29.282411+00:00",
     "candidates": [
       {
         "title": "Diary of a Wimpy Kid Christmas: The Getaway",
