@@ -1,16 +1,7 @@
 [
   {
-    "id": 117488,
-    "rank": 1,
-    "adult": 0,
-    "title": "Yellowjackets",
-    "mediatype": "show",
-    "imdb_id": "tt11041332",
-    "release_year": 2021
-  },
-  {
     "id": 1668,
-    "rank": 2,
+    "rank": 1,
     "adult": 0,
     "title": "Friends",
     "mediatype": "show",
@@ -19,7 +10,7 @@
   },
   {
     "id": 81723,
-    "rank": 3,
+    "rank": 2,
     "adult": 0,
     "title": "The Gilded Age",
     "mediatype": "show",
@@ -27,26 +18,8 @@
     "release_year": 2022
   },
   {
-    "id": 298852,
-    "rank": 4,
-    "adult": 0,
-    "title": "WAR",
-    "mediatype": "show",
-    "imdb_id": "tt37972251",
-    "release_year": 2026
-  },
-  {
-    "id": 250307,
-    "rank": 5,
-    "adult": 0,
-    "title": "The Pitt",
-    "mediatype": "show",
-    "imdb_id": "tt31938062",
-    "release_year": 2025
-  },
-  {
     "id": 58957,
-    "rank": 6,
+    "rank": 3,
     "adult": 0,
     "title": "Nathan for You",
     "mediatype": "show",
@@ -55,12 +28,39 @@
   },
   {
     "id": 61662,
-    "rank": 7,
+    "rank": 4,
     "adult": 0,
     "title": "Schitt's Creek",
     "mediatype": "show",
     "imdb_id": "tt3526078",
     "release_year": 2015
+  },
+  {
+    "id": 298852,
+    "rank": 5,
+    "adult": 0,
+    "title": "WAR",
+    "mediatype": "show",
+    "imdb_id": "tt37972251",
+    "release_year": 2026
+  },
+  {
+    "id": 1104,
+    "rank": 6,
+    "adult": 0,
+    "title": "Mad Men",
+    "mediatype": "show",
+    "imdb_id": "tt0804503",
+    "release_year": 2007
+  },
+  {
+    "id": 204284,
+    "rank": 7,
+    "adult": 0,
+    "title": "The Rehearsal",
+    "mediatype": "show",
+    "imdb_id": "tt10802170",
+    "release_year": 2022
   },
   {
     "id": 688,
@@ -72,79 +72,17 @@
     "release_year": 1999
   },
   {
-    "id": 1104,
+    "id": 250307,
     "rank": 9,
     "adult": 0,
-    "title": "Mad Men",
+    "title": "The Pitt",
     "mediatype": "show",
-    "imdb_id": "tt0804503",
-    "release_year": 2007
-  },
-  {
-    "id": 218344,
-    "rank": 11,
-    "adult": 0,
-    "title": "Blue Lights",
-    "mediatype": "show",
-    "imdb_id": "tt14466018",
-    "release_year": 2023
-  },
-  {
-    "id": 204284,
-    "rank": 12,
-    "adult": 0,
-    "title": "The Rehearsal",
-    "mediatype": "show",
-    "imdb_id": "tt10802170",
-    "release_year": 2022
-  },
-  {
-    "id": 131927,
-    "rank": 13,
-    "adult": 0,
-    "title": "Dexter: New Blood",
-    "mediatype": "show",
-    "imdb_id": "tt14164730",
-    "release_year": 2021
-  },
-  {
-    "id": 125935,
-    "rank": 14,
-    "adult": 0,
-    "title": "Abbott Elementary",
-    "mediatype": "show",
-    "imdb_id": "tt14218830",
-    "release_year": 2021
-  },
-  {
-    "id": 243875,
-    "rank": 15,
-    "adult": 0,
-    "title": "Georgie & Mandy's First Marriage",
-    "mediatype": "show",
-    "imdb_id": "tt31589662",
-    "release_year": 2024
-  },
-  {
-    "id": 342122,
-    "rank": 16,
-    "adult": 0,
-    "title": "Lanterns",
-    "mediatype": "show",
-    "imdb_id": "tt2654599"
-  },
-  {
-    "id": 1418,
-    "rank": 17,
-    "adult": 0,
-    "title": "The Big Bang Theory",
-    "mediatype": "show",
-    "imdb_id": "tt0898266",
-    "release_year": 2007
+    "imdb_id": "tt31938062",
+    "release_year": 2025
   },
   {
     "id": 21950,
-    "rank": 18,
+    "rank": 11,
     "adult": 0,
     "title": "Paradise Lost",
     "mediatype": "show",
@@ -153,12 +91,74 @@
   },
   {
     "id": 80748,
-    "rank": 19,
+    "rank": 12,
     "adult": 0,
     "title": "FBI",
     "mediatype": "show",
     "imdb_id": "tt7491982",
     "release_year": 2018
+  },
+  {
+    "id": 125935,
+    "rank": 13,
+    "adult": 0,
+    "title": "Abbott Elementary",
+    "mediatype": "show",
+    "imdb_id": "tt14218830",
+    "release_year": 2021
+  },
+  {
+    "id": 342122,
+    "rank": 14,
+    "adult": 0,
+    "title": "Lanterns",
+    "mediatype": "show",
+    "imdb_id": "tt2654599"
+  },
+  {
+    "id": 1418,
+    "rank": 15,
+    "adult": 0,
+    "title": "The Big Bang Theory",
+    "mediatype": "show",
+    "imdb_id": "tt0898266",
+    "release_year": 2007
+  },
+  {
+    "id": 94997,
+    "rank": 16,
+    "adult": 0,
+    "title": "House of the Dragon",
+    "mediatype": "show",
+    "imdb_id": "tt11198330",
+    "release_year": 2022
+  },
+  {
+    "id": 218344,
+    "rank": 17,
+    "adult": 0,
+    "title": "Blue Lights",
+    "mediatype": "show",
+    "imdb_id": "tt14466018",
+    "release_year": 2023
+  },
+  {
+    "id": 4613,
+    "rank": 18,
+    "adult": 0,
+    "title": "Band of Brothers",
+    "mediatype": "show",
+    "imdb_id": "tt0185906",
+    "release_year": 2001
+  },
+  {
+    "id": 46648,
+    "rank": 19,
+    "adult": 0,
+    "title": "True Detective",
+    "mediatype": "show",
+    "imdb_id": "tt2356777",
+    "release_year": 2014
   },
   {
     "id": 87104,
