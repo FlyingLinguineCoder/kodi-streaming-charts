@@ -1,118 +1,17 @@
 {
-  "generated_at_utc": "2026-11-27T04:28:19.941722+00:00",
+  "generated_at_utc": "2026-11-27T16:24:20.132554+00:00",
   "purpose": "Diagnostic audit only; no verified Kodi widget",
   "source": "Powered by Galaxy Movies - https://www.galaxymovies.app",
   "metadata_source": "MDBList",
   "metadata_configured": true,
   "limitations": "MDBList watch_providers are not proof of past availability; announced dates may change; change-feed history begins when this workflow was installed. No complete historical subscription catalog is available, so no candidate is confirmed as a premiere.",
   "counts": {
-    "potential_premiere_unverified": 22,
-    "older_release_unverified": 1,
     "exclude_nonfeature_special": 2,
+    "potential_premiere_unverified": 21,
     "release_date_conflict": 1,
     "needs_metadata": 1
   },
   "candidates": [
-    {
-      "tmdb_id": 1828828,
-      "media_type": "movie",
-      "title": "On the Last Day of Christmas",
-      "streaming_dates": {
-        "paramount-plus": "2026-11-27"
-      },
-      "earliest_streaming_date": "2026-11-27",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "type": "movie",
-        "title": "On the Last Day of Christmas",
-        "year": 2026,
-        "released": "2026-11-27",
-        "released_digital": "2026-11-27",
-        "runtime": 108
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
-    {
-      "tmdb_id": 832953,
-      "media_type": "movie",
-      "title": "The Child",
-      "streaming_dates": {
-        "netflix": "2026-11-27"
-      },
-      "earliest_streaming_date": "2026-11-27",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "type": "movie",
-        "title": "The Child",
-        "year": 2022,
-        "released": "2022-02-10",
-        "released_digital": null,
-        "runtime": 109
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "older_release_unverified",
-      "reasons": [
-        "General release was more than 18 months earlier"
-      ]
-    },
-    {
-      "tmdb_id": 1480665,
-      "media_type": "movie",
-      "title": "The Hunchback, Soul of Paris",
-      "streaming_dates": {
-        "netflix": "2026-11-27"
-      },
-      "earliest_streaming_date": "2026-11-27",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "type": "movie",
-        "title": "The Hunchback, Soul of Paris",
-        "year": 2026,
-        "released": "2026-11-27",
-        "released_digital": "2026-11-27",
-        "runtime": 90
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
-    {
-      "tmdb_id": 1811599,
-      "media_type": "movie",
-      "title": "Tyson Fury",
-      "streaming_dates": {
-        "netflix": "2026-11-27"
-      },
-      "earliest_streaming_date": "2026-11-27",
-      "observed_previous_services": [],
-      "earlier_announced_arrivals": {},
-      "metadata": {
-        "type": "movie",
-        "title": "Tyson Fury",
-        "year": 2026,
-        "released": "2026-11-27",
-        "released_digital": "2026-11-27",
-        "runtime": 90
-      },
-      "mdblist_watch_providers": [],
-      "other_watch_providers": [],
-      "status": "potential_premiere_unverified",
-      "reasons": [
-        "No transfer evidence found in incomplete sources; not verified"
-      ]
-    },
     {
       "tmdb_id": 1827764,
       "media_type": "movie",
@@ -636,6 +535,31 @@
       ]
     },
     {
+      "tmdb_id": 1780021,
+      "media_type": "movie",
+      "title": "Another Disaster Holiday",
+      "streaming_dates": {
+        "netflix": "2026-12-16"
+      },
+      "earliest_streaming_date": "2026-12-16",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "Another Disaster Holiday",
+        "year": 2026,
+        "released": "2026-12-11",
+        "released_digital": "2026-12-11",
+        "runtime": null
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
+      ]
+    },
+    {
       "tmdb_id": 1559982,
       "media_type": "movie",
       "title": "Give Me Some Sugah",
@@ -675,6 +599,31 @@
       "status": "needs_metadata",
       "reasons": [
         "MDBList metadata unavailable"
+      ]
+    },
+    {
+      "tmdb_id": 940009,
+      "media_type": "movie",
+      "title": "Ray Gunn",
+      "streaming_dates": {
+        "netflix": "2026-12-18"
+      },
+      "earliest_streaming_date": "2026-12-18",
+      "observed_previous_services": [],
+      "earlier_announced_arrivals": {},
+      "metadata": {
+        "type": "movie",
+        "title": "Ray Gunn",
+        "year": 2026,
+        "released": "2026-12-02",
+        "released_digital": "2026-12-18",
+        "runtime": 120
+      },
+      "mdblist_watch_providers": [],
+      "other_watch_providers": [],
+      "status": "potential_premiere_unverified",
+      "reasons": [
+        "No transfer evidence found in incomplete sources; not verified"
       ]
     }
   ]
