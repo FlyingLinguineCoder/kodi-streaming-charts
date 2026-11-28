@@ -9,17 +9,8 @@
     "release_year": 2021
   },
   {
-    "id": 2190,
-    "rank": 2,
-    "adult": 0,
-    "title": "South Park",
-    "mediatype": "show",
-    "imdb_id": "tt0121955",
-    "release_year": 1997
-  },
-  {
     "id": 247718,
-    "rank": 3,
+    "rank": 2,
     "adult": 0,
     "title": "MobLand",
     "mediatype": "show",
@@ -28,12 +19,21 @@
   },
   {
     "id": 259909,
-    "rank": 4,
+    "rank": 3,
     "adult": 0,
     "title": "Dexter: Resurrection",
     "mediatype": "show",
     "imdb_id": "tt33043892",
     "release_year": 2025
+  },
+  {
+    "id": 2190,
+    "rank": 4,
+    "adult": 0,
+    "title": "South Park",
+    "mediatype": "show",
+    "imdb_id": "tt0121955",
+    "release_year": 1997
   },
   {
     "id": 303630,
@@ -45,13 +45,13 @@
     "release_year": 2026
   },
   {
-    "id": 14658,
+    "id": 153312,
     "rank": 6,
     "adult": 0,
-    "title": "Survivor",
+    "title": "Tulsa King",
     "mediatype": "show",
-    "imdb_id": "tt0239195",
-    "release_year": 2000
+    "imdb_id": "tt16358384",
+    "release_year": 2022
   },
   {
     "id": 58957,
@@ -63,26 +63,17 @@
     "release_year": 2013
   },
   {
-    "id": 141,
+    "id": 14658,
     "rank": 8,
     "adult": 0,
-    "title": "Cheers",
+    "title": "Survivor",
     "mediatype": "show",
-    "imdb_id": "tt0083399",
-    "release_year": 1982
-  },
-  {
-    "id": 30957,
-    "rank": 9,
-    "adult": 0,
-    "title": "The Amazing Race",
-    "mediatype": "show",
-    "imdb_id": "tt0285335",
-    "release_year": 2001
+    "imdb_id": "tt0239195",
+    "release_year": 2000
   },
   {
     "id": 211288,
-    "rank": 10,
+    "rank": 9,
     "adult": 0,
     "title": "Tracker",
     "mediatype": "show",
@@ -91,7 +82,7 @@
   },
   {
     "id": 126027,
-    "rank": 11,
+    "rank": 10,
     "adult": 0,
     "title": "Ghosts",
     "mediatype": "show",
@@ -99,17 +90,8 @@
     "release_year": 2021
   },
   {
-    "id": 6357,
-    "rank": 12,
-    "adult": 0,
-    "title": "The Twilight Zone",
-    "mediatype": "show",
-    "imdb_id": "tt0052520",
-    "release_year": 1959
-  },
-  {
     "id": 113962,
-    "rank": 13,
+    "rank": 11,
     "adult": 0,
     "title": "Lioness",
     "mediatype": "show",
@@ -117,17 +99,26 @@
     "release_year": 2023
   },
   {
-    "id": 114655,
-    "rank": 14,
+    "id": 141,
+    "rank": 12,
     "adult": 0,
-    "title": "The Curse",
+    "title": "Cheers",
     "mediatype": "show",
-    "imdb_id": "tt13623608",
-    "release_year": 2023
+    "imdb_id": "tt0083399",
+    "release_year": 1982
+  },
+  {
+    "id": 62852,
+    "rank": 13,
+    "adult": 0,
+    "title": "Billions",
+    "mediatype": "show",
+    "imdb_id": "tt4270492",
+    "release_year": 2016
   },
   {
     "id": 1405,
-    "rank": 15,
+    "rank": 14,
     "adult": 0,
     "title": "Dexter",
     "mediatype": "show",
@@ -135,8 +126,35 @@
     "release_year": 2006
   },
   {
-    "id": 313630,
+    "id": 114655,
+    "rank": 15,
+    "adult": 0,
+    "title": "The Curse",
+    "mediatype": "show",
+    "imdb_id": "tt13623608",
+    "release_year": 2023
+  },
+  {
+    "id": 30957,
     "rank": 16,
+    "adult": 0,
+    "title": "The Amazing Race",
+    "mediatype": "show",
+    "imdb_id": "tt0285335",
+    "release_year": 2001
+  },
+  {
+    "id": 1920,
+    "rank": 17,
+    "adult": 0,
+    "title": "Twin Peaks",
+    "mediatype": "show",
+    "imdb_id": "tt0098936",
+    "release_year": 1990
+  },
+  {
+    "id": 313630,
+    "rank": 18,
     "adult": 0,
     "title": "Eternally Yours",
     "mediatype": "show",
@@ -144,39 +162,20 @@
     "release_year": 2026
   },
   {
-    "id": 157741,
-    "rank": 17,
-    "adult": 0,
-    "title": "Landman",
-    "mediatype": "show",
-    "imdb_id": "tt14186672",
-    "release_year": 2024
-  },
-  {
-    "id": 80748,
-    "rank": 18,
-    "adult": 0,
-    "title": "FBI",
-    "mediatype": "show",
-    "imdb_id": "tt7491982",
-    "release_year": 2018
-  },
-  {
-    "id": 153312,
+    "id": 294969,
     "rank": 19,
     "adult": 0,
-    "title": "Tulsa King",
+    "title": "The Twilight Zone",
     "mediatype": "show",
-    "imdb_id": "tt16358384",
-    "release_year": 2022
+    "release_year": 1959
   },
   {
-    "id": 1920,
+    "id": 1972,
     "rank": 20,
     "adult": 0,
-    "title": "Twin Peaks",
+    "title": "Battlestar Galactica",
     "mediatype": "show",
-    "imdb_id": "tt0098936",
-    "release_year": 1990
+    "imdb_id": "tt0407362",
+    "release_year": 2004
   }
 ]

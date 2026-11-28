@@ -18,22 +18,22 @@
     "release_year": 2026
   },
   {
-    "id": 248830,
-    "rank": 3,
-    "adult": 0,
-    "title": "Stick",
-    "mediatype": "show",
-    "imdb_id": "tt31710249",
-    "release_year": 2025
-  },
-  {
     "id": 95480,
-    "rank": 4,
+    "rank": 3,
     "adult": 0,
     "title": "Slow Horses",
     "mediatype": "show",
     "imdb_id": "tt5875444",
     "release_year": 2022
+  },
+  {
+    "id": 248830,
+    "rank": 4,
+    "adult": 0,
+    "title": "Stick",
+    "mediatype": "show",
+    "imdb_id": "tt31710249",
+    "release_year": 2025
   },
   {
     "id": 270476,
@@ -45,22 +45,22 @@
     "release_year": 2026
   },
   {
-    "id": 312693,
-    "rank": 6,
-    "adult": 0,
-    "title": "Small Prophets",
-    "mediatype": "show",
-    "imdb_id": "tt38504111",
-    "release_year": 2026
-  },
-  {
     "id": 125988,
-    "rank": 7,
+    "rank": 6,
     "adult": 0,
     "title": "Silo",
     "mediatype": "show",
     "imdb_id": "tt14688458",
     "release_year": 2023
+  },
+  {
+    "id": 312693,
+    "rank": 7,
+    "adult": 0,
+    "title": "Small Prophets",
+    "mediatype": "show",
+    "imdb_id": "tt38504111",
+    "release_year": 2026
   },
   {
     "id": 97546,
@@ -72,17 +72,8 @@
     "release_year": 2020
   },
   {
-    "id": 12152,
-    "rank": 9,
-    "adult": 0,
-    "title": "This Is America, Charlie Brown",
-    "mediatype": "show",
-    "imdb_id": "tt0286397",
-    "release_year": 1988
-  },
-  {
     "id": 196322,
-    "rank": 10,
+    "rank": 9,
     "adult": 0,
     "title": "Dark Matter",
     "mediatype": "show",
@@ -90,17 +81,8 @@
     "release_year": 2024
   },
   {
-    "id": 225171,
-    "rank": 11,
-    "adult": 0,
-    "title": "Pluribus",
-    "mediatype": "show",
-    "imdb_id": "tt22202452",
-    "release_year": 2025
-  },
-  {
     "id": 95396,
-    "rank": 12,
+    "rank": 10,
     "adult": 0,
     "title": "Severance",
     "mediatype": "show",
@@ -108,8 +90,35 @@
     "release_year": 2022
   },
   {
-    "id": 250203,
+    "id": 117303,
+    "rank": 11,
+    "adult": 0,
+    "title": "Lessons in Chemistry",
+    "mediatype": "show",
+    "imdb_id": "tt13911628",
+    "release_year": 2023
+  },
+  {
+    "id": 225171,
+    "rank": 12,
+    "adult": 0,
+    "title": "Pluribus",
+    "mediatype": "show",
+    "imdb_id": "tt22202452",
+    "release_year": 2025
+  },
+  {
+    "id": 12152,
     "rank": 13,
+    "adult": 0,
+    "title": "This Is America, Charlie Brown",
+    "mediatype": "show",
+    "imdb_id": "tt0286397",
+    "release_year": 1988
+  },
+  {
+    "id": 250203,
+    "rank": 14,
     "adult": 0,
     "title": "Brothers",
     "mediatype": "show",
@@ -117,44 +126,8 @@
     "release_year": 2026
   },
   {
-    "id": 136311,
-    "rank": 14,
-    "adult": 0,
-    "title": "Shrinking",
-    "mediatype": "show",
-    "imdb_id": "tt15677150",
-    "release_year": 2023
-  },
-  {
-    "id": 130853,
-    "rank": 15,
-    "adult": 0,
-    "title": "Bad Monkey",
-    "mediatype": "show",
-    "imdb_id": "tt15203646",
-    "release_year": 2024
-  },
-  {
-    "id": 241554,
-    "rank": 16,
-    "adult": 0,
-    "title": "Murderbot",
-    "mediatype": "show",
-    "imdb_id": "tt30444310",
-    "release_year": 2025
-  },
-  {
-    "id": 285404,
-    "rank": 17,
-    "adult": 0,
-    "title": "Maximum Pleasure Guaranteed",
-    "mediatype": "show",
-    "imdb_id": "tt35946742",
-    "release_year": 2026
-  },
-  {
     "id": 87917,
-    "rank": 18,
+    "rank": 15,
     "adult": 0,
     "title": "For All Mankind",
     "mediatype": "show",
@@ -162,21 +135,48 @@
     "release_year": 2019
   },
   {
-    "id": 306179,
-    "rank": 19,
+    "id": 136311,
+    "rank": 16,
     "adult": 0,
-    "title": "Awkwafina: The Unlikely Cook",
+    "title": "Shrinking",
     "mediatype": "show",
-    "imdb_id": "tt38992068",
-    "release_year": 2026
+    "imdb_id": "tt15677150",
+    "release_year": 2023
+  },
+  {
+    "id": 241554,
+    "rank": 17,
+    "adult": 0,
+    "title": "Murderbot",
+    "mediatype": "show",
+    "imdb_id": "tt30444310",
+    "release_year": 2025
   },
   {
     "id": 278624,
-    "rank": 20,
+    "rank": 18,
     "adult": 0,
     "title": "Lucky",
     "mediatype": "show",
     "imdb_id": "tt34866681",
     "release_year": 2026
+  },
+  {
+    "id": 93740,
+    "rank": 19,
+    "adult": 0,
+    "title": "Foundation",
+    "mediatype": "show",
+    "imdb_id": "tt0804484",
+    "release_year": 2021
+  },
+  {
+    "id": 155537,
+    "rank": 20,
+    "adult": 0,
+    "title": "Black Bird",
+    "mediatype": "show",
+    "imdb_id": "tt4301160",
+    "release_year": 2022
   }
 ]
