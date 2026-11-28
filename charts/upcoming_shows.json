@@ -1,21 +1,5 @@
 [
   {
-    "id": 155780,
-    "title": "Batwheels",
-    "mediatype": "show",
-    "premiere_date": "2026-11-27",
-    "premiere_type": "season",
-    "season": 4,
-    "services": [
-      "max"
-    ],
-    "description": "Bam, Redbird, Bibi, Batwing, and Buff are thrust into hilarious hijinks and draw-dropping action as they learn important lessons about teamwork, friendship, and so much more while helping Batman, Robin, and Batgirl defend Gotham.\n\nSeason 4 listed for HBO Max on November 27, 2026. Schedule from TVmaze; U.S. streaming availability not independently verified.",
-    "source": "https://www.tvmaze.com/episodes/3794912/batwheels-4x01-tba",
-    "verification": "tvmaze_schedule_us_unverified",
-    "imdb_id": "tt13292830",
-    "rank": 1
-  },
-  {
     "id": 340862,
     "title": "Collect & Praise",
     "mediatype": "show",
@@ -29,7 +13,7 @@
     "source": "https://www.tvmaze.com/episodes/3803674/collect-praise-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt43728785",
-    "rank": 2
+    "rank": 1
   },
   {
     "id": 221122,
@@ -45,7 +29,7 @@
     "source": "https://www.tvmaze.com/episodes/3824429/fbi-true-9x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt21340132",
-    "rank": 3
+    "rank": 2
   },
   {
     "id": 294607,
@@ -61,7 +45,7 @@
     "source": "https://www.tvmaze.com/episodes/3804410/trinity-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt37433759",
-    "rank": 4
+    "rank": 3
   },
   {
     "id": 130853,
@@ -77,7 +61,7 @@
     "source": "https://www.tvmaze.com/episodes/3705781/bad-monkey-2x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt15203646",
-    "rank": 5
+    "rank": 4
   },
   {
     "id": 258866,
@@ -93,7 +77,7 @@
     "source": "https://www.tvmaze.com/episodes/3814144/dance-moms-a-new-era-3x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt32875185",
-    "rank": 6
+    "rank": 5
   },
   {
     "id": 288672,
@@ -109,7 +93,7 @@
     "source": "https://www.tvmaze.com/episodes/3765170/pride-and-prejudice-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt36475261",
-    "rank": 7
+    "rank": 6
   },
   {
     "id": 273801,
@@ -125,7 +109,7 @@
     "source": "https://www.tvmaze.com/episodes/3810505/its-florida-man-3x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt33745056",
-    "rank": 8
+    "rank": 7
   },
   {
     "id": 336787,
@@ -141,7 +125,7 @@
     "source": "https://www.tvmaze.com/episodes/3835920/quiz-from-god-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt47596904",
-    "rank": 9
+    "rank": 8
   },
   {
     "id": 87826,
@@ -157,7 +141,7 @@
     "source": "https://www.tvmaze.com/episodes/3824325/selling-sunset-10x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt9817298",
-    "rank": 10
+    "rank": 9
   },
   {
     "id": 157061,
@@ -173,7 +157,7 @@
     "source": "https://www.tvmaze.com/episodes/3804446/the-devils-hour-3x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt14379784",
-    "rank": 11
+    "rank": 10
   },
   {
     "id": 107113,
@@ -189,7 +173,7 @@
     "source": "https://www.tvmaze.com/episodes/3714462/only-murders-in-the-building-6x01-changing-of-the-guard",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt11691774",
-    "rank": 12
+    "rank": 11
   },
   {
     "id": 250670,
@@ -205,7 +189,7 @@
     "source": "https://www.tvmaze.com/episodes/3724943/maxton-hall-3x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt27792190",
-    "rank": 13
+    "rank": 12
   },
   {
     "id": 270596,
@@ -221,7 +205,7 @@
     "source": "https://www.tvmaze.com/episodes/3765169/the-murder-of-jonbenet-ramsey-1x01-tba",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt31614143",
-    "rank": 14
+    "rank": 13
   },
   {
     "id": 256726,
@@ -237,6 +221,22 @@
     "source": "https://www.tvmaze.com/episodes/3802728/tantara-1x01-episode-1",
     "verification": "tvmaze_schedule_us_unverified",
     "imdb_id": "tt35685457",
+    "rank": 14
+  },
+  {
+    "id": 343253,
+    "title": "Timberlake",
+    "mediatype": "show",
+    "premiere_date": "2026-12-11",
+    "premiere_type": "series",
+    "season": 1,
+    "services": [
+      "apple-tv"
+    ],
+    "description": "An expansive portrait of the life and career of multi-hyphenate artist and icon Justin Timberlake. Raw, reflective and revealing, Timberlake sits down to discuss the triumphs that made him a global success, his personal perspective beyond the headlines and the challenges he's faced behind the scenes.\n\nNew series listed for Apple TV+ on December 11, 2026. Schedule from TVmaze; U.S. streaming availability not independently verified.",
+    "source": "https://www.tvmaze.com/episodes/3833976/timberlake-1x01-tba",
+    "verification": "tvmaze_schedule_us_unverified",
+    "imdb_id": "tt52101992",
     "rank": 15
   },
   {
